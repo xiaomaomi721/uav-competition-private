@@ -27,3 +27,6 @@
 桌面资料根：C:\Users\Lenovo\OneDrive\Documents\桌面\无人机。
 工作区根：C:\Users\Lenovo\OneDrive\Documents\ChatGPT\无人机。
 
+## GitHub私有归档
+
+2026-10-28 已建立 [uav-competition-private 私有仓库](https://github.com/xiaomaomi721/uav-competition-private)，上传当前整理后的文档、代码与结果记录。权重和 ZIP 保留本地并在仓库登记哈希；详见[同步记录](90_整理记录/GitHub私有归档_20261028/私有仓库同步记录.md)。后续修改不会自动上传。
