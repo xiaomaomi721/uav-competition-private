@@ -1,0 +1,37 @@
+{
+  "root": "/data/uav",
+  "code": "/data/uav/code",
+  "src": "/data/uav/code/src",
+  "b3_config": "/data/uav/code/config.yaml",
+  "b3_model_source": "/data/uav/models/segformer-b3-ade512",
+  "a05_checkpoint": "/data/uav/checkpoints/A05_WEIGHT_alpha05.pt",
+  "armb_checkpoint": "/data/uav/runs/formal_armB/checkpoint_step2000.pt",
+  "source_images": "/data/uav/datasets/训练集/train/images",
+  "source_masks": "/data/uav/datasets/训练集/train/masks",
+  "source_train_split": "/data/uav/code/splits/train.txt",
+  "source_gt_encoding": "official_ids_1_8_ignore255",
+  "source_audit_split": "/data/uav/shbr_bundle/SOURCE_AUDIT_SPLIT.json",
+  "test2_images": "/data/uav/datasets/test_2/images",
+  "a05_target_cache": "/data/uav/teacher_cache/scores",
+  "donor_checkpoint": "/data/uav/m2f_minimaladapt/work_dirs/exp00r_m2f_swinl_10h_b8_30k/best_mIoU_iter_15000.pth",
+  "donor_config": "/data/uav/m2f_minimaladapt/work_dirs/exp00r_m2f_swinl_10h_b8_30k/config.py",
+  "control_checkpoint": "/data/uav/controls/RAS_KD_CONTROL_checkpoint_step2000.pt",
+  "control_zip": "/data/uav/controls/RAS_KD_CONTROL_test2.zip",
+  "control_reference": "/data/uav/controls/RAS_KD_CONTROL_RUN_SUMMARY.json",
+  "armb_zip": "/data/uav/controls/REVERSE_ARMB_test2.zip",
+  "allowed_physical_gpus": [2, 3],
+  "donor": {
+    "score_kind": "nonnegative_semantic_mixture",
+    "bstar_applied": false,
+    "class_order": [
+      "Background",
+      "Building",
+      "Road",
+      "Water",
+      "Barren",
+      "Vegetation",
+      "Agricultural",
+      "Vehicle"
+    ]
+  }
+}

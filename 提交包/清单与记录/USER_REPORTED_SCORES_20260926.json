@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-09-26",
+  "scope": "AIC2026 UAV semantic segmentation test2",
+  "evidence_level": "USER_REPORTED",
+  "evidence_limitations": "The user reported both scores in conversation. No platform submission ID, submitted-at timestamp, screenshot, or raw platform receipt is currently archived. File identities and ZIP structure were checked locally.",
+  "entries": [
+    {
+      "candidate": "A05_WEIGHT",
+      "artifact_filename": "A05_WEIGHT_alpha05_test2.zip",
+      "archive_path": "../批次_20260926_A05_D1Barren/A05_WEIGHT_alpha05_test2.zip",
+      "zip_sha256": "9069b2475cd7b0c8060d4f9105f7a9f9a54cb4488d0632ce2aafacb6bb3d2277",
+      "score_display_percent": 70.775011,
+      "score_fraction": 0.70775011,
+      "score_source": "USER_REPORTED_IN_CONVERSATION",
+      "platform_submission_id": null,
+      "platform_submitted_at": null,
+      "platform_screenshot": null,
+      "inference_type": "SINGLE_MERGED_CHECKPOINT_D4_TTA8",
+      "checkpoints_loaded_for_inference": 1,
+      "single_checkpoint_rule_eligible": true,
+      "compliance": "COMPLIANT_UNDER_CURRENT_PROJECT_RULE_INTERPRETATION",
+      "standing": "CURRENT_TEST2_COMPLIANT_CHAMPION",
+      "checkpoint_sha256": "023b65800d434069f0fb0ad881083fd439b89011f731feebc88d6e9217727134",
+      "report_path": "../../A05_WEIGHT_执行报告_20260926.md"
+    },
+    {
+      "candidate": "D1_NO_BARREN_POS_alpha050",
+      "artifact_filename": "D1_NO_BARREN_POS_alpha050_test2.zip",
+      "archive_path": "../批次_20260926_A05_D1Barren/D1_NO_BARREN_POS_alpha050_test2.zip",
+      "zip_sha256": "c494d46a8db85e25f244c2a177deab00810da9c44af8ebcc55a1573a86e03d20",
+      "score_display_percent": 70.506962,
+      "score_fraction": 0.70506962,
+      "score_source": "USER_REPORTED_IN_CONVERSATION",
+      "platform_submission_id": null,
+      "platform_submitted_at": null,
+      "platform_screenshot": null,
+      "inference_type": "TWO_CHECKPOINT_RAW_LOGITS_ALPHA_0P5_BLEND_D4_TTA8",
+      "checkpoints_loaded_for_inference": 2,
+      "single_checkpoint_rule_eligible": false,
+      "compliance": "NON_COMPLIANT_INFERENCE_TIME_MULTI_CHECKPOINT_LOGIT_FUSION",
+      "standing": "EXPERIMENT_ONLY_NONCOMPLIANT",
+      "new_model_checkpoint_sha256": "9f55284339fe7a11de69922866ecaea553f0125a696bb9cdec2702a7b17ece5e",
+      "report_path": "../../文档归档/04_实验决策与成绩/D1_Barren_Ablation_Handover_20260926.md"
+    }
+  ]
+}

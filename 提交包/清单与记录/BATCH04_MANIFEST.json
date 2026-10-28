@@ -1,0 +1,115 @@
+{
+  "schema": "SUBMIT_MANIFEST_V1",
+  "batch": "BATCH_04",
+  "scope": "DIAGNOSTIC_ONLY_NOT_ELIGIBILITY",
+  "created": "2026-09-15T00:05:00+08:00",
+  "purpose": "第一轮单轴偏置梯度扫描（Tier 2）。平台分是唯一选择信号；本地1399验证不参与任何选择。",
+  "checkpoint": {
+    "tag": "stage23_best56000",
+    "sha256": "d3740b4ef73fbb3ac57ddeedc3547ce4ce1ba31442dc7c70e1fe96b1fab3e228",
+    "config_sha256": "68cf3a98b7bb17dc564fbbb31dced103543e86bd9e01b967c161c37f1120995c"
+  },
+  "hard_gate_passed": {
+    "check": "champion_repro 与已获平台回执69.2812的本地包逐图PNG全等",
+    "receipt_bound_reference": "submit_batch_03/08_stage23_best56000_CHAMPION8D.zip",
+    "reference_sha256": "02ccbef9ebb9b36faed26b61c8319dd0835f5e66fac1e38c953a87264b993c9e",
+    "content_order_digest_ref": "af8f2a0901699a4f8cf32215ae5f0b9a69ec027dcc43818fd3c662472e446a92",
+    "content_order_digest_new": "af8f2a0901699a4f8cf32215ae5f0b9a69ec027dcc43818fd3c662472e446a92",
+    "identical_images": 500,
+    "verdict": "PASS"
+  },
+  "official_checker": {
+    "script": "/home/jhy/uav_semantic_segmentation/scripts/check_submission.py",
+    "result": "9 of 9 PASS (rc=0), zero failed checks",
+    "summary_json": "CHECKER_SUMMARY.json"
+  },
+  "center_platform_score": 0.692812,
+  "stop_rule": "若8个单轴候选全部低于 0.692812 + 0.0005 → 判定该checkpoint的类别偏置空间榨干，永久停止这条线。",
+  "packages": [
+    {
+      "file": "champion_repro.zip",
+      "zip_sha256": "683f259539e861534e2dcaa689a9eabc807fc55020bc45c28e9835c1839b2508",
+      "role": "CONTROL",
+      "vector": [-0.2, 0.1, 0.0709, 0.7, 3.6, 0.4, 3.3215, -0.5],
+      "expected_score": 0.692812,
+      "note": "冻结冠军向量复现。若平台分不为0.692812，说明平台非确定性，本批全部作废。"
+    },
+    {
+      "file": "ax4_barren_p050.zip",
+      "zip_sha256": "f822a7385bde31debda57aafa2c0281f482cca6789a5f33400b28cc3211ae030",
+      "role": "PROBE",
+      "axis": "Barren",
+      "delta": 0.5,
+      "vector": [-0.2, 0.1, 0.0709, 0.7, 4.1, 0.4, 3.3215, -0.5]
+    },
+    {
+      "file": "ax4_barren_m050.zip",
+      "zip_sha256": "c6385e41469a3a5b92f8fcac5d713e649fd27bec51ca98a4986ca129276f1448",
+      "role": "PROBE",
+      "axis": "Barren",
+      "delta": -0.5,
+      "vector": [-0.2, 0.1, 0.0709, 0.7, 3.1, 0.4, 3.3215, -0.5]
+    },
+    {
+      "file": "ax6_agricultural_p040.zip",
+      "zip_sha256": "ad10be1c338cbd396bcf1a06d96e7a07f70629800378cf91c514b96a6e963e08",
+      "role": "PROBE",
+      "axis": "Agricultural",
+      "delta": 0.4,
+      "vector": [-0.2, 0.1, 0.0709, 0.7, 3.6, 0.4, 3.7215, -0.5]
+    },
+    {
+      "file": "ax6_agricultural_m040.zip",
+      "zip_sha256": "cfa438d6a2cc67d02471d2f1c8e4259d509d74512e0a40a10458051abeec2daf",
+      "role": "PROBE",
+      "axis": "Agricultural",
+      "delta": -0.4,
+      "vector": [-0.2, 0.1, 0.0709, 0.7, 3.6, 0.4, 2.9215, -0.5]
+    },
+    {
+      "file": "ax5_vegetation_p040.zip",
+      "zip_sha256": "74fe99338dbabbd9180e231b48807e68fa488234f593eacd51ac228d628f3634",
+      "role": "PROBE",
+      "axis": "Vegetation",
+      "delta": 0.4,
+      "vector": [-0.2, 0.1, 0.0709, 0.7, 3.6, 0.8, 3.3215, -0.5]
+    },
+    {
+      "file": "ax5_vegetation_m040.zip",
+      "zip_sha256": "757b8a31fe5d530590bc7fba5aff9954ceb53ac74aad3a83c3253ebbdf44ce7c",
+      "role": "PROBE",
+      "axis": "Vegetation",
+      "delta": -0.4,
+      "vector": [-0.2, 0.1, 0.0709, 0.7, 3.6, 0.0, 3.3215, -0.5]
+    },
+    {
+      "file": "ax3_water_p030.zip",
+      "zip_sha256": "6fba1287c04adb160b30a14b41ac839f95121685737445948c70e116599be621",
+      "role": "PROBE",
+      "axis": "Water",
+      "delta": 0.3,
+      "vector": [-0.2, 0.1, 0.0709, 1.0, 3.6, 0.4, 3.3215, -0.5]
+    },
+    {
+      "file": "ax3_water_m030.zip",
+      "zip_sha256": "6b5f9315885111995e01f7cc0fdcc7414a8dffba058db7fbde0a3c1654d00b97",
+      "role": "PROBE",
+      "axis": "Water",
+      "delta": -0.3,
+      "vector": [-0.2, 0.1, 0.0709, 0.4, 3.6, 0.4, 3.3215, -0.5]
+    }
+  ],
+  "vector_index_map": {
+    "0": "Ignore(未使用)",
+    "1": "Background",
+    "2": "Building",
+    "3": "Road",
+    "4": "Water",
+    "5": "Barren",
+    "6": "Vegetation",
+    "7": "Agricultural",
+    "8": "Vehicle"
+  },
+  "reading_note": "偏置向量按官方1..8类序排列（索引0为Ignore占位）。ax3=Road轴，ax4=Water轴，ax5=Barren轴，ax6=Vegetation轴——文件名中的数字是向量下标，不是官方类别号。grep时注意不要混用。",
+  "pending": "平台回执回来后填入 BATCH04_PLATFORM_RECEIPT.json，按文件名+SHA绑定登记每条分数。"
+}

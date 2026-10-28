@@ -1,0 +1,142 @@
+{
+  "created": "2026-09-17T03:23:57.864371+00:00",
+  "scope": "SOUPC_BARRENS_AXIS",
+  "cache": "/home/jhy/rare_diag_20260915/soup_family_eval_20260917/scores_soupC",
+  "base_vector": [
+    -0.2,
+    0.1,
+    0.0709,
+    0.7,
+    3.6,
+    0.4,
+    2.1215,
+    -0.5
+  ],
+  "barren_index": 1,
+  "measured": {
+    "zero": 0.681892,
+    "C": 0.695792,
+    "farmland_2.1215": 0.696818
+  },
+  "packages": {
+    "soupC_barren0p6": {
+      "vector": [
+        -0.2,
+        0.6,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "barren": 0.6,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_barrens_20260917/soupC_barren0p6.zip",
+      "zip_sha256": "6e356a1a6f0c2f1adfa14d6267227674e38f6cafb152e84bf209b08f53789fc2",
+      "entries": 500,
+      "png_content_sha256": "b0667d86c0543853297049fd7bc7e67423bd6317d14c88d15026cc689f65cec9"
+    },
+    "soupC_barren1p1": {
+      "vector": [
+        -0.2,
+        1.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "barren": 1.1,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_barrens_20260917/soupC_barren1p1.zip",
+      "zip_sha256": "0840ee5c4021668973d759000bc10e444d407863b8adc9ed66c746737aef6e84",
+      "entries": 500,
+      "png_content_sha256": "3a21ca4c0bab4c6d2819d6e12d250ead48badb2ac2c549e765e9898f0bb98eb6"
+    },
+    "soupC_barren1p6": {
+      "vector": [
+        -0.2,
+        1.6,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "barren": 1.6,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_barrens_20260917/soupC_barren1p6.zip",
+      "zip_sha256": "849a1ab0340cd2bb62afac68cbe9416a6b21bf4304adf94bad075d6200d3371b",
+      "entries": 500,
+      "png_content_sha256": "22fc8c7b0703679229fccf3fdd6f7afa49367251334839a8a10920523fa4f58a"
+    },
+    "soupC_barren2p1": {
+      "vector": [
+        -0.2,
+        2.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "barren": 2.1,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_barrens_20260917/soupC_barren2p1.zip",
+      "zip_sha256": "7f52383fe650cc6d17b6f268fd620f6fd32969084c1f35d5fd6bac13d0ef8463",
+      "entries": 500,
+      "png_content_sha256": "4268ad760d40b029e6397dd819a554f724e20b35ac203ca29d7572d4c946869c"
+    },
+    "soupC_barren2p6": {
+      "vector": [
+        -0.2,
+        2.6,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "barren": 2.6,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_barrens_20260917/soupC_barren2p6.zip",
+      "zip_sha256": "859635ea7d9f9a695f38da78c463a6665133a70d9476b422bcb7325a99b413d3",
+      "entries": 500,
+      "png_content_sha256": "27f116249c4d96ccf97e3ef681fcc9f2d0bda9af7c2202570703a618b0c3ad0b"
+    },
+    "soupC_barren3p1": {
+      "vector": [
+        -0.2,
+        3.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "barren": 3.1,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_barrens_20260917/soupC_barren3p1.zip",
+      "zip_sha256": "03dada150b54276173a51e79eb77a5bc6a6e93eb560002986bbb8988c2fab773",
+      "entries": 500,
+      "png_content_sha256": "2e2f942d5c635328bfb835c81aa67461a41750f2e48c9b298f6c814399eb6a1b"
+    },
+    "soupC_barren3p6": {
+      "vector": [
+        -0.2,
+        3.6,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "barren": 3.6,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_barrens_20260917/soupC_barren3p6.zip",
+      "zip_sha256": "1f63ccc0148b7f44b6294d2b94465fdb6764e0b5b74995bec34ccea09113f967",
+      "entries": 500,
+      "png_content_sha256": "f9558ed18b7c0c4e65298efd2af63686cd092caf4a32570f535c2aad3c4c6931"
+    }
+  }
+}

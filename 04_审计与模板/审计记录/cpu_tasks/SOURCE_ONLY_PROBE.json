@@ -1,0 +1,27 @@
+{
+  "probe": "Exp18 source-only SegFormer-B3",
+  "checkpoint": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage18_runs/stage18_w1_exp18_b3_1024_full_ce_formal_seed42/best_miou.pt",
+  "checkpoint_sha256": "66667268d824d559a68b4b80872fe64d729bed7c6361d1a9939d6a3f92de88fd",
+  "source_validation_miou": 0.8105253202207898,
+  "best_step": 47600,
+  "architecture": "SegFormer-B3, 8 classes",
+  "resolved_config": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage18_runs/stage18_w1_exp18_b3_1024_full_ce_formal_seed42/config.yaml",
+  "train_split": "splits/train.txt (5597 official source IDs)",
+  "validation_split": "splits/val.txt (1399 official source IDs)",
+  "source_union": "exactly 6996 official labeled source images",
+  "ancestry": "published ADE-pretrained SegFormer-B3 -> source-only Exp18 CE training",
+  "negative_provenance_checks": {
+    "test1_or_target_images_in_dataset_loader": false,
+    "pseudo_labels": false,
+    "UDA_or_target_adaptation": false,
+    "teacher_or_self_training": false,
+    "resume_or_target_checkpoint_initialization": false
+  },
+  "decisive_evidence": [
+    "run_manifest.json: dataset_root=official training root, train_split=splits/train.txt, validation_split=splits/val.txt, loss=cross_entropy, domain_aug=false",
+    "config.yaml: initialization.mode=published_pretrained, source=nvidia/segformer-b3-finetuned-ade-512-512",
+    "launch_exp18_formal.sh: resume=NONE",
+    "src/dataset.py: accesses only dataset_root/train/images and train/masks",
+    "5597 and 1399 splits are disjoint and union exactly 6996 official IDs"
+  ]
+}

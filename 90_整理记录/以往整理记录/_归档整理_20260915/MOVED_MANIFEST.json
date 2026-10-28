@@ -1,0 +1,384 @@
+{
+  "created": "2026-09-15T18:04:30",
+  "mode": "MOVE (reversible); nothing deleted",
+  "moved_count": 68,
+  "moved_bytes": 2478410,
+  "moved": [
+    {
+      "from": "ALL_SCHEMES_AI_BRIEF.md",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_AI_BRIEF.md",
+      "bytes": 8490
+    },
+    {
+      "from": "ALL_SCHEMES_COMBINED_FINAL_V3.json",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_COMBINED_FINAL_V3.json",
+      "bytes": 524905
+    },
+    {
+      "from": "ALL_SCHEMES_COMBINED_FINAL_V3.md",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_COMBINED_FINAL_V3.md",
+      "bytes": 28399
+    },
+    {
+      "from": "ALL_SCHEMES_CORE_AUDIT.json",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_CORE_AUDIT.json",
+      "bytes": 259811
+    },
+    {
+      "from": "ALL_SCHEMES_CORE_AUDIT.md",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_CORE_AUDIT.md",
+      "bytes": 31646
+    },
+    {
+      "from": "ALL_SCHEMES_INFERENCE_AUDIT.csv",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_INFERENCE_AUDIT.csv",
+      "bytes": 99336
+    },
+    {
+      "from": "ALL_SCHEMES_INFERENCE_AUDIT.json",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_INFERENCE_AUDIT.json",
+      "bytes": 269130
+    },
+    {
+      "from": "ALL_SCHEMES_INFERENCE_AUDIT.md",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_INFERENCE_AUDIT.md",
+      "bytes": 44129
+    },
+    {
+      "from": "ALL_SCHEMES_LIVE_STATUS_20260914.json",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_LIVE_STATUS_20260914.json",
+      "bytes": 825
+    },
+    {
+      "from": "ALL_SCHEMES_RECENT_AUDIT.json",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_RECENT_AUDIT.json",
+      "bytes": 13095
+    },
+    {
+      "from": "ALL_SCHEMES_RECENT_AUDIT.md",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_RECENT_AUDIT.md",
+      "bytes": 8384
+    },
+    {
+      "from": "ALL_SCHEMES_RECENT_GPT_REQUESTS.json",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_RECENT_GPT_REQUESTS.json",
+      "bytes": 7562
+    },
+    {
+      "from": "ALL_SCHEMES_ZIP_RECEIPT_20260914_190648.json",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_ZIP_RECEIPT_20260914_190648.json",
+      "bytes": 426
+    },
+    {
+      "from": "ALL_SCHEMES_ZIP_RECEIPT_20260914_190929.json",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_ZIP_RECEIPT_20260914_190929.json",
+      "bytes": 426
+    },
+    {
+      "from": "ALL_SCHEMES_ZIP_RECEIPT_20260914_191040.json",
+      "to": "_归档整理_20260915/历史过程报告/ALL_SCHEMES_ZIP_RECEIPT_20260914_191040.json",
+      "bytes": 426
+    },
+    {
+      "from": "CANONICAL_CALIBRATION_IDENTITIES_V1.json",
+      "to": "_归档整理_20260915/历史过程报告/CANONICAL_CALIBRATION_IDENTITIES_V1.json",
+      "bytes": 2442
+    },
+    {
+      "from": "DISK_AUDIT.json",
+      "to": "_归档整理_20260915/历史过程报告/DISK_AUDIT.json",
+      "bytes": 811341
+    },
+    {
+      "from": "DISK_AUDIT.md",
+      "to": "_归档整理_20260915/历史过程报告/DISK_AUDIT.md",
+      "bytes": 6497
+    },
+    {
+      "from": "DISK_CLEANUP_PLAN.json",
+      "to": "_归档整理_20260915/历史过程报告/DISK_CLEANUP_PLAN.json",
+      "bytes": 19088
+    },
+    {
+      "from": "DISK_CLEANUP_PLAN.md",
+      "to": "_归档整理_20260915/历史过程报告/DISK_CLEANUP_PLAN.md",
+      "bytes": 27515
+    },
+    {
+      "from": "DISK_CLEANUP_REPORT.json",
+      "to": "_归档整理_20260915/历史过程报告/DISK_CLEANUP_REPORT.json",
+      "bytes": 1912
+    },
+    {
+      "from": "DISK_CLEANUP_REPORT.md",
+      "to": "_归档整理_20260915/历史过程报告/DISK_CLEANUP_REPORT.md",
+      "bytes": 2588
+    },
+    {
+      "from": "EIGHT_D_SCAN_RESUME_SNAPSHOT.json",
+      "to": "_归档整理_20260915/历史过程报告/EIGHT_D_SCAN_RESUME_SNAPSHOT.json",
+      "bytes": 7107
+    },
+    {
+      "from": "EVIDENCE_SUPPLEMENT_ZIP_RECEIPT.json",
+      "to": "_归档整理_20260915/历史过程报告/EVIDENCE_SUPPLEMENT_ZIP_RECEIPT.json",
+      "bytes": 376
+    },
+    {
+      "from": "FACT_HANDOFF_FINAL_RECEIPT.json",
+      "to": "_归档整理_20260915/历史过程报告/FACT_HANDOFF_FINAL_RECEIPT.json",
+      "bytes": 516
+    },
+    {
+      "from": "GPU3：Targeted Region Contrast v2 正式实验.md",
+      "to": "_归档整理_20260915/历史过程报告/GPU3：Targeted Region Contrast v2 正式实验.md",
+      "bytes": 6299
+    },
+    {
+      "from": "HANDOFF_LIVE_OBSERVATION_01.json",
+      "to": "_归档整理_20260915/历史过程报告/HANDOFF_LIVE_OBSERVATION_01.json",
+      "bytes": 2793
+    },
+    {
+      "from": "HANDOFF_LIVE_OBSERVATION_02.json",
+      "to": "_归档整理_20260915/历史过程报告/HANDOFF_LIVE_OBSERVATION_02.json",
+      "bytes": 2793
+    },
+    {
+      "from": "HISTORICAL_CALIBRATION_FACTORY_DESIGN_V2.md",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_FACTORY_DESIGN_V2.md",
+      "bytes": 2984
+    },
+    {
+      "from": "HISTORICAL_CALIBRATION_RECOVERY_EXECUTION_CONTRACT.md",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_EXECUTION_CONTRACT.md",
+      "bytes": 3130
+    },
+    {
+      "from": "HISTORICAL_CALIBRATION_RECOVERY_INVENTORY.json",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_INVENTORY.json",
+      "bytes": 76570
+    },
+    {
+      "from": "HISTORICAL_CALIBRATION_RECOVERY_INVENTORY.md",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_INVENTORY.md",
+      "bytes": 66889
+    },
+    {
+      "from": "HISTORICAL_CALIBRATION_RECOVERY_REPORT_MANIFEST.json",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_REPORT_MANIFEST.json",
+      "bytes": 1885
+    },
+    {
+      "from": "HISTORICAL_CALIBRATION_RECOVERY_RESULTS.json",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_RESULTS.json",
+      "bytes": 12769
+    },
+    {
+      "from": "HISTORICAL_CALIBRATION_RECOVERY_RESULTS.md",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_RESULTS.md",
+      "bytes": 4040
+    },
+    {
+      "from": "HISTORICAL_GOLDEN_69281290_IDENTITY_RECOVERY.md",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_GOLDEN_69281290_IDENTITY_RECOVERY.md",
+      "bytes": 2945
+    },
+    {
+      "from": "HISTORICAL_POSITIVE_CALIBRATION_RECOVERY_V2_RESOURCE_AUDIT.json",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_POSITIVE_CALIBRATION_RECOVERY_V2_RESOURCE_AUDIT.json",
+      "bytes": 5535
+    },
+    {
+      "from": "HISTORICAL_RECOVERY_RULE_AUDIT.md",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_RECOVERY_RULE_AUDIT.md",
+      "bytes": 1543
+    },
+    {
+      "from": "HISTORICAL_RECOVERY_S1_AUDIT.json",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_RECOVERY_S1_AUDIT.json",
+      "bytes": 20126
+    },
+    {
+      "from": "HISTORICAL_RECOVERY_TRAINING_GUARD_01.json",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_RECOVERY_TRAINING_GUARD_01.json",
+      "bytes": 2792
+    },
+    {
+      "from": "HISTORICAL_RECOVERY_TRAINING_GUARD_02.json",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_RECOVERY_TRAINING_GUARD_02.json",
+      "bytes": 2792
+    },
+    {
+      "from": "HISTORICAL_RECOVERY_TRAINING_GUARD_FINAL.json",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_RECOVERY_TRAINING_GUARD_FINAL.json",
+      "bytes": 2792
+    },
+    {
+      "from": "HISTORICAL_STAGE66_REFERENCE_METRICS.md",
+      "to": "_归档整理_20260915/历史过程报告/HISTORICAL_STAGE66_REFERENCE_METRICS.md",
+      "bytes": 1314
+    },
+    {
+      "from": "PARAMWISE01_PROTOCOL_UPDATE_ACK.md",
+      "to": "_归档整理_20260915/历史过程报告/PARAMWISE01_PROTOCOL_UPDATE_ACK.md",
+      "bytes": 5287
+    },
+    {
+      "from": "PHASE_B_GPU_PATH_AUDIT.txt",
+      "to": "_归档整理_20260915/历史过程报告/PHASE_B_GPU_PATH_AUDIT.txt",
+      "bytes": 8207
+    },
+    {
+      "from": "POST_RARE_FACTORY_ACCEPTANCE_CHECKLIST.md",
+      "to": "_归档整理_20260915/历史过程报告/POST_RARE_FACTORY_ACCEPTANCE_CHECKLIST.md",
+      "bytes": 2185
+    },
+    {
+      "from": "POST_RARE_QUEUE_REVIEW_FINDINGS.md",
+      "to": "_归档整理_20260915/历史过程报告/POST_RARE_QUEUE_REVIEW_FINDINGS.md",
+      "bytes": 1921
+    },
+    {
+      "from": "POST_RARE_RECOVERY_DEPLOYMENT_BLOCKER.md",
+      "to": "_归档整理_20260915/历史过程报告/POST_RARE_RECOVERY_DEPLOYMENT_BLOCKER.md",
+      "bytes": 1181
+    },
+    {
+      "from": "POST_RAREEXPOSURE_ACK_SNAPSHOT.json",
+      "to": "_归档整理_20260915/历史过程报告/POST_RAREEXPOSURE_ACK_SNAPSHOT.json",
+      "bytes": 7107
+    },
+    {
+      "from": "POST_RAREEXPOSURE_FINAL_CORRECTIONS.md",
+      "to": "_归档整理_20260915/历史过程报告/POST_RAREEXPOSURE_FINAL_CORRECTIONS.md",
+      "bytes": 3591
+    },
+    {
+      "from": "POST_RAREEXPOSURE_STREAMING_CALIBRATION_ACK.md",
+      "to": "_归档整理_20260915/历史过程报告/POST_RAREEXPOSURE_STREAMING_CALIBRATION_ACK.md",
+      "bytes": 2953
+    },
+    {
+      "from": "POSTPROCESS_MANIFEST.json",
+      "to": "_归档整理_20260915/历史过程报告/POSTPROCESS_MANIFEST.json",
+      "bytes": 3782
+    },
+    {
+      "from": "RARE_REDOWNLOAD_RECEIPT.json",
+      "to": "_归档整理_20260915/历史过程报告/RARE_REDOWNLOAD_RECEIPT.json",
+      "bytes": 4637
+    },
+    {
+      "from": "s2_readonly_inventory_20260914.json",
+      "to": "_归档整理_20260915/历史过程报告/s2_readonly_inventory_20260914.json",
+      "bytes": 14704
+    },
+    {
+      "from": "STORAGE_AWARE_CALIBRATION_PREFLIGHT.md",
+      "to": "_归档整理_20260915/历史过程报告/STORAGE_AWARE_CALIBRATION_PREFLIGHT.md",
+      "bytes": 7131
+    },
+    {
+      "from": "STORAGE_AWARE_HANDOFF_OBSERVATION_01.json",
+      "to": "_归档整理_20260915/历史过程报告/STORAGE_AWARE_HANDOFF_OBSERVATION_01.json",
+      "bytes": 7108
+    },
+    {
+      "from": "STORAGE_AWARE_HANDOFF_REPORT.md",
+      "to": "_归档整理_20260915/历史过程报告/STORAGE_AWARE_HANDOFF_REPORT.md",
+      "bytes": 3049
+    },
+    {
+      "from": "STORAGE_AWARE_STORAGE_AUDIT.json",
+      "to": "_归档整理_20260915/历史过程报告/STORAGE_AWARE_STORAGE_AUDIT.json",
+      "bytes": 6413
+    },
+    {
+      "from": "STORAGE_AWARE_TRAINING_GUARD_INITIAL.json",
+      "to": "_归档整理_20260915/历史过程报告/STORAGE_AWARE_TRAINING_GUARD_INITIAL.json",
+      "bytes": 2791
+    },
+    {
+      "from": "__pycache__/",
+      "to": "_归档整理_20260915/空目录/__pycache__",
+      "bytes": 0
+    },
+    {
+      "from": "next_experiment_bundle_v1/",
+      "to": "_归档整理_20260915/空目录/next_experiment_bundle_v1",
+      "bytes": 0
+    },
+    {
+      "from": "paramwise01_bundle/",
+      "to": "_归档整理_20260915/空目录/paramwise01_bundle",
+      "bytes": 0
+    },
+    {
+      "from": "paramwise01_postprocess/",
+      "to": "_归档整理_20260915/空目录/paramwise01_postprocess",
+      "bytes": 0
+    },
+    {
+      "from": "paramwise01_protocol_v2/",
+      "to": "_归档整理_20260915/空目录/paramwise01_protocol_v2",
+      "bytes": 0
+    },
+    {
+      "from": "post_rare_recovery_v1/",
+      "to": "_归档整理_20260915/空目录/post_rare_recovery_v1",
+      "bytes": 0
+    },
+    {
+      "from": "storage_aware_v1/",
+      "to": "_归档整理_20260915/空目录/storage_aware_v1",
+      "bytes": 0
+    },
+    {
+      "from": "历史归档/",
+      "to": "_归档整理_20260915/空目录/历史归档",
+      "bytes": 0
+    },
+    {
+      "from": "导师答疑配图/",
+      "to": "_归档整理_20260915/空目录/导师答疑配图",
+      "bytes": 0
+    }
+  ],
+  "kept_in_root": [
+    "_check_cache_matches_ensemble.py",
+    "_check_distribution.py",
+    "_check_geom_alignment.py",
+    "_check_kd_math.py",
+    "_check_quant_gap.py",
+    "_combo_queue.sh",
+    "_error_morphology.py",
+    "_error_morphology_v2.py",
+    "_hard_stop.sh",
+    "_kd_diagnose.py",
+    "_kd_launch.sh",
+    "_kd_precompute_teachers.py",
+    "_kd_restart.sh",
+    "_kd_train.py",
+    "_make_teachers.py",
+    "_morphology_report.py",
+    "_quarantine_move.py",
+    "_rescue_from_archive.py",
+    "_s62_axis_probe.py",
+    "_s62_combo_probe.py",
+    "_tidy_root.py",
+    "_val_predict.py",
+    "CANDIDATES.json",
+    "canonical_paramwise_optimizer.py",
+    "constrained_calibration.py",
+    "constrained_calibration_priority_v2.py",
+    "constrained_calibration_v2.py",
+    "tta_anatomy.py",
+    "tta_anatomy_v2.py",
+    "tta_partial_gates.py",
+    "tta_priority_gates.py",
+    "tta_v2_gates.py",
+    "无人机低空航拍图像语义分割-2.pdf",
+    "无人机语义分割_完整交接包_20260915.zip"
+  ]
+}

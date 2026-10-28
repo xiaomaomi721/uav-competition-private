@@ -1,0 +1,13 @@
+{
+  "baseline_experiment": "Exp14 (B2/1024 CE/RareCrop/SegFormer原生decoder)",
+  "baseline_online_absolute": 66.443,
+  "baseline_online_source": [
+    "本地文档 赛题难点分析与实验决策文档.md (多处引用 'Exp14（B2基线）66.443')",
+    "同文档: 'B2+1024 66.443 < B3+1024 66.739 (+0.296)'",
+    "同文档伪标签判决: 'Exp22 66.307 vs Exp14 66.443 = -0.136'"
+  ],
+  "baseline_evidence_quality": "MEDIUM(多次一致出现66.443; 但精确尾数.162未在任何正式ledger展开; 非线上成绩表主表条目)",
+  "caveat": "66.443162尾数无法从任何正式文件验证; 记录为66.443(文档显示精度)",
+  "checkpoint_sha": "5e4bc1c2bfed385a52ef7827271d3b8786d5b30d084786929d9c697d58941e80 (Exp14)",
+  "submission_exists": "submission_candidate_exp14_b2_1024_ce_rare_crop.zip (服务器, TTA:false, 500张)"
+}

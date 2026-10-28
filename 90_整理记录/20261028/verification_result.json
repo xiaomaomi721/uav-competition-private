@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "date": "2026-10-28",
+  "original_files": 1161,
+  "original_files_accounted_for": 1161,
+  "original_retained_files": 1117,
+  "intentional_removed_originals": 44,
+  "moved_file_sha256_checks": 730,
+  "navigation_links_checked": 25,
+  "root_visible_entries": [
+    "00_Codex工作同步索引.md",
+    "01_当前比赛",
+    "02_代码与实验",
+    "03_历史文档",
+    "04_审计与模板",
+    "90_整理记录",
+    "README_从这里开始.md",
+    "提交包"
+  ],
+  "problems": [],
+  "navigation": [
+    {
+      "document": "README_从这里开始.md",
+      "target": "01_当前比赛/",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "02_代码与实验/",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "03_历史文档/",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "04_审计与模板/",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "提交包/",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "90_整理记录/",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "01_当前比赛/线上成绩台账_20261027.md",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "01_当前比赛/半决赛_全部方案总表_20261027.md",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "01_当前比赛/队友方案与诊断/",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "01_当前比赛/Codex方案与研究/",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "01_当前比赛/审核交接/队友方案审核交接_20261027/",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/00_执行状态_20261028.md",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "00_Codex工作同步索引.md",
+      "exists": true
+    },
+    {
+      "document": "README_从这里开始.md",
+      "target": "90_整理记录/20261028/新旧路径映射.csv",
+      "exists": true
+    },
+    {
+      "document": "00_Codex工作同步索引.md",
+      "target": "README_从这里开始.md",
+      "exists": true
+    },
+    {
+      "document": "00_Codex工作同步索引.md",
+      "target": "90_整理记录/20261028/整理报告.md",
+      "exists": true
+    },
+    {
+      "document": "00_Codex工作同步索引.md",
+      "target": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/00_执行状态_20261028.md",
+      "exists": true
+    },
+    {
+      "document": "00_Codex工作同步索引.md",
+      "target": "01_当前比赛/Codex方案与研究/H75_BLDA-Soft_论文依据与执行方案_20261027.md",
+      "exists": true
+    },
+    {
+      "document": "00_Codex工作同步索引.md",
+      "target": "01_当前比赛/Codex方案与研究/BLDA_Soft_方案依据_20261027/",
+      "exists": true
+    },
+    {
+      "document": "00_Codex工作同步索引.md",
+      "target": "01_当前比赛/Codex方案与研究/3594张无标签测试图_利用方法与实施边界_20261027.md",
+      "exists": true
+    },
+    {
+      "document": "00_Codex工作同步索引.md",
+      "target": "01_当前比赛/Codex方案与研究/标注有限与测试域泛化_近期论文与项目判断_20261027.md",
+      "exists": true
+    },
+    {
+      "document": "00_Codex工作同步索引.md",
+      "target": "01_当前比赛/Codex方案与研究/DINOv3-L_PMT_实现方案与实验结果_给队友_20261027.md",
+      "exists": true
+    },
+    {
+      "document": "00_Codex工作同步索引.md",
+      "target": "01_当前比赛/上一阶段冠军与提分贡献核对_20261027.md",
+      "exists": true
+    },
+    {
+      "document": "00_Codex工作同步索引.md",
+      "target": "01_当前比赛/审核交接/队友方案审核交接_20261027/",
+      "exists": true
+    },
+    {
+      "document": "00_Codex工作同步索引.md",
+      "target": "01_当前比赛/线上成绩台账_20261027.md",
+      "exists": true
+    }
+  ]
+}

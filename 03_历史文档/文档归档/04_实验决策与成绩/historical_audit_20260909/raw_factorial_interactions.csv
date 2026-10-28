@@ -1,0 +1,5 @@
+common_baseline,method_A,A_abs,method_B,B_abs,A+B_exp,AB_abs,factorial_note
+B3纯CE 66.739544,CWFA(Exp23标准),67.371405,no-decay(标准),67.412,CWFA+no-decay(Exp28标准),66.195521,记忆uav-exp26-exp27记66.195521; 成绩表/记忆同源
+B3无TTA 66.739544,边界分支(Exp41真无TTA),67.0530,CWFA(Exp23标准),67.371405,边界+CWFA(Exp46标准),66.2893,记忆uav-diagnosis记66.2893; 边界单用无TTA vs CWFA单用可能TTA口径不同→NOT_STRICT待config
+B3纯CE 66.739544,蒸馏+MixStyle(Exp39完整),66.915682,(对照:蒸馏λ0.1减步66.225255/MixStyleα0.05减步66.243589),UNKNOWN同步,(组合本身即实验),66.915682,NOT_STRICT_FACTORIAL: 单独减步14000 vs 组合完整56000
+纯CWFA5597 67.371405,MaxEnt(exp49),67.7711,伪标签(stage55b),68.0480,MaxEnt×伪标签(exp61),"UNKNOWN(绝对分未记录,-0.27相对)",NOT_STRICT_FACTORIAL: 三者基座可能不同需config

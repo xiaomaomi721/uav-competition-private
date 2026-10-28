@@ -1,0 +1,11 @@
+gt,pred,exp23_wrong,exp47_wrong,abs_change,rel_change
+Barren,Background,5379724,5413995,34271,0.0064
+Background,Barren,4488313,4851345,363032,0.0809
+Agricultural,Background,6473074,6043001,-430073,-0.0664
+Background,Agricultural,9623987,11397921,1773934,0.1843
+Barren,Agricultural,854947,795825,-59122,-0.0692
+Agricultural,Barren,893038,1017346,124308,0.1392
+Road,Background,9324858,9844279,519421,0.0557
+Background,Road,8655820,7327461,-1328359,-0.1535
+Vegetation,Background,15942383,16702216,759833,0.0477
+Building,Background,15906798,14910138,-996660,-0.0627

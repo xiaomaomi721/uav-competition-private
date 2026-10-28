@@ -1,0 +1,17 @@
+method,class_exposure,class_gradient_balance,multi_scale,local_detail,global_context,style_robustness,domain_generalization,representation_quality,target_adaptation,pseudo_label_quality,inference_equivariance,logit_calibration
+CWFA,N,N,N,N,N,PRIMARY,PRIMARY,SECONDARY,N,N,N,N
+no-decay,N,N,N,N,N,N,SECONDARY,PRIMARY,N,N,N,N
+MixStyle,N,N,N,N,N,PRIMARY,PRIMARY,N,N,N,N,N
+DINOv2蒸馏,SECONDARY,N,SECONDARY,N,PRIMARY,N,N,PRIMARY,N,N,N,N
+加权CE,N,PRIMARY,N,N,N,N,N,N,N,N,N,N
+Focal,N,PRIMARY,N,N,N,N,N,N,N,N,N,N
+Dice/Lovász,SECONDARY,PRIMARY,N,N,N,N,N,N,N,N,N,N
+RareCrop,PRIMARY,N,N,N,N,N,N,N,N,N,N,N
+CopyPaste(随机),PRIMARY,N,N,N,N,N,N,N,N,N,N,N
+边界分支,N,N,N,SECONDARY,N,N,N,N,N,N,N,N
+SEMEDA,N,N,N,SECONDARY,N,N,N,N,N,N,N,N
+MixUp,SECONDARY,N,N,N,N,SECONDARY,SECONDARY,N,N,N,N,N
+伪标签(贴测试),SECONDARY,N,N,N,N,N,N,N,PRIMARY,PRIMARY,N,N
+旋转TTA8,N,N,N,N,N,N,N,N,N,N,PRIMARY,N
+8维校准,N,N,N,N,N,N,N,N,SECONDARY,N,N,PRIMARY
+MaxEnt,N,N,N,N,N,N,SECONDARY,N,SECONDARY,N,N,N

@@ -1,0 +1,22 @@
+{
+  "artifact": "MIC_TREAT_S20260927_step8000_D4_TTA8_Bstar_test2_INVALID.zip",
+  "sha256": "16aba189b3e3e9eb25198d17a19dae06d547b34eb1b673b1c636010be281fae5",
+  "reported_platform_score_percent": 6.976285,
+  "classification": "INVALID_FOR_MODEL_EVALUATION",
+  "do_not_submit": true,
+  "do_not_use_as_method_evidence": true,
+  "confirmed_defects": [
+    "Input files were sorted lexicographically but output files were renamed by numeric loop index, causing 1299/1300 identity mismatches.",
+    "The eighth D4 view duplicated an existing transform and its undo was not the inverse, spatially misaligning one eighth of logits."
+  ],
+  "forensics": {
+    "same_name_agreement_with_a05_percent": 20.89591686542217,
+    "lexicographic_remap_agreement_with_a05_percent": 94.65963987203745,
+    "lexicographic_remap_median_per_image_agreement_percent": 96.3313102722168,
+    "images_above_80_percent_after_remap": 1267,
+    "images_above_50_percent_after_remap": 1296,
+    "training_collapse_supported": false
+  },
+  "historical_inference_source_sha256": "c7eac75ee85ac2e0a847b22a4408317a5b0c7e63d847205ed0853e4cc4476240",
+  "replacement_policy": "Preserve this artifact unchanged. Build a new additive inference implementation, rerun inference from the existing checkpoint, and use a distinct FIXED filename."
+}

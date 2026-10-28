@@ -1,0 +1,32 @@
+{
+  "at": "2026-09-14T18:56:07.258181",
+  "free_bytes": 10867634176,
+  "runs": [
+    {
+      "experiment": "rare",
+      "pid": 283448,
+      "step": 55111,
+      "scheduler_status": "FORMAL_RUNNING_STREAMING_INSTALLED",
+      "config_sha256": "fc6005a5e8a59e03f134a17b832e620e2764a36697e789b5dd5c60d9a181fe09",
+      "checkpoints": [
+        {
+          "name": "best_miou.pt",
+          "bytes": 189186635
+        }
+      ]
+    },
+    {
+      "experiment": "paramwise",
+      "pid": 2115724,
+      "step": 8630,
+      "scheduler_status": "FORMAL_RUNNING_STREAMING_INSTALLED",
+      "config_sha256": "b13dabef0c44ac802bff16443d8fc7c1d81606540c6dde2c3cc5b22321f4068d",
+      "checkpoints": [
+        {
+          "name": "best_miou.pt",
+          "bytes": 189186379
+        }
+      ]
+    }
+  ]
+}

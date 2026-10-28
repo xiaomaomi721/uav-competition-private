@@ -1,0 +1,25 @@
+{
+ "experiment_id": "stage15_w1_exp16_b2_1024_upernet_ce_formal_seed42",
+ "stage": 15,
+ "backbone": "SegFormer-B2",
+ "resolution": 1024,
+ "decoder": "UPerNet",
+ "loss": "cross_entropy",
+ "rare_crop": "enabled p0.5 ids[7,4,6]",
+ "lr": 6e-05,
+ "wd": 0.01,
+ "max_steps": 56000,
+ "seed": 42,
+ "local_best_miou": 0.80658,
+ "local_best_step": 54600,
+ "comparable_baseline": "B2/1024 CE rare_crop(Exp06) = 0.787114 local@768; Exp15(B2 mixed1024)=0.798495 — 配置可比性需ChatGPT判断,此处只报事实",
+ "checkpoint": "/home/jhy/deploy_exp16/exp16_b2_upernet_20260825T042256Z_e043cbc652f3/stage15_exp16_runs/stage15_w1_exp16_b2_1024_upernet_ce_formal_seed42/best_miou.pt",
+ "checkpoint_sha256": "f3cd64e5d7435540ed75f6d631212633090d7880c626ddd6f7436dfd8787bc20",
+ "submission": {
+  "path": "/home/jhy/deploy_exp16/exp16_b2_upernet_20260825T042256Z_e043cbc652f3/stage15_exp16_submissions/submission_exp16_best_f3cd64e5/exp16_best_f3cd64e5.zip",
+  "zip_sha256": "9a13be0d9489b18830f001fd12ea25e2560d3fb4149e55f79e33a3ad02dcb701",
+  "run_config": "TTA:false, ensemble:false, 500张test预测, checkpoint_step 54600"
+ },
+ "online_score_confirmed": "NO_CONFIRMED_ONLINE_SCORE",
+ "note": "提交包存在但成绩表/phase2 csv均无exp16线上分记录"
+}

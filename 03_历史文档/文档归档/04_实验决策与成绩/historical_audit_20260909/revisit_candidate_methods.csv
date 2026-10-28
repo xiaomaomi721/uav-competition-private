@@ -1,0 +1,16 @@
+method,historical_result,why_previously_rejected,why_rejection_may_be_too_strong,missing_test,recommended_status
+复杂TTA/多尺度TTA,全负,认为测试时改输入=分布外,简单旋转/翻转TTA正收益→实现错非机制错,旋转TTA8已证,RE-ENTER_POOL(旋转TTA8已CONFIRMED)
+Lovász,-0.415,判死,低weight变体未试;归因为标注噪声前提不符,低weight+clean label,REVISIT_LOW_PRIORITY
+Focal,-0.342,判死,"难例=视觉不可分+噪声,机制冲突强",—,"LOW(证据强负,不优先翻案)"
+Dice(CE+Dice),-0.176,判死,区域损失对视觉不可分类毒药;多剂量多实现均负,—,LOW(证据强负)
+Weighted CE,-0.049,微负,prior-shift已解决先验;放大噪声,—,LOW(官方路线但实测负)
+EMA,-0.445,判死,decay0.999太钝;同域验证奖励训练分布,decay0.99/0.995,REVISIT_LOW_PRIORITY
+色彩增广/DomainAug,全负,判死,攻击不存在靶子(训练测试同色),温和版未试,LOW(实证无空间)
+伪标签原版,-0.136,判死用法错,方向反了;应贴测试分布,强教师+置信度迭代(已+0.68),RE-ENTER_POOL(翻案版已CONFIRMED)
+CopyPaste随机,-0.311,判死变体错,随机粘贴破坏场景依赖;方法本身可修正,约束CopyPaste(设计就绪未跑),REVISIT_CANDIDATE(约束版)
+DINOv2蒸馏,+0.25,嫌小,λ过强;教师非航拍域,λ0.1已试仍小,LOW(价值有限;已扫)
+MixStyle,+0.49,嫌小,α过强;收益≤CWFA,α0.05已试,LOW(收益见顶)
+注意力融合头,-0.760,判死,替换预训练头牺牲对齐;标准FPN/ASPP未试,标准FPN/ASPP,LOW(改解码器高危)
+RareCrop,在用,未单独测,未挖到底,单独线上delta/自适应比例,REVISIT_CANDIDATE
+边界CE重加权(Exp38),未知,无独立判决,无记录,独立出包,INSUFFICIENT_EVIDENCE
+SEMEDA,+1.056标准,校准空间小,标准高≠校准空间大;作异类组合材料,+CWFA(未试),REVISIT_CANDIDATE

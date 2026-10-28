@@ -1,0 +1,14 @@
+{
+  "zip_path": "C:\\Users\\Lenovo\\OneDrive\\Documents\\桌面\\无人机项目_完整事实交接_含代码证据_20260914_201455.zip",
+  "bytes": 104379253,
+  "sha256": "b5636a54329ce5024c84bd191a34f7db83d19da6e6666c93b14411b737990ab6",
+  "entries": 248,
+  "master_chars": 145916,
+  "verification": "all entry SHA256 + CRC + unique archive paths PASS",
+  "cleanup": {
+    "files": 25,
+    "source_bytes": 16035365,
+    "recovery_bytes": 444361,
+    "empty_directory_removal": "BLOCKED_RETAINED"
+  }
+}

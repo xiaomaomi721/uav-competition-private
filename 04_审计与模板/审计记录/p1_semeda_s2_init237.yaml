@@ -1,0 +1,36 @@
+_base_: ../stage47/wave1_exp47_semeda.yaml
+
+experiment_id: p1_semeda_s2_init237_seed42
+stage: 71
+description: >-
+  P1 SURGICAL (arm B, init=theta237 = current champion 0.702574). CE + 0.5*L1(
+  semantic-edge embedding), criterion byte-identical to Exp47/stage47. ONLY
+  segformer.stages.2.* is trainable; stage0/stage1/stage3/decode_head frozen,
+  their BN running stats and num_batches_tracked restored every step. Fresh
+  AdamW (no inherited state). poly power=1.0 over a 16k horizon (reduced from the frozen 32k because GPU access ends hard). CWFA/EMA/
+  distill/maxent/lovasz/region/pseudo/domain-aug ALL OFF: one mechanism, one
+  variable. Identical to arm A in every respect except p1_init_from.
+
+p1_init_from: /home/jhy/rare_diag_20260915/donor_gate2_20260917/S_semeda_M.pt
+p1_trainable_scope:
+  - segformer.stages.2.
+gate_steps:   # 1k/2k/4k/8k/16k; 16k is the horizon end
+
+  - 1000
+  - 2000
+  - 4000
+  - 8000
+  - 16000
+
+max_steps: 16000
+validation_interval: 0
+
+optimizer:
+  name: AdamW
+  learning_rate: 1.0e-05
+  weight_decay: 0.01
+
+scheduler:
+  name: polynomial
+  power: 1.0
+  total_steps: 16000

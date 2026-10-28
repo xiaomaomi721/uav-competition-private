@@ -1,0 +1,87 @@
+{
+  "schema_version": 2,
+  "recorded_date": "2026-09-29",
+  "evidence_level": "USER_REPORTED",
+  "platform_submission_id": null,
+  "platform_submitted_at": null,
+  "platform_screenshot": null,
+  "records": [
+    {
+      "candidate": "A05_WEIGHT_alpha05",
+      "score_percent": 70.775011,
+      "status": "PREVIOUS_CHAMPION",
+      "checkpoint_sha256": "023b65800d434069f0fb0ad881083fd439b89011f731feebc88d6e9217727134",
+      "zip_sha256": "9069b2475cd7b0c8060d4f9105f7a9f9a54cb4488d0632ce2aafacb6bb3d2277"
+    },
+    {
+      "candidate": "BLINDRECALL_CONTROL",
+      "score_percent": 70.2720,
+      "status": "CAUSAL_CONTROL",
+      "role": "source-only continuation, target coeff=0",
+      "checkpoint_sha256": "cb49dac980984359b59742a7aba1bb2ce1d970e74f036445216d6ecdf8e8b1fe",
+      "zip_sha256": "d5024d7183b7287812af35fd88ce6d57b40cdde4d4a0c27b60ab3bc211800081",
+      "delta_vs_a05_pp": -0.503011
+    },
+    {
+      "candidate": "BLINDRECALL_TREAT",
+      "score_percent": 70.8671,
+      "status": "NEW_COMPLIANT_CHAMPION",
+      "role": "blind-class recall + soft-KL distillation, target coeff=0.5*ramp",
+      "checkpoint_sha256": "1aa7396249d963d17fbf3664dad7e787360ef3105b315abb8101e21c15807c48",
+      "zip_sha256": "20e1324045a005b8dd0e975c109b003729c948793681796947c138dd4a3690ea",
+      "delta_vs_a05_pp": 0.092089,
+      "delta_vs_control_pp": 0.5951
+    },
+    {
+      "candidate": "REVERSE_ARMB",
+      "score_percent": 71.045315,
+      "status": "NEW_CHAMPION",
+      "role": "reverse ratio: source_coeff=0.1, target_coeff=1.0 (light source anchor, blind-recall soft-KL to A05 teacher)",
+      "checkpoint_sha256": "f186e06ddd531724f647757587e5afec1415fb672410534de9658be60e3c58b9",
+      "zip_sha256": "9b426a5bda7fcc8b6b96af9a7a6c2a8e86467dbb4d8bb61441717538f29f1885",
+      "delta_vs_a05_pp": 0.270304,
+      "delta_vs_treat_pp": 0.178215,
+      "delta_vs_control_pp": 0.773315
+    },
+    {
+      "candidate": "REVERSE_ARMA",
+      "score_percent": 70.957249,
+      "status": "FAILED",
+      "role": "reverse ratio: source_coeff=0.0, target_coeff=1.0 (pure target, NO source anchor)",
+      "checkpoint_sha256": "61f586de60ec7e9dc0e66e808336147af6a21f3efbd5b1f4cd4d8f9097bf5632",
+      "zip_sha256": "c5574ca78026c7f50c0b73cfa8cf5362dcb161d904bcbf77fe61fb368c7b213e",
+      "delta_vs_a05_pp": 0.182238,
+      "delta_vs_armb_pp": -0.088066,
+      "delta_vs_treat_pp": 0.090149
+    },
+    {
+      "candidate": "ROUND2_MERGE",
+      "score_percent": 71.016535,
+      "status": "FAILED",
+      "role": "test1 extension + more epochs: target=test1(500)+test2(1300)=1800, 5000 steps (~2.8 epoch), same recipe otherwise",
+      "checkpoint_sha256": "63b69df355f0037663d0fa1b20626f6bba92e2793e1e463924fbce3ad98de934",
+      "zip_sha256": "40a97f1fbcf797d4b503205e89ac1e571a45215a97aa06c47c9c65bc2d2f770a",
+      "delta_vs_a05_pp": 0.241524,
+      "delta_vs_armb_pp": -0.028780
+    },
+    {
+      "candidate": "HARD_PSEUDO",
+      "score_percent": 69.932145,
+      "status": "FAILED",
+      "role": "hard pseudo-label self-training: Arm B teacher argmax + blind-recall mask, source GT + test-domain hard labels joint CE, 10000 steps (1.35 epoch)",
+      "checkpoint_sha256": "4af6db3d1fc38b602b883622a89bfe68cf1f87895f8e7f4ca6d830640c1f05f5",
+      "zip_sha256": "63de525b7a0c54de9ad0b7a80918b093cec7b8858010a3e111c8f298a7885d19",
+      "delta_vs_a05_pp": -0.842866,
+      "delta_vs_armb_pp": -1.113170
+    }
+  ],
+  "causal_analysis": {
+    "blind_recall_net_effect": 0.5951,
+    "source_continuation_effect": -0.503011,
+    "reverse_ratio_deployment_gain": 0.270304,
+    "pure_target_effect": -0.088066,
+    "test1_extension_effect": -0.028780,
+    "hard_pseudo_effect": -1.113170,
+    "verdict": "盲类召回方向已证（+0.5951）；反转配比把 TREAT 的 +0.092 放大到 Arm B 的 +0.270，铁证 source 税可去但不可全去（source 锚 0.1 是护栏）。测试域自训练三个变体全试完：软 KL（Arm B 71.045）是天花板，test1扩展+多训（−0.03）无增量，硬伪标签（−1.11）固化教师低置信错误。Arm B = 71.045315 仍是冠军。距 72 还差 0.955pp。测试域自训练这条唯一大杠杆已到顶。"
+  }
+}

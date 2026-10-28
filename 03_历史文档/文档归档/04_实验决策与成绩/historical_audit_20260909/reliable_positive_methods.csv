@@ -1,0 +1,11 @@
+method,local_evidence,online_evidence,repeatability,status,note
+8维校准(测试时先验),+2.5(总成69.28),+1.9~2.5,高(多轮扫描复验),CONFIRMED_TARGET_SPECIFIC_GAIN + TRANSFER_FRAGILITY,校准压力测试7/7负迁移
+no-decay,+0.673,单用复验?,中,CONFIRMED_USEFUL,禁与CWFA叠
+CWFA,+0.632,+0.632复验,高,CONFIRMED_USEFUL,训练期天花板
+MixStyle,+0.492,α扫描复验,中,DOSE_FAILURE(收益见顶),≤CWFA
+旋转TTA8,+0.470,翻转TTA+0.275→rot8+0.47,高,CONFIRMED_USEFUL,TTA层
+边界分支(单独),+0.313,无TTA口径复验,中,CONFIRMED_USEFUL,叠加即崩
+MixUp,+0.270,单次,低,CONFIRMED_USEFUL,第6正收益
+DINOv2蒸馏,+0.252,λ扫描,中,DOSE_FAILURE,价值有限
+翻转TTA,+0.275,被rot8取代,中,IMPLEMENTATION_FAILURE翻案,简单TTA有效
+蒸馏+MixStyle集成,+0.177,单次,低,NON_ADDITIVE,无协同<MixStyle单用

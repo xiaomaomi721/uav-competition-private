@@ -1,0 +1,10 @@
+{
+  "base_probe_dir": "/home/jhy/rare_diag_20260915/b4_migration_6296/base_probe/",
+  "audit_dir": "/home/jhy/rare_diag_20260915/b4_migration_6296/audit_20260927/",
+  "do_not_modify": ["base_probe/"],
+  "retain_forever": ["best_miou.pt", "last.pt", "metrics.json", "run_manifest.json", "train_log.csv", "validation_history.json"],
+  "test2_predictions_exist": false,
+  "zip_exists": false,
+  "platform_submission_done": false,
+  "online_score": null
+}

@@ -1,0 +1,149 @@
+{
+  "batch": "SUBMIT_BATCH_01",
+  "submitted": [
+    [
+      "01_best51800_TTA8_ZERO.zip",
+      "best51800",
+      "zero",
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "0.677600",
+      "d0a7b37747138bb0e0456c71dffd4e4808098ece33dfb2dffd1a1e21317707e2"
+    ],
+    [
+      "02_best51800_LOCKED8D.zip",
+      "best51800",
+      "locked",
+      [
+        -0.2,
+        -0.0384,
+        0.0709,
+        0.7,
+        3.6,
+        0.1932,
+        3.3215,
+        -0.5
+      ],
+      "0.689567",
+      "6e1fbbd7826bd41510da4ac24fdf6dc04b8a99ce4ecb0887e666b8a27990b48d"
+    ],
+    [
+      "03_best51800_CHAMPION8D.zip",
+      "best51800",
+      "champion",
+      [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "0.689463",
+      "e0273d18ec97ef31db67403ff8184981b42fa281c062e4f76950f059f1a9fe76"
+    ]
+  ],
+  "receipt_bound_history_reverified": [
+    [
+      "04_last56000_TTA8_ONLY.zip",
+      "last56000",
+      "zero",
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "0.676040",
+      "36f85d175e88411c8eb1dd8ddfd0fc4efbb90a6a3c64ea9f492dff92dc2866bd"
+    ],
+    [
+      "05_last56000_CHAMPION_8D.zip",
+      "last56000",
+      "champion",
+      [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "0.689583",
+      "9b2a14bf59b27f0d879eeed132abff501b495206c951d0e59a02e174d9361ee1"
+    ],
+    [
+      "06_last56000_LOCKED_8D.zip",
+      "last56000",
+      "locked",
+      [
+        -0.2,
+        -0.0384,
+        0.0709,
+        0.7,
+        3.6,
+        0.1932,
+        3.3215,
+        -0.5
+      ],
+      "0.689758",
+      "9edb2bef2c1f5de180a9b5683da1272d71ec8ea6bcf68bebacfe2b649fac0208"
+    ]
+  ],
+  "verification": "platform_mIoU_text_from_user; zip sha256 recomputed on server and local; batch-01 three packages reproduce historical values exactly",
+  "anchors": [
+    {
+      "checkpoint": "best51800",
+      "variant": "zero",
+      "mIoU": 0.6776
+    },
+    {
+      "checkpoint": "best51800",
+      "variant": "locked",
+      "mIoU": 0.689567
+    },
+    {
+      "checkpoint": "best51800",
+      "variant": "champion",
+      "mIoU": 0.689463
+    },
+    {
+      "checkpoint": "last56000",
+      "variant": "zero",
+      "mIoU": 0.67604
+    },
+    {
+      "checkpoint": "last56000",
+      "variant": "champion",
+      "mIoU": 0.689583
+    },
+    {
+      "checkpoint": "last56000",
+      "variant": "locked",
+      "mIoU": 0.689758
+    }
+  ],
+  "derived": {
+    "bias_gain_over_zero_best": 1.1967,
+    "bias_gain_over_zero_last": 1.3718,
+    "locked_minus_champion_best": 0.0104,
+    "locked_minus_champion_last": 0.0175,
+    "best_anchor_vs_historical_champion": -0.30549
+  }
+}

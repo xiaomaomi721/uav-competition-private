@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "bundle": "TCA_TARGET_COMPLEMENT_ANCHOR_V4_20261002",
+  "formula_version": "tca-v4-xlogy-zero-safe-all-pixels-selected-plus-gradient-calibrated-complement",
+  "obsolete_bundle_sha256": [
+    "b64e4c67a32ddcb3f9c08704f66066214a36e85f4353ee2794c1c9a1b7f70c52",
+    "d4338788cac9e95ec5158b0c7dce3700855d57b762adc70d47cc05c4c636189e"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "size": 2984,
+      "sha256": "84fe4fda318a6d7bdf5cd8ba0e8f00a8067f5efadf9d072317e207c9e1bd8521"
+    },
+    {
+      "path": "calibrate_tca_mu.py",
+      "size": 8590,
+      "sha256": "f7883f3afd66c9f002bd2444ed4a6945e9e73d7d23583758ec100fdfb33bea00"
+    },
+    {
+      "path": "compare_submission_packages.py",
+      "size": 5449,
+      "sha256": "cac83425bf13143b01ad03e89fe615e0362967bb40962fa1e0fc28e9e1683390"
+    },
+    {
+      "path": "package_tca.py",
+      "size": 8192,
+      "sha256": "a68aceafeda390bf6593f2d1f60ade0648f301a8c9ffce267603db9fd75cee33"
+    },
+    {
+      "path": "tca_common.py",
+      "size": 14900,
+      "sha256": "de418aa43c5b66f5522d089be5019c8c07feb7c106a49611c1811fd6d42b41c1"
+    },
+    {
+      "path": "test_tca_contracts.py",
+      "size": 8104,
+      "sha256": "db89114806cedb78fff813367529e217a233b87597b979b3851e1a48be6b68e4"
+    },
+    {
+      "path": "train_tca.py",
+      "size": 11763,
+      "sha256": "688b8d62d36198bab8c5b3e7ff0b0d18292dd1ef772c059d8ebcdbb87552d66a"
+    },
+    {
+      "path": "执行手册_交队友.md",
+      "size": 9133,
+      "sha256": "425c3eaf4b6790c05bfa5e4a6bb4f8cd703da8695f76f81f7d493bd8b5c395ae"
+    }
+  ],
+  "platform_submission_performed": false
+}

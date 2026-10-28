@@ -1,0 +1,378 @@
+{
+ "schema": "RESCUED_FROM_ARCHIVE_V1",
+ "created": "2026-09-15",
+ "source": "_非决策材料归档_20260914\\原路径镜像",
+ "note": "从 _非决策材料归档_20260914 中救出的、工作区其余位置不存在的文件（按 SHA256 判定）。删除归档前必须先确认本目录内容已妥善保留。 其中 32 个提交包 zip 已于同日归入 提交包/_归档救出_20260915/。",
+ "count": 56,
+ "total_bytes": 150142624,
+ "items": [
+  {
+   "dest": "提交包\\_归档救出_20260915\\Full6996_priority_20260912\\65000_TTA8_LOCKED8D_69_276229.zip",
+   "original_relative": "提交包\\Full6996_priority_20260912\\65000_TTA8_LOCKED8D_69_276229.zip",
+   "sha256": "c32a410e39716a7ce0e46f075ee3cb1d3e91448ca9d36036e3355e8d78e087ed",
+   "bytes": 4472256,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\Full6996_priority_20260912\\69997_TTA8_LOCKED8D_69_276229.zip",
+   "original_relative": "提交包\\Full6996_priority_20260912\\69997_TTA8_LOCKED8D_69_276229.zip",
+   "sha256": "241f618b7a980fb8862460847d092b286bf6c1404edef337d038706793dfa36d",
+   "bytes": 4477911,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\autopack_stage59\\stage59_best_TTA8.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\autopack_stage59\\stage59_best_TTA8.zip",
+   "sha256": "1294e5aebb69c393320824ef46f5eefcb0d7b868ccb2c73a033cab10194013df",
+   "bytes": 4374963,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\autopack_stage59\\stage59_best_TTA8_FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\autopack_stage59\\stage59_best_TTA8_FIXED8D.zip",
+   "sha256": "17a6ee9a6246ae9baf7aff2c3866d5afcbd9e58a7622e1fbbc93828d1159dd98",
+   "bytes": 4322207,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\autopack_stage59\\stage59_last_TTA8.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\autopack_stage59\\stage59_last_TTA8.zip",
+   "sha256": "10f1efa0b34306e5a1b1e6d13ec6696f6fdea28fc7260377614cdeb8243b660d",
+   "bytes": 4374963,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\autopack_stage59\\stage59_last_TTA8_FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\autopack_stage59\\stage59_last_TTA8_FIXED8D.zip",
+   "sha256": "3c38756e18eaed5bd5f9aa7501f7086060dfbe68197989a7f93dbc979485d365",
+   "bytes": 4322207,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\autopack_stage66\\stage66_best_TTA8.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\autopack_stage66\\stage66_best_TTA8.zip",
+   "sha256": "9f7de64e19894cc10cf6d7eb14c25930a9ad5a4e59061c75d7943919b39f6b2c",
+   "bytes": 4355750,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\autopack_stage66\\stage66_best_TTA8_FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\autopack_stage66\\stage66_best_TTA8_FIXED8D.zip",
+   "sha256": "494f0ec0fd269fd17e49a1e82f29851e05d8441d089a3cc17de8af8a022ca85b",
+   "bytes": 4337468,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\autopack_stage66\\stage66_last_TTA8.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\autopack_stage66\\stage66_last_TTA8.zip",
+   "sha256": "4e15c4b29aa46c5429bccf6ef5465a65537ae247b72cf7717df36b770c7c2463",
+   "bytes": 4370841,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\autopack_stage66\\stage66_last_TTA8_FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\autopack_stage66\\stage66_last_TTA8_FIXED8D.zip",
+   "sha256": "e8f96d35255c35f43968cb9b2c456d3774f5aa66a6edbb16f73c67c2c187f613",
+   "bytes": 4337948,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\latecwfa_submission_stage66\\localbest_C_TTA8.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\latecwfa_submission_stage66\\localbest_C_TTA8.zip",
+   "sha256": "a35f6b26a80143b0f68577baa403f52032a587d4a9461da6a41cb7f78c11d113",
+   "bytes": 4379914,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\latecwfa_submission_stage66\\localbest_C_TTA8_FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\latecwfa_submission_stage66\\localbest_C_TTA8_FIXED8D.zip",
+   "sha256": "f5cbc4f5e735817de4aac093db8a7261c11687aa1fb2abe9be30be0cf18d7c37",
+   "bytes": 4361737,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\latecwfa_submission_stage66\\s52000_C_TTA8.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\latecwfa_submission_stage66\\s52000_C_TTA8.zip",
+   "sha256": "b70012e8adc9951ee7b13239f81130b53e96fbd37ea5cf4f9c70adaa2e4683b1",
+   "bytes": 4445261,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\latecwfa_submission_stage66\\s52000_C_TTA8_FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\latecwfa_submission_stage66\\s52000_C_TTA8_FIXED8D.zip",
+   "sha256": "369242e3789b51a6ab18158da76744fa2e5aa34707676cce334e4eec9fc6a286",
+   "bytes": 4416569,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\latecwfa_submission_stage66\\s56000_C_TTA8.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\latecwfa_submission_stage66\\s56000_C_TTA8.zip",
+   "sha256": "310d18734c2ad7c8b50494343f54f4802ed86592fa94165794cf72ef5388a806",
+   "bytes": 4395032,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\latecwfa_submission_stage66\\s56000_C_TTA8_FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\latecwfa_submission_stage66\\s56000_C_TTA8_FIXED8D.zip",
+   "sha256": "6f783728fa7d02a49044df49318f0db237fde12620a41216b6cf246f7829e52f",
+   "bytes": 4362213,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\stage59_submission\\localbest_R_TTA8.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\stage59_submission\\localbest_R_TTA8.zip",
+   "sha256": "0aeea7917733fdc83d7fa0af48fd1235b8a1209c64f6e99fe1ad3ffb62117411",
+   "bytes": 4399144,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\stage59_submission\\localbest_R_TTA8_FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\stage59_submission\\localbest_R_TTA8_FIXED8D.zip",
+   "sha256": "2a9c1b89f95b3c86636d747086bbcb7f9d294addd1fcf8db770e89da32e83859",
+   "bytes": 4346472,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\stage59_submission\\s52000_R_TTA8.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\stage59_submission\\s52000_R_TTA8.zip",
+   "sha256": "caf055b750e680d92836e9432ad531c4c7c694fc80dd041a5113a968595b39c8",
+   "bytes": 4441661,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\stage59_submission\\s52000_R_TTA8_FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\stage59_submission\\s52000_R_TTA8_FIXED8D.zip",
+   "sha256": "87277cbaf62bb176368dc1fa5233b1e41bf1ff3a9148efdefa5b307fca785278",
+   "bytes": 4401793,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\stage59_submission\\s56000_R_TTA8.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\stage59_submission\\s56000_R_TTA8.zip",
+   "sha256": "2c8596192ecffbbb54aaa2c684fdfa6ff4e33ef6f8dec7c56aaf4833486a1a95",
+   "bytes": 4399144,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\stage59_submission\\s56000_R_TTA8_FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\stage59_submission\\s56000_R_TTA8_FIXED8D.zip",
+   "sha256": "d53fc19add24feca1c753d52c315dd877728bd92b21b3a457c93d2ed1f01624c",
+   "bytes": 4346472,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\UPLOAD_ORDER\\01_stage66_s52000_TTA8FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\UPLOAD_ORDER\\01_stage66_s52000_TTA8FIXED8D.zip",
+   "sha256": "369242e3789b51a6ab18158da76744fa2e5aa34707676cce334e4eec9fc6a286",
+   "bytes": 4416569,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\UPLOAD_ORDER\\02_stage59_s56000_TTA8FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\UPLOAD_ORDER\\02_stage59_s56000_TTA8FIXED8D.zip",
+   "sha256": "d53fc19add24feca1c753d52c315dd877728bd92b21b3a457c93d2ed1f01624c",
+   "bytes": 4346472,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\UPLOAD_ORDER\\03_stage66_s51800best_TTA8FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\UPLOAD_ORDER\\03_stage66_s51800best_TTA8FIXED8D.zip",
+   "sha256": "f5cbc4f5e735817de4aac093db8a7261c11687aa1fb2abe9be30be0cf18d7c37",
+   "bytes": 4361737,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\UPLOAD_ORDER\\04_stage66_s56000_TTA8FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\UPLOAD_ORDER\\04_stage66_s56000_TTA8FIXED8D.zip",
+   "sha256": "6f783728fa7d02a49044df49318f0db237fde12620a41216b6cf246f7829e52f",
+   "bytes": 4362213,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\UPLOAD_ORDER\\05_stage59_s52000_TTA8FIXED8D.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\UPLOAD_ORDER\\05_stage59_s52000_TTA8FIXED8D.zip",
+   "sha256": "87277cbaf62bb176368dc1fa5233b1e41bf1ff3a9148efdefa5b307fca785278",
+   "bytes": 4401793,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\UPLOAD_ORDER\\06_stage66_s52000_TTA8only.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\UPLOAD_ORDER\\06_stage66_s52000_TTA8only.zip",
+   "sha256": "b70012e8adc9951ee7b13239f81130b53e96fbd37ea5cf4f9c70adaa2e4683b1",
+   "bytes": 4445261,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\UPLOAD_ORDER\\07_stage59_s56000_TTA8only.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\UPLOAD_ORDER\\07_stage59_s56000_TTA8only.zip",
+   "sha256": "2c8596192ecffbbb54aaa2c684fdfa6ff4e33ef6f8dec7c56aaf4833486a1a95",
+   "bytes": 4399144,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\UPLOAD_ORDER\\08_stage66_s51800best_TTA8only.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\UPLOAD_ORDER\\08_stage66_s51800best_TTA8only.zip",
+   "sha256": "a35f6b26a80143b0f68577baa403f52032a587d4a9461da6a41cb7f78c11d113",
+   "bytes": 4379914,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\UPLOAD_ORDER\\09_stage66_s56000_TTA8only.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\UPLOAD_ORDER\\09_stage66_s56000_TTA8only.zip",
+   "sha256": "310d18734c2ad7c8b50494343f54f4802ed86592fa94165794cf72ef5388a806",
+   "bytes": 4395032,
+   "relocated": true
+  },
+  {
+   "dest": "提交包\\_归档救出_20260915\\stage66_stage59_20260911\\UPLOAD_ORDER\\10_stage59_s52000_TTA8only.zip",
+   "original_relative": "提交包\\stage66_stage59_20260911\\UPLOAD_ORDER\\10_stage59_s52000_TTA8only.zip",
+   "sha256": "caf055b750e680d92836e9432ad531c4c7c694fc80dd041a5113a968595b39c8",
+   "bytes": 4441661,
+   "relocated": true
+  },
+  {
+   "dest": "_从归档救出_20260915\\汇报材料\\全部方案操作复盘_给老师.docx",
+   "original_relative": "文档归档\\07_汇报与复盘\\全部方案操作复盘_给老师.docx",
+   "sha256": "aa94038263dd765d3e9d14b7d25325a2558a156878cef9e44bf2cffadb955902",
+   "bytes": 36407
+  },
+  {
+   "dest": "_从归档救出_20260915\\汇报材料\\全部方案操作复盘_给老师_v3定稿.docx",
+   "original_relative": "文档归档\\07_汇报与复盘\\全部方案操作复盘_给老师_v3定稿.docx",
+   "sha256": "16d7351d59cfed84681c42851660020d57a34264dcbf29e4a458bb7189cbd783",
+   "bytes": 42174
+  },
+  {
+   "dest": "_从归档救出_20260915\\汇报材料\\最优方案全链条处理流程.docx",
+   "original_relative": "文档归档\\07_汇报与复盘\\最优方案全链条处理流程.docx",
+   "sha256": "01394412308f045917376ad4f778896bf6f7d35a0746c7caa2b32491f7f1186b",
+   "bytes": 46524
+  },
+  {
+   "dest": "_从归档救出_20260915\\汇报材料\\最优方案全链条处理流程.pptx",
+   "original_relative": "文档归档\\07_汇报与复盘\\最优方案全链条处理流程.pptx",
+   "sha256": "9a7228bde02ecebabbdc4be234f870cba2506b5eab996d991ca168bc45216413",
+   "bytes": 359040
+  },
+  {
+   "dest": "_从归档救出_20260915\\汇报材料\\最优方案全链条处理流程_备份_0923.pptx",
+   "original_relative": "文档归档\\07_汇报与复盘\\最优方案全链条处理流程_备份_0923.pptx",
+   "sha256": "edac2c44521afa443cd3d03f7aa2ddea3134937675990f125540e79fe4e36bdc",
+   "bytes": 303315
+  },
+  {
+   "dest": "_从归档救出_20260915\\汇报材料\\汇报材料_中期汇报_2026-09-02.docx",
+   "original_relative": "文档归档\\07_汇报与复盘\\汇报材料_中期汇报_2026-09-02.docx",
+   "sha256": "206fed499a8b8bc37a21f26e164154dd24d7e79e5db6871a71e7a0133ee9910f",
+   "bytes": 41487
+  },
+  {
+   "dest": "_从归档救出_20260915\\汇报材料\\老师提问应对准备_2026-09-03.docx",
+   "original_relative": "文档归档\\07_汇报与复盘\\老师提问应对准备_2026-09-03.docx",
+   "sha256": "2d7819c247b0a26b50ae576c8a1cc021a9207306aafe82bba400a18a80a43380",
+   "bytes": 43844
+  },
+  {
+   "dest": "_从归档救出_20260915\\汇报材料\\表格截图用_横向.docx",
+   "original_relative": "文档归档\\07_汇报与复盘\\表格截图用_横向.docx",
+   "sha256": "15bab4fa6c9d1fa66ed29fe8dc5143a8c45bed090badc3c66f55d6f5af4d9892",
+   "bytes": 39769
+  },
+  {
+   "dest": "_从归档救出_20260915\\导师答疑配图\\fig1_loss.png",
+   "original_relative": "导师答疑配图\\fig1_loss.png",
+   "sha256": "f0c4e10313f31a3b515ea2a607cbab8efd67557fb3ad2bc9d951342895a9ebb2",
+   "bytes": 123959
+  },
+  {
+   "dest": "_从归档救出_20260915\\导师答疑配图\\fig2_miou_lr.png",
+   "original_relative": "导师答疑配图\\fig2_miou_lr.png",
+   "sha256": "737cf75e938135cb81618109137db332cd34a970ae21b4efe21efda0095e9ca7",
+   "bytes": 103233
+  },
+  {
+   "dest": "_从归档救出_20260915\\导师答疑配图\\fig3_epoch_concept.png",
+   "original_relative": "导师答疑配图\\fig3_epoch_concept.png",
+   "sha256": "51b99d525e82b74ebbe4b9d1bb8cde3e4dbffd29099e6de6ecdbd19f54996f9b",
+   "bytes": 47986
+  },
+  {
+   "dest": "_从归档救出_20260915\\导师答疑配图\\fig4_数据流讲解.png",
+   "original_relative": "导师答疑配图\\fig4_数据流讲解.png",
+   "sha256": "b8774d5eb132154226734fd92e06858c876c01b4ddfb0fb8246dc04d60554aed",
+   "bytes": 122861
+  },
+  {
+   "dest": "_从归档救出_20260915\\导师答疑配图\\insert_explanation.py",
+   "original_relative": "导师答疑配图\\insert_explanation.py",
+   "sha256": "292ac99c939be9a44fa757ab0db1c0f22fb56528d0c9af332e4d7a036fd57601",
+   "bytes": 3728
+  },
+  {
+   "dest": "_从归档救出_20260915\\导师答疑配图\\make_fig4.py",
+   "original_relative": "导师答疑配图\\make_fig4.py",
+   "sha256": "7250e5197a04d1983ac4b773d511242d77bd79e654146f3f1b285e65b975f61e",
+   "bytes": 2600
+  },
+  {
+   "dest": "_从归档救出_20260915\\导师答疑配图\\无人机语义分割_实验方案与参数详解_导师答疑.docx",
+   "original_relative": "导师答疑配图\\无人机语义分割_实验方案与参数详解_导师答疑.docx",
+   "sha256": "a86945ffbaff86b8eb2c0931e0e8ee4007d82d4d58d80b3a8ad40e24f33d9f29",
+   "bytes": 368604
+  },
+  {
+   "dest": "_从归档救出_20260915\\论文抓取残留\\hm.html",
+   "original_relative": "文档归档\\06_论文抓取残留\\hm.html",
+   "sha256": "22f4654247d15db625ca204403f9879f54834e92dd5dae50048bab76d0ae354c",
+   "bytes": 43575
+  },
+  {
+   "dest": "_从归档救出_20260915\\论文抓取残留\\hm_full.html",
+   "original_relative": "文档归档\\06_论文抓取残留\\hm_full.html",
+   "sha256": "af6179b95992dd09a27687af52525999fb9ab73f17588e582d1978d28dcb5d36",
+   "bytes": 3381604
+  },
+  {
+   "dest": "_从归档救出_20260915\\论文抓取残留\\hm_full.txt",
+   "original_relative": "文档归档\\06_论文抓取残留\\hm_full.txt",
+   "sha256": "2bad288760277ed027c4379bf4c71b0b83975963614ea5c3aeae4377456bc602",
+   "bytes": 951550
+  },
+  {
+   "dest": "_从归档救出_20260915\\论文抓取残留\\hmanet.pdf",
+   "original_relative": "文档归档\\06_论文抓取残留\\hmanet.pdf",
+   "sha256": "af6179b95992dd09a27687af52525999fb9ab73f17588e582d1978d28dcb5d36",
+   "bytes": 3381604
+  },
+  {
+   "dest": "_从归档救出_20260915\\论文抓取残留\\hmanet.txt",
+   "original_relative": "文档归档\\06_论文抓取残留\\hmanet.txt",
+   "sha256": "3cfe0d10ba3d0a0dd7402259bf2755376ae6bfc346af6f246095e52be9f0880d",
+   "bytes": 94937
+  },
+  {
+   "dest": "_从归档救出_20260915\\论文抓取残留\\jl.html",
+   "original_relative": "文档归档\\06_论文抓取残留\\jl.html",
+   "sha256": "880c929020d4b79bf1995656d21d9a6859aab3a9460f941eb0b1a6e5502ee4cc",
+   "bytes": 122
+  },
+  {
+   "dest": "_从归档救出_20260915\\论文抓取残留\\semeda.html",
+   "original_relative": "文档归档\\06_论文抓取残留\\semeda.html",
+   "sha256": "814bd34d747ccbc669aeb829098192b68f09072fb33a248052657ce7cc633c23",
+   "bytes": 162563
+  },
+  {
+   "dest": "_从归档救出_20260915\\论文抓取残留\\semeda.txt",
+   "original_relative": "文档归档\\06_论文抓取残留\\semeda.txt",
+   "sha256": "50373d8dbcce2522abad9941ca4af97072786dcf851edb7154be1a40e1d74b6c",
+   "bytes": 43801
+  },
+  {
+   "dest": "_从归档救出_20260915\\论文抓取残留\\turku.html",
+   "original_relative": "文档归档\\06_论文抓取残留\\turku.html",
+   "sha256": "b39e10065db151515b1a6cf97078121b68ea5c3f8def0402b863fa33797e701c",
+   "bytes": 5615
+  }
+ ]
+}

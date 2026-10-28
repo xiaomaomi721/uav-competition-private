@@ -1,0 +1,22 @@
+{
+  "comparison_type": "RETROSPECTIVE_QUASI_MATCHED",
+  "b3_best": {
+    "step": 54600,
+    "sha256": "a2adfb906d53d86b1f8ce2eb6bfa3bdb7c040e025bc187ee4165c09858ac78f2",
+    "local_miou": 0.8097902977
+  },
+  "b4_best": {
+    "step": 53200,
+    "updates": 53180,
+    "sha256": "d7a63b0c1124f5ab213b027125322ace8ce7cf834f48fcfb45e34b20fdef6000",
+    "local_miou": 0.8154677363630497
+  },
+  "best_to_best_delta_pp": 0.5677,
+  "endpoint_delta_pp": 0.5692,
+  "confound_factors": [
+    "pseudo_mask_symlink_changed_sep8_between_b3_sep5_and_b4_sep26",
+    "architecture_difference_b3_vs_b4",
+    "pretrained_weights_different"
+  ],
+  "not_pure_capacity_delta": true
+}

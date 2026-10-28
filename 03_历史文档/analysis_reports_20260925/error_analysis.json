@@ -1,0 +1,297 @@
+{
+  "model": "alpha050 (0.5*theta_fs + 0.5*D1)",
+  "n_images": 1399,
+  "mIoU": 0.7203,
+  "per_class_iou": {
+    "Background": 0.7176,
+    "Building": 0.8731,
+    "Road": 0.8408,
+    "Water": 0.8954,
+    "Barren": 0.5157,
+    "Vegetation": 0.8597,
+    "Agricultural": 0.7669,
+    "Vehicle": 0.2932
+  },
+  "per_class_precision": {
+    "Background": 0.8979,
+    "Building": 0.9231,
+    "Road": 0.9113,
+    "Water": 0.9349,
+    "Barren": 0.5514,
+    "Vegetation": 0.8965,
+    "Agricultural": 0.7953,
+    "Vehicle": 0.9136
+  },
+  "per_class_recall": {
+    "Background": 0.7814,
+    "Building": 0.9416,
+    "Road": 0.9157,
+    "Water": 0.9549,
+    "Barren": 0.8885,
+    "Vegetation": 0.9544,
+    "Agricultural": 0.9556,
+    "Vehicle": 0.3016
+  },
+  "confusion_matrix": {
+    "rows_gt": [
+      "Background",
+      "Building",
+      "Road",
+      "Water",
+      "Barren",
+      "Vegetation",
+      "Agricultural",
+      "Vehicle"
+    ],
+    "cols_pred": [
+      "Background",
+      "Building",
+      "Road",
+      "Water",
+      "Barren",
+      "Vegetation",
+      "Agricultural",
+      "Vehicle"
+    ],
+    "matrix": [
+      [
+        310400136,
+        17750984,
+        9930235,
+        3828004,
+        15382535,
+        21798496,
+        17562697,
+        598088
+      ],
+      [
+        11218205,
+        247527212,
+        175291,
+        21614,
+        1733878,
+        2004692,
+        169693,
+        22830
+      ],
+      [
+        7672453,
+        347242,
+        123223438,
+        3310,
+        468319,
+        2075043,
+        526478,
+        254410
+      ],
+      [
+        1242688,
+        22359,
+        13947,
+        87511446,
+        384872,
+        757459,
+        1715259,
+        0
+      ],
+      [
+        1859924,
+        106342,
+        87392,
+        34157,
+        26991048,
+        224280,
+        1073750,
+        0
+      ],
+      [
+        9922517,
+        707781,
+        1233679,
+        1582689,
+        2407523,
+        398023676,
+        3079909,
+        64600
+      ],
+      [
+        1954489,
+        19894,
+        65557,
+        423729,
+        1430424,
+        555160,
+        95800501,
+        0
+      ],
+      [
+        1440277,
+        1673718,
+        482811,
+        196203,
+        150043,
+        18546388,
+        533970,
+        9942080
+      ]
+    ]
+  },
+  "top_confusions": [
+    [
+      "Background",
+      "Vegetation",
+      21798496
+    ],
+    [
+      "Vehicle",
+      "Vegetation",
+      18546388
+    ],
+    [
+      "Background",
+      "Building",
+      17750984
+    ],
+    [
+      "Background",
+      "Agricultural",
+      17562697
+    ],
+    [
+      "Background",
+      "Barren",
+      15382535
+    ],
+    [
+      "Building",
+      "Background",
+      11218205
+    ],
+    [
+      "Background",
+      "Road",
+      9930235
+    ],
+    [
+      "Vegetation",
+      "Background",
+      9922517
+    ],
+    [
+      "Road",
+      "Background",
+      7672453
+    ],
+    [
+      "Background",
+      "Water",
+      3828004
+    ],
+    [
+      "Vegetation",
+      "Agricultural",
+      3079909
+    ],
+    [
+      "Vegetation",
+      "Barren",
+      2407523
+    ],
+    [
+      "Road",
+      "Vegetation",
+      2075043
+    ],
+    [
+      "Building",
+      "Vegetation",
+      2004692
+    ],
+    [
+      "Agricultural",
+      "Background",
+      1954489
+    ],
+    [
+      "Barren",
+      "Background",
+      1859924
+    ],
+    [
+      "Building",
+      "Barren",
+      1733878
+    ],
+    [
+      "Water",
+      "Agricultural",
+      1715259
+    ],
+    [
+      "Vehicle",
+      "Building",
+      1673718
+    ],
+    [
+      "Vegetation",
+      "Water",
+      1582689
+    ]
+  ],
+  "error_distance_overall": {
+    "total_error_pixels": 167538287,
+    "boundary_le3px_pct": 21.3,
+    "mid_3to10px_pct": 19.8,
+    "interior_gt10px_pct": 58.9
+  },
+  "per_class_error_distance": {
+    "Background": {
+      "total_errors": 86851039,
+      "boundary_le3_pct": 21.9,
+      "mid_3to10_pct": 21.4,
+      "interior_gt10_pct": 56.7
+    },
+    "Building": {
+      "total_errors": 15346203,
+      "boundary_le3_pct": 26.5,
+      "mid_3to10_pct": 23.3,
+      "interior_gt10_pct": 50.2
+    },
+    "Road": {
+      "total_errors": 11347255,
+      "boundary_le3_pct": 35.2,
+      "mid_3to10_pct": 27.3,
+      "interior_gt10_pct": 37.5
+    },
+    "Water": {
+      "total_errors": 4136584,
+      "boundary_le3_pct": 33.0,
+      "mid_3to10_pct": 31.5,
+      "interior_gt10_pct": 35.5
+    },
+    "Barren": {
+      "total_errors": 3385845,
+      "boundary_le3_pct": 12.9,
+      "mid_3to10_pct": 17.8,
+      "interior_gt10_pct": 69.3
+    },
+    "Vegetation": {
+      "total_errors": 18998698,
+      "boundary_le3_pct": 27.8,
+      "mid_3to10_pct": 23.6,
+      "interior_gt10_pct": 48.6
+    },
+    "Agricultural": {
+      "total_errors": 4449253,
+      "boundary_le3_pct": 12.0,
+      "mid_3to10_pct": 15.0,
+      "interior_gt10_pct": 73.0
+    },
+    "Vehicle": {
+      "total_errors": 23023410,
+      "boundary_le3_pct": 4.4,
+      "mid_3to10_pct": 4.1,
+      "interior_gt10_pct": 91.6
+    }
+  }
+}

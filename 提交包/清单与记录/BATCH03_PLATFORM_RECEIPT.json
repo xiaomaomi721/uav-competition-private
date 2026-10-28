@@ -1,0 +1,79 @@
+{
+  "batch": "SUBMIT_BATCH_03",
+  "verdict": "HISTORICAL_CHAMPION_REPRODUCED",
+  "receipts": [
+    {
+      "file": "07_stage23_best56000_ZERO.zip",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "platform_mIoU": 0.678023,
+      "zip_sha256": "d42f41d84bb614e0b5e5621fdd63760efbb68db3ee4294e00118cf4007987e6f"
+    },
+    {
+      "file": "08_stage23_best56000_CHAMPION8D.zip",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "platform_mIoU": 0.692812,
+      "zip_sha256": "02ccbef9ebb9b36faed26b61c8319dd0835f5e66fac1e38c953a87264b993c9e"
+    }
+  ],
+  "derived": {
+    "stage23_bias_gain_pp": 1.4789,
+    "historical_record": "0.69281290",
+    "reproduction_delta_pp": -9e-05,
+    "reproduction": "exact to six decimals",
+    "body_comparison_zero_bias": {
+      "stage23": 0.678023,
+      "rare_best51800": 0.6776,
+      "stage23_advantage_pp": 0.0423
+    },
+    "bias_gain_comparison": {
+      "stage23": 1.4789,
+      "rare_best": 1.1967,
+      "rare_last": 1.3718
+    }
+  },
+  "anchor_table": [
+    {
+      "model": "Stage23 best56000",
+      "zero": 67.8023,
+      "champion_vec": 69.2812,
+      "locked_vec": null
+    },
+    {
+      "model": "Rare best51800",
+      "zero": 67.76,
+      "champion_vec": 68.9463,
+      "locked_vec": 68.9567
+    },
+    {
+      "model": "Rare last56000",
+      "zero": 67.604,
+      "champion_vec": 68.9583,
+      "locked_vec": 68.9758
+    }
+  ],
+  "conclusions": [
+    "The historical 69.281290 is genuine and now has a receipt-bound reproduction.",
+    "Stage23 body is slightly stronger than Rare best at zero bias (+0.0423pp), and clearly stronger than Rare last (+0.1983pp).",
+    "The champion bias gains +1.4789pp on Stage23 versus +1.1967pp on Rare; the winner came from the largest bias response, not the strongest body.",
+    "Every strong anchor lands 68.94-69.28, and each model's existing vector is already near its own optimum."
+  ],
+  "scope": "DIAGNOSTIC_ONLY_NOT_ELIGIBILITY"
+}

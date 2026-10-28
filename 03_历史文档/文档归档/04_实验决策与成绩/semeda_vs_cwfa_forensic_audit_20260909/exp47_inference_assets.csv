@@ -1,0 +1,5 @@
+asset_type,path,sha256,tta,calibration,online_score,status
+raw single-view,/home/jhy/submit_exp47/predictions(500 test),UNKNOWN,NO,NO,67.796(标准),CONFIRMED
+val1399 single-view,semeda_vs_cwfa/exp47_val_pred(1399 val),UNKNOWN,NO,NO,N/A(本审计生成),CONFIRMED
+TTA8-only,NOT_FOUND(calibv2_exp47是TTA8+校准非TTA8-only),UNKNOWN,TTA8(D4),NO,无,NO_CONFIRMED_EXP47_TTA8_ONLY_RESULT
+TTA8+校准,/home/jhy/calibv2_exp47(500 test),UNKNOWN,TTA8(D4),YES(6维锁定-0.0384版),69.0776,CONFIRMED

@@ -1,0 +1,16 @@
+{
+  "experiment_id": "stage47_w1_exp47_b3_semeda_formal_seed42",
+  "checkpoint_sha256": "27e1441c008ab1b90eaa18bb45f44d6e9163f635ea544f1b6469a39cbd63d13e",
+  "calibration_source_file": "/home/jhy/launch_exp47_package.sh (实际--prior-bias命令)",
+  "class_order": ["Background", "Building", "Road", "Water", "Barren", "Vegetation", "Agricultural", "Vehicle"],
+  "exp47_calibration_vector": [-0.2000, -0.0384, 0.0709, 0.7000, 3.6000, 0.4000, 3.3215, -0.5000],
+  "calibration_formula": "logits += bias_tensor (rot_tta.py, TTA融合后)",
+  "calibration_scale": "未用(显式--prior-bias时prior_scale不生效)",
+  "TTA_type": "rot_tta.py D4 8视图(4旋转x2镜像)",
+  "TTA_and_calibration_order": "8视图平均logits -> +bias -> argmax",
+  "online_score_calibrated": 69.0776,
+  "online_score_source": "成绩表§4.11 Exp47旋转TTA8锁定校准版=69.0776",
+  "run_config_path": "/home/jhy/calibv2_exp47/run_config.yaml",
+  "calib_predictions_dir": "/home/jhy/calibv2_exp47/predictions (500张)",
+  "note": "run_config只记n_views=8/prior_scale=3.0不记bias值; bias向量来源=launch脚本实际执行命令"
+}

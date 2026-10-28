@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "exception_id": "REQUIRED",
+  "run_id": "REQUIRED",
+  "original_gate_or_contract_status": "REQUIRED_AND_IMMUTABLE",
+  "requested_exception": "REQUIRED",
+  "reason": "REQUIRED",
+  "requested_by": "REQUIRED",
+  "authorized_by_user": false,
+  "authorized_at_utc": null,
+  "permitted_actions": [],
+  "forbidden_actions": ["AUTO_SUBMIT", "SILENT_THRESHOLD_RELAXATION", "OVERWRITE_FAILED_OUTPUT"],
+  "note": "An exception never rewrites the original FAIL or contract deviation as PASS."
+}

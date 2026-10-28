@@ -1,0 +1,157 @@
+{
+  "checkpoint_sha256": "70f45afcddfb1711a0b8576f2e335ce5fa3f88df56c48724b761716e10f34b14",
+  "bstar": [
+    -0.20000000298023224,
+    0.10000000149011612,
+    0.07090000063180923,
+    0.4000000059604645,
+    3.5999999046325684,
+    0.4000000059604645,
+    2.121500015258789,
+    -0.5
+  ],
+  "bstar_applied_once": true,
+  "test2_count": 1300,
+  "global_flip_rate": 0.019326148399939905,
+  "per_image_flip": {
+    "mean": 0.019326148399939905,
+    "median": 0.00993204116821289,
+    "p90": 0.043215465545654315,
+    "p95": 0.06258459091186523,
+    "max": 0.43488025665283203
+  },
+  "d1_class_share_pct": [
+    31.842073367192196,
+    17.87003370431753,
+    6.896205095144419,
+    8.002388073847843,
+    1.5826240686269908,
+    22.272796924297626,
+    10.98791423210731,
+    0.5459645344660833
+  ],
+  "t278_class_share_pct": [
+    32.13590820019062,
+    17.795386754549465,
+    6.870304107666016,
+    7.867783913245568,
+    1.556773039010855,
+    22.14190725179819,
+    11.093933545626127,
+    0.538003187913161
+  ],
+  "share_delta_pp": [
+    -0.2938348329984244,
+    0.0746469497680664,
+    0.02590098747840308,
+    0.13460416060227498,
+    0.025851029616135834,
+    0.1308896724994355,
+    -0.10601931351881788,
+    0.007961346552922244
+  ],
+  "share_relative_change_pct": [
+    -0.9143504865895822,
+    0.4194736017691923,
+    0.3769991411224762,
+    1.7108268616232107,
+    1.6605522428986248,
+    0.5911400089023753,
+    -0.9556512402277445,
+    1.4797954234812605
+  ],
+  "top_transitions": [
+    {
+      "from": "Agricultural",
+      "to": "Background",
+      "pixels": 3579499
+    },
+    {
+      "from": "Background",
+      "to": "Vegetation",
+      "pixels": 3442571
+    },
+    {
+      "from": "Background",
+      "to": "Building",
+      "pixels": 2745322
+    },
+    {
+      "from": "Background",
+      "to": "Agricultural",
+      "pixels": 2525594
+    },
+    {
+      "from": "Background",
+      "to": "Road",
+      "pixels": 1925413
+    },
+    {
+      "from": "Background",
+      "to": "Water",
+      "pixels": 1910001
+    },
+    {
+      "from": "Building",
+      "to": "Background",
+      "pixels": 1837905
+    },
+    {
+      "from": "Road",
+      "to": "Background",
+      "pixels": 1552365
+    },
+    {
+      "from": "Vegetation",
+      "to": "Background",
+      "pixels": 1375953
+    },
+    {
+      "from": "Barren",
+      "to": "Background",
+      "pixels": 964043
+    },
+    {
+      "from": "Background",
+      "to": "Barren",
+      "pixels": 854804
+    },
+    {
+      "from": "Vegetation",
+      "to": "Building",
+      "pixels": 566528
+    },
+    {
+      "from": "Agricultural",
+      "to": "Barren",
+      "pixels": 474591
+    },
+    {
+      "from": "Building",
+      "to": "Vegetation",
+      "pixels": 430034
+    },
+    {
+      "from": "Agricultural",
+      "to": "Vegetation",
+      "pixels": 247327
+    }
+  ],
+  "changed_pixel_conf_t278": {
+    "mean": 0.5714638233184814,
+    "median": 0.5468976497650146,
+    "p_ge_0.90": 0.010609026241654893,
+    "p_ge_0.95": 0.002911672407209387,
+    "p_ge_0.99": 0.00018778218562831442
+  },
+  "confidence_and_entropy": {
+    "d1_mean_max_conf": 0.9521450400352478,
+    "t278_mean_max_conf": 0.9498497843742371,
+    "d1_mean_entropy": 0.12110456079244614,
+    "t278_mean_entropy": 0.12686754763126373
+  },
+  "zip_sha256": "fa34f98fe119650d8eda865ae2ead33bcfd45023f02b67f3e68fbdfa3bd5308c",
+  "zip_path": "/home/jhy/rare_diag_20260915/round2_20260923/D1_2k_probe/package/D1_2k_theta278_test2.zip",
+  "runtime_sec": 182.76649641990662,
+  "red_flags": []
+}

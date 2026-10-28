@@ -1,0 +1,27 @@
+{
+  "submission_name": "exp16_best_f3cd64e5",
+  "submission_dir": "/home/jhy/deploy_exp16/exp16_b2_upernet_20260825T042256Z_e043cbc652f3/stage15_exp16_submissions/submission_exp16_best_f3cd64e5/",
+  "submission_zip": "/home/jhy/deploy_exp16/exp16_b2_upernet_20260825T042256Z_e043cbc652f3/stage15_exp16_submissions/submission_exp16_best_f3cd64e5/exp16_best_f3cd64e5.zip",
+  "submission_zip_sha256": "9a13be0d9489b18830f001fd12ea25e2560d3fb4149e55f79e33a3ad02dcb701",
+  "submission_zip_size_bytes": 5080052,
+  "checkpoint_sha256": "f3cd64e5d7435540ed75f6d631212633090d7880c626ddd6f7436dfd8787bc20",
+  "inference": {
+    "test_images": 500,
+    "TTA": false,
+    "ensemble": false,
+    "resolution": "1024x1024 native",
+    "single_view": true,
+    "calibration": "none",
+    "postprocessing": false,
+    "label_mapping": "official = train_id + 1 (1-8)"
+  },
+  "package_integrity_verified": {
+    "png_count": 500,
+    "file_names": "test1_1.png ... test1_500.png",
+    "value_range": "1-8 (no 0, no 255, no >8)",
+    "mode": "L",
+    "format": "PNG",
+    "image_size": "1024x1024"
+  },
+  "note": "包完整性经实测验证(500张/值域1-8/无255), 与历史成功提交格式一致"
+}

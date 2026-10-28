@@ -1,0 +1,58 @@
+{
+  "image_count": 1300,
+  "total_pixels": 1363148800,
+  "change_pct": {
+    "A05_to_ArmB": 2.8643,
+    "ArmB_to_ROUND2": 1.6823,
+    "A05_to_ROUND2": 3.5728
+  },
+  "of_A05_to_ArmB_changed_pixels_pct": {
+    "ROUND2_kept_ArmB": 82.1545,
+    "ROUND2_reverted_to_A05": 16.1498,
+    "ROUND2_chose_third_class": 1.6957
+  },
+  "ROUND2_new_changes_pct_of_all_pixels": 1.1712,
+  "predicted_class_area_pct": {
+    "Background": {
+      "A05_pct": 31.8774,
+      "ArmB_pct": 30.17,
+      "ROUND2_pct": 29.6947
+    },
+    "Building": {
+      "A05_pct": 17.8906,
+      "ArmB_pct": 18.0118,
+      "ROUND2_pct": 17.9424
+    },
+    "Road": {
+      "A05_pct": 6.898,
+      "ArmB_pct": 6.9356,
+      "ROUND2_pct": 6.8367
+    },
+    "Water": {
+      "A05_pct": 7.95,
+      "ArmB_pct": 8.3431,
+      "ROUND2_pct": 8.4593
+    },
+    "Barren": {
+      "A05_pct": 1.5763,
+      "ArmB_pct": 1.8669,
+      "ROUND2_pct": 2.0613
+    },
+    "Vegetation": {
+      "A05_pct": 22.2183,
+      "ArmB_pct": 22.1538,
+      "ROUND2_pct": 22.2537
+    },
+    "Agricultural": {
+      "A05_pct": 11.0449,
+      "ArmB_pct": 11.9715,
+      "ROUND2_pct": 12.2025
+    },
+    "Vehicle": {
+      "A05_pct": 0.5445,
+      "ArmB_pct": 0.5472,
+      "ROUND2_pct": 0.5493
+    }
+  },
+  "scope_warning": "No target ground truth: changes, area, and agreement cannot establish correctness."
+}

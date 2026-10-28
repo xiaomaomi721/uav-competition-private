@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "run_id": "REQUIRED",
+  "status": "FAILED_OR_NONE",
+  "failure": {
+    "stage": "PREFLIGHT_SMOKE_FORMAL_EVAL_INFERENCE_PACKAGE_OR_NONE",
+    "detected_at_utc": null,
+    "last_successful_loop_step": null,
+    "last_successful_optimizer_update": null,
+    "exception_type": null,
+    "message": null,
+    "traceback_path": "EXCEPTION.txt",
+    "root_cause_status": "VERIFIED_HYPOTHESIS_OR_NONE",
+    "trusted_artifacts": [],
+    "untrusted_artifacts": [],
+    "automatic_retry_performed": false,
+    "recovery_requires_user_authorization": true
+  }
+}

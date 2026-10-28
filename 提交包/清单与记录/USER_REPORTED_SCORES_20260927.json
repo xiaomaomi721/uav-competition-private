@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-09-27",
+  "evidence_level": "USER_REPORTED",
+  "platform_submission_id": null,
+  "platform_submitted_at": null,
+  "platform_screenshot": null,
+  "records": [
+    {
+      "candidate": "A05_WEIGHT_alpha05",
+      "score_percent": 70.775011,
+      "status": "CURRENT_COMPLIANT_CHAMPION",
+      "artifact_validity": "VALID",
+      "checkpoint_sha256": "023b65800d434069f0fb0ad881083fd439b89011f731feebc88d6e9217727134",
+      "zip_path": "../批次_20260926_A05_D1Barren/A05_WEIGHT_alpha05_test2.zip",
+      "zip_sha256": "9069b2475cd7b0c8060d4f9105f7a9f9a54cb4488d0632ce2aafacb6bb3d2277"
+    },
+    {
+      "candidate": "B4_STAGE56_6097_BEST53200_D4_ZERO",
+      "score_percent": 68.194181,
+      "status": "SCORED_CLOSED_BELOW_CHAMPION",
+      "artifact_validity": "VALID_SCORED_PACKAGE",
+      "checkpoint_sha256": "d7a63b0c1124f5ab213b027125322ace8ce7cf834f48fcfb45e34b20fdef6000",
+      "zip_path": "../批次_20260927_B4/B4_STAGE56_6097_BEST53200_D4_ZERO_test2.zip",
+      "zip_sha256": "0e3da5d1259c8991dbd10d4135fdd0d754aea69dec5fb5aaa161ca4c8560b65f",
+      "delta_vs_a05_pp": -2.58083
+    },
+    {
+      "candidate": "MIC_TREAT_S20260927_step8000_D4_TTA8_Bstar",
+      "score_percent": 6.976285,
+      "status": "INVALID_FOR_MODEL_EVALUATION",
+      "artifact_validity": "INVALID_INPUT_OUTPUT_BINDING_AND_D4",
+      "do_not_submit_again": true,
+      "checkpoint_sha256": "e17fa56fbd809e9b8362f9d6ea3cf8723b9da3e1024ec3d8c1580825d1d455d0",
+      "zip_path": "../对照与诊断_不提交/MIC_INVALID_20260927/MIC_TREAT_S20260927_step8000_D4_TTA8_Bstar_test2_INVALID.zip",
+      "zip_sha256": "16aba189b3e3e9eb25198d17a19dae06d547b34eb1b673b1c636010be281fae5",
+      "failure": {
+        "primary": "lexicographic input enumeration with numeric output renaming misbound 1299 of 1300 predictions",
+        "secondary": "eighth D4 view duplicated a transform and used a non-inverse undo",
+        "training_collapse_supported": false,
+        "method_result_determined": false
+      }
+    },
+    {
+      "candidate": "MIC_TREAT_S20260927_step8000_FIXED",
+      "score_percent": null,
+      "status": "LOCAL_VERIFIED_AWAITING_MANUAL_SUBMISSION_DECISION",
+      "platform_submission_performed": false,
+      "checkpoint_sha256": "e17fa56fbd809e9b8362f9d6ea3cf8723b9da3e1024ec3d8c1580825d1d455d0",
+      "zip_path": "../待提交/批次_20260927_MIC_FIXED/MIC_TREAT_S20260927_step8000_D4_TTA8_Bstar_FIXED_test2.zip",
+      "zip_sha256": "c9b67be903090722834c8d4e4f3f9d82e886559320202180fe919e0bfc667e41"
+    }
+  ]
+}

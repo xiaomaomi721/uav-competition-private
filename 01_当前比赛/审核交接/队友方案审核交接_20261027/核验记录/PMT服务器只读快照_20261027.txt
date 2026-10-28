@@ -1,0 +1,28 @@
+{
+  "stage": "formal",
+  "unix_time": 1793021581.0428665,
+  "status": "failed",
+  "exit_code": 1
+}{"update": 2000, "loss_avg": 21.816026371717452, "grad_norm": 44.548736572265625, "elapsed_s": 2065.040330886841, "peak_MiB": 12984.7392578125, "lr": 1.7893943375134147e-05}
+{"eval_done": 200, "elapsed_s": 26.310673236846924}
+{"eval_done": 400, "elapsed_s": 51.95854353904724}
+{"eval_done": 600, "elapsed_s": 77.25673484802246}
+{"eval_done": 800, "elapsed_s": 102.48139643669128}
+{"eval_done": 1000, "elapsed_s": 127.55027937889099}
+Traceback (most recent call last):
+  File "/home/jhy/audits/codex_pmt_run_20261026/train.py", line 148, in <module>
+    if __name__=='__main__':main()
+  File "/home/jhy/audits/codex_pmt_run_20261026/train.py", line 140, in main
+    if step+1 in [2000,4000,8000]:evaluate(net,val,out/f'val_{step+1:05d}.json')
+  File "/home/jhy/.venvs/uavseg/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/jhy/audits/codex_pmt_run_20261026/train.py", line 75, in evaluate
+    if i%100==0:guard()
+  File "/home/jhy/audits/codex_pmt_run_20261026/train.py", line 27, in guard
+    raise RuntimeError('GPU0 now has another process; stopping our own job: '+line)
+RuntimeError: GPU0 now has another process; stopping our own job: GPU-bc304d79-c807-968a-eaad-d2c2ecc5a984, 3803215
+8a36c910dbf608bd5d78bf03603a32d926b31fc2f377a68f8056361ef0f2730f  /home/jhy/audits/codex_pmt_run_20261026/formal/step_02000.pt
+0, GPU-bc304d79-c807-968a-eaad-d2c2ecc5a984, 18 MiB, 0 %
+1, GPU-c6eee6d9-9fa7-69d8-0ebc-a649e3528778, 18 MiB, 0 %
+2, GPU-cacb7500-f2e9-c482-d85c-53c7f8d1def9, 15 MiB, 0 %
+3, GPU-32853ccf-4c4f-1328-8d75-04efe9d5298f, 15 MiB, 0 %

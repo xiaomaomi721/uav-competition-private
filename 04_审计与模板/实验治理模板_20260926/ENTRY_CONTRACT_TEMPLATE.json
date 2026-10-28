@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "status": "DRAFT_NOT_AUTHORIZED",
+  "run_id": "REQUIRED",
+  "pair_id": "TASTE_A05_S42_8K",
+  "role": "CONTROL_OR_TREATMENT",
+  "request_sha256": "REQUIRED",
+  "method_card_sha256": "REQUIRED",
+  "exact_command": ["REQUIRED"],
+  "entrypoint": {"path": "REQUIRED", "sha256": "REQUIRED"},
+  "source_snapshot": {"path": "REQUIRED", "sha256": "REQUIRED"},
+  "resolved_config": {"path": "REQUIRED", "sha256": "REQUIRED"},
+  "parent_checkpoint": {
+    "path": "REQUIRED",
+    "sha256": "023b65800d434069f0fb0ad881083fd439b89011f731feebc88d6e9217727134"
+  },
+  "data": {
+    "source_root": "REQUIRED",
+    "source_manifest_sha256": "REQUIRED",
+    "source_split_path": "REQUIRED",
+    "source_split_sha256": "REQUIRED",
+    "source_count": 5597,
+    "donor_domain": "source_OR_test2",
+    "donor_manifest_sha256": "REQUIRED",
+    "test2_ground_truth_used": false
+  },
+  "gpu_policy": {
+    "physical_index": 2,
+    "uuid": "REQUIRED_FROM_PREFLIGHT",
+    "cuda_device_order": "PCI_BUS_ID",
+    "cuda_visible_devices": "2",
+    "logical_device": "cuda:0",
+    "wrong_gpu_action": "FAIL_BEFORE_OUTPUT_CREATION"
+  },
+  "training": {
+    "seed": 42,
+    "target_successful_optimizer_updates": 8000,
+    "batch_size": "REQUIRED",
+    "gradient_accumulation_steps": "REQUIRED",
+    "amp": true,
+    "optimizer": "AdamW",
+    "learning_rate": 0.000005,
+    "weight_decay": 0.01,
+    "scheduler": "polynomial",
+    "trainable_prefixes": ["segformer.stages.0.", "segformer.stages.1."],
+    "frozen_prefixes": ["segformer.stages.2.", "segformer.stages.3.", "decode_head."],
+    "loss": "0.5*CE(original_source,GT)+0.5*CE(styled_source,GT)",
+    "beta": 0.01,
+    "rho_after_warmup": "Uniform(0.25,0.50)",
+    "checkpoint_selection": "FIXED_8000_SUCCESSFUL_UPDATE_ENDPOINT"
+  },
+  "allowed_pair_diff": ["run_id", "role", "output_dir", "data.donor_domain", "data.donor_manifest_sha256"],
+  "resume_policy": "NO_AUTOMATIC_RESUME_OR_RETRY_USER_AUTHORIZATION_REQUIRED",
+  "automatic_submission": false,
+  "output_dir": "REQUIRED_NONEXISTENT_PATH",
+  "required_execution_report": "EXECUTION_REPORT.md"
+}

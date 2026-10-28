@@ -1,0 +1,317 @@
+[
+  {
+    "path": "00_给另一位AI_从这里开始.md",
+    "bytes": 2033,
+    "sha256": "f895df704b4bdd5f69ff1f1a9b591d9570c58b7edf1df304b46554fe2c258fac"
+  },
+  {
+    "path": "01_审核报告与最新成绩.md",
+    "bytes": 20427,
+    "sha256": "f2f054510e1702b35a9c08d76350a2df097183522879927aafa013bdbeb4788e"
+  },
+  {
+    "path": "PDF文本\\【发布版】算法挑战赛道复赛获奖名单及半决赛赛程安排通知.md",
+    "bytes": 3277,
+    "sha256": "16eb8c461366b4bb7d8d4f4dfd95f442959c400f9bdffa189d9ed8ddc678dc20"
+  },
+  {
+    "path": "PDF文本\\附件2：AIC算法挑战赛道半决赛作品提交要求-1.md",
+    "bytes": 2556,
+    "sha256": "facc8b0c18b3203a03b55083dfd034f04fabec4d9e4b201d3eb682520eacebe7"
+  },
+  {
+    "path": "PMT实施记录\\code_sha256.json",
+    "bytes": 1597,
+    "sha256": "0d61ef0a96ea131ecc45f9b2a54b35dd846f039a4b4d88d9dbf2dd49fc74c732"
+  },
+  {
+    "path": "PMT实施记录\\DINOV3_LICENSE.md",
+    "bytes": 7504,
+    "sha256": "cd6ed5bb7a326be5b22799c57034da7080ac0f4dc20faf2f1aa5d0ccece2383c"
+  },
+  {
+    "path": "PMT实施记录\\PMT_LICENSE",
+    "bytes": 1095,
+    "sha256": "c087c86b9a0477161d6328c579d939ee0fda3990e81486a4877956f4c9e8df06"
+  },
+  {
+    "path": "PMT实施记录\\README.md",
+    "bytes": 4803,
+    "sha256": "783da5b6ac5abccbfbf4a37be6a4dd4fcac54b3982ff9dc805509f0b6cc57677"
+  },
+  {
+    "path": "PMT实施记录\\source_integrity.json",
+    "bytes": 776,
+    "sha256": "fb946c23c21dae44a667035f316f5356b18fced7808f4ecbdfbdf4c7aeb2be88"
+  },
+  {
+    "path": "PMT实施记录\\status.json",
+    "bytes": 98,
+    "sha256": "87f04961d9d847ff6010912dd95fe0875d7ac40da2b295411811a22ffd757253"
+  },
+  {
+    "path": "PMT实施记录\\train.jsonl",
+    "bytes": 17752,
+    "sha256": "9b619ae9883e2b98fb2f8cd7bd4fcf0d99453c1cc897228192569fa1ab361017"
+  },
+  {
+    "path": "PMT实施记录\\val_02000_recovered_20261027.json",
+    "bytes": 3060,
+    "sha256": "e6698c1411c7c0d42aab2f9896de8e7231faf2b0c5c9213431cd44956601fd12"
+  },
+  {
+    "path": "PMT实施记录\\val_02000_saved_mask_20261027.json",
+    "bytes": 3149,
+    "sha256": "4a3c854506432b19b412d41fb1e775f917d78db063e594ef594fb32c51799bea"
+  },
+  {
+    "path": "PMT实施记录\\代码\\audit_source.py",
+    "bytes": 1526,
+    "sha256": "0798aa925a41ffdc4c1675a456d2801e738def17b12a0ab4e4ee6ff746462147"
+  },
+  {
+    "path": "PMT实施记录\\代码\\backbone.py",
+    "bytes": 3286,
+    "sha256": "c4a8b694d800983be43ca88090932ccd1cbff937b23d1b769705f1b423637821"
+  },
+  {
+    "path": "PMT实施记录\\代码\\evaluate_existing.py",
+    "bytes": 959,
+    "sha256": "08e9ccb35d701857bfcdabeb24e251bff38bc0f176b47e0c4c5426f83021201d"
+  },
+  {
+    "path": "PMT实施记录\\代码\\evaluate_saved_mask.py",
+    "bytes": 2095,
+    "sha256": "39f95eb092476df02b1c7006f57f44005e6561dc61994c8356934b7589104881"
+  },
+  {
+    "path": "PMT实施记录\\代码\\inspect_data_decoder.py",
+    "bytes": 604,
+    "sha256": "e4e390df3d7992b5c9db2d3997e086ff1363e0ca576dbefc4e4e8483218d113e"
+  },
+  {
+    "path": "PMT实施记录\\代码\\inspect_models.py",
+    "bytes": 650,
+    "sha256": "a30ea745f4cfd10f33de6d0b4330dffdf29aeb991803d38cb95f0fa152cc7e2b"
+  },
+  {
+    "path": "PMT实施记录\\代码\\launch.py",
+    "bytes": 1157,
+    "sha256": "1ba48b7b951ddb9f1188c780c3ad4bc19a2553c2010811e186f8b0181835488a"
+  },
+  {
+    "path": "PMT实施记录\\代码\\loss.py",
+    "bytes": 2936,
+    "sha256": "1bce16c6ed0dc982f178475f293d115558415412253ad0e631a4d2ab43305d9d"
+  },
+  {
+    "path": "PMT实施记录\\代码\\model.py",
+    "bytes": 2098,
+    "sha256": "0452a5c5bd0288b07ee884c9c675938b04120a71b663cb175e10ff8b03821a07"
+  },
+  {
+    "path": "PMT实施记录\\代码\\models\\__init__.py",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "PMT实施记录\\代码\\models\\layers.py",
+    "bytes": 9856,
+    "sha256": "03f382e6491027623ed69359c648bf19eb764376e543f6d1451680f9a259764a"
+  },
+  {
+    "path": "PMT实施记录\\代码\\models\\pmd.py",
+    "bytes": 7724,
+    "sha256": "1a91d58f51743cdf3c50868b1e0645f2b5266e7599816c5ceb416cc9e1fe53c0"
+  },
+  {
+    "path": "PMT实施记录\\代码\\models\\utils.py",
+    "bytes": 9404,
+    "sha256": "3b006748c8ba140e041d2e4cd15d3b67070f34bc946e93e9f6c4f105cd018b51"
+  },
+  {
+    "path": "PMT实施记录\\代码\\no_detected_train_overlap.txt",
+    "bytes": 3025,
+    "sha256": "369d670070c77b428025661b6467ba745c7e7181bb2f36b01f9d4652ae9b3e73"
+  },
+  {
+    "path": "PMT实施记录\\代码\\train.py",
+    "bytes": 9752,
+    "sha256": "016fd7640ee3a81dc459e5051a851fdab2183931a8aa5c9bc43153b46b03aad0"
+  },
+  {
+    "path": "PMT实施记录\\前期分析\\分析_20261026_论文依据.md",
+    "bytes": 15160,
+    "sha256": "e2fb532a54fb24c52ddc8ad0c9d549650aa1a237f5661da2933e67688cd7ea9f"
+  },
+  {
+    "path": "PMT实施记录\\前期分析\\半决赛72分_当前下一步方案_2026-10-26.md",
+    "bytes": 15171,
+    "sha256": "83bbc0808b938ab2e67e6e5cc9af403c02467fc3dd7c68fddf5780a69e391d70"
+  },
+  {
+    "path": "PMT实施记录\\前期分析\\半决赛实测诊断与下一步建议_2026-10-26.md",
+    "bytes": 19674,
+    "sha256": "6cb0952ea90dd9131a2f9b0f0e7cf36c36c6ea79e56553b1d20d2e31b60314e8"
+  },
+  {
+    "path": "PMT实施记录\\前期分析\\半决赛独立新模型方案与研究依据_2026-10-26.md",
+    "bytes": 19008,
+    "sha256": "d982a362306750d44d6629a6468425aa5619679071213ade6346ecdf04f92d3f"
+  },
+  {
+    "path": "PMT实施记录\\前期分析\\队友M2F工作核查_2026-10-26.md",
+    "bytes": 6395,
+    "sha256": "e34a64773c0f5b73ad2c6e16dcadb2b3cd416a81518821a64f0e65bd5125effa"
+  },
+  {
+    "path": "PMT实施记录\\半决赛独立新模型方案与研究依据_2026-10-26.md",
+    "bytes": 19008,
+    "sha256": "d982a362306750d44d6629a6468425aa5619679071213ade6346ecdf04f92d3f"
+  },
+  {
+    "path": "PMT实施记录\\启动实测\\config.json",
+    "bytes": 745,
+    "sha256": "dd4193b97b23d5ac1a8ee118480ae6074fe6d2c95cd5e9a1f2cb0a5ecddd02f3"
+  },
+  {
+    "path": "PMT实施记录\\启动实测\\conversion_verified.json",
+    "bytes": 974,
+    "sha256": "d3712f3816b595954d85816ffd7a0065fa16f2538b2dafb51420e2078ec43736"
+  },
+  {
+    "path": "PMT实施记录\\启动实测\\smoke_passed.json",
+    "bytes": 76,
+    "sha256": "b1f411f97cd71aaf95255e3e834b3a4d61f20c129581a012aa147a6a82858667"
+  },
+  {
+    "path": "PMT实施记录\\启动实测\\train_startup.jsonl",
+    "bytes": 1815,
+    "sha256": "786c443713c9aa079fc5ac5378de7778887fe0b491686b33c7d1fbc0d266c2dd"
+  },
+  {
+    "path": "PMT实施记录\\当前状态与评估.md",
+    "bytes": 5462,
+    "sha256": "35bcb4eb0ef63fc9bcc1dccb874012a40c1e6a2f983b6dbeaa7adf30f377b081"
+  },
+  {
+    "path": "原始资料快照\\20261024_半决赛四条实验线_事实核查与队友交接.md",
+    "bytes": 39386,
+    "sha256": "5afe6502cf5549a6fab69baec1dd9956f502722f2f63fa48be4397032fe089c6"
+  },
+  {
+    "path": "原始资料快照\\AIC2026_H75_短板诊断与半决赛交接_20261025.md",
+    "bytes": 9872,
+    "sha256": "e3e8f489aea40cf4ebe39879b642f7b4afd6d0ecca3077e7312875ea3ffdd74e"
+  },
+  {
+    "path": "原始资料快照\\H75_GLOBAL_LOCAL_V1_半决赛改进方案_队友交接_20261024.md",
+    "bytes": 23614,
+    "sha256": "a415d4e2a006bdcb015eef2137789acb4c2e29f423efad3a6b33611a603b5d87"
+  },
+  {
+    "path": "原始资料快照\\H76_V2.1_今晚双ZIP提交方案_修订版.md",
+    "bytes": 7290,
+    "sha256": "38d33b4c17bf2e17c4194f9cfd04ad70ed1a67713610d38548bd59f091d27026"
+  },
+  {
+    "path": "原始资料快照\\H76_V2_Execution_Plan.md",
+    "bytes": 22656,
+    "sha256": "8632a44e22c547b8861e9a259dc15a0aff01665c0109d1fee23aa658872c6897"
+  },
+  {
+    "path": "原始资料快照\\H76_今晚双ZIP交付清单_给队友.md",
+    "bytes": 6094,
+    "sha256": "7359d23347271573627f0aad7a992909ce42568394b00b25869921fd7c0551cf"
+  },
+  {
+    "path": "原始资料快照\\H76_全量test3创新训练方案_基座裁决与执行设计_20261026.md",
+    "bytes": 21693,
+    "sha256": "0ff2ac9d4ef901fc2d8dc361715c9bc691d1730cbdc514dd15283dc249d82cf6"
+  },
+  {
+    "path": "原始资料快照\\teacher4090_H76_迁移资产与路径交接_20261026.md",
+    "bytes": 10245,
+    "sha256": "85892cd45c6b3b40b8bfb1862b1391bff6b6aaef0d2c546b3ee0d722e1079f1c"
+  },
+  {
+    "path": "原始资料快照\\writing-block.md",
+    "bytes": 2456,
+    "sha256": "461e5f54d25adbd29eebd15875af2ea39a456b4b70f227871664ed552bbe71da"
+  },
+  {
+    "path": "原始资料快照\\writing-block1.md",
+    "bytes": 7449,
+    "sha256": "4d5e5bbb432e175b210442845de09701207d9048b1b3ad6ec3fe265e44620d73"
+  },
+  {
+    "path": "原始资料快照\\【发布版】算法挑战赛道复赛获奖名单及半决赛赛程安排通知.pdf",
+    "bytes": 287673,
+    "sha256": "9700ebdd1e4a766ce0100dc3313eebceb6899562a8b1ded486991665c7b9c540"
+  },
+  {
+    "path": "原始资料快照\\服务器目录与资产安全交接.md",
+    "bytes": 3798,
+    "sha256": "89f6da4aebc0e9f759a1241996e223531cbf50bcd31a5270a305945fc669bf1a"
+  },
+  {
+    "path": "原始资料快照\\附件2：AIC算法挑战赛道半决赛作品提交要求-1.pdf",
+    "bytes": 271161,
+    "sha256": "88b39dc085a10fdf2f5e293fd5f6a0d4ebcdf3e1cf948ad1e267f02cd455a6fc"
+  },
+  {
+    "path": "后续工作同步约定.md",
+    "bytes": 870,
+    "sha256": "c9c6f572fe753ba89f0953b323e68be9b1d6aee776c53bf7c35ed5c0de927c99"
+  },
+  {
+    "path": "最新成绩.json",
+    "bytes": 589,
+    "sha256": "4619c5aee5cf6a5535239ff4ef571c206503fa802a16bdc306c6cbedae322e97"
+  },
+  {
+    "path": "来源文件清单_SHA256.json",
+    "bytes": 4103,
+    "sha256": "762291ef6deb41f58f1d37a677c1cbf61bd8673eca1ef820d066cd1f3d583975"
+  },
+  {
+    "path": "核验截图\\【发布版】算法挑战赛道复赛获奖名单及半决赛赛程安排通知_p1.png",
+    "bytes": 192384,
+    "sha256": "5709f65bd86c166d40fa41bc2faa0edae27df014ff68894868e8a991920f00c4"
+  },
+  {
+    "path": "核验截图\\【发布版】算法挑战赛道复赛获奖名单及半决赛赛程安排通知_p2.png",
+    "bytes": 216091,
+    "sha256": "fe1a6f1867cb7b8db6076bed63ec2994687208819c78cb2f869a9fb7ef8c9045"
+  },
+  {
+    "path": "核验截图\\【发布版】算法挑战赛道复赛获奖名单及半决赛赛程安排通知_p3.png",
+    "bytes": 199825,
+    "sha256": "1af8525741eb4872bf48d6c522ef2b8bc92b8b7559d29b7b49e61b0c86655710"
+  },
+  {
+    "path": "核验截图\\附件2：AIC算法挑战赛道半决赛作品提交要求-1_p1.png",
+    "bytes": 239344,
+    "sha256": "b916a06ae6f61abf0fd83d84986949291e0400c4418ecfcc22b5d0e520a3dd1e"
+  },
+  {
+    "path": "核验截图\\附件2：AIC算法挑战赛道半决赛作品提交要求-1_p2.png",
+    "bytes": 76089,
+    "sha256": "95ebaf6964fb977bcfb15abe3f939b1de0c722df4811148136b2f484d9f6fb6a"
+  },
+  {
+    "path": "核验记录\\eval_existing_20261027.log",
+    "bytes": 1960,
+    "sha256": "c7a0bd83074d2b480b9fa84712373f5ab1af06ad52e3f01a856743fb96adc864"
+  },
+  {
+    "path": "核验记录\\eval_saved_mask_20261027.log",
+    "bytes": 2070,
+    "sha256": "2e286387d7ae87e8466030f8ec2c6e1be38d563fc6c2c2b91f51f19996dd43c9"
+  },
+  {
+    "path": "核验记录\\PMT服务器只读快照_20261027.txt",
+    "bytes": 1757,
+    "sha256": "d7644169194073a5b50de29fc43282dc9a53b9037434c77cc14aed54133ae0bc"
+  }
+]

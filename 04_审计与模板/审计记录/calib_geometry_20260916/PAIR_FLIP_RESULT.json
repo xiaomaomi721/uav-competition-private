@@ -1,0 +1,101 @@
+[
+  {
+    "group": "stage59_52k_match",
+    "same_body": true,
+    "tag_a": "ZERO",
+    "tag_b": "FIXED8D",
+    "vec_a": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vec_b": [
+      -0.2,
+      0.1,
+      0.0709,
+      0.7,
+      3.6,
+      0.4,
+      3.3215,
+      -0.5
+    ],
+    "zip_a": "05_s52000_R_TTA8.zip",
+    "zip_b": "09_s52000_R_TTA8_FIXED8D.zip",
+    "zip_a_sha256": "caf055b750e680d92836e9432ad531c4c7c694fc80dd041a5113a968595b39c8",
+    "zip_b_sha256": "87277cbaf62bb176368dc1fa5233b1e41bf1ff3a9148efdefa5b307fca785278",
+    "flipped_px": 28355732,
+    "total_px": 524288000,
+    "flip_pct": 5.408426666259766,
+    "platform_miou_a": 0.670442,
+    "platform_miou_b": 0.683325,
+    "delta_miou_pp": 1.2882999999999978,
+    "E_pp_per_flip_pct": 0.23820236077841292,
+    "transitions": [
+      {
+        "from": "Background",
+        "to": "Agricultural",
+        "px": 12625632
+      },
+      {
+        "from": "Background",
+        "to": "Barren",
+        "px": 5028616
+      },
+      {
+        "from": "Background",
+        "to": "Vegetation",
+        "px": 2780247
+      },
+      {
+        "from": "Vegetation",
+        "to": "Agricultural",
+        "px": 2280061
+      },
+      {
+        "from": "Background",
+        "to": "Water",
+        "px": 1450144
+      },
+      {
+        "from": "Background",
+        "to": "Building",
+        "px": 1396497
+      },
+      {
+        "from": "Background",
+        "to": "Road",
+        "px": 688276
+      },
+      {
+        "from": "Building",
+        "to": "Agricultural",
+        "px": 667334
+      },
+      {
+        "from": "Water",
+        "to": "Agricultural",
+        "px": 304903
+      },
+      {
+        "from": "Vegetation",
+        "to": "Barren",
+        "px": 243079
+      },
+      {
+        "from": "Water",
+        "to": "Barren",
+        "px": 186565
+      },
+      {
+        "from": "Road",
+        "to": "Agricultural",
+        "px": 156865
+      }
+    ]
+  }
+]

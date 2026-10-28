@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "evidence_level": "PLATFORM_BOUND_ONLY_WHEN_COMPLETE",
+  "run_id": "REQUIRED",
+  "candidate": "REQUIRED",
+  "checkpoint_sha256": "REQUIRED",
+  "inference_config_sha256": "REQUIRED",
+  "zip_filename": "REQUIRED",
+  "zip_sha256": "REQUIRED",
+  "platform_submission_id": "REQUIRED",
+  "submitted_at": "REQUIRED_WITH_TIMEZONE",
+  "score_percent": "REQUIRED",
+  "screenshot_or_export_path": "REQUIRED",
+  "submitted_by": "USER_OR_NAMED_HUMAN",
+  "automatic_submission": false,
+  "single_checkpoint": true,
+  "compliance": "REQUIRED",
+  "baseline_name": "A05_WEIGHT",
+  "baseline_score_percent": 70.775011,
+  "delta_pp": "REQUIRED"
+}

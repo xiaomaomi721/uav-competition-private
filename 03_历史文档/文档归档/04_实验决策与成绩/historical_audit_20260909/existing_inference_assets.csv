@@ -1,0 +1,9 @@
+experiment,asset_type,status,path,tta,online_score,source
+Exp47 SEMEDA,raw预测,AVAILABLE,/home/jhy/submit_exp47/predictions (500张),无(单视图标准),标准版67.796,成绩表§4.11
+Exp47 SEMEDA,TTA8预测,AVAILABLE,/home/jhy/calibv2_exp47/predictions (500张),D4旋转8视图,—,launch_exp47_package.sh
+Exp47 SEMEDA,校准预测,AVAILABLE,/home/jhy/calibv2_exp47 (已含锁定8维bias),TTA8+校准,69.0776,成绩表§4.11
+Exp47 SEMEDA,提交zip标准,AVAILABLE,"/home/jhy/submit_exp47.zip (4,512,271B)",无TTA,67.796,—
+Exp47 SEMEDA,提交zip校准,AVAILABLE,"/home/jhy/calibv2_exp47.zip (4,329,906B)",TTA8+锁定,69.0776,—
+Exp16 UPerNet,raw预测,AVAILABLE,.../submission_exp16_best_f3cd64e5/ (500张),无TTA(TTA:false),NO_CONFIRMED_ONLINE,run_config.yaml
+Exp16 UPerNet,提交zip,AVAILABLE,".../exp16_best_f3cd64e5.zip (5,080,052B, sha 9a13be0d)",无TTA,NO_CONFIRMED_ONLINE,run_config.yaml
+Exp16 UPerNet,线上分记录,NOT_FOUND,成绩表+phase2 csv均无exp16,—,—,已核

@@ -1,0 +1,25 @@
+{
+  "best_miou": {
+    "path": "/home/jhy/rare_diag_20260915/b4_migration_6296/base_probe/best_miou.pt",
+    "sha256": "d7a63b0c1124f5ab213b027125322ace8ce7cf834f48fcfb45e34b20fdef6000",
+    "step": 53200,
+    "updates": 53180,
+    "size_bytes": 256385547,
+    "selected_for_zero_bias_package": true
+  },
+  "last": {
+    "path": "/home/jhy/rare_diag_20260915/b4_migration_6296/base_probe/last.pt",
+    "sha256": "7e4d3376ec3fc12a0aa3c7eb418b6dd7f5b805eacedb180069522b5614a7f259",
+    "step": 56000,
+    "updates": 55980,
+    "size_bytes": 768974281,
+    "selected_for_package": false
+  },
+  "parameter_count": 63999176,
+  "model": "SegFormer-B4",
+  "pretrained": "nvidia/segformer-b4-finetuned-ade-512-512",
+  "attempted_steps": 56000,
+  "optimizer_updates": 55980,
+  "amp_skip_count": 20,
+  "amp_skip_steps": [2076, 2274, 2296, 8420, 8771, 13028, 13514, 16209, 20335, 20501, 23054, 25544, 31153, 32768, 37094, 41236, 43528, 44315, 47144, 52057]
+}

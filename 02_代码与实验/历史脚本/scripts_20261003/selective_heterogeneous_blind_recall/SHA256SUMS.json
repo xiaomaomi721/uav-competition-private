@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "scope": "SHBR_ONE_CLICK_CONDITIONAL_CHAIN_20261003",
+  "authorized_physical_gpus": [
+    2,
+    3
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2640,
+      "sha256": "5122373c703395a7eb877d2572bdb067ab49e26b1ad82edff4de08574fef4e43"
+    },
+    {
+      "path": "SOURCE_AUDIT_SPLIT.json",
+      "bytes": 17462,
+      "sha256": "81e8686b9e7595c60a2533003f7ca4cfb09434b5cc93dd1b47225cedbaaa9ea9"
+    },
+    {
+      "path": "build_prediction_cache.py",
+      "bytes": 8749,
+      "sha256": "9f34683f338d1fe6a3ac338dea41a7ebaa94359de0f92727abddfb86584fa3ba"
+    },
+    {
+      "path": "build_target_cache.py",
+      "bytes": 6778,
+      "sha256": "91e54360f04036e4cb665f0aa49afa1fd1f2e49a900f71fc6eda319c609f8cf0"
+    },
+    {
+      "path": "calibrate_fixed_beta.py",
+      "bytes": 5580,
+      "sha256": "7ec635e8142b36876192e0153b2b5a64edc1953fcadcd732aa076d110adca4bb"
+    },
+    {
+      "path": "discover_and_validate_gate.py",
+      "bytes": 12306,
+      "sha256": "9787f3befd684ecee848046fe179332aeae3c2f8c7cea80949809bb8e4c08d8e"
+    },
+    {
+      "path": "donor_adapter.py",
+      "bytes": 7123,
+      "sha256": "cc54f0fc1ec8cc571678a51d857cc4a21f483ef72617f9ff1030d8e06644162c"
+    },
+    {
+      "path": "evaluate_source_health.py",
+      "bytes": 4652,
+      "sha256": "69c13294a7dfdf962e28878a977f63f63ddba61d87b91832e9d0d7c378236b9f"
+    },
+    {
+      "path": "finalize_decision.py",
+      "bytes": 4660,
+      "sha256": "88063d90e3025e19e022a86d4f264f3935a4de8b088e691d0a34e1b24e5a043a"
+    },
+    {
+      "path": "freeze_assets.py",
+      "bytes": 6776,
+      "sha256": "4f5f05c4be078f76aa6adf5322c419cd92d4e7006a6678e31c541d8aa7cd0f64"
+    },
+    {
+      "path": "frozen_config.json",
+      "bytes": 1548,
+      "sha256": "d6ecf560154f8ce6b8f788eb3242f9d33fc6139ae1d46d2d2bca1b8de6e667da"
+    },
+    {
+      "path": "package_and_audit.py",
+      "bytes": 9776,
+      "sha256": "e5a01a77497280702475963186b14bdc6bb995476e5e1bf1afbc4f97d25700a2"
+    },
+    {
+      "path": "run_all.sh",
+      "bytes": 6039,
+      "sha256": "918f4f1fd698306082f7dfe4dd02c703e6e9cbb75e2b45ea70083f3af9113049"
+    },
+    {
+      "path": "shbr_common.py",
+      "bytes": 23764,
+      "sha256": "2e7826f8b457548c026cef5542d625377554ed1784420cc1dd2e68a128346155"
+    },
+    {
+      "path": "test_shbr_contracts.py",
+      "bytes": 7205,
+      "sha256": "502bed3516e7988e2f017a847c8741e10d1f08813ccf1fd865d7754f0a3f91d7"
+    },
+    {
+      "path": "train_shbr.py",
+      "bytes": 15581,
+      "sha256": "12372a2e1e6188066d71af2c609efb56e573520f53f3941423450f4fbe229132"
+    },
+    {
+      "path": "执行手册_交队友.md",
+      "bytes": 6848,
+      "sha256": "e3ddbe4a739322619c0ec070884f8c5ffe801dcf3ebf235e6e319cc9d3d04641"
+    }
+  ]
+}

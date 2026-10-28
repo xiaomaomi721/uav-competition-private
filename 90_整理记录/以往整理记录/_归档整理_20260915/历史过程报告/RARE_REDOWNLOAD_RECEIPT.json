@@ -1,0 +1,135 @@
+{
+  "directory": "C:\\Users\\Lenovo\\OneDrive\\Documents\\桌面\\RareExposure_重新核验_六包_20260914_195236",
+  "count": 6,
+  "files": [
+    {
+      "order": 1,
+      "filename": "01_RareExposure_best51800_TTA8_ONLY.zip",
+      "checkpoint_step": 51800,
+      "checkpoint_sha256": "dbe1063c72131303b9759b8948a072b07ff093968ecd20c63d11b40e27115851",
+      "bias": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "d0a7b37747138bb0e0456c71dffd4e4808098ece33dfb2dffd1a1e21317707e2",
+      "bytes": 5017585,
+      "server_path": "/home/jhy/storage_aware_calibration_v1/rare/packages/best/TTA8.zip",
+      "verification": "SERVER_OFFICIAL_PASS + LOCAL_SHA_CRC_ALL500_PNG_PASS",
+      "online_score": "待回填，禁止套用旧争议分数"
+    },
+    {
+      "order": 2,
+      "filename": "02_RareExposure_best51800_CHAMPION_8D.zip",
+      "checkpoint_step": 51800,
+      "checkpoint_sha256": "dbe1063c72131303b9759b8948a072b07ff093968ecd20c63d11b40e27115851",
+      "bias": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "sha256": "e0273d18ec97ef31db67403ff8184981b42fa281c062e4f76950f059f1a9fe76",
+      "bytes": 4967124,
+      "server_path": "/home/jhy/storage_aware_calibration_v1/rare/packages/best/TTA8_FIXED8D_EXP41_STYLE.zip",
+      "verification": "SERVER_OFFICIAL_PASS + LOCAL_SHA_CRC_ALL500_PNG_PASS",
+      "online_score": "待回填，禁止套用旧争议分数"
+    },
+    {
+      "order": 3,
+      "filename": "03_RareExposure_best51800_LOCKED_8D.zip",
+      "checkpoint_step": 51800,
+      "checkpoint_sha256": "dbe1063c72131303b9759b8948a072b07ff093968ecd20c63d11b40e27115851",
+      "bias": [
+        -0.2,
+        -0.0384,
+        0.0709,
+        0.7,
+        3.6,
+        0.1932,
+        3.3215,
+        -0.5
+      ],
+      "sha256": "6e1fbbd7826bd41510da4ac24fdf6dc04b8a99ce4ecb0887e666b8a27990b48d",
+      "bytes": 4965820,
+      "server_path": "/home/jhy/storage_aware_calibration_v1/rare/packages/best/TTA8_LOCKED8D_69_276229.zip",
+      "verification": "SERVER_OFFICIAL_PASS + LOCAL_SHA_CRC_ALL500_PNG_PASS",
+      "online_score": "待回填，禁止套用旧争议分数"
+    },
+    {
+      "order": 4,
+      "filename": "04_RareExposure_last56000_TTA8_ONLY.zip",
+      "checkpoint_step": 56000,
+      "checkpoint_sha256": "bac73fcad2649cd5cdd182dc7a59c96b1080b2a68c0bab0242f3d114de53974c",
+      "bias": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "36f85d175e88411c8eb1dd8ddfd0fc4efbb90a6a3c64ea9f492dff92dc2866bd",
+      "bytes": 5019187,
+      "server_path": "/home/jhy/storage_aware_calibration_v1/rare/packages/step56000/TTA8.zip",
+      "verification": "SERVER_OFFICIAL_PASS + LOCAL_SHA_CRC_ALL500_PNG_PASS",
+      "online_score": "待回填，禁止套用旧争议分数"
+    },
+    {
+      "order": 5,
+      "filename": "05_RareExposure_last56000_CHAMPION_8D.zip",
+      "checkpoint_step": 56000,
+      "checkpoint_sha256": "bac73fcad2649cd5cdd182dc7a59c96b1080b2a68c0bab0242f3d114de53974c",
+      "bias": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "sha256": "9b2a14bf59b27f0d879eeed132abff501b495206c951d0e59a02e174d9361ee1",
+      "bytes": 4967722,
+      "server_path": "/home/jhy/storage_aware_calibration_v1/rare/packages/step56000/TTA8_FIXED8D_EXP41_STYLE.zip",
+      "verification": "SERVER_OFFICIAL_PASS + LOCAL_SHA_CRC_ALL500_PNG_PASS",
+      "online_score": "待回填，禁止套用旧争议分数"
+    },
+    {
+      "order": 6,
+      "filename": "06_RareExposure_last56000_LOCKED_8D.zip",
+      "checkpoint_step": 56000,
+      "checkpoint_sha256": "bac73fcad2649cd5cdd182dc7a59c96b1080b2a68c0bab0242f3d114de53974c",
+      "bias": [
+        -0.2,
+        -0.0384,
+        0.0709,
+        0.7,
+        3.6,
+        0.1932,
+        3.3215,
+        -0.5
+      ],
+      "sha256": "9edb2bef2c1f5de180a9b5683da1272d71ec8ea6bcf68bebacfe2b649fac0208",
+      "bytes": 4968577,
+      "server_path": "/home/jhy/storage_aware_calibration_v1/rare/packages/step56000/TTA8_LOCKED8D_69_276229.zip",
+      "verification": "SERVER_OFFICIAL_PASS + LOCAL_SHA_CRC_ALL500_PNG_PASS",
+      "online_score": "待回填，禁止套用旧争议分数"
+    }
+  ],
+  "verified": true,
+  "online_submission": false,
+  "old_scores_reassigned": false
+}

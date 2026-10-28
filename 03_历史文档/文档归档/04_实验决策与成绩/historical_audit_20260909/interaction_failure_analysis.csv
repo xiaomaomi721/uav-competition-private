@@ -1,0 +1,7 @@
+combination,overlap_mechanism,dose_overlap,timing_overlap,logit_distribution_change,calibration_reused,possible_gradient_conflict,confidence
+CWFA+no-decay(三合一),YES(同属域泛化/特征正则),YES(各自最优剂量叠加),YES(同step1),NO(都是训练扰动),NO,NO,HIGH
+边界分支+CWFA,YES(边界分支改变特征分布+CWFA按分组扰动冲突),PARTIAL(边界单独小权重),YES,NO,NO,YES,MEDIUM
+MaxEnt×伪标签,YES(都做分布对齐),PARTIAL,YES,NO,YES(伪标签改logits),NO,MEDIUM
+蒸馏+MixStyle集成,"NO(外部知识×域扰动,不同层)",PARTIAL(λ0.1+α0.05弱),NO,NO,NO,NO,HIGH(无协同但未崩)
+伪标签×校准,NO(训练期注入测试域×测试时先验),UNKNOWN,N/A,NO,NO,YES(stage55b校准微降),UNKNOWN
+TTA×校准,NO(推理增广×先验),UNKNOWN,N/A,NO,NO,NO(已叠加+1.9),HIGH(可叠到顶)

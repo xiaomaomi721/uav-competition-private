@@ -1,0 +1,30 @@
+[
+  {
+    "old_file": "29_ENS_ens2_B+s62_zero.zip",
+    "file": "29.zip",
+    "sha256": "fcafd06849d6f587bc18f2411247920654ac2919ebc7b40bfc48b3e9af60207d",
+    "operation": "rename_only",
+    "reason": "Platform OSS download 404; testing numeric-only outer ZIP names"
+  },
+  {
+    "old_file": "30_ENS_ens3_B+s62+s58_zero.zip",
+    "file": "30.zip",
+    "sha256": "46393f10d8f07b05793e831c32fb38db56dbec4cf3584be191d284b775216c71",
+    "operation": "rename_only",
+    "reason": "Platform OSS download 404; testing numeric-only outer ZIP names"
+  },
+  {
+    "old_file": "31_ENS_ens4_B+s62+s58+s64_zero.zip",
+    "file": "31.zip",
+    "sha256": "91cdacf60c44c98ac29c742c900c26f083f49b519074c00e85cef209ab08b8ff",
+    "operation": "rename_only",
+    "reason": "Platform OSS download 404; testing numeric-only outer ZIP names"
+  },
+  {
+    "old_file": "32_ENS_ens2_B+s62_champion.zip",
+    "file": "32.zip",
+    "sha256": "671e2801c000267c7170aad5690cb050eabb4834d50435c94a5a24b7e2ccf813",
+    "operation": "rename_only",
+    "reason": "Platform OSS download 404; testing numeric-only outer ZIP names"
+  }
+]

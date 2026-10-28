@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "status": "LOCAL_FINAL_CANDIDATE_REMOTE_DEPLOYMENT_BLOCKED",
+  "date": "2026-09-12",
+  "files": {
+    "/home/jhy/gpu2_day_queue/tta_anatomy_v2.py": "3f0f5a4bc0768bcc1fca6c84ac7662494bc845470f514532b33137332f31926d",
+    "/home/jhy/gpu2_day_queue/tta_v2_gates.py": "19c398690306ab7b9d6faf077fefdd9fc6a91aa94a273b173a05bc02f56151f4",
+    "/home/jhy/gpu2_day_queue/phase_f_v2.py": "634bcc3b91dd963aaed378191f8b39e04dfa1e8621a10484b0477bf879b1688f",
+    "/home/jhy/gpu2_day_queue/constrained_calibration_v2.py": "560314b8dc6b2d85e08e7a8add29a903d07ab39a578573d1d8abba761e024d2e",
+    "/home/jhy/gpu2_day_queue/gpu2_pipeline_v2.py": "68a9b2627fb73e938c0f89e7aa7e449b9d2a6d1e24163425cdcc32d6174768c5",
+    "/home/jhy/gpu2_day_queue/gpu2_handoff_v2.py": "31ad4896d82d2634a022f833d3db753323e483ffc48e854a68fad9c29e225b63",
+    "/home/jhy/gpu2_day_queue/gpu2_supervisor_v2.sh": "2a7e5de69d0826ee6023e81b0af5c1627c984efaea92a653284e5de1415f85b1",
+    "/home/jhy/gpu2_day_queue/verify_tta_v2_contracts.py": "f11f72f1388f0767721d88b8c38b854026d5e71c03318d9911c24f1da4c444ef",
+    "/home/jhy/gpu2_day_queue/tta_anatomy.py": "3aaa1dc600875c6835aef8a742ad42429fc524cd1716f191b9b1ad8e77465209",
+    "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/scripts/check_submission.py": "ade758ac319920020e739f2789b0ae7b335a943a25ab2bd05b90bc5a721ffc67",
+    "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/scripts/package_submission.py": "a4c3b23d8e58b1f292341235fb553cdbb83a3612a3a6a5fd9d505141824a5b26"
+  },
+  "tests": {
+    "final_python_syntax": "PASS",
+    "final_shell_syntax": "PASS",
+    "final_numpy_engine_selftest": "PASS",
+    "final_gates_cpu_selftest": "PASS",
+    "final_calibration_cpu_selftest": "PASS",
+    "final_supervisor_cpu_tests": {"passed": 8, "failed": 0},
+    "final_handoff_cpu_tests": {"passed": 3, "failed": 0},
+    "final_independent_local_contracts": {"run": 45, "passed": 36, "failed": 0, "skipped": 9, "skip_reason": "local torch unavailable", "complete": false},
+    "earlier_remote_cpu_snapshot": {
+      "bundle": "/home/jhy/gpu2_day_queue/v2_builds/286009b0c11c679d",
+      "results": "/home/jhy/gpu2_day_queue/v2_builds/286009b0c11c679d/CPU_TEST_RESULTS.json",
+      "all_module_selftests": "PASS",
+      "independent_contracts": {"passed": 37, "failed": 0, "skipped": 0},
+      "warning": "Not final source hashes. Do not use this snapshot as deployment candidate."
+    },
+    "real_checkpoint_tensor_hash": "Earlier helper failed on expected equal model/model_state_dict aliases. Final helper fixed; real checkpoint retest pending.",
+    "final_remote_cpu_suite": "NOT_RUN_PERMISSION_BLOCKED",
+    "final_policy_cli_integration": "NOT_RUN",
+    "gpu_benchmark": "NOT_RUN_WAIT_PHASE_B",
+    "gpu_correctness": "NOT_RUN_WAIT_PHASE_B",
+    "phase_b_integrity": "NOT_RUN_WAIT_PHASE_B",
+    "phase_b_precision": "NOT_RUN_WAIT_PHASE_B"
+  },
+  "deployment": {
+    "target": "teacher-4090:/home/jhy/gpu2_day_queue",
+    "final_uploaded": false,
+    "handoff_started": false,
+    "supervisor_v2_started": false,
+    "blocked_reason": "Permission system denied final upload. No alternate transport attempted.",
+    "do_not_activate_until": ["final source CPU torch tests pass", "real checkpoint hash retest passes", "policy CLI integration verified", "runtime manifest finalized from actual deployed hashes"]
+  },
+  "last_phase_b_observation": {"time": "2026-09-12T08:15:18+08:00", "pid": 3803206, "state": "R", "cache_count": 1065, "total": 1399, "modified_or_signalled_this_task": false},
+  "old_supervisor": {"pid": 1178941, "state_last_observed": "T", "resumed": false, "terminated": false},
+  "phase_b_classification": ["PHASE_B_CORRECTNESS_NOT_REJECTED", "PHASE_B_PERFORMANCE_PATH_REJECTED"]
+}

@@ -1,0 +1,81 @@
+PHASE B GPU PATH AUDIT
+Audit time: 2026-09-12 07:47:49 to 07:50:13 +08:00
+Scope: read-only inspection of the running Phase B process and its source; no debugger injection, no new CUDA workload, no modification or signal to Phase B. User-authorized exceptions: pause only the verified supervisor to prevent Phase C, and create this audit file.
+
+IDENTITY
+Phase B PID: 3803206; parent supervisor PID: 1178941.
+Worker: /home/jhy/gpu2_day_queue/tta_anatomy.py
+Worker SHA256 at inspection: 3aaa1dc600875c6835aef8a742ad42429fc524cd1716f191b9b1ad8e77465209
+Arguments: --config /home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage23_runs/stage23_w1_exp23_b3_1024_cwfa_ce_formal_seed42/config.yaml --checkpoint /home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage23_runs/stage23_w1_exp23_b3_1024_cwfa_ce_formal_seed42/best_miou.pt --split val --out-dir /home/jhy/gpu2_day_queue/tta_golden --device cuda:0 --cache-mean-logits
+
+1. ACTUAL DEVICE
+Observed /proc/3803206/cmdline specifies --device cuda:0.
+Observed process environment: CUDA_VISIBLE_DEVICES=2; CUDA_DEVICE_ORDER=PCI_BUS_ID.
+Source lines 211-212: device = torch.device(args.device); model = build_model(cfg).to(device).eval().
+Logical cuda:0 maps to physical GPU2.
+GPU2: NVIDIA GeForce RTX 4090; UUID GPU-cacb7500-f2e9-c482-d85c-53c7f8d1def9; PCI bus 00000000:B1:00.0.
+
+2. MODEL PARAMETERS
+Source evidence supports parameters residing on cuda:0: Module.to(device) moves the model before inference; line 223 uses load_state_dict(sd, strict=True) without assign=True. map_location='cpu' at line 214 refers to the checkpoint deserialization, not the inference model.
+Inspected src/models.py build_model, lines 284-330: standard AutoModelForSemanticSegmentation construction; no device_map/offload arguments. Active config decode_head=None, mixstyle=None; worker disables CWFA.
+Evidence limitation: no live model.parameters() device dump exists. We did NOT attach a debugger or inject code to enumerate current parameter devices. Thus this is source + command/environment + CUDA-process corroboration, NOT a direct runtime all-parameters measurement. On-disk source SHA was captured; no startup source hash was available to independently attest in-memory code identity.
+Model construction source SHA256: 7c003956ec2953c5cc6f63c031438d5189163d0e2ac5e2bab7d33edbdbf290be.
+
+3. CUDA COMPUTE PROCESS
+nvidia-smi -i 2 --query-compute-apps=pid,process_name,used_gpu_memory --format=csv returned:
+3803206, /home/jhy/.venvs/uavseg/bin/python, 2690 MiB.
+The PID matches the current Phase B child, not the completed training.
+
+4. CONTINUOUS 60-SECOND GPU2 UTILIZATION SAMPLE
+Window: 2026-09-12 07:49:13.324386 to 07:50:13.383992 +08:00.
+60 valid samples, scheduled at one-second intervals; actual elapsed 60.0597 seconds; zero query errors.
+Command per sample: nvidia-smi -i 2 --query-gpu=utilization.gpu --format=csv,noheader,nounits
+Min: 0%; arithmetic mean: 1.8%; max: 57%.
+Strictly greater than 50%: 2/60 samples = 3.3333%.
+Raw values: samples 22 and 45 were 51% and 57%, respectively; every other sample was 0%.
+These are nvidia-smi sampled utilization values, not CUDA-profiler kernel-time measurements; short bursts can be missed.
+
+5. INFERENCE BATCH SIZE
+Actual input-image batch size per forward = 1.
+Source line 243: normalize_to_tensor(im).unsqueeze(0).to(device).
+Eight views are executed sequentially, not stacked into an eight-view batch.
+Config batch_size=2 and validation_batch_size=2 are not used by this image-wise inference loop.
+No autocast context is present in the audited inference loop; config amp=true does not itself enable autocast here.
+
+6. PER-IMAGE EXECUTION ORDER
+Views: rot0, rot0+mirror, rot90, rot90+mirror, rot180, rot180+mirror, rot270, rot270+mirror.
+Read/normalize image on CPU -> input to GPU2.
+For EACH view: GPU rotation/flip -> GPU model forward (253) -> GPU inverse flip/rotation (254-257) -> GPU bilinear resize to 1024x1024 (258-260) -> float().cpu().numpy() (261).
+After all 8 views are CPU NumPy arrays: combine via np.stack / mean or softmax+mean (72-81, 263-268), argmax and confusion on CPU, append prediction arrays to dataset-wide lists.
+Then standard mean logits are computed again in NumPy, converted to fp16 and saved once per image (270-272).
+Therefore the path is NOT GPU forward -> inverse -> GPU mean -> one CPU transfer -> disk. There is a GPU-to-CPU transfer per view, and mean aggregation is on CPU.
+
+7. SYNC / TRANSFER / DISK CALLS
+.cpu(): once per view, 8 times/image, at line 261; no non_blocking request, host consumption waits for the CUDA output.
+.numpy(): once per view, 8 times/image, after .cpu(); this is a CPU tensor view, not another GPU copy.
+torch.cuda.synchronize(): no explicit call in tta_anatomy.py; absence of an explicit call does not eliminate synchronization due to .cpu(). No claim is made about every library-internal operation.
+Disk: no per-view writes in the loop. np.save once per image; mean-logit array shape 1024x1024x8 fp16 = 16 MiB payload plus NPY header. Log output every 100 images. Reports are written after completion.
+Each fp32 per-view output is 32 MiB; eight per-view host transfers amount to approximately 256 MiB per image, excluding intermediates.
+
+8. RECENT SPEED AND LIVENESS
+Last completed 100-image log block: image 900 at 2938.6s -> image 1000 at 3660.7s.
+Mean = (3660.7 - 2938.6)/100 = 7.221 seconds/image, including inference, CPU processing and cache writing.
+More current file-mtime estimate over the last 100 cache-completion intervals: 07:33:57.604139 (4507.npy) to 07:49:57.627133 (4926.npy), 960.023 seconds/100 = 9.60023 seconds/image. This is a filesystem timestamp estimate, not internal timing instrumentation.
+During the 60-second sample, cache count advanced 1014 -> 1016. At sample end Phase B PID 3803206 was State R, RSS 16596576 kB. It was progressing, but GPU utilization was very low and recent throughput was slower than earlier logged blocks.
+No profiler was attached, so the exact CPU/transfer/disk time breakdown is not measured. Do not attribute all slowdown to a single cause from these observations alone.
+
+9. PHASE C GATE / PRESERVATION
+Verified supervisor exact cmdline: bash /home/jhy/gpu2_day_queue/gpu2_supervisor.sh.
+Verified Phase B PPid=1178941 and current Golden output identity before gating.
+Sent SIGSTOP only to PID 1178941, NOT to a process group or Phase B PID.
+Supervisor State T confirmed before and after the sampling window; Phase B State R and advancing cache confirmed after the gate.
+No running script, training dependency, config, checkpoint, or Phase B file was edited/deleted by the auditor. No new GPU workload started. Only physical GPU2 was queried.
+The paused supervisor cannot transition from its foreground Phase B wait to phase_c (supervisor lines 294-295). Phase C was not started by the audit and .done_phase_c was absent.
+Do NOT SIGCONT or start another supervisor before the follow-up optimization gate: resuming the original supervisor without a controlled handoff would restore its automatic Phase C transition.
+Because the supervisor is paused, MASTER_STATUS.json and .done_phase_b will not automatically update on child exit. Phase B itself can still write its TTA_ANATOMY.json/.md and TTA_ANATOMY_DONE log. Completion must be checked from those artifacts and process state; do not use the stale master status as proof of liveness or failure.
+Current state: Phase B continues unchanged; Phase C blocked pending optimization gate. This report is an in-progress GPU-path audit, not a Phase B completion/quality acceptance report.
+
+FOLLOW-UP GATE NOTES (NO FIXES APPLIED)
+The current fp16 precision gate uses already-fp16-quantized mean8 as its supposed fp32 reference (271,274,295-297); a PASS from it does not prove quantization fidelity.
+The worker retains dataset-wide predictions for all schemes (231,266), then compares them after the image loop (280-288); it is not bounded-memory streaming statistics.
+Any future optimization must be isolated from the current Phase B, preserve its artifacts and frozen training dependencies, and validate numerical equivalence and a genuine fp32-vs-reloaded-cache precision gate before Phase C starts.

@@ -1,0 +1,38 @@
+{
+  "stage": "Round2_Day1",
+  "date_recorded": "2026-09-22",
+  "score_scale": "platform percent points",
+  "submissions": [
+    {
+      "slot": "A",
+      "candidate": "theta278 + old Bstar",
+      "role": "Exploit",
+      "score": 70.569757,
+      "zip_path_local": "提交包/待提交/A_theta278_oldBstar.zip",
+      "zip_path_server": "/home/jhy/rare_diag_20260915/round2_20260921/day1_formal_packages/A_theta278_oldBstar.zip",
+      "zip_sha256": "7e5018549c2b3fb76f076fb62d3553951aeffef4aacfd01eeb8c57dde917edb0"
+    },
+    {
+      "slot": "B",
+      "candidate": "theta261 + old Bstar",
+      "role": "Explore",
+      "score": 69.639339,
+      "zip_path_local": "提交包/待提交/B_theta261_oldBstar.zip",
+      "zip_path_server": "/home/jhy/rare_diag_20260915/round2_20260921/day1_formal_packages/B_theta261_oldBstar.zip",
+      "zip_sha256": "6bd582200862d50d630b43819ddf3e4f499cd7cca52136250f3e035dbcbbb727"
+    }
+  ],
+  "derived": {
+    "test2_A_minus_B_percentage_points": 0.930418,
+    "test1_theta278_minus_theta261_percentage_points": 0.3318,
+    "gain_retention_ratio_test2_over_test1": 2.8041531043,
+    "theta278_test2_minus_test1_percentage_points": -0.045643,
+    "theta261_test2_minus_test1_percentage_points": -0.644261
+  },
+  "interpretation": [
+    "ATDA theta261-to-theta278 advantage strongly transfers to test2 and is larger than on test1.",
+    "Because A and B share the same old Bstar and packaging protocol, the A-B difference is attributed primarily to model checkpoint differences.",
+    "No test2 ground truth is available, so pixel-level flips are not labeled correct or incorrect.",
+    "Old Bstar was held fixed; these results do not prove it is optimal for test2."
+  ]
+}

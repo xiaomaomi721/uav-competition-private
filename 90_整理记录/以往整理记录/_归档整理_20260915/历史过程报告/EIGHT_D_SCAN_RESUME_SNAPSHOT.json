@@ -1,0 +1,183 @@
+{
+  "status": "STREAMING_HANDOFF_VERIFIED",
+  "at": "2026-09-14T19:14:00.978051",
+  "free_bytes": 10866155520,
+  "runs": [
+    {
+      "experiment": "rare",
+      "formal": {
+        "pid": 283448,
+        "state": "R",
+        "ppid": 281314,
+        "sid": 283448,
+        "start_ticks": 1557890621,
+        "exit_code": 0,
+        "argv": [
+          "/home/jhy/.venvs/uavseg/bin/python",
+          "/home/jhy/gpu2_day_queue/next_experiment/bundle_v1/next_experiment_entry.py",
+          "--mode",
+          "formal",
+          "--freeze",
+          "/home/jhy/gpu2_day_queue/next_experiment/smoke2_20260914/FROZEN_EXPERIMENT_SMOKE2.json",
+          "--smoke-receipt",
+          "/home/jhy/gpu2_day_queue/next_experiment/runs/stage23_rareexposure_v2_seed42_56000_smoke4_attempt2/ENTRY_RESULT.json",
+          "--output-dir",
+          "/home/jhy/gpu2_day_queue/next_experiment/runs/stage23_rareexposure_v2_seed42_56000"
+        ]
+      },
+      "controller": {
+        "pid": 2399435,
+        "state": "S",
+        "ppid": 1,
+        "sid": 2399435,
+        "start_ticks": 1564419230,
+        "exit_code": 0,
+        "argv": [
+          "/home/jhy/.venvs/uavseg/bin/python",
+          "-B",
+          "/home/jhy/storage_aware_calibration_v1/supervisor.py",
+          "--policy",
+          "/home/jhy/storage_aware_calibration_v1/rare/SUPERVISOR_POLICY.json",
+          "--policy-sha256",
+          "c0a1de2d6c9f170c0e6e1589c4a85775fb129b9454dc40ffa90fe6ae88f03111"
+        ]
+      },
+      "step": 55999,
+      "loss": 0.21003635227680206,
+      "gpu_index": 2,
+      "gpu_process": "283448, GPU-cacb7500-f2e9-c482-d85c-53c7f8d1def9",
+      "config_sha256": "fc6005a5e8a59e03f134a17b832e620e2764a36697e789b5dd5c60d9a181fe09",
+      "formal_config_unchanged": true,
+      "status": "FORMAL_RUNNING_STREAMING_INSTALLED",
+      "archived_reports": [
+        {
+          "source": "/home/jhy/gpu2_day_queue/next_experiment/execution_smoke2_20260914/STATUS.json",
+          "archive": "/home/jhy/storage_aware_calibration_v1/rare/supervisor_work/ARCHIVED_0_STATUS.json",
+          "sha256": "c6017ba6e69f3d9fcfe00febacf64214fd8b5b2221ead4a3947065359a29b950"
+        },
+        {
+          "source": "/home/jhy/gpu2_day_queue/NEXT_EXPERIMENT_FINAL_REPORT.json",
+          "archive": "/home/jhy/storage_aware_calibration_v1/rare/supervisor_work/ARCHIVED_1_NEXT_EXPERIMENT_FINAL_REPORT.json",
+          "sha256": "c6017ba6e69f3d9fcfe00febacf64214fd8b5b2221ead4a3947065359a29b950"
+        }
+      ],
+      "old_watchers": [
+        {
+          "pid": 281314,
+          "state": "T",
+          "ppid": 1,
+          "sid": 281314,
+          "start_ticks": 1557885116,
+          "exit_code": 19,
+          "argv": [
+            "/home/jhy/.venvs/uavseg/bin/python",
+            "-B",
+            "/home/jhy/gpu2_day_queue/next_experiment/smoke2_20260914/rareexposure_watchdog_smoke2.py",
+            "--policy",
+            "/home/jhy/gpu2_day_queue/next_experiment/smoke2_20260914/SUCCESSOR_POLICY_SMOKE2.json"
+          ]
+        }
+      ],
+      "packages_started": false,
+      "driver_policy_sha256": "91d3ec8fdebd5dc61c500cc2d8090a163194591ead61289db19180a0b1756bf5",
+      "supervisor_policy_sha256": "c0a1de2d6c9f170c0e6e1589c4a85775fb129b9454dc40ffa90fe6ae88f03111"
+    },
+    {
+      "experiment": "paramwise",
+      "formal": {
+        "pid": 2115724,
+        "state": "S",
+        "ppid": 2113375,
+        "sid": 2115724,
+        "start_ticks": 1563546151,
+        "exit_code": 0,
+        "argv": [
+          "/home/jhy/.venvs/uavseg/bin/python",
+          "/home/jhy/gpu3_paramwise01/gpu_identity_fix/paramwise_entry_uuidfixed.py",
+          "--mode",
+          "formal",
+          "--freeze",
+          "/home/jhy/gpu3_paramwise01/gpu_identity_fix/FROZEN_EXPERIMENT.json",
+          "--output-dir",
+          "/home/jhy/gpu3_paramwise01/runs/stage_paramwise01_b3_1024_ce_rarecrop_cwfa_paramwise_seed42",
+          "--smoke-receipt",
+          "/home/jhy/gpu3_paramwise01/runs/stage_paramwise01_b3_1024_ce_rarecrop_cwfa_paramwise_seed42_smoke4/ENTRY_RESULT.json"
+        ]
+      },
+      "controller": {
+        "pid": 2399454,
+        "state": "S",
+        "ppid": 1,
+        "sid": 2399454,
+        "start_ticks": 1564419272,
+        "exit_code": 0,
+        "argv": [
+          "/home/jhy/.venvs/uavseg/bin/python",
+          "-B",
+          "/home/jhy/storage_aware_calibration_v1/supervisor.py",
+          "--policy",
+          "/home/jhy/storage_aware_calibration_v1/paramwise/SUPERVISOR_POLICY.json",
+          "--policy-sha256",
+          "759b43bb7f501166fa5c8b4fb5de2ac41da3db20f51cb65042ba8c6c8443cc46"
+        ]
+      },
+      "step": 9591,
+      "loss": 0.3943811357021332,
+      "gpu_index": 3,
+      "gpu_process": "2115724, GPU-32853ccf-4c4f-1328-8d75-04efe9d5298f",
+      "config_sha256": "b13dabef0c44ac802bff16443d8fc7c1d81606540c6dde2c3cc5b22321f4068d",
+      "formal_config_unchanged": true,
+      "status": "FORMAL_RUNNING_STREAMING_INSTALLED",
+      "archived_reports": [
+        {
+          "source": "/home/jhy/gpu3_paramwise01/protocol_v2/handoff_execution/STATUS.json",
+          "archive": "/home/jhy/storage_aware_calibration_v1/paramwise/supervisor_work/ARCHIVED_0_STATUS.json",
+          "sha256": "adeb2e11701c876bae13e40975b289cb6af330ea36064b8e0bd71e807db2623b"
+        },
+        {
+          "source": "/home/jhy/gpu3_paramwise01/queue/PARAMWISE01_FINAL_REPORT.json",
+          "archive": "/home/jhy/storage_aware_calibration_v1/paramwise/supervisor_work/ARCHIVED_1_PARAMWISE01_FINAL_REPORT.json",
+          "sha256": "adeb2e11701c876bae13e40975b289cb6af330ea36064b8e0bd71e807db2623b"
+        }
+      ],
+      "old_watchers": [
+        {
+          "pid": 2113375,
+          "state": "T",
+          "ppid": 1,
+          "sid": 2113375,
+          "start_ticks": 1563539624,
+          "exit_code": 19,
+          "argv": [
+            "/home/jhy/.venvs/uavseg/bin/python",
+            "-B",
+            "/home/jhy/gpu3_paramwise01/queue/paramwise01_queue.py",
+            "--policy",
+            "/home/jhy/gpu3_paramwise01/queue/POLICY_UUIDFIXED.json"
+          ]
+        },
+        {
+          "pid": 2187127,
+          "state": "T",
+          "ppid": 1,
+          "sid": 2187127,
+          "start_ticks": 1563763263,
+          "exit_code": 19,
+          "argv": [
+            "/home/jhy/.venvs/uavseg/bin/python",
+            "-B",
+            "/home/jhy/gpu3_paramwise01/protocol_v2/paramwise01_protocol_handoff.py",
+            "--policy",
+            "/home/jhy/gpu3_paramwise01/protocol_v2/HANDOFF_POLICY.json"
+          ]
+        }
+      ],
+      "packages_started": false,
+      "driver_policy_sha256": "5cda42eef0babcacb6ec503fb1c329ed803916625a68ce3b7722c94ded7978e8",
+      "supervisor_policy_sha256": "759b43bb7f501166fa5c8b4fb5de2ac41da3db20f51cb65042ba8c6c8443cc46"
+    }
+  ],
+  "formal_restarted": false,
+  "training_parameters_changed": false,
+  "online_submission": false
+}

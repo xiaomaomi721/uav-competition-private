@@ -1,0 +1,49 @@
+{
+  "status": "STOP_CLEANUP_INSUFFICIENT_SAFE_CANDIDATES",
+  "at": "2026-09-14T16:29:56.271618",
+  "before_filesystem": {
+    "total_bytes": 3745119428608,
+    "used_bytes": 3543697408000,
+    "free_bytes_including_reserved": 201422020608,
+    "available_bytes_to_user": 11103801344,
+    "source": "statvfs /home/jhy; mounted filesystem, not home-only usage"
+  },
+  "after_total_bytes": 3745119428608,
+  "after_used_bytes": 3543694630912,
+  "after_usable_free_bytes": 11106578432,
+  "after_usable_free_GiB": 10.343807220458984,
+  "safe_to_delete_files": 0,
+  "safe_to_delete_bytes": 0,
+  "deleted_paths": [],
+  "reclaimed_space_bytes": 0,
+  "target20GiB_met": false,
+  "preferred25GiB_met": false,
+  "reason": "31 ZIPs have source/manifest/SHA identity but incomplete owned-process FD visibility; all remain safe_to_delete=no. Protected/unknown checkpoints and logits not touched. Even identity-verified ZIP total130.92MiB cannot close9.66GiB shortfall.",
+  "plan_sha256": "8d90a5395bd90a4cc8cf63af1fa9cc3cf62f89d0896750e5dd828329382241c1",
+  "runs": [
+    {
+      "experiment": "RareExposure",
+      "pid": 283448,
+      "process_state": "S",
+      "step": 47848,
+      "loss": 0.09420259669423103,
+      "physical_gpu": 2,
+      "gpu_compute": "283448, GPU-cacb7500-f2e9-c482-d85c-53c7f8d1def9",
+      "formal_config_sha256": "fc6005a5e8a59e03f134a17b832e620e2764a36697e789b5dd5c60d9a181fe09",
+      "formal_config_unchanged": true
+    },
+    {
+      "experiment": "Paramwise01",
+      "pid": 2115724,
+      "process_state": "R",
+      "step": 1216,
+      "loss": 0.455826073884964,
+      "physical_gpu": 3,
+      "gpu_compute": "2115724, GPU-32853ccf-4c4f-1328-8d75-04efe9d5298f",
+      "formal_config_sha256": "b13dabef0c44ac802bff16443d8fc7c1d81606540c6dde2c3cc5b22321f4068d",
+      "formal_config_unchanged": true
+    }
+  ],
+  "automatic_online_submission": false,
+  "training_parameters_modified": false
+}

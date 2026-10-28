@@ -1,0 +1,92 @@
+{
+  "ax3_water_m030": {
+    "rc": 0,
+    "status": "PASS",
+    "failures": [],
+    "warnings": [
+      "以下官方类别在 500 张预测中完全未出现：[0]；仅作 WARNING，不自动修改。",
+      "有 5 张图片只预测出一个类别：['test1_64.png', 'test1_139.png', 'test1_235.png', 'test1_341.png', 'test1_386.png']"
+    ],
+    "checks_false": []
+  },
+  "ax3_water_p030": {
+    "rc": 0,
+    "status": "PASS",
+    "failures": [],
+    "warnings": [
+      "以下官方类别在 500 张预测中完全未出现：[0]；仅作 WARNING，不自动修改。",
+      "有 5 张图片只预测出一个类别：['test1_64.png', 'test1_139.png', 'test1_235.png', 'test1_341.png', 'test1_386.png']"
+    ],
+    "checks_false": []
+  },
+  "ax4_barren_m050": {
+    "rc": 0,
+    "status": "PASS",
+    "failures": [],
+    "warnings": [
+      "以下官方类别在 500 张预测中完全未出现：[0]；仅作 WARNING，不自动修改。",
+      "有 6 张图片只预测出一个类别：['test1_64.png', 'test1_139.png', 'test1_235.png', 'test1_341.png', 'test1_386.png', 'test1_394.png']"
+    ],
+    "checks_false": []
+  },
+  "ax4_barren_p050": {
+    "rc": 0,
+    "status": "PASS",
+    "failures": [],
+    "warnings": [
+      "以下官方类别在 500 张预测中完全未出现：[0]；仅作 WARNING，不自动修改。",
+      "有 5 张图片只预测出一个类别：['test1_64.png', 'test1_139.png', 'test1_235.png', 'test1_341.png', 'test1_386.png']"
+    ],
+    "checks_false": []
+  },
+  "ax5_vegetation_m040": {
+    "rc": 0,
+    "status": "PASS",
+    "failures": [],
+    "warnings": [
+      "以下官方类别在 500 张预测中完全未出现：[0]；仅作 WARNING，不自动修改。",
+      "有 5 张图片只预测出一个类别：['test1_64.png', 'test1_139.png', 'test1_235.png', 'test1_341.png', 'test1_386.png']"
+    ],
+    "checks_false": []
+  },
+  "ax5_vegetation_p040": {
+    "rc": 0,
+    "status": "PASS",
+    "failures": [],
+    "warnings": [
+      "以下官方类别在 500 张预测中完全未出现：[0]；仅作 WARNING，不自动修改。",
+      "有 5 张图片只预测出一个类别：['test1_64.png', 'test1_139.png', 'test1_235.png', 'test1_341.png', 'test1_386.png']"
+    ],
+    "checks_false": []
+  },
+  "ax6_agricultural_m040": {
+    "rc": 0,
+    "status": "PASS",
+    "failures": [],
+    "warnings": [
+      "以下官方类别在 500 张预测中完全未出现：[0]；仅作 WARNING，不自动修改。",
+      "有 5 张图片只预测出一个类别：['test1_64.png', 'test1_139.png', 'test1_235.png', 'test1_341.png', 'test1_386.png']"
+    ],
+    "checks_false": []
+  },
+  "ax6_agricultural_p040": {
+    "rc": 0,
+    "status": "PASS",
+    "failures": [],
+    "warnings": [
+      "以下官方类别在 500 张预测中完全未出现：[0]；仅作 WARNING，不自动修改。",
+      "有 5 张图片只预测出一个类别：['test1_64.png', 'test1_139.png', 'test1_235.png', 'test1_341.png', 'test1_386.png']"
+    ],
+    "checks_false": []
+  },
+  "champion_repro": {
+    "rc": 0,
+    "status": "PASS",
+    "failures": [],
+    "warnings": [
+      "以下官方类别在 500 张预测中完全未出现：[0]；仅作 WARNING，不自动修改。",
+      "有 5 张图片只预测出一个类别：['test1_64.png', 'test1_139.png', 'test1_235.png', 'test1_341.png', 'test1_386.png']"
+    ],
+    "checks_false": []
+  }
+}

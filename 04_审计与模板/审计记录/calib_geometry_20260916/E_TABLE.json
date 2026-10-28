@@ -1,0 +1,661 @@
+[
+  {
+    "group": "MATCHED_PAIR",
+    "body": "Stage59_52k",
+    "note": "same ckpt+TTA, bias only -> the only clean old-model lever",
+    "ref_zip": "05_s52000_R_TTA8.zip",
+    "ref_miou": 0.670442,
+    "var_zip": "09_s52000_R_TTA8_FIXED8D.zip",
+    "var_miou": 0.683325,
+    "flipped_px": 28355732,
+    "total_px": 524288000,
+    "flip_pct": 5.408426666259766,
+    "delta_pp": 1.2882999999999978,
+    "E": 0.23820236077841292,
+    "bg_to_fg_share_pct": 84.53109939112134,
+    "top_transitions": [
+      {
+        "from": "Background",
+        "to": "Agricultural",
+        "px": 12625632
+      },
+      {
+        "from": "Background",
+        "to": "Barren",
+        "px": 5028616
+      },
+      {
+        "from": "Background",
+        "to": "Vegetation",
+        "px": 2780247
+      },
+      {
+        "from": "Vegetation",
+        "to": "Agricultural",
+        "px": 2280061
+      },
+      {
+        "from": "Background",
+        "to": "Water",
+        "px": 1450144
+      },
+      {
+        "from": "Background",
+        "to": "Building",
+        "px": 1396497
+      },
+      {
+        "from": "Background",
+        "to": "Road",
+        "px": 688276
+      },
+      {
+        "from": "Building",
+        "to": "Agricultural",
+        "px": 667334
+      }
+    ]
+  },
+  {
+    "group": "M2F_bias_only",
+    "body": "M2F56",
+    "note": "A",
+    "ref_zip": "01_M2F_Run1b_56k_TTA8_ZERO.zip",
+    "ref_miou": 0.684133,
+    "var_zip": "01_M2F56_A_joint_local_best_TTA8.zip",
+    "var_miou": 0.684348,
+    "flipped_px": 2744350,
+    "total_px": 524288000,
+    "flip_pct": 0.5234432220458984,
+    "delta_pp": 0.021499999999996522,
+    "E": 0.04107417785631635,
+    "bg_to_fg_share_pct": 5.378650682310929,
+    "top_transitions": [
+      {
+        "from": "Vegetation",
+        "to": "Background",
+        "px": 516276
+      },
+      {
+        "from": "Building",
+        "to": "Background",
+        "px": 488736
+      },
+      {
+        "from": "Water",
+        "to": "Agricultural",
+        "px": 468145
+      },
+      {
+        "from": "Water",
+        "to": "Background",
+        "px": 347730
+      },
+      {
+        "from": "Building",
+        "to": "Agricultural",
+        "px": 334450
+      },
+      {
+        "from": "Road",
+        "to": "Background",
+        "px": 242413
+      },
+      {
+        "from": "Background",
+        "to": "Agricultural",
+        "px": 147609
+      },
+      {
+        "from": "Vegetation",
+        "to": "Agricultural",
+        "px": 89327
+      }
+    ]
+  },
+  {
+    "group": "M2F_bias_only",
+    "body": "M2F56",
+    "note": "B",
+    "ref_zip": "01_M2F_Run1b_56k_TTA8_ZERO.zip",
+    "ref_miou": 0.684133,
+    "var_zip": "02_M2F56_B_joint_1d_best_TTA8.zip",
+    "var_miou": 0.684302,
+    "flipped_px": 2333752,
+    "total_px": 524288000,
+    "flip_pct": 0.4451278686523437,
+    "delta_pp": 0.016899999999997473,
+    "E": 0.037966618561006804,
+    "bg_to_fg_share_pct": 8.906130557145746,
+    "top_transitions": [
+      {
+        "from": "Water",
+        "to": "Agricultural",
+        "px": 498745
+      },
+      {
+        "from": "Water",
+        "to": "Background",
+        "px": 419140
+      },
+      {
+        "from": "Building",
+        "to": "Background",
+        "px": 361421
+      },
+      {
+        "from": "Building",
+        "to": "Agricultural",
+        "px": 295127
+      },
+      {
+        "from": "Vegetation",
+        "to": "Background",
+        "px": 220764
+      },
+      {
+        "from": "Background",
+        "to": "Agricultural",
+        "px": 207847
+      },
+      {
+        "from": "Road",
+        "to": "Background",
+        "px": 113235
+      },
+      {
+        "from": "Vegetation",
+        "to": "Agricultural",
+        "px": 65739
+      }
+    ]
+  },
+  {
+    "group": "M2F_bias_only",
+    "body": "M2F56",
+    "note": "C",
+    "ref_zip": "01_M2F_Run1b_56k_TTA8_ZERO.zip",
+    "ref_miou": 0.684133,
+    "var_zip": "03_M2F56_C_2x_joint_1d_best_TTA8.zip",
+    "var_miou": 0.684327,
+    "flipped_px": 4403263,
+    "total_px": 524288000,
+    "flip_pct": 0.8398557662963867,
+    "delta_pp": 0.01940000000000275,
+    "E": 0.023099204385478318,
+    "bg_to_fg_share_pct": 9.392875238204033,
+    "top_transitions": [
+      {
+        "from": "Water",
+        "to": "Agricultural",
+        "px": 943825
+      },
+      {
+        "from": "Building",
+        "to": "Background",
+        "px": 712582
+      },
+      {
+        "from": "Building",
+        "to": "Agricultural",
+        "px": 629282
+      },
+      {
+        "from": "Water",
+        "to": "Background",
+        "px": 616699
+      },
+      {
+        "from": "Vegetation",
+        "to": "Background",
+        "px": 434101
+      },
+      {
+        "from": "Background",
+        "to": "Agricultural",
+        "px": 413593
+      },
+      {
+        "from": "Road",
+        "to": "Background",
+        "px": 209650
+      },
+      {
+        "from": "Vegetation",
+        "to": "Agricultural",
+        "px": 151678
+      }
+    ]
+  },
+  {
+    "group": "M2F_bias_only",
+    "body": "M2F56",
+    "note": "D",
+    "ref_zip": "01_M2F_Run1b_56k_TTA8_ZERO.zip",
+    "ref_miou": 0.684133,
+    "var_zip": "04_M2F56_D_opposite_joint_1d_best_TTA8.zip",
+    "var_miou": 0.683859,
+    "flipped_px": 1782330,
+    "total_px": 524288000,
+    "flip_pct": 0.3399524688720703,
+    "delta_pp": -0.027399999999999647,
+    "E": -0.08059950289789104,
+    "bg_to_fg_share_pct": 60.330297980733086,
+    "top_transitions": [
+      {
+        "from": "Background",
+        "to": "Building",
+        "px": 358422
+      },
+      {
+        "from": "Background",
+        "to": "Water",
+        "px": 350354
+      },
+      {
+        "from": "Building",
+        "to": "Water",
+        "px": 234822
+      },
+      {
+        "from": "Background",
+        "to": "Vegetation",
+        "px": 214120
+      },
+      {
+        "from": "Agricultural",
+        "to": "Background",
+        "px": 197032
+      },
+      {
+        "from": "Background",
+        "to": "Road",
+        "px": 120123
+      },
+      {
+        "from": "Agricultural",
+        "to": "Water",
+        "px": 68973
+      },
+      {
+        "from": "Agricultural",
+        "to": "Vegetation",
+        "px": 57976
+      }
+    ]
+  },
+  {
+    "group": "M2F_bias_only",
+    "body": "M2F56",
+    "note": "E",
+    "ref_zip": "01_M2F_Run1b_56k_TTA8_ZERO.zip",
+    "ref_miou": 0.684133,
+    "var_zip": "05_M2F56_E_uniform_neg_005_TTA8.zip",
+    "var_miou": 0.683631,
+    "flipped_px": 2234618,
+    "total_px": 524288000,
+    "flip_pct": 0.4262195587158203,
+    "delta_pp": -0.050200000000000244,
+    "E": -0.11777967240933408,
+    "bg_to_fg_share_pct": 0.0,
+    "top_transitions": [
+      {
+        "from": "Building",
+        "to": "Background",
+        "px": 594047
+      },
+      {
+        "from": "Water",
+        "to": "Background",
+        "px": 580407
+      },
+      {
+        "from": "Vegetation",
+        "to": "Background",
+        "px": 416500
+      },
+      {
+        "from": "Agricultural",
+        "to": "Background",
+        "px": 324289
+      },
+      {
+        "from": "Road",
+        "to": "Background",
+        "px": 238845
+      },
+      {
+        "from": "Barren",
+        "to": "Background",
+        "px": 61054
+      },
+      {
+        "from": "Vehicle",
+        "to": "Background",
+        "px": 19476
+      }
+    ]
+  },
+  {
+    "group": "M2F_bias_only",
+    "body": "M2F56",
+    "note": "F",
+    "ref_zip": "01_M2F_Run1b_56k_TTA8_ZERO.zip",
+    "ref_miou": 0.684133,
+    "var_zip": "06_M2F56_F_uniform_pos_005_TTA8.zip",
+    "var_miou": 0.684599,
+    "flipped_px": 1564831,
+    "total_px": 524288000,
+    "flip_pct": 0.2984678268432617,
+    "delta_pp": 0.046599999999996644,
+    "E": 0.15613073105017886,
+    "bg_to_fg_share_pct": 100.0,
+    "top_transitions": [
+      {
+        "from": "Background",
+        "to": "Vegetation",
+        "px": 403979
+      },
+      {
+        "from": "Background",
+        "to": "Building",
+        "px": 359930
+      },
+      {
+        "from": "Background",
+        "to": "Agricultural",
+        "px": 313604
+      },
+      {
+        "from": "Background",
+        "to": "Road",
+        "px": 253802
+      },
+      {
+        "from": "Background",
+        "to": "Water",
+        "px": 151254
+      },
+      {
+        "from": "Background",
+        "to": "Barren",
+        "px": 62935
+      },
+      {
+        "from": "Background",
+        "to": "Vehicle",
+        "px": 19327
+      }
+    ]
+  },
+  {
+    "group": "M2F_bias_only",
+    "body": "M2F56",
+    "note": "G",
+    "ref_zip": "01_M2F_Run1b_56k_TTA8_ZERO.zip",
+    "ref_miou": 0.684133,
+    "var_zip": "07_M2F56_G_uniform_neg_010_TTA8.zip",
+    "var_miou": 0.683122,
+    "flipped_px": 4066078,
+    "total_px": 524288000,
+    "flip_pct": 0.7755428314208984,
+    "delta_pp": -0.10109999999999841,
+    "E": -0.13036030494250028,
+    "bg_to_fg_share_pct": 0.0,
+    "top_transitions": [
+      {
+        "from": "Building",
+        "to": "Background",
+        "px": 1146491
+      },
+      {
+        "from": "Vegetation",
+        "to": "Background",
+        "px": 837425
+      },
+      {
+        "from": "Water",
+        "to": "Background",
+        "px": 811118
+      },
+      {
+        "from": "Agricultural",
+        "to": "Background",
+        "px": 649735
+      },
+      {
+        "from": "Road",
+        "to": "Background",
+        "px": 462120
+      },
+      {
+        "from": "Barren",
+        "to": "Background",
+        "px": 119467
+      },
+      {
+        "from": "Vehicle",
+        "to": "Background",
+        "px": 39722
+      }
+    ]
+  },
+  {
+    "group": "M2F_bias_only",
+    "body": "M2F56",
+    "note": "H",
+    "ref_zip": "01_M2F_Run1b_56k_TTA8_ZERO.zip",
+    "ref_miou": 0.684133,
+    "var_zip": "08_M2F56_H_uniform_pos_010_TTA8.zip",
+    "var_miou": 0.684903,
+    "flipped_px": 3045163,
+    "total_px": 524288000,
+    "flip_pct": 0.5808187484741211,
+    "delta_pp": 0.07700000000000484,
+    "E": 0.13257147811136066,
+    "bg_to_fg_share_pct": 100.0,
+    "top_transitions": [
+      {
+        "from": "Background",
+        "to": "Vegetation",
+        "px": 783268
+      },
+      {
+        "from": "Background",
+        "to": "Building",
+        "px": 705912
+      },
+      {
+        "from": "Background",
+        "to": "Agricultural",
+        "px": 615893
+      },
+      {
+        "from": "Background",
+        "to": "Road",
+        "px": 483913
+      },
+      {
+        "from": "Background",
+        "to": "Water",
+        "px": 290281
+      },
+      {
+        "from": "Background",
+        "to": "Barren",
+        "px": 126759
+      },
+      {
+        "from": "Background",
+        "to": "Vehicle",
+        "px": 39137
+      }
+    ]
+  },
+  {
+    "group": "M2F_bias_only",
+    "body": "M2F56",
+    "note": "FG_POS_020 (M2F best)",
+    "ref_zip": "01_M2F_Run1b_56k_TTA8_ZERO.zip",
+    "ref_miou": 0.684133,
+    "var_zip": "02_M2F56_FG_POS_020_TTA8.zip",
+    "var_miou": 0.6851,
+    "flipped_px": 5981663,
+    "total_px": 524288000,
+    "flip_pct": 1.1409116744995116,
+    "delta_pp": 0.09670000000000512,
+    "E": 0.084756780179697,
+    "bg_to_fg_share_pct": 100.0,
+    "top_transitions": [
+      {
+        "from": "Background",
+        "to": "Vegetation",
+        "px": 1541474
+      },
+      {
+        "from": "Background",
+        "to": "Building",
+        "px": 1391000
+      },
+      {
+        "from": "Background",
+        "to": "Agricultural",
+        "px": 1205694
+      },
+      {
+        "from": "Background",
+        "to": "Road",
+        "px": 950179
+      },
+      {
+        "from": "Background",
+        "to": "Water",
+        "px": 565898
+      },
+      {
+        "from": "Background",
+        "to": "Barren",
+        "px": 248665
+      },
+      {
+        "from": "Background",
+        "to": "Vehicle",
+        "px": 78753
+      }
+    ]
+  },
+  {
+    "group": "OPERATOR_CHANGE",
+    "body": "M2F56_ms",
+    "note": "A_S075 (scale, not bias)",
+    "ref_zip": "01_M2F_Run1b_56k_TTA8_ZERO.zip",
+    "ref_miou": 0.684133,
+    "var_zip": "01_M2F56_A_S075_TTA8_ZERO.zip",
+    "var_miou": 0.677264,
+    "flipped_px": 19644319,
+    "total_px": 524288000,
+    "flip_pct": 3.7468564987182615,
+    "delta_pp": -0.6869000000000014,
+    "E": -0.18332701031784343,
+    "bg_to_fg_share_pct": 39.419396518657635,
+    "top_transitions": [
+      {
+        "from": "Vegetation",
+        "to": "Background",
+        "px": 3252137
+      },
+      {
+        "from": "Background",
+        "to": "Agricultural",
+        "px": 3111806
+      },
+      {
+        "from": "Background",
+        "to": "Building",
+        "px": 1869064
+      },
+      {
+        "from": "Road",
+        "to": "Background",
+        "px": 1663345
+      },
+      {
+        "from": "Building",
+        "to": "Background",
+        "px": 1467873
+      },
+      {
+        "from": "Agricultural",
+        "to": "Background",
+        "px": 1175762
+      },
+      {
+        "from": "Water",
+        "to": "Background",
+        "px": 998376
+      },
+      {
+        "from": "Background",
+        "to": "Road",
+        "px": 984937
+      }
+    ]
+  },
+  {
+    "group": "OPERATOR_CHANGE",
+    "body": "M2F56_ms",
+    "note": "B_S125 (scale, not bias)",
+    "ref_zip": "01_M2F_Run1b_56k_TTA8_ZERO.zip",
+    "ref_miou": 0.684133,
+    "var_zip": "02_M2F56_B_S125_TTA8_ZERO.zip",
+    "var_miou": 0.673044,
+    "flipped_px": 22563835,
+    "total_px": 524288000,
+    "flip_pct": 4.303709983825684,
+    "delta_pp": -1.1089000000000016,
+    "E": -0.2576614140282451,
+    "bg_to_fg_share_pct": 16.55734940447845,
+    "top_transitions": [
+      {
+        "from": "Agricultural",
+        "to": "Background",
+        "px": 5961125
+      },
+      {
+        "from": "Vegetation",
+        "to": "Background",
+        "px": 4224679
+      },
+      {
+        "from": "Road",
+        "to": "Background",
+        "px": 2408812
+      },
+      {
+        "from": "Building",
+        "to": "Background",
+        "px": 2178394
+      },
+      {
+        "from": "Background",
+        "to": "Vegetation",
+        "px": 1305342
+      },
+      {
+        "from": "Water",
+        "to": "Background",
+        "px": 1161529
+      },
+      {
+        "from": "Background",
+        "to": "Building",
+        "px": 835660
+      },
+      {
+        "from": "Barren",
+        "to": "Background",
+        "px": 697251
+      }
+    ]
+  }
+]

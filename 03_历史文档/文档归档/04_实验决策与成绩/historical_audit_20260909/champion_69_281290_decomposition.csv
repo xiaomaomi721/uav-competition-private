@@ -1,0 +1,9 @@
+chain_level,online_absolute_score,submission_id,source,note
+"BASE_MODEL(B3纯CE,Exp18)",66.739544,Exp18_B3_标准版,线上成绩记录表.md §一,无TTA无校准标准版
+BASE+prior-shift(先验系数3.0),67.393058,Exp18_B3_先验系数3.0版,线上成绩记录表.md §一,prior顶点;3.5回落67.356
+BASE+旋转TTA8(无校准),67.209674,Exp18_B3_旋转TTA8视图_标准版,线上成绩记录表.md §一,旋转8视图无校准
+BASE+旋转TTA8+先验3.0,68.009701,Exp18_B3_旋转TTA8视图_先验3.0版,线上成绩记录表.md §一,TTA+prior
+BASE+旋转TTA8+V1e校准,68.032596,Exp18_B3_旋转TTA8视图_背景压到底,线上成绩记录表.md §一,V1e=B3校准顶点;V1f到68.039691
+"BASE+CWFA(Exp23,标准无TTA)",67.371405,Exp23_B3CWFA_标准版,线上成绩记录表.md §二,CWFA在B3
+BASE+CWFA+旋转TTA8+V1e校准,68.686044,Exp23_B3CWFA_旋转TTA8视图_校准版,线上成绩记录表.md §二,突破;校准起点68.686044
+BASE+CWFA+rotTTA8+8维校准(锁定),69.281290,build_p100(建筑+0.10),线上成绩记录表.md §2.11,8维全封顶;每维顶点

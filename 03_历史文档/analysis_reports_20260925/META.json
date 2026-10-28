@@ -1,0 +1,13 @@
+{
+  "scales": [
+    0.75,
+    1.0,
+    1.25
+  ],
+  "alpha": 0.5,
+  "count": 1300,
+  "protocol": "multi-scale [0.75, 1.0, 1.25] x D4 TTA8, fused mean at 256x256, fp16",
+  "runtime_sec": 1897.6,
+  "theta278": "/home/jhy/rare_diag_20260915/atda_20260918/cpu_candidates/f_s2p100_s3p125.pt",
+  "d1": "/home/jhy/rare_diag_20260915/round2_multiprobe_20260922/03_dart_fixed/D1/checkpoint_step2000.pt"
+}

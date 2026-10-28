@@ -1,0 +1,38 @@
+{
+  "created": "2026-09-18T13:52:02.391171+00:00",
+  "scope": "ATDA71_FINALIZE_BSTAR_FOLD",
+  "winner_checkpoint": "/home/jhy/rare_diag_20260915/atda_20260918/export/composed_atda_8000_a1p0.pt",
+  "winner_checkpoint_sha256": "5febd8c8ac46eb964387cd20332844718b7835bcba9c3c033e3defb668a4c85a",
+  "prefold_zip": "/home/jhy/rare_diag_20260915/atda_20260918/export/atda_8000_a1p0_Bstar.zip",
+  "folded_checkpoint": "/home/jhy/rare_diag_20260915/atda_20260918/finalize/composed_atda_8000_a1p0/composed_atda_8000_a1p0_folded.pt",
+  "folded_checkpoint_sha256": "48467048ab75765934a32bec28591d431da10fb7469adaba900d22e4a6fbee77",
+  "base_theta261": "/home/jhy/rare_diag_20260915/phase0_candidates_20260918/A_cleanSEM_M_k100_th209.pt",
+  "base_theta261_sha256": "9ffdd0beb8480a1efd361503d637d3d53cf716c808537c551fefae09f7fe2786",
+  "base_platform_score": 0.702836,
+  "bstar": [
+    -0.2,
+    0.1,
+    0.0709,
+    0.4,
+    3.6,
+    0.4,
+    2.1215,
+    -0.5
+  ],
+  "folded_into": "decode_head.classifier.bias",
+  "tensor_level_check": {
+    "only_classifier_bias_changed": true,
+    "unexpected_changed_tensors": [],
+    "bias_delta_max_abs_vs_bstar": 2.98e-08,
+    "bias_delta_is_bstar_within_fp32": true
+  },
+  "pixel_level_check": {
+    "images": 500,
+    "pixels": 524288000,
+    "mismatched_pixels": 0,
+    "mismatch_frac": 0.0,
+    "mismatch_pct": 0.0,
+    "pixel_identical": true
+  },
+  "elapsed_sec": 189.8
+}

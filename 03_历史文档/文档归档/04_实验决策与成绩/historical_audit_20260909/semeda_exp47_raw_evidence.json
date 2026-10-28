@@ -1,0 +1,41 @@
+{
+ "experiment_id": "stage47_w1_exp47_b3_semeda_formal_seed42",
+ "stage": 47,
+ "backbone": "SegFormer-B3",
+ "resolution": 1024,
+ "loss": "CE + SEMEDA(λ0.5 * L1 edge embedding match)",
+ "semeda_params": {
+  "edge_encoder_path": "/home/jhy/models/semeda_edge_s01.pt",
+  "embedding_weight": 0.5,
+  "feature_size": 256,
+  "gt_noise_sigma": 0.1
+ },
+ "rare_crop": "enabled p0.5 ids[7,4,6]",
+ "cwfa": "off",
+ "lr": 6e-05,
+ "wd": 0.01,
+ "max_steps": 56000,
+ "seed": 42,
+ "local_best_miou": 0.809569,
+ "local_best_step": 56000,
+ "online_absolute_standard": 67.796,
+ "online_standard_source": "成绩表 §4.11 Exp47_SEMEDA_标准版=67.796(无TTA口径); calibv2=69.0776",
+ "checkpoint": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage47_runs/stage47_w1_exp47_b3_semeda_formal_seed42/best_miou.pt",
+ "checkpoint_sha256": "27e1441c008ab1b90eaa18bb45f44d6e9163f635ea544f1b6469a39cbd63d13e",
+ "submissions": {
+  "standard_no_tta": {
+   "path": "/home/jhy/submit_exp47.zip",
+   "note": "predict_submission_edge.py 单视图无校准(成绩表67.796对应)"
+  },
+  "calib_tta8": {
+   "path": "/home/jhy/calibv2_exp47.zip",
+   "note": "rot_tta.py TTA8+锁定bias(成绩表69.0776对应)"
+  }
+ },
+ "existing_inference_assets": {
+  "raw_prediction": "AVAILABLE(submit_exp47/predictions 500张)",
+  "tta8_prediction": "AVAILABLE(calibv2_exp47/predictions 500张)",
+  "calibrated": "AVAILABLE(calibv2_exp47 已含锁定bias)",
+  "online_score_confirmed": "67.796(标准)/69.0776(校准) 来源成绩表"
+ }
+}

@@ -1,0 +1,63 @@
+experiment_id,stage,run_dir,config_path,checkpoint_sha256,model,resolution,loss,method_params,lr,wd,max_steps,seed,local_best_miou,local_best_step,ONLINE_ABSOLUTE_SCORE,ONLINE_DELTA_FROM_PARENT,parent_experiment,TTA_type,calibration_type,pseudo_label_type,source
+Exp01,stage05,stage05 exp01_b0_512_ce,configs/stage05,58713d19,B0,512,CE,rare_crop(disabled),6e-05,0.01,56000,42,0.710122,53200,UNKNOWN,UNKNOWN,Exp01=None,NO,NO,NO,deploy_stage05 metrics.json
+Exp02,stage05,exp02_b0_768_ce,configs/stage05,c29df23d,B0,768,CE,-,6e-05,0.01,56000,42,0.743154,54600,UNKNOWN,UNKNOWN,None,NO,NO,NO,deploy_stage05
+Exp03,stage05,exp03_b0_768_domain_aug,configs/stage05,62b7e9b6,B0,768,CE,domain_aug(p0.5),6e-05,0.01,56000,42,0.741288,56000,UNKNOWN,UNKNOWN,None,NO,NO,NO,deploy_stage05
+Exp04,stage05,exp04_b0_768_rare_crop,configs/stage05,57c21675,B0,768,CE,rare_crop(p0.5),6e-05,0.01,56000,42,0.749709,56000,UNKNOWN,UNKNOWN,None,NO,NO,NO,deploy_stage05
+Exp05,stage06,exp05_b1_768_rare_crop,configs/stage06,4ee8748c,B1,768,CE,rare_crop,6e-05,0.01,56000,42,0.769940,53200,64.283137(stage06 ONLINE_SCORES),UNKNOWN,None,NO,NO,NO,stage06_handoff ONLINE_SCORES
+Exp06,stage06,exp06_b2_768_rare_crop,configs/stage06,da942b75,B2,768,CE,rare_crop,6e-05,0.01,56000,42,0.787114,56000,66.212776(stage06 ONLINE_SCORES),UNKNOWN,None,NO,NO,NO,stage06_handoff ONLINE_SCORES
+Exp07,stage06,exp07_b3_768_rare_crop,configs/stage06,707f336b,B3,768,CE,rare_crop,6e-05,0.01,56000,42,0.796894,56000,65.484737(stage06 manual),UNKNOWN,None,NO,NO,NO,stage06_handoff ONLINE_SCORES
+Exp08,stage07,exp08_b2_768_weighted_ce,configs/stage07,cd924ebd,B2,768,weighted_CE,weights clip.5-5.0,6e-05,0.01,56000,42,0.778700,54600,UNKNOWN,UNKNOWN,None,NO,NO,NO,deploy_stage05
+Exp09,stage07,exp09_b2_768_light_blur,configs/stage07,aa75de44,B2,768,CE,"light_blur(p0.2,r.4-.8)",6e-05,0.01,56000,42,0.787219,54600,UNKNOWN,UNKNOWN,None,NO,NO,NO,deploy_stage05
+Exp10,stage08,exp10_b2_768_ema,configs/stage08,e7cbf65b,B2,768,CE,ema(decay.999),6e-05,0.01,56000,42,0.787047,56000,UNKNOWN,UNKNOWN,None,NO,NO,NO,deploy_stage05
+Exp11,stage09,exp11_b2_768_lovasz,configs/stage09,fb6e04d3,B2,768,ce_lovasz,ce.8/lovasz.2,6e-05,0.01,56000,42,0.789225,54600,UNKNOWN,UNKNOWN,None,NO,NO,NO,deploy_stage05
+Exp12,stage10,exp12_b2_768_light_blur,configs/stage10,bf0d235d,B2,768,CE,"light_blur(p0.2,r.3-.8)",6e-05,0.01,56000,42,0.783942,49000,UNKNOWN,UNKNOWN,None,NO,NO,NO,deploy_stage05
+Exp13,stage11,exp13_b2_768_light_blur_p010,configs/stage11,09d7f62e,B2,768,CE,"light_blur(p0.1,r.3-.8)",6e-05,0.01,56000,42,0.782152,50400,UNKNOWN,UNKNOWN,None,NO,NO,NO,deploy_stage05
+Exp14,stage14,exp14_b2_1024_rare_crop,configs/stage14,5e4bc1c2,B2,1024,CE,rare_crop(cwfa off),6e-05,0.01,56000,42,0.804564,51800,UNKNOWN,UNKNOWN,None,NO,NO,NO,deploy_stage05
+Exp15,stage15,exp15_b2_mixed1024_768rare,deploy_stage05/stage15,a54a4656,B2,1024,CE,rare_crop,6e-05,0.01,56000,42,0.798495,56000,UNKNOWN,UNKNOWN,None,NO,NO,NO,server
+Exp16,stage15_exp16,exp16_b2_1024_upernet,deploy_exp16,f3cd64e5,B2,1024,CE,rare_crop+upernet头,6e-05,0.01,56000,42,0.806580,54600,UNKNOWN,UNKNOWN,None,NO,NO,NO,server
+Exp17,stage17,exp17_b2_1024_late_cwfa,deploy_exp17,01b13bce,B2,1024,CE,"rare+cwfa(p0.3,eps4,28001)",6e-05,0.01,56000,42,0.803976,56000,UNKNOWN,UNKNOWN,None,NO,NO,NO,server
+Exp18,stage18,exp18_b3_1024_full_ce,configs/stage18,66667268d824...88fd,B3,1024,CE,rare_crop,6e-05,0.01,56000,42,0.810525,47600,66.739544,0,None,NO,NO,NO,成绩表+run.sh注释
+Exp19,-,NOT_FOUND,-,-,-,-,-,-,-,-,-,-,-,-,NO_INDEPENDENT_ONLINE_SUBMISSION,-,-,-,-,-,服务器find无*exp19*
+Exp20,smoke,exp20_copypaste_smoke40,-,-,B2,1024,CE,copy_paste(smoke only),-,-,-,-,UNKNOWN,-,NO_INDEPENDENT_ONLINE_SUBMISSION,-,-,-,-,-,仅smoke无正式run
+Exp21a,stage21,exp21a_b2_1024_cwfa_eps6,deploy_p1p2,2172cf55,B2,1024,CE,rare+cwfa(eps6.0),6e-05,0.01,56000,42,0.803610,47600,UNKNOWN,UNKNOWN,None,NO,NO,NO,server
+Exp22,stage22,exp22_b2_1024_pseudo,deploy_p1p2,bea38471,B2,1024,CE,rare+pseudo,6e-05,0.01,56000,42,0.799759,53200,UNKNOWN,UNKNOWN,None,NO,NO,NO,server
+Exp23,stage23,exp23_b3_1024_cwfa,configs/stage23,d3740b4ef73f...e228,B3,1024,CE,"rare+cwfa(p0.3,eps4,28001)",6e-05,0.01,56000,42,0.810986,56000,67.371405,+0.632(相对Exp18),Exp18,NO,NO,NO,成绩表+run_exp23_submit.sh
+Exp24,stage24,exp24_b3_1024_pseudo,deploy_exp24,4b935e09,B3,1024,CE,rare+pseudo(500),6e-05,0.01,56000,42,0.813576,53200,UNKNOWN,UNKNOWN,Exp23?,NO,NO,500pseudo,server
+Exp25,stage25,exp25_b3_1024_norecay,deploy_exp25,e76f1fb2,B3,1024,CE,rare+no_decay,6e-05,0.01,56000,42,0.810192,56000,67.412(标准),+0.673(相对Exp18),Exp18,NO,NO,NO,成绩表
+Exp26,stage26,exp26_b4_1024_full_ce,deploy_exp26,3f4fed23...bce,B4,1024,CE,rare_crop,6e-05,0.01,56000,42,0.817376,53200,66.951058,+0.212(相对Exp18),Exp18,NO,NO,NO,成绩表
+Exp27,stage27,exp27_b5_1024_full_ce,deploy_exp27,5807d763...561,B5,1024,CE,rare_crop,6e-05,0.01,56000,42,0.816936,53200,66.405239,UNKNOWN,Exp18,NO,NO,NO,成绩表
+Exp28,stage28,exp28_b3_1024_cwfa_norecay,deploy_exp25,43ca85b3...dd1,B3,1024,CE,rare+cwfa+no_decay,6e-05,0.01,56000,42,0.812250,56000,66.195521,-0.543(相对Exp18),Exp18,NO,NO,NO,成绩表
+Exp29,stage29,exp29_b4_1024_cwfa,deploy_exp26,8010e02d...06a,B4,1024,CE,rare+cwfa,6e-05,0.01,56000,42,0.815372,53200,66.001109,-0.950(相对Exp26),Exp26,NO,NO,NO,成绩表
+Exp30,stage30,exp30_b4_1024_norecay,deploy_exp25,da94fdfb...e92,B4,1024,CE,rare+no_decay,6e-05,0.01,56000,42,0.816488,53200,66.584083,-0.367(相对Exp26),Exp26,NO,NO,NO,成绩表
+Exp31,stage31,exp31_b3_1024_dino2distill,configs/stage31,54812df1...c2a,B3,1024,CE+distill,"distill(λ1.0,start1,dinov2-large)",6e-05,0.01,56000,42,0.812413,47600,66.991,+0.252(相对Exp18),Exp18,NO,NO,NO,成绩表
+Exp32,stage32,exp32_b5_1024_lora,deploy_exp27,6153c85c...555,B5,1024,CE+lora,"lora(r8,α16,drop.1)",6e-05,0.01,56000,42,0.726849,54600,63.681030,-2.724(相对Exp27),Exp27,NO,NO,NO,成绩表
+Exp33,stage33,exp33_b3_1024_copypaste,configs/stage33,dd60d477...ff2,B3,1024,CE+copy_paste,"copy(p0.5,ids[4,6,7],max3)",6e-05,0.01,56000,42,0.815971,56000,66.427993,-0.312(相对Exp18),Exp18,NO,NO,NO,成绩表
+Exp34,stage34,exp34_b3_1024_mixstyle,configs/stage34,d19752b8...2d0,B3,1024,CE+mixstyle,"mixstyle(p0.5,α0.1)",6e-05,0.01,56000,42,0.809144,56000,67.231,+0.492(相对Exp18),Exp18,NO,NO,NO,成绩表
+Exp35,stage35,exp35_b4_1024_lowlr_dp02,deploy_exp26,9ba3f88f...da8,B4,1024,CE,"dp0.2, lr2e-5",2e-05,0.01,56000,42,0.794389,53200,66.832587,-0.118(相对Exp26),Exp26,NO,NO,NO,成绩表
+Exp36-λ0.1,stage36,exp36_distill_l010,configs/stage36,c8291113,B3,1024,CE+distill,"λ0.1, 14000步",6e-05,0.01,14000,42,0.772570,14000,66.225255,UNKNOWN,Exp18,NO,NO,NO,成绩表2.10减步
+Exp36-λ0.3,stage36,exp36_distill_l030,configs/stage36,ef8b07f7,B3,1024,CE+distill,"λ0.3, 14000步",6e-05,0.01,14000,42,0.773206,14000,66.043135,UNKNOWN,Exp18,NO,NO,NO,成绩表2.10减步
+Exp37-α0.05,stage37,exp37_mixstyle_a005,configs/stage37,8565d429,B3,1024,CE+mixstyle,"α0.05, 14000步",6e-05,0.01,14000,42,0.762026,14000,66.243589,UNKNOWN,Exp18,NO,NO,NO,成绩表2.10减步
+Exp37-α0.2,stage37,exp37_mixstyle_a020,configs/stage37,e16cbf83,B3,1024,CE+mixstyle,"α0.2, 14000步",6e-05,0.01,14000,42,0.764494,12600,65.841038,UNKNOWN,Exp18,NO,NO,NO,成绩表2.10减步
+Exp39,stage39,exp39_distill_l010_mixstyle_a005,configs/stage39,651b5e67...dcb,B3,1024,CE+distill+mixstyle,"λ0.1+α0.05, 56000步",6e-05,0.01,56000,42,0.811321(vh@51800),51800,66.915682,+0.177(相对Exp18),Exp18,NO,NO,NO,成绩表;final-eval崩
+Exp40,stage40,exp40_attnfusion,configs/stage40,0fac0092...15c,B3,1024,CE,decode_head=attention_fusion,6e-05,0.01,56000,42,0.805751,53200,65.978999,-0.761(相对Exp18),Exp18,NO,NO,NO,成绩表
+Exp41,stage41,exp41_edge_branch_bce,configs/stage41,98cb41c0...b3b,B3,1024,CE+edge_BCE,"edge(r5,w0.2)",6e-05,0.01,56000,42,0.811840,54600,67.0530(真无TTA),+0.313(相对Exp18),Exp18,NO(真无TTA),NO,NO,成绩表
+Exp42,stage42,exp42_weighted_ce_resume_v2,configs/stage42,096ea38f...827,B3,1024,weighted_CE,"clip.5-2.5,weights=[.5,.5196,.7483,.8871,1.6717,.5,.8316,2.5]",6e-05,0.01,56000,42,0.810649,56000,66.6902,-0.049(相对Exp18),Exp18,NO,NO,NO,成绩表;attempt1 BrokenPipe
+Exp43,stage43,exp43_focal,configs/stage43,35686d12...db2,B3,1024,focal,γ1.0,6e-05,0.01,56000,42,0.810164,54600,66.3970,-0.343(相对Exp18),Exp18,NO,NO,NO,成绩表
+Exp44,stage44,exp44_cedice,configs/stage44,c7b89b1b...df1,B3,1024,ce_dice,ce.7/dice.3,6e-05,0.01,56000,42,0.813167,53200,66.5635,-0.176(相对Exp18),Exp18,NO,NO,NO,成绩表
+Exp45,stage45,exp45_mixup,configs/stage45,172d8512...34d,B3,1024,CE+mixup,"mixup(α.1,p.5,start1)",6e-05,0.01,56000,42,0.811281,51800,67.0098,+0.270(相对Exp18),Exp18,NO,NO,NO,成绩表
+Exp46,stage46,exp46_edge_cwfa_v2,configs/stage46,1b6d49e4...aa,B3,1024,CE+edge+cwfa,"edge(r5,w.2)+cwfa",6e-05,0.01,56000,42,0.812938,53200,66.2893,-0.450(相对Exp18),Exp18,NO,NO,NO,成绩表;attempt1 BrokenPipe
+Exp47,stage47,exp47_semeda,configs/stage47,27e1441c...13e,B3,1024,CE+semeda,"semeda(λ.5,fs256,noise.1)",6e-05,0.01,56000,42,0.809569,56000,67.796(标准无TTA),+1.056(相对Exp18),Exp18,NO,NO,NO,成绩表
+stage48,stage48,exp48_maxent_l010,configs/stage48,3d13792d,B3,1024,CE+MaxEnt,λ0.1,6e-05,0.01,56000,42,0.811948,UNKNOWN,67.1308,UNKNOWN,Exp23,NO,NO,NO,server
+stage49,stage49,exp49_maxent_l100,configs/stage49,db02f5dc,B3,1024,CE+MaxEnt,λ1.0,6e-05,0.01,56000,42,0.809339,UNKNOWN,67.7711,UNKNOWN,Exp23,NO,NO,NO,server
+stage50,stage50,exp50_maxent_l500,configs/stage50,4d8eaafc,B3,1024,CE+MaxEnt,λ5.0,6e-05,0.01,56000,42,0.809813,UNKNOWN,65.3961,UNKNOWN,Exp23,NO,NO,NO,server
+exp51,stage51,exp51_full6796_200val,configs/stage51,816ddfac,B3,1024,CE,"全数据6796,67960步",6e-05,0.01,67960,42,0.818171,UNKNOWN,66.61,UNKNOWN,Exp23(5597),NO,NO,NO,server
+exp52,stage52,exp52_maxent_l100_full6796,configs/stage52,5175cbc0,B3,1024,CE+MaxEntλ1,6796全数据,6e-05,0.01,67960,42,0.815931,UNKNOWN,66.2421,UNKNOWN,exp51,NO,NO,NO,server
+exp54,stage54,exp54_sharpen_ce,configs/stage54,81d0e357,B3,1024,CE(锐化resume exp49),"10000步,cwfa start5000",6e-05,0.01,10000,42,0.803651,10000,66.8485,UNKNOWN,exp49,NO,NO,NO,server
+stage55b,stage56,exp56_b3_cwfa_5597_pseudo500,configs/stage56,c280f756,B3,1024,CE,5597真+500伪标签,6e-05,0.01,56000,42,0.809790,UNKNOWN,68.0480,+0.677(相对Exp23标准67.371),Exp23,NO,NO,500pseudo,成绩表;无独立stage55b目录
+exp57,stage57,exp57_regionB,configs/stage57,7e21c4bc,B3,1024,CE+RegionContrast,modeB w0.1,6e-05,0.01,56000,42,0.810375,UNKNOWN,67.5182,UNKNOWN,Exp23,NO,NO,NO,用户回传0.675182
+exp58,stage58,exp58_regionC,configs/stage58,d35af98e,B3,1024,CE+RegionContrast,"modeC pairs[[6,0],[1,0]] w0.1",6e-05,0.01,56000,42,0.811458,UNKNOWN,67.6376,UNKNOWN,Exp23,NO,NO,NO,用户回传0.676376
+exp61,stage61,exp61_maxent_pseudo500,configs/stage61,e1c49694,B3,1024,CE+MaxEntλ1,5597真+500伪,6e-05,0.01,56000,42,0.805786,UNKNOWN,67.78,UNKNOWN,stage55b,NO,NO,500pseudo,决策文档
+stage62,stage62,exp62_resume55b_pseudo500,configs/stage62,44ca9985,B3,1024,CE(续训),resume stage55b last.pt→70000步,6e-05,0.01,70000,42,0.810394,68600,UNKNOWN,+0.05,stage55b,NO,NO,500pseudo,server
+stage63,stage63,exp63_wd005,configs/stage63,fe30f743,B3,1024,CE,wd0.05,6e-05,0.05,56000,42,0.812205,56000,67.52(标准),UNKNOWN,Exp23,NO,NO,NO,成绩表wd扫描
+stage64,stage64,exp64_wd0005,configs/stage64,4364cdb8,B3,1024,CE,wd0.005,6e-05,0.005,56000,42,0.810903,53200,67.61(标准),UNKNOWN,Exp23,NO,NO,NO,成绩表wd扫描
+stage65,stage65,exp65_p1_pseudolabel_round2,configs/stage65,a9fd16f8,B3,1024,CE,"P1第二轮3教师,84000步",6e-05,0.01,84000,42,None(训练中),-,NOT_YET_SUBMITTED,-,stage62等,NO,NO,3教师pseudo,server;2026-09-09训练中

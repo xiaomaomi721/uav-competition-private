@@ -1,0 +1,218 @@
+{
+ "created": "2026-09-18T02:56:08.459249+00:00",
+ "scope": "PHASE0_MATCHED_DELTA",
+ "convention": "unit(gset)=max|ALPHA_REF[g]|*RMS(s55b-soupC|gset); scale=k*unit/RMS(v|gset); out=base+scale*v on gset keys only; all other keys verbatim from base",
+ "alpha_ref": {
+  "stage0": 0.5,
+  "stage1": 0.5,
+  "stage2": 0.2,
+  "stage3": -0.1,
+  "head": 0.0
+ },
+ "head_fallback": 0.1,
+ "units": {
+  "stage0+stage1": 0.003010162618011236,
+  "stage2": 0.0016307737678289413,
+  "stage3": 0.0009617947041988373,
+  "head": 0.001282487250864506
+ },
+ "base_sha": {
+  "th209": "39e8b59847957c26758067db7a044e2c09d15a929ce29986badeed5eec6d2af3",
+  "th237": "1485a66a14342932a17ae3afb4180449b1b8ef0679db5bc8af8aea42f37c1cea"
+ },
+ "source_sha": {
+  "Exp18": "66667268d824d559a68b4b80872fe64d729bed7c6361d1a9939d6a3f92de88fd",
+  "Exp23": "d3740b4ef73fbb3ac57ddeedc3547ce4ce1ba31442dc7c70e1fe96b1fab3e228",
+  "Exp47": "27e1441c008ab1b90eaa18bb45f44d6e9163f635ea544f1b6469a39cbd63d13e",
+  "Exp25": "e76f1fb254627483894f50da9f414ec299b6a3e6856f05c520443f3c9104e140",
+  "RareExp": "dbe1063c72131303b9759b8948a072b07ff093968ecd20c63d11b40e27115851",
+  "s55b": "a2adfb906d53d86b1f8ce2eb6bfa3bdb7c040e025bc187ee4165c09858ac78f2",
+  "s58": "00d25a6d5329448085f72637b45cd0785afe768ce57d13b148ecc4946e60d20a",
+  "s64": "2853e00453cb5ee2d1c346dc79c2999b2335e6126ac14b7c85d49dedae7a68a4"
+ },
+ "candidates": {
+  "A_cleanSEM_M_k050_th209": {
+   "base": "th209",
+   "A": "Exp47",
+   "B": "Exp18",
+   "groups": [
+    "stage2"
+   ],
+   "k": 0.5,
+   "scale": 0.09940155723334253,
+   "unit": 0.0016307737678289413,
+   "target_rms": 0.0008153868839144707,
+   "measured_rms": 0.0008153868839144707,
+   "rms_ok": true,
+   "untouched_byte_identical": true,
+   "n_keys": 402,
+   "path": "/home/jhy/rare_diag_20260915/phase0_candidates_20260918/A_cleanSEM_M_k050_th209.pt",
+   "sha256": "58f9b2f371214f4c312f728fd389a264af0ef972ad7fcccc6ceb23cb56c23d61"
+  },
+  "A_cleanSEM_M_k100_th209": {
+   "base": "th209",
+   "A": "Exp47",
+   "B": "Exp18",
+   "groups": [
+    "stage2"
+   ],
+   "k": 1.0,
+   "scale": 0.19880311446668505,
+   "unit": 0.0016307737678289413,
+   "target_rms": 0.0016307737678289413,
+   "measured_rms": 0.0016307736514136195,
+   "rms_ok": true,
+   "untouched_byte_identical": true,
+   "n_keys": 402,
+   "path": "/home/jhy/rare_diag_20260915/phase0_candidates_20260918/A_cleanSEM_M_k100_th209.pt",
+   "sha256": "9ffdd0beb8480a1efd361503d637d3d53cf716c808537c551fefae09f7fe2786"
+  },
+  "Z_k000_selfcheck_th209": {
+   "base": "th209",
+   "A": "Exp47",
+   "B": "Exp18",
+   "groups": [
+    "stage2"
+   ],
+   "k": 0.0,
+   "scale": 0.0,
+   "unit": 0.0016307737678289413,
+   "target_rms": 0.0,
+   "measured_rms": 0.0,
+   "rms_ok": true,
+   "untouched_byte_identical": true,
+   "n_keys": 402,
+   "path": "/home/jhy/rare_diag_20260915/phase0_candidates_20260918/Z_k000_selfcheck_th209.pt",
+   "sha256": "ec452d2da2619e3116506cfb2f62f924f773ff12188193e374a77f87af9edbd4"
+  },
+  "B_nodK_D_k100_th237": {
+   "base": "th237",
+   "A": "Exp25",
+   "B": "Exp18",
+   "groups": [
+    "stage3"
+   ],
+   "k": 1.0,
+   "scale": 0.13570505492316393,
+   "unit": 0.0009617947041988373,
+   "target_rms": 0.0009617947041988373,
+   "measured_rms": 0.0009617946925573051,
+   "rms_ok": true,
+   "untouched_byte_identical": true,
+   "n_keys": 60,
+   "path": "/home/jhy/rare_diag_20260915/phase0_candidates_20260918/B_nodK_D_k100_th237.pt",
+   "sha256": "cf283d87cad772fba2d1ee403013287ba6f51414f8c8340a17f716bbc1e14c14"
+  },
+  "B_nodK_M_k100_th237": {
+   "base": "th237",
+   "A": "Exp25",
+   "B": "Exp18",
+   "groups": [
+    "stage2"
+   ],
+   "k": 1.0,
+   "scale": 0.2520043428238585,
+   "unit": 0.0016307737678289413,
+   "target_rms": 0.0016307737678289413,
+   "measured_rms": 0.0016307737678289413,
+   "rms_ok": true,
+   "untouched_byte_identical": true,
+   "n_keys": 402,
+   "path": "/home/jhy/rare_diag_20260915/phase0_candidates_20260918/B_nodK_M_k100_th237.pt",
+   "sha256": "6e914091fc5b995239745fee13298597341d0ff48d8b00c71974eb5968eddcdc"
+  },
+  "B_nodK_E_k100_th237": {
+   "base": "th237",
+   "A": "Exp25",
+   "B": "Exp18",
+   "groups": [
+    "stage0",
+    "stage1"
+   ],
+   "k": 1.0,
+   "scale": 0.5749263272473563,
+   "unit": 0.003010162618011236,
+   "target_rms": 0.003010162618011236,
+   "measured_rms": 0.00301016285084188,
+   "rms_ok": true,
+   "untouched_byte_identical": true,
+   "n_keys": 166,
+   "path": "/home/jhy/rare_diag_20260915/phase0_candidates_20260918/B_nodK_E_k100_th237.pt",
+   "sha256": "5096b4f527e19e0e0b458af3a5c197831a746220c8e1bf72262b991f4168cf41"
+  },
+  "B_nodK_H_k100_th237": {
+   "base": "th237",
+   "A": "Exp25",
+   "B": "Exp18",
+   "groups": [
+    "head"
+   ],
+   "k": 1.0,
+   "scale": 0.24737620228818946,
+   "unit": 0.001282487250864506,
+   "target_rms": 0.001282487250864506,
+   "measured_rms": 0.0012824871810153127,
+   "rms_ok": true,
+   "untouched_byte_identical": true,
+   "n_keys": 13,
+   "path": "/home/jhy/rare_diag_20260915/phase0_candidates_20260918/B_nodK_H_k100_th237.pt",
+   "sha256": "678b1635bb54bdf8d370d79f6358795eefba7fb53c31d9312e31a968327dfd50"
+  },
+  "C_rareExp_E_k100_th237": {
+   "base": "th237",
+   "A": "RareExp",
+   "B": "Exp23",
+   "groups": [
+    "stage0",
+    "stage1"
+   ],
+   "k": 1.0,
+   "scale": 0.4607497998389972,
+   "unit": 0.003010162618011236,
+   "target_rms": 0.003010162618011236,
+   "measured_rms": 0.003010162618011236,
+   "rms_ok": true,
+   "untouched_byte_identical": true,
+   "n_keys": 166,
+   "path": "/home/jhy/rare_diag_20260915/phase0_candidates_20260918/C_rareExp_E_k100_th237.pt",
+   "sha256": "58a53e94242bc9d2899e1039cfcca954f1faf0355ca2bd7e9a35fb43a2fcd3b4"
+  },
+  "C_rareExp_M_k100_th237": {
+   "base": "th237",
+   "A": "RareExp",
+   "B": "Exp23",
+   "groups": [
+    "stage2"
+   ],
+   "k": 1.0,
+   "scale": 0.1787289091056166,
+   "unit": 0.0016307737678289413,
+   "target_rms": 0.0016307737678289413,
+   "measured_rms": 0.0016307735349982977,
+   "rms_ok": true,
+   "untouched_byte_identical": true,
+   "n_keys": 402,
+   "path": "/home/jhy/rare_diag_20260915/phase0_candidates_20260918/C_rareExp_M_k100_th237.pt",
+   "sha256": "0ddfe0e92febce6b8e5b77b1c7c46f085581e6d9278feb5a7c2a5e1d8fae4fab"
+  },
+  "C_rareExp_D_k100_th237": {
+   "base": "th237",
+   "A": "RareExp",
+   "B": "Exp23",
+   "groups": [
+    "stage3"
+   ],
+   "k": 1.0,
+   "scale": 0.08975880387415178,
+   "unit": 0.0009617947041988373,
+   "target_rms": 0.0009617947041988373,
+   "measured_rms": 0.0009617948089726269,
+   "rms_ok": true,
+   "untouched_byte_identical": true,
+   "n_keys": 60,
+   "path": "/home/jhy/rare_diag_20260915/phase0_candidates_20260918/C_rareExp_D_k100_th237.pt",
+   "sha256": "25629c82e967e8e1796925663649a28c6c8bb41ce9dcf752d5afbc9a874b83d7"
+  }
+ },
+ "selfcheck_k0_identical_to_base": true
+}

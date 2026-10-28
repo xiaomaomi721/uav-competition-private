@@ -1,0 +1,29 @@
+{
+  "schema": "KD_TEACHER_SOFT_TARGETS_V1",
+  "scope": "SOFT_KD_TEACHER_CACHE",
+  "created": "2026-09-15T06:54:30.818915+00:00",
+  "temperature": 2.0,
+  "store": "fp16",
+  "resolution": "native",
+  "layout": "[H,W,C] channels-last so geometry can be applied jointly",
+  "tta": "D4 TTA8 (4 rotations x plain/mirror), image-space FP32 mean",
+  "bias": "ZERO (no leaderboard calibration in the soft targets)",
+  "names": 500,
+  "teachers": {
+    "stage23B": {
+      "config": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage23_runs/stage23_w1_exp23_b3_1024_cwfa_ce_formal_seed42/config.yaml",
+      "checkpoint": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage23_runs/stage23_w1_exp23_b3_1024_cwfa_ce_formal_seed42/best_miou.pt",
+      "checkpoint_sha256": "d3740b4ef73fbb3ac57ddeedc3547ce4ce1ba31442dc7c70e1fe96b1fab3e228"
+    },
+    "s62": {
+      "config": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage62_runs/stage62_w1_resume55b_pseudo500_seed42/config.yaml",
+      "checkpoint": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage62_runs/stage62_w1_resume55b_pseudo500_seed42/best_miou.pt",
+      "checkpoint_sha256": "e3c80e48fc71a8ac21ca54391b780da2b343fb67ce063d854841b4adfba4e9a8"
+    },
+    "s58": {
+      "config": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage58_runs/stage58_w1_exp58_b3_cwfa_ce_regionC_seed42/config.yaml",
+      "checkpoint": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage58_runs/stage58_w1_exp58_b3_cwfa_ce_regionC_seed42/best_miou.pt",
+      "checkpoint_sha256": "00d25a6d5329448085f72637b45cd0785afe768ce57d13b148ecc4946e60d20a"
+    }
+  }
+}

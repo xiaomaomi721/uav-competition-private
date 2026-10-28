@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "CPU arithmetic only; no data, model training, GPU, or accuracy evaluation",
+  "zero_strength_ce_minus_entropy": 0.0,
+  "zero_strength_teacher_student_gradient_max": 0.0,
+  "toy_corrected_gradient": [
+    -0.012489593739470006,
+    0.012489593739470006
+  ],
+  "toy_finite_difference_gradient": [
+    -0.01248959374811065,
+    0.01248959374811065
+  ],
+  "finite_difference_max_error": 8.640643756052668e-12,
+  "double_bias_gradient_max": 0.13318942538282263,
+  "claims_not_tested": [
+    "GMM implementation",
+    "PyTorch autograd",
+    "H75 accuracy",
+    "target-label correctness",
+    "mIoU improvement"
+  ]
+}

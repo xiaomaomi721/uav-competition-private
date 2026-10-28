@@ -1,0 +1,110 @@
+{
+  "aliases": {
+    "last": "69997"
+  },
+  "all_done": false,
+  "at": "2026-09-12T01:47:59.835927+00:00",
+  "binding": "e197397c360391b1b53b48749abee30373568dff556b1cc95b6753ca95f019c1",
+  "fixed_variants_only": true,
+  "mapping": {
+    "55000": "55000",
+    "60000": "60000",
+    "65000": "65000",
+    "69997": "69997",
+    "last": "69997"
+  },
+  "optional_winner_used": false,
+  "package_count": 6,
+  "packages": [
+    {
+      "batch_source": "benchmark23",
+      "official_check_json": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_69997_partial_v2/TTA8/check_out/submission_check.json",
+      "official_check_sha256": "db527392c94853203f49667e610116b752920348cb12e711b24f4572533589c5",
+      "official_check_status": "PASS",
+      "representative": "69997",
+      "status": "PASS",
+      "variant": "TTA8",
+      "view_batch_size": 1,
+      "zip_bytes": 4498247,
+      "zip_path": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_69997_partial_v2/TTA8.zip",
+      "zip_sha256": "435f98cb0ea38ad5832b7dd9bc189c866db5a69c9a70a1bc2d623057e730e91c"
+    },
+    {
+      "batch_source": "benchmark23",
+      "official_check_json": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_69997_partial_v2/TTA8_FIXED8D_EXP41_STYLE/check_out/submission_check.json",
+      "official_check_sha256": "e3009ca17ea74f5930c144cd7be3c3a8be1f13370f64d6a5d4359f06d2b9ff8c",
+      "official_check_status": "PASS",
+      "representative": "69997",
+      "status": "PASS",
+      "variant": "TTA8_FIXED8D_EXP41_STYLE",
+      "view_batch_size": 1,
+      "zip_bytes": 4475852,
+      "zip_path": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_69997_partial_v2/TTA8_FIXED8D_EXP41_STYLE.zip",
+      "zip_sha256": "5167656552e6ac3e395f244fca19da9897527be3bc45363927da75f56f6f4a1a"
+    },
+    {
+      "batch_source": "benchmark23",
+      "official_check_json": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_69997_partial_v2/TTA8_LOCKED8D_69_276229/check_out/submission_check.json",
+      "official_check_sha256": "1e7e148e004740d6df484c27fe85798a1b83ef0119ff0f53b46ddbf493da0523",
+      "official_check_status": "PASS",
+      "representative": "69997",
+      "status": "PASS",
+      "variant": "TTA8_LOCKED8D_69_276229",
+      "view_batch_size": 1,
+      "zip_bytes": 4477911,
+      "zip_path": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_69997_partial_v2/TTA8_LOCKED8D_69_276229.zip",
+      "zip_sha256": "241f618b7a980fb8862460847d092b286bf6c1404edef337d038706793dfa36d"
+    },
+    {
+      "batch_source": "benchmark23",
+      "official_check_json": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_65000_partial_v2/TTA8/check_out/submission_check.json",
+      "official_check_sha256": "3bdab7c1a98003b353015e2ccab41e82521df78703a169945b8f3f7dcc411ef9",
+      "official_check_status": "PASS",
+      "representative": "65000",
+      "status": "PASS",
+      "variant": "TTA8",
+      "view_batch_size": 1,
+      "zip_bytes": 4492696,
+      "zip_path": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_65000_partial_v2/TTA8.zip",
+      "zip_sha256": "de78b5d8665649182575b434b6e21076d0a8648a73e7235b06672f52b2278df9"
+    },
+    {
+      "batch_source": "benchmark23",
+      "official_check_json": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_65000_partial_v2/TTA8_FIXED8D_EXP41_STYLE/check_out/submission_check.json",
+      "official_check_sha256": "9d12ed0a39e3d224476b7549cb7c36a8dca3d2013b9e5333a358f0a97759a8f8",
+      "official_check_status": "PASS",
+      "representative": "65000",
+      "status": "PASS",
+      "variant": "TTA8_FIXED8D_EXP41_STYLE",
+      "view_batch_size": 1,
+      "zip_bytes": 4468730,
+      "zip_path": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_65000_partial_v2/TTA8_FIXED8D_EXP41_STYLE.zip",
+      "zip_sha256": "0bcfe2a11b3bf5f519e6f3fd5490b3e86a0c283db3208d4b0552000a0f8358c4"
+    },
+    {
+      "batch_source": "benchmark23",
+      "official_check_json": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_65000_partial_v2/TTA8_LOCKED8D_69_276229/check_out/submission_check.json",
+      "official_check_sha256": "8664e139a7f2224386d723dfc5c5665028c82966f5166fd33a93e41cea9e36c5",
+      "official_check_status": "PASS",
+      "representative": "65000",
+      "status": "PASS",
+      "variant": "TTA8_LOCKED8D_69_276229",
+      "view_batch_size": 1,
+      "zip_bytes": 4472256,
+      "zip_path": "/home/jhy/gpu2_day_queue/packages_partial_v2/full6996_65000_partial_v2/TTA8_LOCKED8D_69_276229.zip",
+      "zip_sha256": "c32a410e39716a7ce0e46f075ee3cb1d3e91448ca9d36036e3355e8d78e087ed"
+    }
+  ],
+  "readiness": "PRIORITY_GROUP_69997_65000_READY",
+  "representatives": [
+    "69997",
+    "65000"
+  ],
+  "requested_tags": [
+    "69997",
+    "65000",
+    "last"
+  ],
+  "scope": "priority_packages_only_NOT_pipeline_all_done",
+  "status": "PASS"
+}

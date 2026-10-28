@@ -1,0 +1,35 @@
+{
+  "batch": "批次_20260927_MIC_FIXED",
+  "status": "LOCAL_VERIFIED_AWAITING_MANUAL_SUBMISSION_DECISION",
+  "candidate": "MIC_TREAT_S20260927_step8000_D4_TTA8_Bstar_FIXED",
+  "checkpoint_sha256": "e17fa56fbd809e9b8362f9d6ea3cf8723b9da3e1024ec3d8c1580825d1d455d0",
+  "entrypoint_sha256": "199b884468bef4259043939b72461761137c53532647969ac7f80626d8a33740",
+  "zip_filename": "MIC_TREAT_S20260927_step8000_D4_TTA8_Bstar_FIXED_test2.zip",
+  "zip_sha256": "c9b67be903090722834c8d4e4f3f9d82e886559320202180fe919e0bfc667e41",
+  "zip_size": 11164052,
+  "server_path": "/home/jhy/rare_diag_20260915/a05_micmask_20260927/10_infer_treat_fixed_20260927/MIC_TREAT_S20260927_step8000_D4_TTA8_Bstar_FIXED_test2.zip",
+  "local_path": "提交包/待提交/批次_20260927_MIC_FIXED/MIC_TREAT_S20260927_step8000_D4_TTA8_Bstar_FIXED_test2.zip",
+  "protocol": "single checkpoint; D4 TTA8; FP32 native-logit mean; Bstar once; bilinear 1024 align_corners=false; argmax+1",
+  "verification": {
+    "unit_tests": "5/5 PASS",
+    "cuda_hidden_rejection": "PASS_NO_OUTPUT_CREATED",
+    "a05_anchor_replay": "8/8_BYTE_EXACT",
+    "input_output_basename_identity": "1300/1300_PASS",
+    "zip_member_order": "PASS",
+    "zip_crc": "PASS",
+    "png_contract": "1300/1300_PASS",
+    "server_local_sha_match": true
+  },
+  "behavior_no_gt": {
+    "fixed_vs_a05_flip_mean_pct": 3.381787813626803,
+    "fixed_vs_a05_flip_median_pct": 1.525735855102539,
+    "fixed_vs_a05_flip_max_pct": 83.19664001464844,
+    "images_flip_gt50pct": 4,
+    "images_flip_gt20pct": 35,
+    "accuracy_claim_allowed": false
+  },
+  "training_performed": false,
+  "test2_ground_truth_used": false,
+  "platform_submission_performed": false,
+  "warning": "This FIXED ZIP is distinct from invalid historical ZIP SHA 16aba189...fae5. Never submit the invalid ZIP again."
+}

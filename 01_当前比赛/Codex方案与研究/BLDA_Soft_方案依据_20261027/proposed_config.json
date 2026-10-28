@@ -1,0 +1,157 @@
+{
+  "status": "PROPOSED_NOT_EXECUTED",
+  "date": "2026-10-27",
+  "name": "H75_BLDA_Soft",
+  "method": "Project-specific soft-target adaptation of BLDA OLA; not a full paper reproduction",
+  "current_semifinal_baseline_user_reported": 70.998665,
+  "target_miou": 72,
+  "initialization": {
+    "student": "H75",
+    "teacher": "H75",
+    "teacher_frozen": true,
+    "sha256": "b5eea2795d8a6d90c803a15b2ca66cf0abcf62322ef1aacd0d4d0ec82098a28a",
+    "historical_path": "/data/uav/runs/ASTRA_H75_X110_20261005/ckpt/H75.pt",
+    "path_reverified_this_turn": false
+  },
+  "data": {
+    "source_train": 5597,
+    "source_val": 1399,
+    "target": 3594,
+    "target_group_sizes": [
+      500,
+      1300,
+      1794
+    ],
+    "target_order": "one deterministic shuffled pass shared between arms",
+    "source_order": "same shuffled 3594 selections from source_train in both arms",
+    "train_seed": 20261027
+  },
+  "teacher_cache": {
+    "type": "raw_logits",
+    "shape": [
+      8,
+      256,
+      256
+    ],
+    "dtype": "float16",
+    "view": "single weak view",
+    "needs_identity_validation": true,
+    "existing_prob512_cache_accepted_as_raw_logits": false
+  },
+  "classes": [
+    "Background",
+    "Building",
+    "Road",
+    "Water",
+    "Barren",
+    "Vegetation",
+    "Agricultural",
+    "Vehicle"
+  ],
+  "bstar": [
+    -0.2,
+    0.1,
+    0.0709,
+    0.4,
+    3.6,
+    0.4,
+    2.1215,
+    -0.5
+  ],
+  "objective": {
+    "source": "mean CE(z_source-a_y,GT)",
+    "target": "mean_mask [-sum_c q[c] log_softmax(z_target+bstar-a_c)[c]]",
+    "target_is_ordinary_kl": false,
+    "alpha_zero_gradient_matches_old_kl": true,
+    "q": "softmax(teacher_raw+bstar)",
+    "temperature": 1,
+    "source_weight": 0.1,
+    "target_weight": 1,
+    "target_ramp_steps": 500,
+    "correction_stop_gradient": true,
+    "max_abs_scaled_correction": 0.5,
+    "CDE_weight": 0
+  },
+  "confidence_mask": {
+    "global": 0.98,
+    "blind_classes": [
+      3,
+      4,
+      6
+    ],
+    "blind_threshold": 0.5,
+    "changed_by_OLA": false
+  },
+  "arms": {
+    "C0": {
+      "alpha": 0
+    },
+    "C1": {
+      "alpha_max": 0.1,
+      "zero_until_step": 500,
+      "linear_ramp_end_step": 1000
+    }
+  },
+  "training": {
+    "updates": 3594,
+    "batch_source": 1,
+    "batch_target": 1,
+    "trainable": [
+      "backbone.stage2",
+      "backbone.stage3",
+      "decode_head"
+    ],
+    "optimizer": "AdamW",
+    "backbone_lr": 0.00001,
+    "head_lr": 5e-7,
+    "weight_decay": 0.01,
+    "lr_factor": "1-(step-1)/10000",
+    "augmentation": "archived D4 + strong_photo, matched RNG between arms",
+    "save_steps": [
+      1000,
+      2000,
+      3594
+    ],
+    "predeclared_endpoint": 3594
+  },
+  "statistics": {
+    "coordinate": "raw student logits detached FP32",
+    "source_condition": "ground truth",
+    "target_condition": "fixed teacher argmax within unchanged training mask",
+    "source_grid": "same 1024 logits as source CE",
+    "target_grid": "inverse-D4 native256",
+    "num_components": 5,
+    "EM_iterations": 3,
+    "momentum": 0.99,
+    "update_interval_steps": 20,
+    "reservoir_pixels_per_class": 4096,
+    "min_pixels_per_class": 500,
+    "min_distinct_images_per_class": 5,
+    "covariance_floor": 0.0001,
+    "cdf_quantile_clip": [
+      0.01,
+      0.99
+    ],
+    "use_previous_step_statistics": true,
+    "missing_row_fallback": "zero correction",
+    "separate_rng": true,
+    "persist_all_state": true,
+    "three_target_groups_have_separate_models": false
+  },
+  "inference": {
+    "single_checkpoint": true,
+    "TTA": "existing D4 8 views",
+    "average": "aligned raw logits FP32",
+    "add_bstar_times": 1,
+    "posthoc_CDF": false,
+    "retune_bstar": false
+  },
+  "resource_status": {
+    "server_connected_this_turn": false,
+    "GPU_used": false,
+    "training_started": false,
+    "submission_used": false,
+    "estimate_runtime_after_measured_steps": 50
+  }
+}
+

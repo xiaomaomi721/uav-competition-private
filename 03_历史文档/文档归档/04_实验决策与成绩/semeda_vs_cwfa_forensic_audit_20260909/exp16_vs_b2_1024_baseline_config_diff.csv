@@ -1,0 +1,11 @@
+field,exp14_baseline,exp16_upernet,status
+backbone,SegFormer-B2,SegFormer-B2,SAME
+resolution/crop,1024,1024,SAME
+loss,cross_entropy,cross_entropy,SAME
+rare_crop,enabled(p0.5),enabled(p0.5),SAME
+decoder,SegFormerÔ­Éúconcat+1x1,UPerNet,DIFFERENT
+optimizer,AdamW,AdamW,SAME
+lr,6e-05,6e-05,SAME
+weight_decay,0.01,0.01,SAME
+max_steps,56000,56000,SAME
+seed,42,42,SAME

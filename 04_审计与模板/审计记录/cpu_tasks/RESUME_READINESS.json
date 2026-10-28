@@ -1,0 +1,28 @@
+{
+  "scope": "ATDA 8k checkpoint resume readiness",
+  "checkpoint": "/home/jhy/rare_diag_20260915/atda_20260918/run_s2s3_base261/checkpoint_step8000.pt",
+  "checked_at": "2026-09-19",
+  "fields": {
+    "student_model": {"present": true, "tensors": 644},
+    "ema": {"present": true, "tensors": 644},
+    "optimizer": {"present": true, "param_groups": 1, "states": 462,
+                  "lr_recorded": 2.0009999999999996e-06,
+                  "weight_decay_recorded": 0.01},
+    "scaler": {"present": true, "scale": 131072.0},
+    "global_step": {"present": true, "value": 8000},
+    "config": {"present": true,
+               "scheduler_total_steps": 10000, "power": 1.0},
+    "scheduler_state": {"present": false,
+                        "note": "poly LR is a pure function of step; no extra state needed"},
+    "rng_state": {"present": false,
+                  "note": "matches the original trainer; resume re-seeds, so the data "
+                          "stream order is the only non-exact part of a resumed run"},
+    "dataloader_state": {"present": false}
+  },
+  "blocker": "the ATDA trainer rebuilds student/ref/EMA from theta261 each process "
+             "and has NO --resume flag. To make resume_8k_to_10k.sh actually work, "
+             "add --resume to _atda_train.py (load model/ema/optimizer/scaler/step "
+             "and continue). This is the single missing capability; everything else "
+             "needed for an exact 8k->10k continuation is already in the checkpoint.",
+  "total_steps_must_remain": 10000
+}

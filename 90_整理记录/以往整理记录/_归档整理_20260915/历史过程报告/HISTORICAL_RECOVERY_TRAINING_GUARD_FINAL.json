@@ -1,0 +1,85 @@
+{
+  "status": "HANDOFF_RUNNING_POSTPROCESS_STORAGE_BLOCKED",
+  "at": "2026-09-14T17:05:48.825113",
+  "controller": {
+    "pid": 2187127,
+    "state": "S",
+    "ppid": 1,
+    "sid": 2187127,
+    "starttime": 1563763263,
+    "exit_code": 0,
+    "argv": [
+      "/home/jhy/.venvs/uavseg/bin/python",
+      "-B",
+      "/home/jhy/gpu3_paramwise01/protocol_v2/paramwise01_protocol_handoff.py",
+      "--policy",
+      "/home/jhy/gpu3_paramwise01/protocol_v2/HANDOFF_POLICY.json"
+    ]
+  },
+  "old_scheduler": {
+    "pid": 2113375,
+    "state": "T",
+    "ppid": 1,
+    "sid": 2113375,
+    "starttime": 1563539624,
+    "exit_code": 19,
+    "argv": [
+      "/home/jhy/.venvs/uavseg/bin/python",
+      "-B",
+      "/home/jhy/gpu3_paramwise01/queue/paramwise01_queue.py",
+      "--policy",
+      "/home/jhy/gpu3_paramwise01/queue/POLICY_UUIDFIXED.json"
+    ]
+  },
+  "locks": [
+    {
+      "path": "/home/jhy/gpu3_paramwise01/queue/gpu3_paramwise01.lock",
+      "held": true
+    },
+    {
+      "path": "/home/jhy/gpu3_paramwise01/protocol_v2/successor.lock",
+      "held": true
+    }
+  ],
+  "runs": [
+    {
+      "experiment": "RareExposure",
+      "pid": 283448,
+      "sid": 283448,
+      "state": "R",
+      "physical_gpu": 2,
+      "step": 49646,
+      "loss": 0.13366514071822166,
+      "formal_config_sha256": "fc6005a5e8a59e03f134a17b832e620e2764a36697e789b5dd5c60d9a181fe09",
+      "formal_config_unchanged": true,
+      "gpu_processes": "283448, GPU-cacb7500-f2e9-c482-d85c-53c7f8d1def9"
+    },
+    {
+      "experiment": "Paramwise01",
+      "pid": 2115724,
+      "sid": 2115724,
+      "state": "R",
+      "physical_gpu": 3,
+      "step": 2998,
+      "loss": 0.3249390050768852,
+      "formal_config_sha256": "b13dabef0c44ac802bff16443d8fc7c1d81606540c6dde2c3cc5b22321f4068d",
+      "formal_config_unchanged": true,
+      "gpu_processes": "2115724, GPU-32853ccf-4c4f-1328-8d75-04efe9d5298f"
+    }
+  ],
+  "free_bytes": 10891481088,
+  "required_free_bytes": 215605739520,
+  "protocol_status": "INSTALLED_AND_FROZEN",
+  "protocol_sequence": "matched-control -> positive-effect gate -> model-specific 8D scan -> multi-package bank",
+  "production_GPU_started": false,
+  "stageA_status": "NOT_STARTED",
+  "formal_training_restarted": false,
+  "training_parameters_modified": false,
+  "automatic_online_submission": false,
+  "policy_sha256": "5a02b29fbc5eb8849ae208922fcd8ae7bb21818df25f91167efb1d78c54e6ca2",
+  "validation": {
+    "exit_code": 0,
+    "stdout": "{\"status\": \"PASS\", \"mode\": \"validate_only\", \"formal_pid\": 2115724, \"formal_signaled\": false, \"GPU_started\": false, \"protocol_policy_sha256\": \"5a02b29fbc5eb8849ae208922fcd8ae7bb21818df25f91167efb1d78c54e6ca2\"}\n",
+    "stderr": ""
+  }
+}

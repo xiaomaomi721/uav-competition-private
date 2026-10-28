@@ -1,0 +1,157 @@
+{
+  "created": "2026-09-17T04:34:43.805106+00:00",
+  "scope": "SOUPC_BACKGROUND_AND_WATER",
+  "cache": "/home/jhy/rare_diag_20260915/soup_family_eval_20260917/scores_soupC",
+  "base_vector": [
+    -0.2,
+    0.1,
+    0.0709,
+    0.7,
+    3.6,
+    0.4,
+    2.1215,
+    -0.5
+  ],
+  "measured": {
+    "zero": 0.681892,
+    "C": 0.695792,
+    "farmland_2.1215": 0.696818,
+    "barren_0.6": 0.696006,
+    "barren_3.6": 0.683895
+  },
+  "packages": {
+    "soupC_bgm0p3": {
+      "vector": [
+        -0.3,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "axis_index": 0,
+      "axis_name": "bg",
+      "value": -0.3,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_bg_water_20260917/soupC_bgm0p3.zip",
+      "zip_sha256": "ad25f9bd65b669879b3a32d7c426df3a8a6af148acf57844caf265238f61b7ba",
+      "entries": 500,
+      "png_content_sha256": "6eb6cd5b99b283fe625471bfbf00db021dafeb00f070b959f4078f9cd2375d1f"
+    },
+    "soupC_bgm0p4": {
+      "vector": [
+        -0.4,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "axis_index": 0,
+      "axis_name": "bg",
+      "value": -0.4,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_bg_water_20260917/soupC_bgm0p4.zip",
+      "zip_sha256": "a5c9982f20219cc465a65dfd1295d2b92648126595c24266c80b9be7a757d6ee",
+      "entries": 500,
+      "png_content_sha256": "38c59a7da39610a0b4825ac0c104f9e3044114555bba25c7a2bc80e012f0dc36"
+    },
+    "soupC_bgm0p5": {
+      "vector": [
+        -0.5,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "axis_index": 0,
+      "axis_name": "bg",
+      "value": -0.5,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_bg_water_20260917/soupC_bgm0p5.zip",
+      "zip_sha256": "1f05c7c64a484f04e059bcb228d9d40c2dbfa7cb24a133d056ff549c77719b2b",
+      "entries": 500,
+      "png_content_sha256": "7135aa9349ed89b0e8920d4d77dc347707aaf3c7f7ed10c0adbffc8522e72796"
+    },
+    "soupC_bgm0p6": {
+      "vector": [
+        -0.6,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "axis_index": 0,
+      "axis_name": "bg",
+      "value": -0.6,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_bg_water_20260917/soupC_bgm0p6.zip",
+      "zip_sha256": "718a4f611da7865aaea662c45dc99be85ea735bdbff6b83e1e816679f2832bd7",
+      "entries": 500,
+      "png_content_sha256": "77b40a601fe825e6b58b4f143bc0bdcdc4e08ea0bce07dc9e5c5b9af6c209dce"
+    },
+    "soupC_bgm0p8": {
+      "vector": [
+        -0.8,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "axis_index": 0,
+      "axis_name": "bg",
+      "value": -0.8,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_bg_water_20260917/soupC_bgm0p8.zip",
+      "zip_sha256": "0fea5ff4070199c8d1e995a9ab4f4ee88bf0a475e953b41f28ad1f9b8130350b",
+      "entries": 500,
+      "png_content_sha256": "26457dceaa7fdf6d6710247470089cfcb5b1aac2847a4576ec0c4dc86d3c3657"
+    },
+    "soupC_water0p4": {
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.4,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "axis_index": 3,
+      "axis_name": "water",
+      "value": 0.4,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_bg_water_20260917/soupC_water0p4.zip",
+      "zip_sha256": "7d4e53238ecaff426f5ebdefe5173ebf2987fc03954ec04541a191a090434dd2",
+      "entries": 500,
+      "png_content_sha256": "6cf92408d5b6dba4d6891e7e527e507fb0bf8e016ee51e76dc007c6dc9707175"
+    },
+    "soupC_water0p1": {
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.1,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "axis_index": 3,
+      "axis_name": "water",
+      "value": 0.1,
+      "zip_path": "/home/jhy/rare_diag_20260915/soupC_bg_water_20260917/soupC_water0p1.zip",
+      "zip_sha256": "40e34a6228d7e5e71536ef3c3297c09732a0b87b15c0941d72a820320f772308",
+      "entries": 500,
+      "png_content_sha256": "faa7c427aa714f319b08fd21823fac7100d1f09b5ec6e4e2af98cf09218da9c1"
+    }
+  }
+}

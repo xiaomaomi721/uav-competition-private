@@ -1,0 +1,62 @@
+{
+  "source": "User reported scores in order 18-28 during the session (before this file existed).",
+  "recorded_at": "2026-09-15T10:26:57.696937+08:00",
+  "caveat": "No platform screenshot/receipt was captured for this batch; values are user-reported.",
+  "receipts": [
+    {
+      "index": 18,
+      "file": "18_core_s55b_pseudo_zero.zip",
+      "platform_mIoU": 0.679846
+    },
+    {
+      "index": 19,
+      "file": "19_core_s55b_pseudo_championbias.zip",
+      "platform_mIoU": 0.692777
+    },
+    {
+      "index": 20,
+      "file": "20_core_s66_semeda_zero.zip",
+      "platform_mIoU": 0.677884
+    },
+    {
+      "index": 21,
+      "file": "21_core_s66_semeda_championbias.zip",
+      "platform_mIoU": 0.688231
+    },
+    {
+      "index": 22,
+      "file": "22_core_s61_maxentpseudo_zero.zip",
+      "platform_mIoU": 0.677787
+    },
+    {
+      "index": 23,
+      "file": "23_core_s58_regionC_zero.zip",
+      "platform_mIoU": 0.676383
+    },
+    {
+      "index": 24,
+      "file": "24_core_s58_regionC_championbias.zip",
+      "platform_mIoU": 0.691242
+    },
+    {
+      "index": 25,
+      "file": "25_core_s64_wd0005_zero.zip",
+      "platform_mIoU": 0.675162
+    },
+    {
+      "index": 26,
+      "file": "26_core_s64_wd0005_championbias.zip",
+      "platform_mIoU": 0.690209
+    },
+    {
+      "index": 27,
+      "file": "27_core_s62_resumepseudo_zero.zip",
+      "platform_mIoU": 0.680973
+    },
+    {
+      "index": 28,
+      "file": "28_core_s62_resumepseudo_championbias.zip",
+      "platform_mIoU": 0.68661
+    }
+  ]
+}

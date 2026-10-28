@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "batch_date": "2026-09-26",
+  "batch_role": "LOCAL_ARCHIVE_AND_RESULT_RECORD",
+  "numbering": {
+    "assigned": false,
+    "value": null,
+    "reason": "No new global package number was authorized; post-2026-09-18 batches are not fully reconciled with the legacy numbering ledger."
+  },
+  "score_record": "../清单与记录/USER_REPORTED_SCORES_20260926.json",
+  "artifacts": [
+    {
+      "candidate": "A05_WEIGHT",
+      "filename": "A05_WEIGHT_alpha05_test2.zip",
+      "sha256": "9069b2475cd7b0c8060d4f9105f7a9f9a54cb4488d0632ce2aafacb6bb3d2277",
+      "bytes": 11101086,
+      "zip_entries": 1300,
+      "flat_root": true,
+      "filename_range": "test2_1.png..test2_1300.png",
+      "image_format": "PNG",
+      "image_size": [1024, 1024],
+      "image_mode": "L",
+      "label_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+      "score_display_percent": 70.775011,
+      "score_fraction": 0.70775011,
+      "evidence_level": "USER_REPORTED",
+      "platform_submission_id": null,
+      "platform_submitted_at": null,
+      "platform_screenshot": null,
+      "generation_method": "single merged checkpoint theta_parent + 0.5 * (theta_D1 - theta_parent); exact D4 TTA8; Bstar once",
+      "inference_checkpoint_count": 1,
+      "single_checkpoint_rule_eligible": true,
+      "compliance": "COMPLIANT_UNDER_CURRENT_PROJECT_RULE_INTERPRETATION",
+      "standing": "CURRENT_TEST2_COMPLIANT_CHAMPION",
+      "report_path": "../../A05_WEIGHT_执行报告_20260926.md"
+    },
+    {
+      "candidate": "D1_NO_BARREN_POS_alpha050",
+      "filename": "D1_NO_BARREN_POS_alpha050_test2.zip",
+      "sha256": "c494d46a8db85e25f244c2a177deab00810da9c44af8ebcc55a1573a86e03d20",
+      "bytes": 11068731,
+      "zip_entries": 1300,
+      "flat_root": true,
+      "filename_range": "test2_1.png..test2_1300.png",
+      "image_format": "PNG",
+      "image_size": [1024, 1024],
+      "image_mode": "L",
+      "label_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+      "score_display_percent": 70.506962,
+      "score_fraction": 0.70506962,
+      "evidence_level": "USER_REPORTED",
+      "platform_submission_id": null,
+      "platform_submitted_at": null,
+      "platform_screenshot": null,
+      "generation_method": "inference-time blend: 0.5 * parent raw logits + 0.5 * new-model raw logits; D4 TTA8; Bstar once",
+      "inference_checkpoint_count": 2,
+      "single_checkpoint_rule_eligible": false,
+      "compliance": "NON_COMPLIANT_INFERENCE_TIME_MULTI_CHECKPOINT_LOGIT_FUSION",
+      "standing": "EXPERIMENT_ONLY_NONCOMPLIANT",
+      "report_path": "../../文档归档/04_实验决策与成绩/D1_Barren_Ablation_Handover_20260926.md"
+    }
+  ]
+}

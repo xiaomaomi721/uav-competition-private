@@ -1,0 +1,20 @@
+{
+  "experiment_id": "stage15_w1_exp16_b2_1024_upernet_ce_formal_seed42",
+  "config_path": "/home/jhy/deploy_exp16/exp16_b2_upernet_20260825T042256Z_e043cbc652f3/configs/stage15_exp16/wave1_exp16_b2_1024_upernet_ce.yaml",
+  "checkpoint_path": "/home/jhy/deploy_exp16/exp16_b2_upernet_20260825T042256Z_e043cbc652f3/stage15_exp16_runs/stage15_w1_exp16_b2_1024_upernet_ce_formal_seed42/best_miou.pt",
+  "checkpoint_sha256": "f3cd64e5d7435540ed75f6d631212633090d7880c626ddd6f7436dfd8787bc20",
+  "backbone": "SegFormer-B2",
+  "resolution": 1024,
+  "decoder": "UPerNet",
+  "loss": "cross_entropy",
+  "rare_crop": "enabled p0.5 ids[7,4,6]",
+  "optimizer": "AdamW",
+  "learning_rate": 6.0e-05,
+  "weight_decay": 0.01,
+  "max_steps": 56000,
+  "seed": 42,
+  "local_best_miou": 0.80657990922721,
+  "local_best_step": 54600,
+  "source_config_base": "../stage14/wave1_exp14_b2_1024_ce_rare_crop.yaml (与Exp14唯一差异=decoder_type:upernet)",
+  "comparability": "STRICT_SINGLE_FACTOR_vs_Exp14 (decoder唯一差异)"
+}

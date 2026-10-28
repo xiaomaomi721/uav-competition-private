@@ -1,0 +1,8 @@
+{
+  "status": "ONLINE_SCORE_RECEIVED",
+  "exp16_online_absolute_raw": 0.659078,
+  "exp16_online_absolute_pct": 65.9078,
+  "baseline_online": 66.443,
+  "delta_pct": -0.5352,
+  "note": "用户2026-09-09手动提交exp16_upernet_submission.zip回传; 0.659078=线上小数格式,换算百分制65.9078; baseline Exp14=66.443"
+}

@@ -1,0 +1,85 @@
+experiment_id: atda71_s2s3_base261_seed42
+stage: 71
+quick_pilot: false
+description: >-
+  ATDA-71 Anchored Target-Domain Adaptation, base theta261 (package 261,
+  0.702836). Student theta = theta261, reference teacher theta_ref = theta261
+  frozen, EMA teacher m=0.999. Trainable scope is segformer.stages.2.* and
+  segformer.stages.3.* ONLY; stage0/1, decode_head and classifier stay
+  bit-frozen and their buffers are asserted byte-identical to theta261 at every
+  gate. Source branch is CE only. Target branch anchors to the theta261 native
+  256x256 D4 TTA8 cache: L = L_source + r(step)*(0.5*L_hard + 0.25*L_cons),
+  r = min(1, step/500).
+
+model_name: nvidia/segformer-b3-finetuned-ade-512-512
+model_variant: SegFormer-B3
+num_classes: 8
+ignore_index: 255
+crop_size: 1024
+seed: 42
+num_workers: 4
+amp: true
+batch_size: 1
+gradient_accumulation_steps: 1
+
+optimizer:
+  name: AdamW
+  learning_rate: 1.0e-05
+  weight_decay: 0.01
+
+scheduler:
+  name: polynomial
+  power: 1.0
+  total_steps: 10000
+
+max_steps: 8000
+gate_steps:
+  - 1000
+  - 2000
+  - 4000
+  - 6000
+  - 8000
+
+transforms:
+  horizontal_flip_probability: 0.5
+  vertical_flip_probability: 0.5
+  rotate90_probability: 0.5
+  color_jitter:
+    probability: 0.5
+    brightness: 0.1
+    contrast: 0.1
+    saturation: 0.1
+    hue: 0.02
+  domain_aug:
+    enabled: false
+
+rare_crop:
+  enabled: true
+  probability: 0.5
+  priority_train_ids:
+    - 7
+    - 4
+    - 6
+  max_offset_fraction: 0.25
+
+# ATDA hard-coded facts, re-checked by the trainer before anything runs.
+atda_champion: /home/jhy/rare_diag_20260915/phase0_candidates_20260918/A_cleanSEM_M_k100_th209.pt
+atda_champion_sha256: 9ffdd0beb8480a1efd361503d637d3d53cf716c808537c551fefae09f7fe2786
+atda_champion_score: 0.702836
+atda_bstar:
+  - -0.2
+  - 0.1
+  - 0.0709
+  - 0.4
+  - 3.6
+  - 0.4
+  - 2.1215
+  - -0.5
+atda_reference_cache: /home/jhy/rare_diag_20260915/atda_20260918/ref261_cache/scores
+atda_trainable_prefixes:
+  - segformer.stages.2.
+  - segformer.stages.3.
+atda_lambda_hard: 0.5
+atda_lambda_cons: 0.25
+atda_ramp_steps: 500
+atda_ema_decay: 0.999

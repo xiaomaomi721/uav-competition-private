@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "date": "2026-10-28",
+  "root": "C:\\Users\\Lenovo\\OneDrive\\Documents\\桌面\\无人机",
+  "root_visible_items_before": 42,
+  "root_visible_items_after": 8,
+  "moved_root_items": 39,
+  "sha_verified_moved_files": 730,
+  "deleted_cache_files": 43,
+  "deleted_cache_bytes": 601498.0,
+  "merged_duplicate_files": 1,
+  "merged_duplicate_bytes": 11101086.0,
+  "copied_experiment_files": 11,
+  "cache_backup_bytes": 325466,
+  "protected_assets_preserved": true
+}

@@ -1,0 +1,222 @@
+{
+  "created": "2026-09-17T02:57:17.615725+00:00",
+  "scope": "FARMLAND_AXIS_1D_CURVE",
+  "axis_index": 6,
+  "axis_name": "Agricultural",
+  "step": 0.4,
+  "champion": [
+    -0.2,
+    0.1,
+    0.0709,
+    0.7,
+    3.6,
+    0.4,
+    3.3215,
+    -0.5
+  ],
+  "anchors": {
+    "soupC": {
+      "3.3215": 0.695792,
+      "2.9215": 0.696373,
+      "zero": 0.681892
+    },
+    "KD6400": {
+      "3.3215": 0.692202,
+      "2.9215": 0.692851,
+      "zero": 0.680602
+    }
+  },
+  "note": "prepared but NOT submitted; awaiting the official ruling on whether post-training weight averaging is compliant",
+  "packages": {
+    "soupC_agri3p1215": {
+      "model": "soupC",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.1215,
+        -0.5
+      ],
+      "agricultural": 3.1215,
+      "offset_from_champion": -0.2,
+      "zip_path": "/home/jhy/rare_diag_20260915/farmland_curve_20260917/soupC_agri3p1215.zip",
+      "zip_sha256": "6d2331ef700e97396c84d2118bfde7d97f331734ba7875fb609f52da26ff572b",
+      "entries": 500,
+      "png_content_sha256": "41723c45e9372e601d62b23c7fab89900878b35378b9909972765b532ce73f5a"
+    },
+    "soupC_agri2p9215": {
+      "model": "soupC",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.9215,
+        -0.5
+      ],
+      "agricultural": 2.9215,
+      "offset_from_champion": -0.4,
+      "zip_path": "/home/jhy/rare_diag_20260915/farmland_curve_20260917/soupC_agri2p9215.zip",
+      "zip_sha256": "cc6391a31d589a81aad80040e6b7d5c8a7c60b720e06f6aa73f63fcbf837d2ae",
+      "entries": 500,
+      "png_content_sha256": "23e64ee81dda6f18905a500fb0699c834e15215c0b80804cdf50441b764193e8"
+    },
+    "soupC_agri2p5215": {
+      "model": "soupC",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.5215,
+        -0.5
+      ],
+      "agricultural": 2.5215,
+      "offset_from_champion": -0.8,
+      "zip_path": "/home/jhy/rare_diag_20260915/farmland_curve_20260917/soupC_agri2p5215.zip",
+      "zip_sha256": "40b33ebc71b3bc8f851c1e02fa6f91b6e15dffac230568c3010f599cb685c5b7",
+      "entries": 500,
+      "png_content_sha256": "7e01c2382e21497388c14ada999f2d1cfcdc770f7d2d5cd3a2fde02a03f4d808"
+    },
+    "soupC_agri2p1215": {
+      "model": "soupC",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "agricultural": 2.1215,
+      "offset_from_champion": -1.2,
+      "zip_path": "/home/jhy/rare_diag_20260915/farmland_curve_20260917/soupC_agri2p1215.zip",
+      "zip_sha256": "55ba2c6c9e623becf571d2806a5f78694fd3d587cd39cd251145c79a836d7a25",
+      "entries": 500,
+      "png_content_sha256": "fa636fcbed4ede954140202e8b902db1f6b358a19b4449bb7c9fb60cd895b4b2"
+    },
+    "soupC_agri1p7215": {
+      "model": "soupC",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        1.7215,
+        -0.5
+      ],
+      "agricultural": 1.7215,
+      "offset_from_champion": -1.6,
+      "zip_path": "/home/jhy/rare_diag_20260915/farmland_curve_20260917/soupC_agri1p7215.zip",
+      "zip_sha256": "fa28a81eefe321e574512ef45bf387850df3ccfbb2edf91a7c7d75ae8254c528",
+      "entries": 500,
+      "png_content_sha256": "80fedcedf3929a6467623b593837dde721a3da9bcf8e0005e89343760c608846"
+    },
+    "KD6400_agri3p1215": {
+      "model": "KD6400",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.1215,
+        -0.5
+      ],
+      "agricultural": 3.1215,
+      "offset_from_champion": -0.2,
+      "zip_path": "/home/jhy/rare_diag_20260915/farmland_curve_20260917/KD6400_agri3p1215.zip",
+      "zip_sha256": "3105e894d1ce4ea58a48175387956337a5125485bccd8dcda43dafa4f1673934",
+      "entries": 500,
+      "png_content_sha256": "d243581a057c49faed81ed1a27cd8e6b0500c84aec8769f10e5d125dac1d65ba"
+    },
+    "KD6400_agri2p9215": {
+      "model": "KD6400",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.9215,
+        -0.5
+      ],
+      "agricultural": 2.9215,
+      "offset_from_champion": -0.4,
+      "zip_path": "/home/jhy/rare_diag_20260915/farmland_curve_20260917/KD6400_agri2p9215.zip",
+      "zip_sha256": "8176a2af1e873ea96157f8b78f26da1b03093365262218a4e6269ebebe3d1660",
+      "entries": 500,
+      "png_content_sha256": "dab48aa849ef964121b0cb60c22821651b4b2c68b13563de5e0ececf0e2c3a58"
+    },
+    "KD6400_agri2p5215": {
+      "model": "KD6400",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.5215,
+        -0.5
+      ],
+      "agricultural": 2.5215,
+      "offset_from_champion": -0.8,
+      "zip_path": "/home/jhy/rare_diag_20260915/farmland_curve_20260917/KD6400_agri2p5215.zip",
+      "zip_sha256": "c34522f0c51b743c91d3554712cb850b9579d3f000134b7428bcb6ac4967fa54",
+      "entries": 500,
+      "png_content_sha256": "6a83b83d158d3d9a84f051bd65bb534b341acccdaac7abdc2efbf2ba8fef15d6"
+    },
+    "KD6400_agri2p1215": {
+      "model": "KD6400",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.1215,
+        -0.5
+      ],
+      "agricultural": 2.1215,
+      "offset_from_champion": -1.2,
+      "zip_path": "/home/jhy/rare_diag_20260915/farmland_curve_20260917/KD6400_agri2p1215.zip",
+      "zip_sha256": "77fb39426ad0cc7698b912d7654e8453ac5dc9e46084f2e5d10c0571ee2fce3a",
+      "entries": 500,
+      "png_content_sha256": "651e7b3b22d4be7d31b46936c10c25e32108e9a7136c756e7d4b0d09323545ff"
+    },
+    "KD6400_agri1p7215": {
+      "model": "KD6400",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        1.7215,
+        -0.5
+      ],
+      "agricultural": 1.7215,
+      "offset_from_champion": -1.6,
+      "zip_path": "/home/jhy/rare_diag_20260915/farmland_curve_20260917/KD6400_agri1p7215.zip",
+      "zip_sha256": "555032dc6c857dbafa6b52dbf3f9d4434e2d81d3d79f6b9d226418f969f9d91a",
+      "entries": 500,
+      "png_content_sha256": "94be345acca3b01f807b79b6ea64f68738187ede4e56cafbc47098485651a06b"
+    }
+  }
+}

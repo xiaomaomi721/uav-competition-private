@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "run_id": "REQUIRED",
+  "created_at_utc": "REQUIRED",
+  "retention_policy": "LOCK_REPORTED_SUBMITTED_PARENT_TEACHER_AND_PAIR_ENDPOINTS",
+  "artifacts": [
+    {
+      "path": "REQUIRED",
+      "sha256": "REQUIRED",
+      "role": "CHECKPOINT_CONFIG_SOURCE_REPORT_PACKAGE_RECEIPT_OR_OTHER",
+      "locked": true,
+      "reason": "REPORTED_SUBMITTED_PARENT_TEACHER_OR_CAUSAL_PAIR_ENDPOINT",
+      "may_auto_delete": false
+    }
+  ],
+  "unlocked_disposable_artifacts": [],
+  "deletion_requires_user_confirmation": true
+}

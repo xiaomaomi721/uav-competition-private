@@ -1,0 +1,15 @@
+method_A,mechanism_A,method_B,overlap,known_negative,candidate_level,evidence_note
+伪标签(贴测试分布/翻案),训练期目标域注入,8维校准(残差级),"NO(训练期×测试时,正交)",NO(伪标签已吸收部分先验→校准微调),HIGH_COMPLEMENTARITY,伪标签stage55b+0.68;校准仍可加但stage55b校准微降
+伪标签(贴测试),训练期目标域注入,CWFA,"NO(目标注入×域泛化,不同层)",NO,POSSIBLE_COMPLEMENTARITY,未测;stage65在跑
+伪标签(贴测试),训练期目标域注入,蒸馏/MixStyle,NO,NO,INSUFFICIENT_EVIDENCE,未测
+SEMEDA(高标准),边界/嵌入,CWFA,NO,NO(但SEMEDA校准空间小提示与表示类谨慎),POSSIBLE_COMPLEMENTARITY,Exp47标准67.796高;+CWFA未测
+SEMEDA,边界/嵌入,伪标签,NO,NO,POSSIBLE_COMPLEMENTARITY,未测
+MixUp,输入混合,CWFA,NO(输入×特征),NO,POSSIBLE_COMPLEMENTARITY,MixUp校准69.14接近锁定
+蒸馏λ0.1,外部知识,伪标签,NO,NO,POSSIBLE_COMPLEMENTARITY,未测
+蒸馏+MixStyle,外部知识+域扰动,CWFA,HIGH(都域泛化/扰动),YES,HIGH_OVERLAP,同类勿叠
+CWFA,域泛化,no-decay,HIGH,YES,KNOWN_NEGATIVE_INTERACTION,三合一66.196
+边界分支,结构监督,CWFA,MEDIUM,YES,KNOWN_NEGATIVE_INTERACTION,Exp46-0.45
+MaxEnt,分布对齐,伪标签,HIGH,YES,KNOWN_NEGATIVE_INTERACTION,exp61-0.27
+RareCrop,类曝光,加权CE/Focal,NO(exposure×gradient不同机制),NO,POSSIBLE_COMPLEMENTARITY,"但两者单用都不强,未测"
+旋转TTA8,推理增广,8维校准,NO,NO,HIGH_COMPLEMENTARITY,已证叠加+1.9
+伪标签,目标域,v3 rescue校准打标,NO,NO,POSSIBLE_COMPLEMENTARITY,stage65改进中

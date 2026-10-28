@@ -1,0 +1,10 @@
+{
+  "parent_path": "/home/jhy/rare_diag_20260915/breakthrough_v2_20260926/03_weight_projection/A05_WEIGHT_alpha05.pt",
+  "expected_sha256": "023b65800d434069f0fb0ad881083fd439b89011f731feebc88d6e9217727134",
+  "actual_sha256": "023b65800d434069f0fb0ad881083fd439b89011f731feebc88d6e9217727134",
+  "sha_match": true,
+  "checkpoint_type": "single_merged",
+  "online_score": 70.775011,
+  "architecture": "SegFormer-B3",
+  "verified_at": "2026-09-26T20:30:00+08:00"
+}

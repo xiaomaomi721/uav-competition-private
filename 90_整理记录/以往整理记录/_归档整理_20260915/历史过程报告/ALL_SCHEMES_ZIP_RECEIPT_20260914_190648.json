@@ -1,0 +1,10 @@
+{
+  "zip_path": "C:\\Users\\Lenovo\\OneDrive\\Documents\\桌面\\无人机语义分割_全部方案与线上成绩_给AI分析_20260914_190648.zip",
+  "zip_sha256": "791559f0923b46833baa4842025107a66fa0b488d2f47566efbb933688bce338",
+  "bytes": 210217,
+  "files": 27,
+  "training_rows": 70,
+  "inference_rows": 197,
+  "recent_rows": 11,
+  "verification": "ZIP CRC + all entries exact bytes and SHA manifest verified"
+}

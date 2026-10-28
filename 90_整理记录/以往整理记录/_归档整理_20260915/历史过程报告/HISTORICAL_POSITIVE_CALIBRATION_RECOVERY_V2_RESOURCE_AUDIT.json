@@ -1,0 +1,66 @@
+{
+  "task": "HISTORICAL_POSITIVE_CALIBRATION_RECOVERY_V2",
+  "role": "read-only storage/resource audit; no remote writes or workloads launched",
+  "date": "2026-09-14",
+  "filesystem": {
+    "/home/jhy": {"total_bytes": 3745119428608, "available_bytes": 10903941120, "owner_uid": 1007, "writable_access_check": true},
+    "/ssd": {"total_bytes": 3779301580800, "available_bytes": 1664632455168, "owner_uid": 1011, "writable_access_check": false, "jhy_child_exists": false},
+    "/hdd": {"total_bytes": 7937302376448, "available_bytes": 7537207480320, "owner_uid": 0, "writable_access_check": false, "jhy_child_exists": false},
+    "alternative_storage_conclusion": "No cheaply verified writable project alternative. Only mount root metadata and exact /ssd/jhy, /hdd/jhy existence checked; no other-user traversal, mkdir, write test or escalation."
+  },
+  "resources": {
+    "uid": 1007,
+    "logical_cpus": 144,
+    "affinity_cpus": 144,
+    "loadavg_1_5_15": [9.0068359375, 7.55419921875, 7.02685546875],
+    "memory_total_kib": 263676392,
+    "memory_available_kib": 240739120,
+    "swap_free_kib": 21399264,
+    "effective_cgroup_cpu_max": "max 100000 at /sys/fs/cgroup/user.slice",
+    "effective_cpuset": "0-143",
+    "session_and_user_memory_max": "max",
+    "session_and_user_memory_high": "max",
+    "user_slice_memory_current_bytes": 91562586112,
+    "user_pids_current": 428,
+    "user_pids_max": 679572,
+    "caution": "Shared host snapshots are not reserved resources. No dedicated CPU/memory reservation exists. Nice/ionice/thread caps are priority/concurrency limits, not hard isolation."
+  },
+  "gpu_identity_only": [
+    {"index": 0, "uuid": "GPU-bc304d79-c807-968a-eaad-d2c2ecc5a984", "pci": "00000000:31:00.0"},
+    {"index": 1, "uuid": "GPU-c6eee6d9-9fa7-69d8-0ebc-a649e3528778", "pci": "00000000:4B:00.0"},
+    {"index": 2, "uuid": "GPU-cacb7500-f2e9-c482-d85c-53c7f8d1def9", "pci": "00000000:B1:00.0"},
+    {"index": 3, "uuid": "GPU-32853ccf-4c4f-1328-8d75-04efe9d5298f", "pci": "00000000:CA:00.0"}
+  ],
+  "bounded_existing_metadata": {
+    "base": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/diagnostics",
+    "roots": [
+      {"name": "champion_loss_audit_01", "json_csv_files": 11, "bytes": 419340},
+      {"name": "champion_loss_audit_stage2", "json_csv_files": 7, "bytes": 4046459},
+      {"name": "champion_loss_audit_stage3", "json_csv_files": 11, "bytes": 343374},
+      {"name": "champion_loss_audit_stage4", "json_csv_files": 15, "bytes": 4029653},
+      {"name": "champion_calibration_stress", "json_csv_files": 3, "bytes": 6078}
+    ],
+    "total_files": 47,
+    "total_input_bytes": 8844904,
+    "examples": ["champion_loss_audit_01/full/per_image_class_stats.csv", "champion_loss_audit_01/full/confusion_matrix_counts.csv", "champion_loss_audit_stage3/confusion_pair_loss_ledger.csv", "champion_loss_audit_stage4/image_domain_assignments.csv"],
+    "scope_note": "Bounded metadata stat only, not another broad duplicate inventory. No giant logits, images, checkpoints, ZIPs or cache contents read. These sizes do not establish statistical adequacy or per-image confusion availability."
+  },
+  "recommended_cpu_scan_gate": {
+    "decision": "Small streaming metadata-only CPU scan feasible; packaging deferred and not authorized by this audit.",
+    "incremental_disk_readonly_scan_bytes": 0,
+    "incremental_summary_report_estimate_bytes": [1048576, 10485760],
+    "proposed_hard_output_budget_bytes": 67108864,
+    "output_budget_scope": "64 MiB applies only to metadata-audit summaries, not new-factory per-image confusion matrices. Coordinator estimates 133 vectors at approximately 91 MiB uncompressed; this output needs separate storage/peak-temporary-space budgeting.",
+    "authorization_status": "No RUN_NOW authorization. No scans, implementation or workload launch. Remote audit ended; no further remote I/O.",
+    "proposed_rss_budget_bytes": 536870912,
+    "threads": 1,
+    "maximum_threads": 2,
+    "launch_requirements": ["nice -n 19", "ionice -c 3", "OMP_NUM_THREADS=1", "OPENBLAS_NUM_THREADS=1", "MKL_NUM_THREADS=1", "NUMEXPR_NUM_THREADS=1", "VECLIB_MAXIMUM_THREADS=1", "CUDA_VISIBLE_DEVICES=", "serial csv/json streaming, no worker pool or torch/CUDA import"],
+    "storage_gate": "Recheck actual available bytes before and during any later write. Require available minus bounded output budget to remain above max(active policy minimum, current formal-run growth reserve). Formal growth reserve not established here, so packaging remains blocked. The known prior GPU3 policy floor is 6 GiB, not sufficient by itself to budget two growing formal runs.",
+    "packaging": "No ZIP, PNG export, copied caches or prediction generation in initial scan. Later packaging requires an exact output estimate, peak temporary-storage factor, refreshed free-space snapshot and explicit coordinator gate; no fallback to /ssd or /hdd without confirmed project write access.",
+    "scientific_limitation": "Aggregate/confusion summaries support historical evidence review but cannot recreate changed calibrated argmax predictions; missing required per-image statistics must be reported, not regenerated through GPU or giant-cache sweeps."
+  },
+  "untouched": ["GPU2 formal", "GPU3 formal", "all queues", "all training histories", "all protected policy/freeze artifacts"],
+  "actions_not_taken": ["deletion", "moving", "signals", "training", "GPU utilization/process query", "queue modification", "remote mkdir/write", "permission escalation"],
+  "pending_jobs": 0
+}

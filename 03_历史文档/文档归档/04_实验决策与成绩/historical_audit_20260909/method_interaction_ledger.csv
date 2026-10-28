@@ -1,0 +1,11 @@
+method_A,method_B,baseline,A_alone_exp,B_alone_exp,AB_exp,A_local_delta,B_local_delta,AB_local_delta,A_online_delta,B_online_delta,AB_online_delta,expected_additive_local,observed_AB_local,expected_additive_online,observed_AB_online,interaction_residual_local,interaction_residual_online,interaction_type
+CWFA,no-decay,B3 66.739,Exp23 67.371,no-decay 67.412,Exp28 66.196,,,,0.632,0.673,-0.543,,,,,,,NEGATIVE_INTERACTION
+蒸馏,MixStyle,B3 66.739,Exp31 66.991,Exp34 67.231,Exp39 66.916,,,,0.252,0.492,0.177,,,,,,,NON_ADDITIVE
+边界分支,CWFA,B3 66.739,Exp41 67.053,Exp23 67.371,Exp46 66.289,,,,0.313,0.632,-0.45,,,,,,,NEGATIVE_INTERACTION
+MaxEnt,伪标签,B3,MaxEnt 67.77,伪标签+0.68,exp61 67.78,,,,,0.68,-0.27,,,,,,,NEGATIVE_INTERACTION
+旋转TTA8,8维校准,B3 66.739,rotTTA8 67.210,校准,69.281290,,,,0.47,2.0,,,,,,,,ROUGHLY_ADDITIVE
+蒸馏,蒸馏+MixStyle集成,B3,Exp31,Exp39 66.916,(集成本身),,,,0.252,0.177,,,,,,,,NON_ADDITIVE
+伪标签(翻案),校准,B3,伪标签+0.68,校准+1.9,无独立组合,,,,0.68,1.9,,,,,,,,UNKNOWN
+CWFA,边界分支,B3,Exp23 67.371,Exp41 67.053,Exp46 66.289,,,,0.632,0.313,-0.45,,,,,,,NEGATIVE_INTERACTION
+MixStyle,蒸馏,B3,Exp34,Exp31,Exp39,,,,0.492,0.252,0.177,,,,,,,NON_ADDITIVE
+no-decay,MixStyle,B3,+0.673,+0.492,未试(禁),,,,0.673,0.492,,,,,,,,KNOWN_NEGATIVE(禁止同类)

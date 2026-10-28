@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "status": "DRAFT_NOT_AUTHORIZED",
+  "pair_id": "A05_D1HARD_RESIDUAL_S20260922_L2000",
+  "run_id": "A05_D1HARD_ROLE_S20260922_L2000",
+  "role": "CONTROL_OR_TREATMENT",
+  "method_question": "Does the original fixed D1 target hard-CE have residual causal value after A05, beyond matched source continuation?",
+  "parent": {
+    "path": "/home/jhy/rare_diag_20260915/breakthrough_v2_20260926/03_weight_projection/A05_WEIGHT_alpha05.pt",
+    "sha256": "023b65800d434069f0fb0ad881083fd439b89011f731feebc88d6e9217727134",
+    "load": "STRICT_MODEL_STATE_FRESH_OPTIMIZER_AND_SCALER"
+  },
+  "teachers": {
+    "theta261_checkpoint_sha256": "9ffdd0beb8480a1efd361503d637d3d53cf716c808537c551fefae09f7fe2786",
+    "theta278_export_checkpoint_sha256": "5f8a092b92f1e5c68e7173131c946f50b1663ade1fd43fd71a2ce2d394f001dc",
+    "theta261_cache": "round2_20260921/cache_261_test2_raw/scores",
+    "theta278_cache": "round2_20260921/cache_278_test2_raw/scores",
+    "cache_count_each": 1300,
+    "cache_shape_each": [8, 256, 256],
+    "cache_contains_bstar": false
+  },
+  "data": {
+    "source_split_path": "REQUIRED",
+    "source_split_sha256": "REQUIRED",
+    "source_count": 5597,
+    "target_manifest_sha256": "REQUIRED",
+    "target_count": 1300,
+    "target_ground_truth_used": false,
+    "pair_replay_manifest_sha256": "REQUIRED"
+  },
+  "gpu_policy": {
+    "physical_index": 2,
+    "uuid": "GPU-cacb7500-f2e9-c482-d85c-53c7f8d1def9",
+    "pci_bus": "00000000:B1:00.0",
+    "cuda_device_order": "PCI_BUS_ID",
+    "cuda_visible_devices": "2",
+    "logical_device": "cuda:0",
+    "wrong_identity_action": "FAIL_BEFORE_OUTPUT_CREATION"
+  },
+  "training": {
+    "seed": 20260922,
+    "attempted_loop_endpoint": 2000,
+    "primary_checkpoint_loop": 2000,
+    "audit_checkpoint_loops": [1000],
+    "amp_skip_compensation": false,
+    "source_batch_size": 1,
+    "target_batch_size": 1,
+    "trainable_prefixes": ["segformer.stages.2.", "segformer.stages.3.", "decode_head."],
+    "stage23_learning_rate": 0.00001,
+    "head_learning_rate": 0.0000005,
+    "weight_decay": 0.01,
+    "lr_factor": "1-(loop-1)/10000",
+    "target_mask": "argmax(theta261+Bstar)==argmax(theta278+Bstar) AND max_softmax(theta278+Bstar)>=0.98",
+    "target_coefficient": "CONTROL=0; TREATMENT=0.5*min(1,loop/500)",
+    "control_must_execute_target_branch": true
+  },
+  "allowed_pair_diff": ["run_id", "role", "output_dir", "training.target_coefficient"],
+  "forbidden_effect_stops": ["source_miou", "hard_loss_trend", "KL", "flip", "class_share", "checkpoint_1000_quality"],
+  "engineering_stops_only": ["wrong_gpu_or_identity", "hash_or_data_mismatch", "nan_or_inf", "invalid_gradients", "frozen_drift", "unrecoverable_oom", "replay_mismatch", "output_identity_conflict"],
+  "resume_policy": "NO_AUTOMATIC_RETRY_OR_RESUME; USER_AUTHORIZATION_REQUIRED; DEFAULT_RESTART_FROM_A05",
+  "automatic_submission": false,
+  "output_dir": "REQUIRED_NONEXISTENT_PATH",
+  "required_execution_report": "EXECUTION_REPORT.md"
+}

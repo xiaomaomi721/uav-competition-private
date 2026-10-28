@@ -1,0 +1,144 @@
+磁盘清理审计记录
+================
+日期：2026-09-16
+执行者：Claude（受用户明确授权）
+范围：仅 /home/jhy 名下文件；未触碰任何其他用户目录、未触碰 /var/lib/docker
+原则：保报告/JSON/CSV/日志/checkpoint，只删可再生的大数组缓存
+
+执行前状态
+----------
+/dev/sda4  free = 6,221,479,936 字节（5.79 GiB）
+（A 档中间产物已于本次清理前删除，约 89 MB：predictions_*/check_*/INVALID packages_s59_v1）
+
+删除前占用确认
+--------------
+deploy_stage05 : 0 open fd
+kd_soft_fp16   : 0 open fd
+champion_calibration_stress : 0 open fd
+无相关运行进程（仅 2 个自 9-9 起的 idle 等待循环与 1 个 tmux 会话，均不读写这些文件）
+
+
+【第 1 项】deploy_stage05/5be45d9/diagnostics —— 预测缓存
+---------------------------------------------------------
+类型：prediction cache（heldout/test 原图预测的 uint8 数组）
+exact path（34 个文件，全部 basename 为 heldout_original_predictions.uint8
+或 test_original_predictions.uint8，位于 */baseline_predictions/{b2,b3}/）：
+
+  style_sensitivity_b1_weighted_ce/v2/baseline_predictions/b2/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_b1_weighted_ce/v2/baseline_predictions/b3/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_b1_weighted_ce/v2_blocked_20260813_2351/baseline_predictions/b2/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_b2_b3/baseline_predictions/b2/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_b2_b3/v2/baseline_predictions/b2/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_b2_b3/v2/baseline_predictions/b3/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_cwfa_a_control/20260820_194130/v2/baseline_predictions/b2/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_cwfa_a_control/20260820_194130/v2/baseline_predictions/b3/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_cwfa_B_vs_ControlP0/20260820_232522/v2/baseline_predictions/b2/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_cwfa_B_vs_ControlP0/20260820_232522/v2/baseline_predictions/b3/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_exp06/20260821_103328/v2/baseline_predictions/b2/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_exp06_exp11/v2/baseline_predictions/b2/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_exp06_exp11/v2/baseline_predictions/b3/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_exp06_exp12/20260816_073546/v2/baseline_predictions/b2/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_exp06_exp12/20260816_073546/v2/baseline_predictions/b3/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_exp06_exp13/20260818_101028/v2/baseline_predictions/b2/{heldout_original,test_original}_predictions.uint8
+  style_sensitivity_exp06_exp13/20260818_101028/v2/baseline_predictions/b3/{heldout_original,test_original}_predictions.uint8
+  （共 17 个 heldout + 17 个 test）
+
+删除前大小：18,039,701,504 字节（16.80 GiB，34 个文件）
+可由何物重新生成：对应实验的 checkpoint + 原图，重跑该诊断的 baseline_predictions 步骤
+无进程占用：确认
+
+**明确保留（不属于预测缓存，未删除）：**
+  - 全部报告/JSON/CSV/MD/日志/配置：2.34 GiB，22,002 个小文件
+  - **2.85 GiB 的 checkpoint（last.pt / best_miou.pt，7 组 stage05 时代实验权重）**
+    cwfa_stage3b / cwfa_stage5a6_ab_fork(A,B) / cwfa_stage5a6_common_trunk(x2)
+    cwfa_stage5a6_control_p0 / cwfa_stage5a6_scheduler
+    ——目录名里虽有 diagnostics，但内容是模型权重，**不在授权删除类别内，一律保留**
+  - group_validation/package/thumbnails_224_bundle.tar.gz 117M
+  - scene_clustering/features/*.npy 15M x2、group_validation/embeddings.npy 11M
+
+
+【第 2 项】kd_soft_fp16/probs —— KD 概率缓存
+--------------------------------------------
+类型：KD prob cache（teacher 软标签概率，500 个 .npy）
+exact path：/home/jhy/rare_diag_20260915/kd_soft_fp16/probs/
+删除前大小：8,388,672,000 字节（7.81 GiB，500 个 .npy）
+可由何物重新生成：KD teacher checkpoint + 训练集图片，重跑 KD 软标签生成
+无进程占用：确认
+
+**明确保留：**
+  /home/jhy/rare_diag_20260915/kd_soft_fp16/PROBS_MANIFEST.json  (85,310 字节)
+  /home/jhy/rare_diag_20260915/kd_soft_fp16/DISTRIBUTION_CHECK.json (3,206 字节)
+  /home/jhy/rare_diag_20260915/kd_soft_fp16/TEACHER_META.json     (1,775 字节)
+  → 目录本体保留，只删 probs/ 下的 .npy
+
+
+【第 3 项】champion_calibration_stress —— calibration logits cache
+------------------------------------------------------------------
+类型：calibration logits cache
+exact path：/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/
+            diagnostics/champion_calibration_stress/val_logits_512_fp16.npy
+删除前大小：5,867,831,424 字节（5.47 GiB）
+可由何物重新生成：champion checkpoint 对 1399 val 图重跑 TTA8 前推
+无进程占用：确认
+备注：该次 calibration 的 tau 表已被正式作废
+      （见 审计记录/作废声明_M2F56k_tau表_20260916.md）；
+      另有 2 个自 9-9 起等待 bias_batchsize_summary.json 的 idle 循环，
+      该文件从未生成（目录内只有 _partial.json），说明该次 stress 未跑完。
+
+**明确保留（同目录，未删除）：**
+  calibration_transfer_matrix.csv  2,657 字节
+  diagnostic_report.md             4,222 字节
+  episode_fit_report.json          2,630 字节
+  bias_batchsize_summary_partial.json 791 字节
+  val_order.txt                    6,994 字节
+  val_gt_512.npy                   733,479,040 字节（GT，非可再生缓存，保留）
+  → 目录本体保留
+
+
+删除总量（预期）：32,296,204,928 字节（30.08 GiB）
+预期 free：约 38,517,684,864 字节（35.87 GiB）
+
+
+================================================================
+执行结果（2026-09-16 15:50，已 sync）
+================================================================
+
+free_before = 6,221,479,936 字节（5.79 GiB）
+free_after  = 38,515,777,536 字节（35.87 GiB）
+实际释放    = 32,294,297,600 字节（30.08 GiB）
+
+分项实际释放
+------------
+第 1 项 diagnostics uint8 预测数组：18,039,701,504 字节（16.80 GiB，34 个文件）
+第 2 项 kd_soft_fp16/probs .npy    ：8,388,672,000 字节（7.81 GiB，500 个文件）
+第 3 项 champion val_logits_512_fp16.npy：5,867,831,424 字节（5.47 GiB，1 个文件）
+                                   合计：32,294,297,600 字节（30.08 GiB）
+
+实际保留大小
+------------
+deploy_stage05/5be45d9/diagnostics 剩余：5,747,444,307 字节（5.35 GiB）
+  ├─ checkpoint .pt/.pth：3,067,506,988 字节（2.86 GiB，14 个文件）
+  └─ 报告/JSON/CSV/MD/日志：2,676,484,315 字节（2.49 GiB，22,006 个文件）
+
+kd_soft_fp16/ 剩余（仅 3 个 metadata 文件）：94,387 字节
+  PROBS_MANIFEST.json / DISTRIBUTION_CHECK.json / TEACHER_META.json
+  （probs/ 目录本体保留，内部 0 个文件）
+
+champion_calibration_stress/ 剩余：733,500,430 字节（699 MiB）
+  val_gt_512.npy 733,479,040 + 4 个报告/CSV/JSON + val_order.txt
+
+未触碰（按授权禁止项）
+----------------------
+Stage63 / Stage66 / Stage59 / Full6996 的 ZERO backfill checkpoint
+M2F56 score_iter20000 / 40000 / 56000
+tta_golden / tta_stage66_partial_v2（运行中管线引用）
+比赛数据集 /home/jhy/datasets/...
+其他用户任何文件（含 /tmp 内 daiqun 的 6.4G 缓存）
+/var/lib/docker
+/dev/shm（tmpfs，不计入 sda4）
+
+声明
+----
+对全盘 3.2T 的构成，普通用户权限下无法完整归因
+（/home 下 13 个他人目录 + /var/lib/docker 均 Permission denied），
+需要管理员/root 盘点。本次未替管理员删除任何非 jhy 文件。

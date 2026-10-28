@@ -1,0 +1,28 @@
+method,mechanism,baseline_experiment,test_experiment,local_delta,online_delta,transfer_efficiency,tested_doses,tested_start_steps,tested_backbones,tested_resolutions,tested_combinations,status,confidence,failure_reason
+CWFA,特征扰动/域泛化正则,B3纯CE 66.739,Exp23 B3+CWFA 67.371,,0.632,N/A,eps4/p0.3/start28001,UNKNOWN,B3,1024,+no-decay崩/-边界崩/+校准69.28,CONFIRMED_USEFUL,HIGH,"唯一训练期净正,抗线下涨线上跌三机制"
+no-decay,权重衰减移除/正则,B3 66.739,B3+no-decay 67.412,,0.673,N/A,UNKNOWN,UNKNOWN,B3,1024,+CWFA崩(三合一66.196),CONFIRMED_USEFUL,MEDIUM,单用正;禁与CWFA叠(同类)
+旋转TTA8,测试时推理增广(旋转8视图),B3 66.739,B3+rotTTA8 67.210,,0.47,N/A,8视图(0/90/180/270x flip),UNKNOWN,B3,1024,+校准=TTA层已顶,CONFIRMED_USEFUL,HIGH,翻转TTA的升级版
+翻转TTA,测试时推理增广(水平翻转),B3 66.739,flipTTA,,0.275,N/A,hflip,UNKNOWN,B3,1024,被旋转TTA8取代,CONFIRMED_USEFUL,MEDIUM,"曾误判全负,实为净正"
+8维校准,测试时先验(logits按类bias),B3+CWFA+TTA 68.686,69.281290,,2.5,N/A,8维扫描全到顶点,UNKNOWN,B3,1024,+所有训练方法正交可叠,CONFIRMED_USEFUL,HIGH,提分最大来源+1.9~2.5;但FRAGILE(压力测试7/7负迁移)
+MixUp,输入增广(整图线性混合),B3 66.739,Exp45 67.010,,0.27,N/A,温和版,UNKNOWN,B3,1024,+校准69.14,CONFIRMED_USEFUL,MEDIUM,第6个训练期正收益;弱扰动对症
+边界分支(单独),结构辅助监督BCE,B3无TTA 66.739,Exp41 67.053,,0.313,N/A,BCE,UNKNOWN,B3,1024,+CWFA崩(-0.45),CONFIRMED_USEFUL,MEDIUM,单独才有效;叠加即崩
+CopyPaste(随机),少数类输入增广,B3 66.739,Exp33 66.428,,-0.311,N/A,p0.5/3实例/随机,UNKNOWN,B3,1024,未叠,TRANSFER_FAILURE,HIGH,线下0.816最高→线上跌;学到粘贴伪影/破坏场景依赖
+高分辨率推理,推理分辨率2048,B3,upscale,,-4.2,N/A,x1.5/x2.0,UNKNOWN,B3,1024,—,TRANSFER_FAILURE,HIGH,细路像素仅0.013%非真瓶颈;2048分布外
+伪标签(原版),自训练回训,B3,Exp22,,-0.136,N/A,测试伪标签回训,UNKNOWN,B3,1024,+校准,TRANSFER_FAILURE,MEDIUM,方向反了:用训练分布标注测试
+768→1024,输入分辨率提升,768版,1024版,UNKNOWN,0.0,N/A,768/1024,UNKNOWN,B3,1024,—,TRANSFER_SHRINKAGE,MEDIUM,local大涨online小涨;疑记录不全标UNKNOWN
+SEMEDA,语义边缘嵌入匹配,B3无TTA,Exp47 67.796,,1.056,N/A,UNKNOWN,UNKNOWN,B3,1024,+校准69.08,TRANSFER_SHRINKAGE,MEDIUM,标准异常高但校准增益最低(标准高≠校准空间大)
+MixStyle,风格统计混合/域泛化,B3,Exp34 67.231,,0.492,N/A,α0.1起步→扫0.05,UNKNOWN,B3,1024,+蒸馏+0.18,DOSE_FAILURE,MEDIUM,"α过强;越弱越好但≤CWFA,收益见顶"
+DINOv2蒸馏,特征蒸馏外部知识,B3,Exp31 66.991,,0.252,N/A,λ1.0→扫λ越小越好,UNKNOWN,B3,1024,+MixStyle+0.18,DOSE_FAILURE,MEDIUM,λ过强拉偏;教师非航拍域;价值有限
+三合一(CWFA+no-decay),同类双正则叠加,B3 66.739,Exp28 66.196,,-0.543,N/A,同开启,UNKNOWN,B3,1024,CWFA+no-decay,INTERACTION_FAILURE,HIGH,同类正则剂量翻倍=过正则
+边界+CWFA,结构监督+特征扰动,B3 66.739,Exp46 66.289,,-0.45,N/A,同开启,UNKNOWN,B3,1024,边界单独+0.313/CWFA+0.632,INTERACTION_FAILURE,HIGH,两正收益互相摧毁
+MaxEnt+伪标签,分布对齐+分布对齐,?,exp61 67.78,,-0.27,N/A,λ档位,UNKNOWN,B3,1024,MaxEnt×伪标签,INTERACTION_FAILURE,MEDIUM,同机制(分布对齐)叠加崩
+多尺度TTA,测试时多尺度输入,B3,multi-scale,,全负,N/A,UNKNOWN,UNKNOWN,B3,1024,被简单翻转TTA取代,IMPLEMENTATION_FAILURE,HIGH,复杂版失败但简单D4/TTA8正收益
+EMA,权重平滑,B3,Exp10,,-0.445,N/A,decay0.999,UNKNOWN,B3,1024,—,STAGE_TIMING_FAILURE,LOW,decay太钝≈没平滑;同域验证锚定训练分布;0.99/0.995未试
+注意力融合头,解码器结构改造,B3 66.739,Exp40 65.979,,-0.76,N/A,CCA+AFF替代concat+1x1,UNKNOWN,B3,1024,—,MECHANISM_REJECTED,HIGH,SegFormer头本已4尺度融合;替换牺牲预训练对齐
+加权CE,类别不平衡损失,B3无TTA,Exp42 66.690,,-0.049,N/A,频率逆平方根clip0.5-2.5,UNKNOWN,B3,1024,+校准68.30,MECHANISM_REJECTED,HIGH,官方第一建议但微负;prior-shift已解决先验
+CE+Dice,区域损失,B3 66.739,Exp44 66.564,,-0.176,N/A,UNKNOWN,UNKNOWN,B3,1024,+校准68.41,MECHANISM_REJECTED,HIGH,区域级损失对视觉不可分类是毒药
+Focal,难例损失,B3 66.739,Exp43 66.397,,-0.342,N/A,UNKNOWN,UNKNOWN,B3,1024,+校准67.98,MECHANISM_REJECTED,HIGH,"难例=视觉不可分+噪声,最激进放大最多"
+Lovász,区域损失直接优化mIoU,B3,Exp11,,-0.415,N/A,UNKNOWN,UNKNOWN,B3,1024,—,MECHANISM_REJECTED,HIGH,"隐含标注干净假设,标注有噪声"
+色彩增广/DomainAug,颜色域泛化,B3,DomainAug,,全负,N/A,50%复合猛版,UNKNOWN,B3,1024,—,MECHANISM_REJECTED,HIGH,攻击不存在靶子:训练测试几乎同色
+RareCrop,少数类crop采样,B3,在用,,,N/A,25.2%稀有crop,UNKNOWN,B3,1024,—,INSUFFICIENT_EVIDENCE,MEDIUM,在用但未单独测线上delta;未挖到底
+边界CE重加权,边界监督(Exp38),B3,Exp38,,,N/A,车辆3.0荒地2.0背景0.5,UNKNOWN,B3,1024,—,INSUFFICIENT_EVIDENCE,LOW,无独立线上判决记录

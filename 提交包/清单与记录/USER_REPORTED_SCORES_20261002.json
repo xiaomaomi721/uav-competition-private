@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-02",
+  "score_date": "2026-10-01",
+  "evidence_level": "USER_REPORTED",
+  "platform_submission_id": null,
+  "platform_submitted_at": null,
+  "platform_screenshot": null,
+  "reference": {
+    "candidate": "REVERSE_ARMB",
+    "score_percent": 71.045315,
+    "checkpoint_sha256": "f186e06ddd531724f647757587e5afec1415fb672410534de9658be60e3c58b9",
+    "zip_sha256": "9b426a5bda7fcc8b6b96af9a7a6c2a8e86467dbb4d8bb61441717538f29f1885"
+  },
+  "records": [
+    {
+      "user_label": "方案一",
+      "candidate": "RAS_KD_TREAT",
+      "score_percent": 71.042244,
+      "status": "BELOW_CHAMPION",
+      "checkpoint_sha256": "8832f2ce79f9c1e913f03592d2d829a593cc664d25fb38a5d8c9e8a53bcc39dc",
+      "zip_sha256": "50175d994eba7fa8a67c87bacda76d6289e8316c0431445923d5f12df6e164e3",
+      "delta_vs_armb_pp": -0.003071,
+      "role": "Arm B recipe with shared zero-safe xlogy and selected-pixel D4-JS class-normalized weighting"
+    },
+    {
+      "user_label": "方案二",
+      "candidate": "BLACK_CORE_DROP",
+      "score_percent": 71.029651,
+      "status": "BELOW_CHAMPION",
+      "checkpoint_sha256": "ad79aa3a7bdc1b3ba2527a64ebe01c0867d7f9b3d46f01372d603e0aa6c71bae",
+      "zip_sha256": "e76dc5d15bf595aecda2945f701899f03685a4ed19332472c3c90ea8b3ed3ad8",
+      "delta_vs_armb_pp": -0.015664,
+      "role": "Arm B recipe with shared zero-safe xlogy and black-core target-KL removal"
+    },
+    {
+      "user_label": "TCAv2",
+      "candidate": "TCA_V2_TEAMMATE_SUBMISSION",
+      "score_percent": 70.89215,
+      "status": "BELOW_CHAMPION",
+      "checkpoint_sha256": null,
+      "zip_sha256": null,
+      "artifact_identity_unresolved": true,
+      "delta_vs_armb_pp": -0.153165,
+      "local_miou_percent": 77.776808,
+      "local_delta_vs_armb_pp": 0.493082,
+      "role": "A05-init Arm B-style source CE plus selected KL plus mu=0.02 complement KL; exact submitted artifact SHA not yet bound"
+    },
+    {
+      "user_label": "CE020",
+      "candidate": "CE020_TEAMMATE_SUBMISSION",
+      "score_percent": 70.977045,
+      "status": "BELOW_CHAMPION",
+      "checkpoint_sha256": "4dc3faa2a5f6a2d578b3220c4b62379765ee13ac95f4fd5ae9d464751edbfe02",
+      "zip_sha256": "da7c1dd845f3c4044e0dfa2994e4a5d350761384bff23ed9d9098c8d763c61ec",
+      "artifact_identity_source": "UAV_独立提分方案_20261002.md; user-reported platform score",
+      "delta_vs_armb_pp": -0.06827,
+      "local_miou_percent": 77.417482,
+      "local_delta_vs_armb_pp": 0.133756,
+      "role": "A05-init stable Arm B rebuild with source_coeff=0.20"
+    }
+  ],
+  "causal_caveat": "RAS/BLACK share the zero-safe xlogy change relative to historical Arm B. TCA V2 and CE020 additionally show a local-to-online ranking reversal, so source mIoU is not submission-ranking evidence. TCA V2 exact submitted artifact identity remains unresolved.",
+  "preregistered_followup": {
+    "control_candidate": "RAS_KD_CONTROL",
+    "control_zip_sha256": "1700504fbc9659bbb00c386a63c5624902fbf0f45ba1cce09bd8f2727be648b4",
+    "delta_xlogy_formula": "RAS_KD_CONTROL - 71.045315",
+    "delta_ras_formula": "71.042244 - RAS_KD_CONTROL",
+    "delta_black_formula": "71.029651 - RAS_KD_CONTROL"
+  },
+  "platform_submission_performed_by_assistant": false
+}

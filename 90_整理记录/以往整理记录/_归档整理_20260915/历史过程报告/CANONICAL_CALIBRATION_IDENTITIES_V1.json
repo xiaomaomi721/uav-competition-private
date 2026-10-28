@@ -1,0 +1,39 @@
+{
+  "schema": "canonical_historical_calibration_identities_v1",
+  "authorization": "Direct user POST_RAREEXPOSURE_STREAMING_CALIBRATION_RECOVERY_V1",
+  "class_order": ["Background", "Building", "Road", "Water", "Barren", "Vegetation", "Agricultural", "Vehicle"],
+  "primary_matched_control": "CHAMPION_8D_69_281290",
+  "vectors": {
+    "CHAMPION_8D_69_281290": {
+      "bias": [-0.2, 0.1, 0.0709, 0.7, 3.6, 0.4, 3.3215, -0.5],
+      "package_name": "TTA8_CHAMPION8D_69_281290",
+      "checkpoint_sha256": "d3740b4ef73fbb3ac57ddeedc3547ce4ce1ba31442dc7c70e1fe96b1fab3e228",
+      "historical_package": "/home/jhy/calib_build_p100.zip",
+      "historical_zip_sha256": "6be4e8b0b15aaa4a002bb99d1b1fe0677ec9fb67fe1ee32ac4e0fda5d763ee04",
+      "evidence": ["/home/jhy/run_calib_road_build_scan.sh", "/home/jhy/calib_road_build.log", "/home/jhy/calib_build_p100/run_config.yaml", "文档归档/04_实验决策与成绩/线上成绩记录表.md:255-258"],
+      "score_boundary": "69.281290来源于历史项目账本，未取得独立平台评分回执。",
+      "legacy_alias_deprecated": "FIXED8D_EXP41_STYLE",
+      "legacy_files_policy": "Preserve immutable historical names and hashes; alias for provenance only, never name newly generated output EXP41_STYLE."
+    },
+    "LOCKED8D_69_276229": {
+      "bias": [-0.2, -0.0384, 0.0709, 0.7, 3.6, 0.1932, 3.3215, -0.5],
+      "role": "secondary_historical_reference"
+    },
+    "ZERO_BIAS": {"bias": [0, 0, 0, 0, 0, 0, 0, 0], "package_name": "TTA8_ONLY"}
+  },
+  "separate_training_core": {
+    "canonical_name": "Exp41_EDGE_BCE_CORE",
+    "experiment_id": "stage41_w1_exp41_b3_edge_branch_bce_formal_seed42",
+    "checkpoint_step": 54600,
+    "checkpoint_sha256": "98cb41c0f40e75dfde3d265c87aac29d5429ce8f4202b6252603b67b71babb3b",
+    "is_bias_identity": false,
+    "queue": "QUEUE_TTA_SECONDARY"
+  },
+  "historical_primary_queue": ["Stage23_Golden_step56000", "Exp47_SEMEDA_standalone_CWFA_off_step56000", "Stage66_step52000", "Exp45_MixUp_alpha0.1_p0.5_step51800"],
+  "historical_secondary_queue": ["Exp34_MixStyle_step56000", "Exp49_MaxEnt_lambda1_CWFA_step56000", "Exp31_DINOv2_best_miou_clean_step47600", "Exp41_EDGE_BCE_CORE_step54600"],
+  "rule_blocked": ["Stage55", "Stage55b"],
+  "formal_training_modified": false,
+  "third_56000_step_training_allowed": false,
+  "automatic_online_submission": false,
+  "deployment_status": "LOCAL_REGISTRY_WRITTEN_SERVER_SCHEDULER_NOT_YET_UPDATED"
+}

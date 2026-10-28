@@ -1,0 +1,95 @@
+{
+  "entropy_by_class": {
+    "Background": {
+      "pixels": 27362962,
+      "mean_conf": 0.9336360358345609,
+      "mean_entropy": 0.1645085565652552
+    },
+    "Building": {
+      "pixels": 15163897,
+      "mean_conf": 0.9622234804433282,
+      "mean_entropy": 0.09736421589290596
+    },
+    "Road": {
+      "pixels": 5859222,
+      "mean_conf": 0.9437009599211134,
+      "mean_entropy": 0.14028529507730775
+    },
+    "Water": {
+      "pixels": 6703567,
+      "mean_conf": 0.9640093550083957,
+      "mean_entropy": 0.09197432230011125
+    },
+    "Barren": {
+      "pixels": 1327470,
+      "mean_conf": 0.8875829057543441,
+      "mean_entropy": 0.27817208834306617
+    },
+    "Vegetation": {
+      "pixels": 18869183,
+      "mean_conf": 0.9654317220395693,
+      "mean_entropy": 0.09038637930818773
+    },
+    "Agricultural": {
+      "pixels": 9450594,
+      "mean_conf": 0.9507680596708546,
+      "mean_entropy": 0.12739839214284734
+    },
+    "Vehicle": {
+      "pixels": 459905,
+      "mean_conf": 0.917956493117569,
+      "mean_entropy": 0.2185153070286572
+    }
+  },
+  "prototype_distances": [
+    {
+      "pair": "Vegetation-Building",
+      "source": 10.898990631103516,
+      "target_278": 11.094779014587402,
+      "target_d1": 11.006994247436523,
+      "change_pct": -0.7912259183843103
+    },
+    {
+      "pair": "Background-Vegetation",
+      "source": 7.452645301818848,
+      "target_278": 9.904754638671875,
+      "target_d1": 9.823580741882324,
+      "change_pct": -0.8195447514935651
+    },
+    {
+      "pair": "Background-Agricultural",
+      "source": 8.171189308166504,
+      "target_278": 8.115304946899414,
+      "target_d1": 8.403873443603516,
+      "change_pct": 3.555855246257307
+    },
+    {
+      "pair": "Background-Building",
+      "source": 9.281169891357422,
+      "target_278": 9.098487854003906,
+      "target_d1": 9.143546104431152,
+      "change_pct": 0.4952279010563017
+    },
+    {
+      "pair": "Background-Road",
+      "source": 9.564181327819824,
+      "target_278": 10.121087074279785,
+      "target_d1": 10.302053451538086,
+      "change_pct": 1.7880132433420282
+    },
+    {
+      "pair": "Agricultural-Barren",
+      "source": 8.493365287780762,
+      "target_278": 8.85518741607666,
+      "target_d1": 9.343820571899414,
+      "change_pct": 5.518044202380592
+    },
+    {
+      "pair": "Vegetation-Agricultural",
+      "source": 10.28467082977295,
+      "target_278": 11.021864891052246,
+      "target_d1": 10.947071075439453,
+      "change_pct": -0.6785949233828114
+    }
+  ]
+}

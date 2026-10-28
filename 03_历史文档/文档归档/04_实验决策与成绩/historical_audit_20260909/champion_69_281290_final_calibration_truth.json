@@ -1,0 +1,50 @@
+{
+  "online_score": 69.281290,
+  "online_score_source": "线上成绩记录表.md §2.11 (build_p100行: +0.0026 新最高)",
+  "checkpoint": "stage23_w1_exp23_b3_1024_cwfa_ce_formal_seed42/best_miou.pt",
+  "checkpoint_sha256": "d3740b4ef73fbb3ac57ddeedc3547ce4ce1ba31442dc7c70e1fe96b1fab3e228",
+  "submission_name": "calib_build_p100",
+  "submission_zip_path": "/home/jhy/calib_build_p100.zip",
+  "submission_zip_sha256": "6be4e8b0b15aaa4a002bb99d1b1fe0677ec9fb67fe1ee32ac4e0fda5d763ee04",
+  "submission_zip_size_bytes": 4375801,
+  "prediction_dir": "/home/jhy/calib_build_p100/predictions",
+  "prediction_count": 500,
+  "run_config": "/home/jhy/calib_build_p100/run_config.yaml",
+  "inference_script": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/scripts/rot_tta.py",
+  "run_script": "/home/jhy/run_calib_road_build_scan.sh",
+  "class_order_train_id": ["Background", "Building", "Road", "Water", "Barren", "Vegetation", "Agricultural", "Vehicle"],
+  "class_order_source": "run_calib_road_build_scan.sh 注释: 背景/建筑/道路/水体/荒地/植被/农田/车辆",
+  "final_bias_vector": [-0.2000, 0.1000, 0.0709, 0.7000, 3.6000, 0.4000, 3.3215, -0.5000],
+  "bias_vector_source": "run_calib_road_build_scan.sh build_p100 行实际参数",
+  "build_p100_meaning": {
+    "name": "build_p100",
+    "meaning": "建筑(Building, train_id=1) bias 从 -0.0384 改为 +0.10 的校准提交",
+    "which_class": "Building",
+    "old_value": -0.0384,
+    "new_value": 0.10
+  },
+  "calibration_space": "LOGITS",
+  "calibration_formula": "logits += bias_tensor  (逐通道加法, bias_tensor shape (1,8,1,1))",
+  "scale": "not applied when --prior-bias given (prior_scale=3.0 only used in PRIOR_LOG_BIAS default branch)",
+  "bias_applied_before_tta_fusion": false,
+  "bias_applied_after_tta_fusion": true,
+  "bias_applied_before_softmax": true,
+  "bias_applied_after_softmax": false,
+  "pipeline": [
+    "STEP1: 每视图forward得logits(1,8,1024,1024或需上采样)",
+    "STEP2: inverse transform(undo flip→undo rot90)",
+    "STEP3: accum += logits (逐视图累加)",
+    "STEP4: logits = accum / n_views (8视图平均, D4=4rot×2mirror)",
+    "STEP5: logits = logits + bias_tensor (8维校准, 唯一一次应用)",
+    "STEP6: prediction = logits.argmax(dim=1).add(1) (train_id 0-7 → official 1-8)",
+    "STEP7: 保存official PNG"
+  ],
+  "tta_type": "rot_tta.py D4 (4旋转 x 2水平镜像 = 8视图)",
+  "n_views": 8,
+  "source_files": {
+    "rot_tta.py": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/scripts/rot_tta.py",
+    "run_calib_road_build_scan.sh": "/home/jhy/run_calib_road_build_scan.sh",
+    "run_config.yaml": "/home/jhy/calib_build_p100/run_config.yaml"
+  },
+  "evidence_note": "所有值来自实际运行文件(脚本/run_config/zip sha)，非聊天记录或注释推断。conflict_resolved: 最终8维向量=建筑+0.10版[-0.2,+0.10,0.0709,0.7,3.6,0.4,3.3215,-0.5]; 之前出现-0.0384是6维锁定版(建筑未动时的向量), build_p100将建筑从-0.0384提到+0.10"
+}

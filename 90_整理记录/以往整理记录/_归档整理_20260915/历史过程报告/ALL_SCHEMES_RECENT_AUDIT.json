@@ -1,0 +1,172 @@
+{
+  "schema": "ALL_SCHEMES_RECENT_LOCAL_AUDIT_V1",
+  "compiled_date": "2026-09-14",
+  "scope": "仅本地已有报告与ZIP；未远程刷新。补充近期方案，不替代历史所有实验总成绩表。",
+  "live_state_verified": false,
+  "latest_training_evidence_at": "2026-09-14T18:56:07.258181",
+  "timestamp_note": "训练快照at未附时区，按源值保留；无内部时间的报告仅列本地mtime UTC，不作为实验完成时间。",
+  "online_score_policy": "null代表本次所查本地材料未发现该方案线上成绩，不证明从未提交；CPU PASS、ZIP PASS、训练loss及本地mIoU均不是线上成绩。",
+  "rows": [
+    {
+      "scheme": "Phase1 HDBSCAN/Louvain group discovery",
+      "status": "DIAGNOSTIC_ONLY_CANDIDATE_PASS_NOT_TRAINING",
+      "evidence_time": "源回执无内嵌时间；历史Phase1归档，非当前运行状态",
+      "training_completion": "不训练新分割模型；6996图分组诊断",
+      "diagnostics": {"image_count": 6996, "louvain_groups": 17, "louvain_noise_fraction": 0.0, "hdbscan_groups": 2, "hdbscan_noise_count": 2289, "hdbscan_noise_fraction": 0.3271869639794168, "manual_visual_check_rows": 14},
+      "package_status": "无独立比赛预测ZIP；产物为诊断分组与验收回执",
+      "online_score": null,
+      "sources": ["历史归档/_return_package/phase1_final_candidate.json"]
+    },
+    {
+      "scheme": "Phase2 group-aware reweighting historical calibration",
+      "status": "DIAGNOSTIC_ONLY_COMPLETE_CORRELATION_NOT_IMPROVED",
+      "evidence_time": "源文本无内嵌时间；历史Phase2归档",
+      "training_completion": "复用8个历史模型及其既有线上成绩；不训练新模型",
+      "diagnostics": {"historical_models": 8, "validation_images": 1399, "true_leave_group_out": false, "fixed_val_spearman": 0.7857142857142857, "louvain_group_mean_spearman": 0.7142857142857143, "spearman_delta": -0.0714285714285714, "correlation_improved": false, "fixed_val_kendall": 0.6428571428571429, "louvain_group_mean_kendall": 0.5},
+      "package_status": "原1399固定val上的分组重加权诊断；无独立新线上提交或新比赛预测包",
+      "online_score": null,
+      "sources": ["历史归档/_phase2_return/PHASE2_RETURN_TO_CHATGPT.txt"]
+    },
+    {
+      "scheme": "Stage59 RegionC pairs [[4,0],[6,0]] (barren/agri -> background)",
+      "status": "HISTORICAL_PACKAGES_RECORDED_EXCLUDED_FROM_CURRENT_RECOVERY",
+      "evidence_local_mtime_utc": "2026-09-14T08:24:36+00:00",
+      "training_completion": "历史last与s56000包路径已记录；本次未找到独立完成回执，不以文件名单独认证完整训练",
+      "package_status": "本地提交包/stage66_stage59_20260911/stage59_submission及autopack_stage59中10个ZIP实际存在（本次Glob确认）；协调方提供既往SHA核验完成信息，本轮未重hash。CANDIDATES的SHA null只属于旧盘点字段，不否定已下载",
+      "local_package_directory": "提交包/stage66_stage59_20260911",
+      "package_count_recorded": 10,
+      "local_metric": null,
+      "online_score": null,
+      "decision": "本轮历史恢复排除；不等于已证明算法失败，也不声称文件被删除",
+      "sources": ["CANDIDATES.json", "HISTORICAL_CALIBRATION_RECOVERY_INVENTORY.md:443", "DISK_AUDIT.json"]
+    },
+    {
+      "scheme": "Stage66 SEMEDA0.5 + RareCrop + delayed CWFA",
+      "status": "TRAINING_COMPLETION_HISTORICALLY_AUDITED_PACKAGES_RECORDED_ONLINE_UNKNOWN",
+      "evidence_local_mtime_utc": "2026-09-14T08:59:07.697681+00:00",
+      "training_completion": "S1审计已读取metrics.json/completed.json，存在独立best51800、52000、56000权重身份",
+      "package_status": "本地提交包/stage66_stage59_20260911/latecwfa_submission_stage66及autopack_stage66中10个ZIP实际存在（本次Glob确认）；协调方提供既往SHA核验完成信息，本轮未重hash",
+      "local_package_directory": "提交包/stage66_stage59_20260911",
+      "package_count_recorded": 10,
+      "metrics": [
+        {"checkpoint": "best51800", "protocol": "历史训练评估", "miou_fraction": 0.8125200681968625},
+        {"checkpoint": "best51800", "protocol": "独立per_checkpoint CSV", "miou_fraction": 0.8125296965690411},
+        {"checkpoint": "52000", "protocol": "per_checkpoint CSV", "miou_fraction": 0.8125501791930202},
+        {"checkpoint": "56000", "protocol": "per_checkpoint CSV", "miou_fraction": 0.8124672938336803},
+        {"checkpoint": "52000", "protocol": "历史full1399 true-FP32 D4 zero-bias reference", "miou_fraction": 0.8131277295176083},
+        {"checkpoint": "52000", "protocol": "历史full1399 true-FP32 D4 champion-vector reference", "miou_fraction": 0.7876702342447008},
+        {"checkpoint": "52000", "protocol": "历史full1399 true-FP32 D4 locked-vector reference", "miou_fraction": 0.7875682049879659}
+      ],
+      "online_score": null,
+      "cache_audit": "FP16 precision FAIL只阻断缓存下游复用；不是训练失败或算法失败。1399图诊断完成，旧进程exit2。",
+      "new_recovery": "52000属于新本地factory首批设计；51800/56000默认不自动执行；新扫描/新包尚无生产完成回执",
+      "sources": ["HISTORICAL_RECOVERY_S1_AUDIT.json", "HISTORICAL_CALIBRATION_RECOVERY_RESULTS.json", "CANDIDATES.json", "POST_RAREEXPOSURE_FINAL_CORRECTIONS.md"]
+    },
+    {
+      "scheme": "Full6996 refit",
+      "status": "PRIORITY_SIX_PACKAGES_PASS_NOT_ENTIRE_PIPELINE_COMPLETE",
+      "evidence_at": "2026-09-12T01:47:59.835927+00:00",
+      "training_completion": "69997终态包与last->69997别名已记录；65000优先包完成，不把69997改写成70000",
+      "package_status": "6个ZIP实际存在本地，本次逐个SHA256匹配原PASS报告；官方检查PASS来自历史回执，本次未重跑官方检查",
+      "package_count_locally_sha_verified": 6,
+      "online_score": null,
+      "local_metric": null,
+      "limitations": "all_done=false，55000/60000并未由优先六包回执认证完成；全6996 refit不能与原5597/1399 holdout指标混比",
+      "local_package_directory": "提交包/Full6996_priority_20260912",
+      "sources": ["提交包/Full6996_priority_20260912/FULL6996_PRIORITY_PACKAGES_REPORT.json"]
+    },
+    {
+      "scheme": "RareExposure v2 formal",
+      "status": "RUNNING_AT_LAST_SNAPSHOT_NOT_CURRENT_COMPLETION_CLAIM",
+      "evidence_at": "2026-09-14T18:56:07.258181",
+      "step": 55111,
+      "expected_steps": 56000,
+      "loss_last_logged": null,
+      "formal_pid_at_snapshot": 283448,
+      "supervisor_pid_at_snapshot": 2399435,
+      "training_completion": "最后记录仍训练中，未见更晚本地formal PASS回执",
+      "package_status": "快照packages_started=false；尚无新matched包完成证据",
+      "online_score": null,
+      "checkpoint_contract": "best/last；不补造52k，不把未保存milestone列为训练失败",
+      "next_stage": "既有streaming scheduler设计为训练自然完成后固定三向量出包，再等待真实线上结果；此处不声称已执行",
+      "sources": ["ALL_SCHEMES_LIVE_STATUS_20260914.json", "POST_RAREEXPOSURE_ACK_SNAPSHOT.json", "STORAGE_AWARE_HANDOFF_REPORT.md"]
+    },
+    {
+      "scheme": "Paramwise01 formal UUID-fixed",
+      "status": "RUNNING_AT_LAST_SNAPSHOT_NOT_CURRENT_COMPLETION_CLAIM",
+      "evidence_at": "2026-09-14T18:56:07.258181",
+      "step": 8630,
+      "expected_steps": 56000,
+      "loss_last_logged": null,
+      "formal_pid_at_snapshot": 2115724,
+      "supervisor_pid_at_snapshot": 2399454,
+      "training_completion": "最后记录仍训练中，未见更晚本地formal PASS回执",
+      "package_status": "快照packages_started=false；尚无新matched包完成证据",
+      "online_score": null,
+      "checkpoint_contract": "保留原训练milestone保存行为与完成后CPU审计；推理候选best/52k/56k按实际权重去重",
+      "sources": ["ALL_SCHEMES_LIVE_STATUS_20260914.json", "POST_RAREEXPOSURE_ACK_SNAPSHOT.json", "STORAGE_AWARE_HANDOFF_REPORT.md"]
+    },
+    {
+      "scheme": "RareExposure smoke1/smoke2工程验收",
+      "status": "SMOKE1_ARTIFACT_CONTRACT_FAILURE_SMOKE2_SUPERSEDED_BY_FORMAL_RUNNING",
+      "evidence_at": "2026-09-14T18:39:09.818905",
+      "training_completion": "smoke1产物要求不一致；本地准备脚本记录错误at least 8 prediction visualizations，配置只产2。smoke2只把max_val_samples/prediction_visualization_count从2改8，后续formal运行快照证明已越过smoke入口",
+      "package_status": "smoke是工程验收，不是正式500图候选包",
+      "online_score": null,
+      "algorithm_failure": false,
+      "sources": ["prepare_rareexposure_smoke2.py:33-55", "rareexposure_watchdog_smoke2.py:81-153", "POST_RAREEXPOSURE_ACK_SNAPSHOT.json"]
+    },
+    {
+      "scheme": "Paramwise protocol_v2全量缓存校准",
+      "status": "STORAGE_PREFLIGHT_BLOCKED_LATER_SCHEDULER_SUPERSEDED",
+      "evidence_at": "2026-09-14T18:39:09.818905",
+      "preflight": {"status": "BLOCKED_INSUFFICIENT_STORAGE", "required_free_bytes": 215605739520, "observed_free_bytes": 11097174016, "shortfall_bytes": 204508565504},
+      "training_completion": "非训练实验；容量预检不改变formal",
+      "package_status": "该缓存方案未产生新生产包；后续由storage-aware streaming scheduler替代，旧控制器快照为T",
+      "online_score": null,
+      "algorithm_failure": false,
+      "sources": ["paramwise01_protocol_v2/CPU_PREFLIGHT_REMOTE.json", "POST_RAREEXPOSURE_ACK_SNAPSHOT.json", "STORAGE_AWARE_HANDOFF_REPORT.md"]
+    },
+    {
+      "scheme": "历史可信缓存恢复审计V2",
+      "status": "AUDIT_ONLY_BLOCKED_NO_RUN_NOW",
+      "evidence_local_mtime_utc": "2026-09-14T09:06:12.824896+00:00",
+      "training_completion": "不启动训练",
+      "package_status": "scans_started=0,new_gpu_forwards=0,new_packages=0；不是恢复完成",
+      "online_score": null,
+      "sources": ["HISTORICAL_CALIBRATION_RECOVERY_RESULTS.json"]
+    },
+    {
+      "scheme": "POST_RARE两遍验证/一遍test历史factory与observer",
+      "status": "LOCAL_ENGINEERING_IMPLEMENTATION_FIXTURE_ONLY_NOT_DEPLOYED",
+      "evidence_time": "来源无内嵌时间；本地最终审查记录",
+      "training_completion": "不启动新训练；历史首批Golden->Exp47(CWFA off)->Stage66_52000->Exp45",
+      "package_status": "CPU合成fixture为17候选10角色，非真实生产1399/500图结果；新生产ZIP未确认",
+      "fixture_status": "FIXTURE_ONLY_PASS",
+      "factory_sha256": "002e4fb4594cc568f0e6f01fc1ca5a11f172c8810ba343b89c55e71de8047d1c",
+      "gpu_production_verified": false,
+      "online_score": null,
+      "queue_defects_unfixed": ["canonical语义角色与固定向量等同时角色名丢失", "+0.10百分点float阈值边界误拒绝"],
+      "decision": "暂停修改/部署；不能列成已完成校准方案。第二批仍待排，Stage66其他权重不自动扩展；Pseudo规则阻断",
+      "sources": ["post_rare_recovery_v1/FACTORY_SYNTHETIC_02/SYNTHETIC_CLI_RESULT.json", "POST_RARE_FACTORY_ACCEPTANCE_CHECKLIST.md", "POST_RARE_QUEUE_REVIEW_FINDINGS.md"]
+    }
+  ],
+  "stage59_stage66_local_package_summary": {"root": "提交包/stage66_stage59_20260911", "original_family_zip_count": 20, "upload_order_zip_count": 10, "upload_order_meaning": "既有去重上传顺序副本，不新增10个模型方案", "existence_check": "本次Glob确认30条本地ZIP路径", "sha_verification": "协调方说明历史核验已完成；本次未重hash这些30个文件"},
+  "full6996_local_verified_packages": [
+    {"file": "65000_TTA8.zip", "sha256": "de78b5d8665649182575b434b6e21076d0a8648a73e7235b06672f52b2278df9"},
+    {"file": "65000_TTA8_FIXED8D_EXP41_STYLE.zip", "sha256": "0bcfe2a11b3bf5f519e6f3fd5490b3e86a0c283db3208d4b0552000a0f8358c4"},
+    {"file": "65000_TTA8_LOCKED8D_69_276229.zip", "sha256": "c32a410e39716a7ce0e46f075ee3cb1d3e91448ca9d36036e3355e8d78e087ed"},
+    {"file": "69997_TTA8.zip", "sha256": "435f98cb0ea38ad5832b7dd9bc189c866db5a69c9a70a1bc2d623057e730e91c"},
+    {"file": "69997_TTA8_FIXED8D_EXP41_STYLE.zip", "sha256": "5167656552e6ac3e395f244fca19da9897527be3bc45363927da75f56f6f4a1a"},
+    {"file": "69997_TTA8_LOCKED8D_69_276229.zip", "sha256": "241f618b7a980fb8862460847d092b286bf6c1404edef337d038706793dfa36d"}
+  ],
+  "category_definitions": {
+    "training_complete": "必须有完成回执或引用已读完成回执的审计，不能只凭checkpoint文件名",
+    "package_recorded": "历史清单记录，不代表当前文件在线存在或本次完成官方检查",
+    "local_package_sha_verified": "本次本地实际读取ZIP并与已有回执SHA一致",
+    "online_unknown": "所查本地证据缺少线上成绩，不填0，不把未知当负收益",
+    "engineering_only": "代码/CPU接口/合成fixture验证，非算法比赛成绩",
+    "audit_failure": "精度、容量或产物契约门禁失败，与算法有效性区分",
+    "excluded_or_superseded": "不进入本轮/被替代，不代表训练历史或包被删除"
+  }
+}

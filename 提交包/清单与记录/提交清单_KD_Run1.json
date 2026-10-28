@@ -1,0 +1,338 @@
+{
+  "schema": "SUBMIT_KD_RUN1_20260915",
+  "created": "2026-09-15T19:45:09",
+  "purpose": "KD Run1 四个 checkpoint × {zero, CHAMPION}，外加 s62 校准幅度探测",
+  "baselines": {
+    "s62_zero": 0.680973,
+    "s62_champion": 0.68661,
+    "stage23B_zero": 0.678023,
+    "stage23B_champion": 0.692812,
+    "record_compliant": 0.693096,
+    "raw_teacher_ensemble_zero": 0.683237,
+    "target": 0.7
+  },
+  "read_rule": "ΔZ = Z − 0.680973；C = F − Z；D = 0.700000 − F。本地 local_miou 仅健康检查，不参与判断（验证含随机几何）。s62_ref_champion 是对照包，与已提交的 28 号逐像素一致，不需要提交。",
+  "verified": {
+    "pipeline_reproduction": "s62 zero 重生成，500/500 PNG 内容一致、像素级 0 处不同 → 与历史提交27推理路径等价",
+    "combo_control": "s62_ref_champion 与提交28原包 500/500 像素级一致",
+    "official_checker": "十个包全部 PASS (failures=0)",
+    "checker_usage": "必须传解压后的目录，不能传 ZIP（传 ZIP 会得到 8 项失败，即使已知良好的包也一样）"
+  },
+  "packages": [
+    {
+      "index": 64,
+      "file": "s3200_zero.zip",
+      "checkpoint": "KD Run1 s62-init step3200",
+      "role": "零偏置",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vector_by_class": {
+        "Background": 0.0,
+        "Building": 0.0,
+        "Road": 0.0,
+        "Water": 0.0,
+        "Barren": 0.0,
+        "Vegetation": 0.0,
+        "Agricultural": 0.0,
+        "Vehicle": 0.0
+      },
+      "local_miou_NOT_a_verdict": 0.808045,
+      "student_vs_ensemble_agreement": 0.967918,
+      "images": 500,
+      "checked": "PASS (官方 check_submission.py, failures=0)",
+      "sha256": "965051105c43c7a43f1cf0dcbd4729509431beab4a4dbc355dd745e018a49dcc",
+      "platform_mIoU": 0.681538,
+      "status": "已提交并评分"
+    },
+    {
+      "index": 65,
+      "file": "s3200_champion.zip",
+      "checkpoint": "KD Run1 s62-init step3200",
+      "role": "CHAMPION向量",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.4,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "local_miou_NOT_a_verdict": 0.808045,
+      "student_vs_ensemble_agreement": 0.967918,
+      "images": 500,
+      "checked": "PASS (官方 check_submission.py, failures=0)",
+      "sha256": "4ab9463f1c5fe4e409a3eb4250592d95d903ac77ab5b3263942157e43feaa740",
+      "platform_mIoU": 0.691925,
+      "status": "已提交并评分"
+    },
+    {
+      "index": 66,
+      "file": "s4800_zero.zip",
+      "checkpoint": "KD Run1 s62-init step4800",
+      "role": "零偏置",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vector_by_class": {
+        "Background": 0.0,
+        "Building": 0.0,
+        "Road": 0.0,
+        "Water": 0.0,
+        "Barren": 0.0,
+        "Vegetation": 0.0,
+        "Agricultural": 0.0,
+        "Vehicle": 0.0
+      },
+      "local_miou_NOT_a_verdict": 0.807077,
+      "student_vs_ensemble_agreement": 0.975796,
+      "images": 500,
+      "checked": "PASS (官方 check_submission.py, failures=0)",
+      "sha256": "32dc8201cdc831f5c50322c8b2e5841be993201863cddc4d1f9163049085ee18",
+      "platform_mIoU": 0.677788,
+      "status": "已提交并评分"
+    },
+    {
+      "index": 67,
+      "file": "s4800_champion.zip",
+      "checkpoint": "KD Run1 s62-init step4800",
+      "role": "CHAMPION向量",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.4,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "local_miou_NOT_a_verdict": 0.807077,
+      "student_vs_ensemble_agreement": 0.975796,
+      "images": 500,
+      "checked": "PASS (官方 check_submission.py, failures=0)",
+      "sha256": "5b0d373224ccfa90c980c413938cbf8743b10aaffa9ce7ff0191c6567253d377",
+      "platform_mIoU": 0.690002,
+      "status": "已提交并评分"
+    },
+    {
+      "index": 68,
+      "file": "s6400_zero.zip",
+      "checkpoint": "KD Run1 s62-init step6400",
+      "role": "零偏置",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vector_by_class": {
+        "Background": 0.0,
+        "Building": 0.0,
+        "Road": 0.0,
+        "Water": 0.0,
+        "Barren": 0.0,
+        "Vegetation": 0.0,
+        "Agricultural": 0.0,
+        "Vehicle": 0.0
+      },
+      "local_miou_NOT_a_verdict": 0.809277,
+      "student_vs_ensemble_agreement": 0.98468,
+      "images": 500,
+      "checked": "PASS (官方 check_submission.py, failures=0)",
+      "sha256": "9bdb0fbd47818561ef6c788d07f56b9d00d125c38c51a8deeeb4dcd5f3cfeb9f",
+      "platform_mIoU": 0.680602,
+      "status": "已提交并评分"
+    },
+    {
+      "index": 69,
+      "file": "s6400_champion.zip",
+      "checkpoint": "KD Run1 s62-init step6400",
+      "role": "CHAMPION向量",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.4,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "local_miou_NOT_a_verdict": 0.809277,
+      "student_vs_ensemble_agreement": 0.98468,
+      "images": 500,
+      "checked": "PASS (官方 check_submission.py, failures=0)",
+      "sha256": "139d340f54b379dd260be96493bb7dcb66abd0da10a6bf8685daca8d4d114c32",
+      "platform_mIoU": 0.692202,
+      "status": "已提交并评分"
+    },
+    {
+      "index": 70,
+      "file": "s8000_zero.zip",
+      "checkpoint": "KD Run1 s62-init step8000",
+      "role": "零偏置",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vector_by_class": {
+        "Background": 0.0,
+        "Building": 0.0,
+        "Road": 0.0,
+        "Water": 0.0,
+        "Barren": 0.0,
+        "Vegetation": 0.0,
+        "Agricultural": 0.0,
+        "Vehicle": 0.0
+      },
+      "local_miou_NOT_a_verdict": 0.809968,
+      "student_vs_ensemble_agreement": 0.977596,
+      "images": 500,
+      "checked": "PASS (官方 check_submission.py, failures=0)",
+      "sha256": "2bbe65f3db689654f23d7b25eae47928f9f8c45b788c8619f3773ef1df0bae6d",
+      "platform_mIoU": 0.678168,
+      "status": "已提交并评分"
+    },
+    {
+      "index": 71,
+      "file": "s8000_champion.zip",
+      "checkpoint": "KD Run1 s62-init step8000",
+      "role": "CHAMPION向量",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.4,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "local_miou_NOT_a_verdict": 0.809968,
+      "student_vs_ensemble_agreement": 0.977596,
+      "images": 500,
+      "checked": "PASS (官方 check_submission.py, failures=0)",
+      "sha256": "64acc9435c4e1b6a518884a95c474b636071653f9f2865ab3e468b85385f8c70",
+      "platform_mIoU": 0.690212,
+      "status": "已提交并评分"
+    },
+    {
+      "index": 72,
+      "file": "s62_combo4.zip",
+      "checkpoint": "s62 best_miou.pt",
+      "role": "校准幅度探测",
+      "deltas": {
+        "Agricultural": -0.4,
+        "Vegetation": -0.4,
+        "Water": -0.4,
+        "Barren": 0.4
+      },
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.29999999999999993,
+        4.0,
+        0.0,
+        2.9215,
+        -0.5
+      ],
+      "images": 500,
+      "checked": "PASS",
+      "sha256": "c49c3fefdaf9b379716070a37b030ba4db8b6abb56c621c216b95f7a2206bda0",
+      "platform_mIoU": 0.688171,
+      "status": "已提交并评分"
+    },
+    {
+      "index": 73,
+      "file": "s62_agri_m08.zip",
+      "checkpoint": "s62 best_miou.pt",
+      "role": "校准幅度探测",
+      "deltas": {
+        "Agricultural": -0.8
+      },
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.5214999999999996,
+        -0.5
+      ],
+      "images": 500,
+      "checked": "PASS",
+      "sha256": "a418501d1f2a3e47cf899cc0c11c90c4d23bfb8eb420cccf122ddd2ddab410d1",
+      "platform_mIoU": 0.688084,
+      "status": "已提交并评分"
+    }
+  ]
+}

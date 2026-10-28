@@ -1,0 +1,77 @@
+{
+  "batch": "SUBMIT_BATCH_02",
+  "purpose": "background-axis response curve around LOCKED8D",
+  "checkpoint": {
+    "tag": "best51800",
+    "path": ".../runs/stage23_rareexposure_v2_seed42_56000/best_miou.pt",
+    "sha256": "dbe1063c72131303b9759b8948a072b07ff093968ecd20c63d11b40e27115851"
+  },
+  "pipeline_verification": {
+    "control": "locked_repro vs existing LOCKED package",
+    "result": "500/500 entries identical",
+    "conclusion": "inference and packaging paths reproduce production exactly"
+  },
+  "official_checker": {
+    "status": "PASS for all four archives",
+    "script_sha256": "ade758ac319920020e739f2789b0ae7b335a943a25ab2bd05b90bc5a721ffc67"
+  },
+  "reference_anchor": {
+    "LOCKED8D_bg-0.2": "68.9567 (BATCH_01, receipt bound)"
+  },
+  "submissions": [
+    {
+      "file": "04_best51800_LOCKED_bg000.zip",
+      "vector": [
+        0.0,
+        -0.0384,
+        0.0709,
+        0.7,
+        3.6,
+        0.1932,
+        3.3215,
+        -0.5
+      ],
+      "change": "background 0.0",
+      "zip_sha256": "d369a127b9108897679e0043632d50fc93605beaa9be8defa0a971e3b123ebd3",
+      "bytes": 4964089
+    },
+    {
+      "file": "05_best51800_LOCKED_bg-040.zip",
+      "vector": [
+        -0.4,
+        -0.0384,
+        0.0709,
+        0.7,
+        3.6,
+        0.1932,
+        3.3215,
+        -0.5
+      ],
+      "change": "background -0.4",
+      "zip_sha256": "33f187d8f046ab592ecd6f88762d85c7c6f9a81f3f8723728d0cfbf64cbb5ba9",
+      "bytes": 4967930
+    },
+    {
+      "file": "06_best51800_LOCKED_bg-060.zip",
+      "vector": [
+        -0.6,
+        -0.0384,
+        0.0709,
+        0.7,
+        3.6,
+        0.1932,
+        3.3215,
+        -0.5
+      ],
+      "change": "background -0.6",
+      "zip_sha256": "f4d636c55d37af8315ca0809732498b0702ae72d605291b8e063e3705b65ae68",
+      "bytes": 4969203
+    }
+  ],
+  "scope": "DIAGNOSTIC_ONLY_NOT_ELIGIBILITY",
+  "caveats": [
+    "Single-axis background adjustment only; all other seven axes fixed at LOCKED.",
+    "Result applies to this evaluation set only; not generalized to a merged scoring set.",
+    "Platform mIoU must be recorded against the exact file name and ZIP SHA."
+  ]
+}

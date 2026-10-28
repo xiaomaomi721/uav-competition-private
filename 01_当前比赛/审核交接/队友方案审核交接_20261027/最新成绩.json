@@ -1,0 +1,13 @@
+{
+  "record_date_asia_shanghai": "2026-10-27",
+  "source": "user_latest_explicit_decimal_correction",
+  "platform_receipt_independently_checked": false,
+  "scores_percent": {"H75_BSTAR": "70.998665", "H75_ZERO": "67.979564"},
+  "bstar_minus_zero_percentage_points": "3.019101",
+  "target_percent": "72.000000",
+  "remaining_percentage_points": "1.001335",
+  "evaluation_scope": "current_semifinal; package reported as 3594 images",
+  "submission_timestamp": null,
+  "submission_ids": null,
+  "note": "Two complete decimal scores, not four metrics. Discard earlier misreading 74.998665."
+}

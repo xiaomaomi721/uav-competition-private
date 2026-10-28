@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-27",
+  "reviewer": "Codex",
+  "scope": "Read-only literature/code review; no server verification",
+  "primary_paper": {
+    "title": "Balanced Learning for Domain Adaptive Semantic Segmentation",
+    "venue": "ICML 2025",
+    "url": "https://proceedings.mlr.press/v267/li25cc.html",
+    "readable_text": "https://arxiv.org/html/2512.06886v1",
+    "table4_miou": {
+      "baseline": 68.3,
+      "posthoc": 69.2,
+      "source_OLA": 68.9,
+      "source_target_OLA": 70.2,
+      "OLA_CDE": 70.7
+    },
+    "benchmark": "GTA->Cityscapes with DAFormer; not UAV"
+  },
+  "official_repo": {
+    "name": "Woof6/BLDA",
+    "commit": "eff6331f55c19a3523c2a322014d878ca085eb07",
+    "readme_retrieved": true,
+    "files": [
+      {
+        "path": "mmseg/models/losses/cross_entropy_loss.py",
+        "git_blob_sha": "e9c2fcf0d8138b2d73e535722a65ff99d5cf8c5b",
+        "url": "https://github.com/Woof6/BLDA/blob/eff6331f55c19a3523c2a322014d878ca085eb07/mmseg/models/losses/cross_entropy_loss.py"
+      },
+      {
+        "path": "mmseg/models/uda/dacs.py",
+        "git_blob_sha": "8fca9cd908642bea368fc1588e7ac83ed39313bd",
+        "url": "https://github.com/Woof6/BLDA/blob/eff6331f55c19a3523c2a322014d878ca085eb07/mmseg/models/uda/dacs.py"
+      },
+      {
+        "path": "mmseg/models/decode_heads/decode_head.py",
+        "git_blob_sha": "97914400d5dcfc889d57709ecad21dc77bd9b0e0",
+        "url": "https://github.com/Woof6/BLDA/blob/eff6331f55c19a3523c2a322014d878ca085eb07/mmseg/models/decode_heads/decode_head.py"
+      },
+      {
+        "path": "mmseg/models/segmentors/encoder_decoder.py",
+        "git_blob_sha": "50ca3c1bc81f0012bc7f53cf77656635e968dfa0",
+        "url": "https://github.com/Woof6/BLDA/blob/eff6331f55c19a3523c2a322014d878ca085eb07/mmseg/models/segmentors/encoder_decoder.py"
+      },
+      {
+        "path": "configs/daformer/gta2cs_uda_warm_fdthings_rcs_croppl_a999_daformer_mitb5_s0_blda.py",
+        "git_blob_sha": "855395b8b33bfc286221955dce1d4f82f2a00d3f",
+        "url": "https://github.com/Woof6/BLDA/blob/eff6331f55c19a3523c2a322014d878ca085eb07/configs/daformer/gta2cs_uda_warm_fdthings_rcs_croppl_a999_daformer_mitb5_s0_blda.py"
+      }
+    ]
+  },
+  "code_findings": [
+    {
+      "path": "mmseg/models/losses/cross_entropy_loss.py",
+      "lines": [
+        797,
+        811
+      ],
+      "fact": "num_classes hardcoded to 19"
+    },
+    {
+      "path": "mmseg/models/losses/cross_entropy_loss.py",
+      "lines": [
+        966,
+        967
+      ],
+      "fact": "source/target identified via weight equality/inequality"
+    },
+    {
+      "path": "mmseg/models/losses/cross_entropy_loss.py",
+      "lines": [
+        1087,
+        1088
+      ],
+      "fact": "training subtracts detached adjustment"
+    },
+    {
+      "path": "mmseg/models/losses/cross_entropy_loss.py",
+      "lines": [
+        1097,
+        1102
+      ],
+      "fact": "auxiliary regression uses absolute error"
+    },
+    {
+      "path": "configs/daformer/gta2cs_uda_warm_fdthings_rcs_croppl_a999_daformer_mitb5_s0_blda.py",
+      "fact": "t2=0 in README training config; tau=.99 statistics momentum, t=.1 adjustment scaling"
+    }
+  ],
+  "local_reviewed_training_file": "uav_semantic_segmentation/无人机/scripts_20260928/round2_iterative/a05_treat_round2.py",
+  "local_reviewed_training_file_sha256": "f46ff4aae7943ec98620eb08601e2266e6c9963180aed5bdaf14c72aa9d18f76",
+  "dataset_count_status": "From earlier project audits and handovers; not remotely re-counted this turn",
+  "user_score_status": "User-confirmed in earlier turns, not independently checked on competition platform",
+  "own_variant_not_in_paper": [
+    "soft class-conditioned objective",
+    "fixed H75 teacher",
+    "retain fixed Bstar",
+    "bounded correction",
+    "reservoir and cross-image minimum",
+    "short matched warm-start experiment"
+  ],
+  "other_primary_sources": [
+    "https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Semi-Supervised_Semantic_Segmentation_Using_Unreliable_Pseudo-Labels_CVPR_2022_paper.html",
+    "https://openaccess.thecvf.com/content/WACV2021/html/Tranheden_DACS_Domain_Adaptation_via_Cross-Domain_Mixed_Sampling_WACV_2021_paper.html",
+    "https://arxiv.org/abs/2212.01322"
+  ]
+}
+

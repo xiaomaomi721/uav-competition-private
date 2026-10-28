@@ -1,0 +1,64 @@
+{
+  "gt_model_identity": {
+    "experiment_id": "stage23_w1_exp23_b3_1024_cwfa_ce_formal_seed42",
+    "model": "SegFormer-B3",
+    "num_classes": 8,
+    "crop_size": 1024,
+    "loss": "cross_entropy",
+    "cwfa_enabled": true,
+    "cwfa_probability": 0.3,
+    "cwfa_epsilon": 4.0,
+    "cwfa_start_step": 28001,
+    "checkpoint": "best_miou.pt",
+    "checkpoint_sha256": "d3740b4ef73fbb3ac57ddeedc3547ce4ce1ba31442dc7c70e1fe96b1fab3e228",
+    "config_sha256": "68cf3a98b7bb17dc564fbbb31dced103543e86bd9e01b967c161c37f1120995c",
+    "corresponds_to": "69.281290 champion (B3+CWFA+TTA8+8d calibration); this audit uses clean single-model no-TTA no-calib"
+  },
+  "gt_validation_identity": {
+    "val_list": "splits/val.txt",
+    "val_sha256": "2fc7f230a4ce389767dfc9cba7be6b48b219a0606ac136c31cbd861f3ccd1e74",
+    "n_samples": 1399,
+    "split": "fixed, non-random",
+    "dataset": "2026-低空图像语义分割赛道-训练集/train"
+  },
+  "historical_metric_crosscheck": {
+    "pass": true,
+    "valid_pixels_exact_match": true,
+    "miou": 0.8109861029087745,
+    "per_class_iou_max_abs_diff": 4.4384430553101595e-07
+  },
+  "test_sources": {
+    "test:B": {
+      "path": "/home/jhy/rare_diag_20260915/_morph_zips/07_stage23_best56000_ZERO.zip",
+      "count": 500,
+      "encoding": "official",
+      "zip_sha256": "d42f41d84bb614e0b5e5621fdd63760efbb68db3ee4294e00118cf4007987e6f"
+    },
+    "test:s62": {
+      "path": "/home/jhy/rare_diag_20260915/_morph_zips/27_core_s62_resumepseudo_zero.zip",
+      "count": 500,
+      "encoding": "official",
+      "zip_sha256": "57d36d534965958bb3ebbeffce3a62bedc78cf6f98d640ddb72c4c055154f9d9"
+    },
+    "test:s58": {
+      "path": "/home/jhy/rare_diag_20260915/_morph_zips/23_core_s58_regionC_zero.zip",
+      "count": 500,
+      "encoding": "official",
+      "zip_sha256": "442a27efb6e999000002b90acf6069978068a2bc5f39487d3f56a0414765a9c1"
+    }
+  },
+  "limitations": [
+    "s62/s58 full validation masks not confirmed; no GT audit for them",
+    "GT uses single-view zero bias; test uses TTA8 zero bias; unmatched protocols",
+    "test1 is not all semifinal test data; disagreement is not error",
+    "prediction PNG directory identity follows historical receipt, not fresh model reproduction",
+    "8-connected components may bridge thin paths or merge distinct class-pair errors",
+    "Ignore interfaces excluded; some regions near Ignore can be labelled interior"
+  ],
+  "files": {
+    "/home/jhy/rare_diag_20260915/_error_morphology_v2.py": "fcaa15a9447571b67f164f2dcf1a0696b2ed29668bdcce645212cfe839b0f447",
+    "/home/jhy/rare_diag_20260915/_error_morphology_v2_gt.py": "fd1b794be9b19e011e010e1e898e1edf437e033643814c35c5b183391076b50c",
+    "/home/jhy/rare_diag_20260915/morph_v2_gt_B/ERROR_MORPHOLOGY.json": "1ef9c65e2e22d9375aa665de074ff7c18fb993cdce8468feaff5d0ce08441f94",
+    "/home/jhy/rare_diag_20260915/morph_v2_test/ERROR_MORPHOLOGY.json": "4e8258d1a22404f312705725a0e1d916d0bd4b2055db65381e6eb42d43f9b655"
+  }
+}

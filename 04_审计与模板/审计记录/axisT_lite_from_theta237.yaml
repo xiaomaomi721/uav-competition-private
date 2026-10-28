@@ -1,0 +1,54 @@
+_base_: ../stage56/wave1_exp56_b3_cwfa_5597_pseudo500.yaml
+
+experiment_id: axisT_lite_from_theta237_seed42
+stage: 73
+description: >-
+  AXIS T-LITE (fallback arm). Fine-tune the current champion theta237 = 0.702574
+  on the s55b pipeline's data: 5597 official real + 500 pseudo images generated
+  by gen_pseudo_labels.py --mode region --threshold 0.9 with the teacher swapped
+  from Exp23 to the champion. Single uniform image pool (6097, pseudo 8.21%),
+  no cadence, exactly as stage55b.
+
+  HONEST LIMITATION: there is NO matched control for this arm (Exp23 is the
+  matched control for stage55b's 56000-step from-scratch recipe, not for a
+  fine-tune from a merged checkpoint). So this arm is attributability-poor by
+  construction. It is run to produce a CANDIDATE, not to attribute. Use it only
+  if the SEMEDA stage2 direction (Axis S) scores below the champion.
+
+  Deviations from stage55b, all forced by the 2026-09-18 hardware window:
+    * init = theta237 instead of published_pretrained ADE-B3 (this is a
+      fine-tune of our best model, not a from-scratch training)
+    * horizon 56000 -> 21000 (what fits before GPU access ends)
+    * lr 6e-05 -> 1e-05 (converged start, not cold start)
+    * cwfa.start_step 28001 -> 10500 (half of the horizon, matching the
+      half-of-horizon convention of the original)
+
+p1_init_from: /home/jhy/rare_diag_20260915/donor_gate2_20260917/S_semeda_M.pt
+# no p1_trainable_scope -> the WHOLE model trains (this is a fine-tune)
+
+train_split: /home/jhy/datasets/pseudo_train_axisT_v1/train_ids_5597pseudo.txt
+max_steps: 21000
+validation_interval: 0
+gate_steps:
+  - 2000
+  - 4000
+  - 8000
+  - 16000
+  - 21000
+
+optimizer:
+  name: AdamW
+  learning_rate: 1.0e-05
+  weight_decay: 0.01
+
+scheduler:
+  name: polynomial
+  power: 1.0
+  total_steps: 21000
+
+cwfa:
+  enabled: true
+  probability: 0.3
+  epsilon: 4.0
+  norm_eps: 1.0e-12
+  start_step: 10500

@@ -1,0 +1,72 @@
+{
+  "protocol": "STORAGE_AWARE_CALIBRATION_PROTOCOL_V1",
+  "observed_utc": "2026-09-14T09:10:10.616911+00:00",
+  "scope": "Bounded read-only scratch/storage preflight. No GPU query/use, remote write/mkdir, deletion, signals, training or queue modification. End remote audit after this snapshot.",
+  "source_evidence": {
+    "host": "jhy@teacher-4090",
+    "uid": 1007,
+    "commands": ["df -h /home/jhy", "lsblk -b -o NAME,TYPE,SIZE,FSTYPE,MOUNTPOINTS"],
+    "df_h_output": "/dev/sda4 3.5T 3.3T 11G 100% /",
+    "exact_byte_method": "os.statvfs on exact existing mount/root paths; available=f_bavail*f_frsize",
+    "permission_method": "lstat owner/mode plus os.access(W_OK); no write test and no directory enumeration",
+    "candidate_source": "/home/jhy/disk_cleanup_20260914/CANDIDATES.json",
+    "candidate_selection": "identity_verified == true; exactly 31 records",
+    "candidate_measurement": "lstat exact 31 paths, no ZIP reading/hashing. All 31 current sizes match recorded bytes, nlink=1, no symlinks. All remain safe_to_delete=no.",
+    "known_source_sha256_from_prior_copy": "520dc8776c2f170f9ab32adf68f5eba521020aadf7341aa1cddf787d67c8d3c3",
+    "source_sha_note": "Prior provenance hash, not rehashed in this bounded preflight.",
+    "isolation": "nice19, ionice class3, OMP/OPENBLAS/MKL/NUMEXPR threads1; stdlib Python only"
+  },
+  "scratch_checks": {
+    "required_large_scratch_bytes": 236223201280,
+    "required_large_scratch_note": "220 GiB criterion is for choosing an optional large scratch path, NOT a fixed run free-space gate.",
+    "/home/jhy": {"exists": true, "owner_uid": 1007, "mode": "0750", "writable_access": true, "available_bytes": 10890952704, "filesystem_total_bytes": 3745119428608, "block_device": "/dev/sda4"},
+    "/data": {"exists": false},
+    "/mnt": {"exists": true, "owner_uid": 0, "mode": "0755", "writable_access": false, "available_bytes": 10890952704, "same_filesystem_as_home": true},
+    "/scratch": {"exists": false},
+    "/ssd": {"exists": true, "owner_uid": 1011, "mode": "0755", "writable_access": false, "available_bytes": 1664632455168, "block_device": "/dev/sdb1"},
+    "/hdd": {"exists": true, "owner_uid": 0, "mode": "0755", "writable_access": false, "available_bytes": 7537207480320, "block_device": "/dev/sdc1"},
+    "exact_project_paths_absent": ["/data/jhy", "/mnt/jhy", "/scratch/jhy", "/ssd/jhy", "/hdd/jhy", "/home/jhy/scratch"],
+    "conclusion": "No clearly permitted existing project scratch >220 GiB found among exact checked paths. Use streaming design; do not assume large free /ssd or /hdd space is authorized. No other-user or unknown mount content traversed."
+  },
+  "historical_zip_statistics": {
+    "exact_count": 31,
+    "min_bytes": 3853993,
+    "median_bytes": 4504849,
+    "max_bytes": 4715891,
+    "sum_bytes": 137282345,
+    "mean_bytes": 4428462.741935484,
+    "deletion_count": 0,
+    "reclaimed_bytes": 0,
+    "interpretation": "Observed historical archive sizes, not a guarantee about new calibrated mask compressibility. No deletion credit in storage planning."
+  },
+  "archive_size_estimates": {
+    "empirical_conservative_multiplier": 2,
+    "empirical_basis": "2 * maximum observed historical archive bytes",
+    "estimated_per_zip_bytes": 9431782,
+    "estimated_3_zip_output_bytes": 28295346,
+    "estimated_10_zip_output_bytes": 94317820,
+    "conditional_worst_per_zip_planning_ceiling_bytes": 536870912,
+    "conditional_worst_3_zip_output_bytes": 1610612736,
+    "conditional_worst_10_zip_output_bytes": 5368709120,
+    "ceiling_assumptions": "Exactly 500 masks, each 1024x1024 single-channel uint8 PNG; controlled encoder without ancillary metadata; standard ZIP storing/compressing these PNGs only. Raw pixels=524288000 B; PNG scanline filters raise raw precompression bytes to524800000 B, leaving >12MB within512MiB for deflate/PNG/ZIP overhead. This is a conservative controlled-format planning ceiling, not an unconditional bound for arbitrary PNG metadata, RGB/uint16 masks, extra archive members or other resolutions. If format differs, recompute before packaging.",
+    "empirical_working_temp_bytes": 546302694,
+    "empirical_working_temp_model": "Sequential packaging: at most one512MiB expanded prediction set plus one9,431,782-byte temporary archive; retained final outputs counted separately. No parallel package staging.",
+    "worst_working_temp_bytes": 1073741824,
+    "worst_working_temp_model": "Sequential packaging: one512MiB expanded prediction set plus one512MiB temporary archive. Output includes retained final archives; conservative transient double count is intentional."
+  },
+  "dynamic_storage_gate": {
+    "formula": "available_now >= estimated_output + working_temp + 3221225472 + active_formal_growth_protection + other_planned_outputs",
+    "fixed_reserve_bytes": 3221225472,
+    "active_formal_growth_protection_bytes": null,
+    "growth_protection_status": "Must be estimated independently from both active formal runs and preserved queue/policy minima before any packaging. Unknown is not zero. This audit did not inspect or modify either formal run.",
+    "other_planned_outputs": "Add confusion matrices, manifests and metadata if written to same filesystem; do not silently include them in ZIP estimates. 64MiB prior budget applies only metadata audit summaries. New-factory133-vector per-image CM was previously estimated by coordinator at~91MiB uncompressed and needs separate sizing.",
+    "empirical_3_zip_required_before_growth_other_bytes": 3795823512,
+    "empirical_10_zip_required_before_growth_other_bytes": 3861845986,
+    "worst_3_zip_required_before_growth_other_bytes": 5905580032,
+    "worst_10_zip_required_before_growth_other_bytes": 9663676416,
+    "gate_decision": "Not a RUN_NOW approval. Streaming design selected; packaging deferred until format/output/temp/growth estimates are validated and actual free space refreshed. No fixed14GiB or200GiB requirement. Empirical estimates alone cannot clear the gate if compressibility is unverified.",
+    "operational_rules": ["Refresh available bytes immediately before each bounded output stage", "Serialize packaging and bound intermediate lifetime", "Stop new output stages when formula fails, without signalling formal jobs", "No cleanup assumed or performed", "Keep both formal GPU runs and all policies/freezes/checkpoints untouched"]
+  },
+  "pending_remote_jobs": 0,
+  "remote_audit_finished": true
+}

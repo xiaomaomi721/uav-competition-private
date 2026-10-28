@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "pair_id": "A05_D1HARD_RESIDUAL_S20260922_L2000",
+  "seed": 20260922,
+  "total_attempted_loops": 2000,
+  "generated_before_run": true,
+  "generator_path": "REQUIRED",
+  "generator_sha256": "REQUIRED",
+  "source_split_sha256": "REQUIRED",
+  "target_manifest_sha256": "REQUIRED",
+  "teacher_cache_manifest_sha256": "REQUIRED",
+  "record_schema": {
+    "loop": "1..2000",
+    "source_stem": "string",
+    "source_transform_seed": "integer",
+    "source_crop_metadata": "object",
+    "target_filename": "test2_N.png",
+    "d4_view": "0..7",
+    "brightness": "float",
+    "contrast": "float",
+    "saturation": "float",
+    "gamma": "float",
+    "noise_sigma": "float",
+    "noise_seed": "integer",
+    "blur_applied": "boolean",
+    "teacher261_cache_sha256": "string",
+    "teacher278_cache_sha256": "string"
+  },
+  "records_file": "PAIR_REPLAY_RECORDS.jsonl",
+  "records_sha256": "REQUIRED",
+  "pair_use": "EXACT_SAME_RECORDS_FOR_CONTROL_AND_TREATMENT",
+  "mutable_after_first_run": false
+}

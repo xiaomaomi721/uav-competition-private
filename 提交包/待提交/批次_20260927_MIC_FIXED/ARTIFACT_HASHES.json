@@ -1,0 +1,50 @@
+{
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "/home/jhy/rare_diag_20260915/a05_micmask_20260927/10_infer_treat_fixed_20260927/BEHAVIOR_VS_A05.json",
+      "sha256": "7c5dfed5ffc0d3f205f2591c8b4e82158954c8dcdfc1ac9556a7093062d4ae4f",
+      "size": 875
+    },
+    {
+      "path": "/home/jhy/rare_diag_20260915/a05_micmask_20260927/10_infer_treat_fixed_20260927/EXECUTION_REPORT.md",
+      "sha256": "6e14d71674a63b5494553d41209410017a80d8fc649017396ecb5aae95ba0e65",
+      "size": 789
+    },
+    {
+      "path": "/home/jhy/rare_diag_20260915/a05_micmask_20260927/10_infer_treat_fixed_20260927/INPUT_OUTPUT_IDENTITY.json",
+      "sha256": "16807aa13489a7af2184dadb60181ef41fd0211975ac7edadec0c1dc51dcba3a",
+      "size": 751133
+    },
+    {
+      "path": "/home/jhy/rare_diag_20260915/a05_micmask_20260927/10_infer_treat_fixed_20260927/MIC_TREAT_S20260927_step8000_D4_TTA8_Bstar_FIXED_test2.zip",
+      "sha256": "c9b67be903090722834c8d4e4f3f9d82e886559320202180fe919e0bfc667e41",
+      "size": 11164052
+    },
+    {
+      "path": "/home/jhy/rare_diag_20260915/a05_micmask_20260927/10_infer_treat_fixed_20260927/PACKAGE_AUDIT.json",
+      "sha256": "3620bb8ac1c480cc450914c4d898ebee86e95fdee362906f4c348cbadcbdcf15",
+      "size": 316525
+    },
+    {
+      "path": "/home/jhy/rare_diag_20260915/a05_micmask_20260927/10_infer_treat_fixed_20260927/PACKAGE_MANIFEST.json",
+      "sha256": "9fb77bfed5cd81b48634e2696f469ca6396e97fd08e5ae648c62c9f519235658",
+      "size": 29172
+    },
+    {
+      "path": "/home/jhy/rare_diag_20260915/a05_micmask_20260927/10_infer_treat_fixed_20260927/RUNTIME_IDENTITY.json",
+      "sha256": "5bf48425aef7deae4d99af85fe00db8e7f9d6e9749be06370081bb3eb9ca99c1",
+      "size": 2356
+    },
+    {
+      "path": "/home/jhy/rare_diag_20260915/a05_micmask_20260927/10_infer_treat_fixed_20260927/stderr.log",
+      "sha256": "d1a74f3d9920f6add528dde52767a9ed3a138cc4545d4f1269d7aacc966429b4",
+      "size": 1040
+    },
+    {
+      "path": "/home/jhy/rare_diag_20260915/a05_micmask_20260927/10_infer_treat_fixed_20260927/stdout.log",
+      "sha256": "dac1487c760d07b95be0f000757ee306bbb1cf9f1b927dfec451ce40232692dd",
+      "size": 30406
+    }
+  ]
+}

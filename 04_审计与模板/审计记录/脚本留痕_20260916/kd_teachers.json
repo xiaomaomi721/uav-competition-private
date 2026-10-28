@@ -1,0 +1,14 @@
+{
+  "stage23B": {
+    "config": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage23_runs/stage23_w1_exp23_b3_1024_cwfa_ce_formal_seed42/config.yaml",
+    "checkpoint": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage23_runs/stage23_w1_exp23_b3_1024_cwfa_ce_formal_seed42/best_miou.pt"
+  },
+  "s62": {
+    "config": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage62_runs/stage62_w1_resume55b_pseudo500_seed42/config.yaml",
+    "checkpoint": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage62_runs/stage62_w1_resume55b_pseudo500_seed42/best_miou.pt"
+  },
+  "s58": {
+    "config": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage58_runs/stage58_w1_exp58_b3_cwfa_ce_regionC_seed42/config.yaml",
+    "checkpoint": "/home/jhy/deploy_exp18/exp18_b3_1024_full_ce_20260825T093709Z_bbec9e37a8f1/stage58_runs/stage58_w1_exp58_b3_cwfa_ce_regionC_seed42/best_miou.pt"
+  }
+}

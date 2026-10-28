@@ -1,0 +1,321 @@
+{
+  "schema": "disk_cleanup_plan_v1",
+  "report_root": "/home/jhy/disk_cleanup_20260914",
+  "summary": {
+    "safe_yes_count": 0,
+    "safe_yes_logical_bytes": 0,
+    "safe_yes_allocated_bytes_upper_bound": 0,
+    "guaranteed_reclaimed_bytes": 0,
+    "all_zip_count": 373,
+    "all_zip_logical_bytes": 1658288870,
+    "safe_no_zip_count": 373,
+    "deletion_performed": false,
+    "identity_verified_but_not_eligible_count": 31,
+    "identity_verified_but_not_eligible_bytes": 137282345,
+    "identity_verified_but_not_eligible_allocated_bytes": 137338880,
+    "blocker": "Incomplete owned-process FD visibility; closure gate not cleared. Not evidence candidates actually open."
+  },
+  "role": "AUDIT_AND_PLAN_ONLY; main owns review/deletion and final reporting",
+  "target_available_bytes": 26843545600,
+  "estimated_target_reachable": false,
+  "exact_safe_files": [],
+  "required_before_any_deletion": [
+    "Main reviews CANDIDATES.json; select only safe_to_delete=yes exact regular files.",
+    "Refresh both active policies, all freezes including original Q2 freeze, dynamic smoke receipts and requirements; veto new pins.",
+    "Recheck no symlink ancestors, owner/device/inode/size/mtime/SHA and nlink=1, retained source hashes and all 500 PNG manifest members when applicable.",
+    "Recheck known open handles without signals; never promise bytes freed from apparent file size.",
+    "Delete only individually reviewed exact files, no recursive deletion, no wildcards, no directory removal, no cache/weight/training-history deletion.",
+    "Measure df after each small batch and stop at 25 GiB available, or earlier if sufficient; do not delete all just because listed.",
+    "If candidates insufficient, report shortage; do not stretch eligibility."
+  ],
+  "not_selected": [
+    "All checkpoints including unknown and Stage66 steps 51800/52000/56000 wherever present",
+    "All Golden/Exp23/Stage23 and strong SEMEDA/Exp47 conservatively",
+    "Both complete queue trees, all current and historical smoke artifacts, logs, manifests and receipts",
+    "All unconfirmed TTA logits/cache and diagnostic arrays",
+    "All unique or unverified files/visualizations without retained SHA provenance"
+  ],
+  "decision": "STOP: zero safe_to_delete=yes; delete nothing.",
+  "blocked_verified_files": [
+    {
+      "path": "/home/jhy/exp39_submission_standard.zip",
+      "bytes": 4525029,
+      "sha256": "ff5775677ee24e4f4842e2b0ec74219c08035652bd0a66fb0fdda3dbbdf8dfcd",
+      "retained_source": "/home/jhy/exp39_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp39_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/scan_lambda030_submission_standard.zip",
+      "bytes": 4186040,
+      "sha256": "95a599e9e32534e8a23d59ab094f58736e2be7a372e1ed42af56e0c8d9b77e46",
+      "retained_source": "/home/jhy/scan_lambda030_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/scan_lambda030_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp40_submission_standard.zip",
+      "bytes": 4561495,
+      "sha256": "503c35d80fe2e4d78d149e32995f0c62878b0b4f26d65bcd9977039d0d1b99d5",
+      "retained_source": "/home/jhy/exp40_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp40_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp52_maxentfull_submission_standard.zip",
+      "bytes": 4438686,
+      "sha256": "8a335789444229d236cc36afdb94ac548f0155bd33edf26a155373b66ac9dc68",
+      "retained_source": "/home/jhy/exp52_maxentfull_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp52_maxentfull_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp54_sharpen_submission_standard.zip",
+      "bytes": 4355564,
+      "sha256": "d0f20ff7aaeed52e22f67072099b719ed63238f3deaf435d76158f923244db0c",
+      "retained_source": "/home/jhy/exp54_sharpen_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp54_sharpen_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp24_submission_standard.zip",
+      "bytes": 4104486,
+      "sha256": "cbcac77dbaf1c315b61d3328a3d7ea5464b2fc6f48866b728dda70586ba805f6",
+      "retained_source": "/home/jhy/exp24_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp24_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp50_maxent_l500_submission_standard.zip",
+      "bytes": 4402164,
+      "sha256": "e49b4e3c008097e93d3e982431d5ba42c8debe882fcd7aa3d2d85aeaaae45763",
+      "retained_source": "/home/jhy/exp50_maxent_l500_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp50_maxent_l500_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp29_submission.zip",
+      "bytes": 4601180,
+      "sha256": "3848d7a5dfc4e327393d57d8a58ee1905fb2e35cf081a5d2411700f319d1fea0",
+      "retained_source": "/home/jhy/exp29_submission/predictions",
+      "retained_manifest": "/home/jhy/exp29_submission/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp49_maxent_l100_submission_standard.zip",
+      "bytes": 4290951,
+      "sha256": "2a8bed6938b30f0242dfb53598c593dc722b1a347aa72a64b00dfb14e51eba62",
+      "retained_source": "/home/jhy/exp49_maxent_l100_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp49_maxent_l100_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp25_submission_standard.zip",
+      "bytes": 4545488,
+      "sha256": "ca97f8fa84be12260e2947cc95fff9e2813b88503f07c6beb62e0757690d5764",
+      "retained_source": "/home/jhy/exp25_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp25_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/stage18_submission_exp18_b3_standard.zip",
+      "bytes": 4579117,
+      "sha256": "ea3f0b482370a6bd13f64e5caddff2413ed689d874237d5c07363726b977b77c",
+      "retained_source": "/home/jhy/stage18_submission_exp18_b3_standard/predictions",
+      "retained_manifest": "/home/jhy/stage18_submission_exp18_b3_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/scan_alpha020_submission_standard.zip",
+      "bytes": 4250465,
+      "sha256": "b566a5ecaef69259e3a8bc7af23dd7bf810f203783afe6dcc0d83ae6f17a0640",
+      "retained_source": "/home/jhy/scan_alpha020_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/scan_alpha020_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp31_distill_submission_standard.zip",
+      "bytes": 4715891,
+      "sha256": "de64444940a99292f9b57b7ae4026a9a6f4795c8bd43f4d81d2c52398c1b3128",
+      "retained_source": "/home/jhy/exp31_distill_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp31_distill_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp26_submission_standard.zip",
+      "bytes": 4593757,
+      "sha256": "27aecafe48dc076f8dcc591a063820e74b83cfabf3be166bcc83ead5935efca9",
+      "retained_source": "/home/jhy/exp26_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp26_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/submit_exp45.zip",
+      "bytes": 4493082,
+      "sha256": "a58c4d73404e47c2a70b5443a5bd9fca16e69a797c4b3746df22ec8a9628feaa",
+      "retained_source": "/home/jhy/submit_exp45/predictions",
+      "retained_manifest": "/home/jhy/submit_exp45/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/submit_exp46.zip",
+      "bytes": 4473412,
+      "sha256": "14ee76f4a617819c578fed6f4ee3f49cfd34864f7986e4118b606bb5e5897a1d",
+      "retained_source": "/home/jhy/submit_exp46/predictions",
+      "retained_manifest": "/home/jhy/submit_exp46/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp30_submission.zip",
+      "bytes": 4611207,
+      "sha256": "68f18b6570a63a6c03fb3cd8f2ccbd2308ffe092d4b408cc290641da6aeeebda",
+      "retained_source": "/home/jhy/exp30_submission/predictions",
+      "retained_manifest": "/home/jhy/exp30_submission/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp34_mixstyle_submission_standard.zip",
+      "bytes": 4386231,
+      "sha256": "f50c4b0eafd1333a84787a017a31ced9b6a7075392ea685f70499bf6a4b5f799",
+      "retained_source": "/home/jhy/exp34_mixstyle_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp34_mixstyle_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/stage55_pseudo_submission_standard.zip",
+      "bytes": 3853993,
+      "sha256": "bf62420d468e0b92e1c3b59941b0ef18f355924c807a37888f02161383c54c2f",
+      "retained_source": "/home/jhy/stage55_pseudo_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/stage55_pseudo_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp48_maxent_l010_submission_standard.zip",
+      "bytes": 4526372,
+      "sha256": "190fd50d4da5933187d756e21d0e64c4fa23d1ba88fbb17c336f632074ad3760",
+      "retained_source": "/home/jhy/exp48_maxent_l010_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp48_maxent_l010_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp21a_submission_standard.zip",
+      "bytes": 4504849,
+      "sha256": "0e3dc8e947d3afe3eb5f1c530db56045f1ffb1488b6bf6da9c36d94d7a2de47d",
+      "retained_source": "/home/jhy/exp21a_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp21a_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/submit_exp43.zip",
+      "bytes": 4532304,
+      "sha256": "83acd9bfcea53b94d061f09ca293dfa86bfc9d4be3a07f8ebabdb94c3b628d1e",
+      "retained_source": "/home/jhy/submit_exp43/predictions",
+      "retained_manifest": "/home/jhy/submit_exp43/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp27_submission_standard.zip",
+      "bytes": 4625742,
+      "sha256": "66e441128833fbe6116c97c656aff69e6e9a1950acb59c72a33056b21c82bab7",
+      "retained_source": "/home/jhy/exp27_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp27_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp51_full6796_submission_standard.zip",
+      "bytes": 4691962,
+      "sha256": "cd3a18cdbbf8d39ef96c02ecba457678f4b0a19c2cb98510277556be5f69f71b",
+      "retained_source": "/home/jhy/exp51_full6796_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp51_full6796_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/submit_exp44.zip",
+      "bytes": 4506385,
+      "sha256": "96c8b7163734acbd00e90e9dd6c82eb5866702b5e5e76d5edbe01d0004374a00",
+      "retained_source": "/home/jhy/submit_exp44/predictions",
+      "retained_manifest": "/home/jhy/submit_exp44/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp35_submission_standard.zip",
+      "bytes": 4332260,
+      "sha256": "b8fc69d536138f2c7cf2977583a1665461242cfe4d2d033bccd97677042eff7d",
+      "retained_source": "/home/jhy/exp35_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp35_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/scan_alpha005_submission_standard.zip",
+      "bytes": 4211815,
+      "sha256": "542367eac5a803a33a38ef2602a23e5eab4d338989a4cb530be0eecca02ddb3f",
+      "retained_source": "/home/jhy/scan_alpha005_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/scan_alpha005_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp33_submission_standard.zip",
+      "bytes": 4574799,
+      "sha256": "c0161b98e8e2eb195d3fe8a19c3c7dc76d053a29c6c89f80023ffd48e20039b7",
+      "retained_source": "/home/jhy/exp33_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp33_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/stage22_submission_exp22_b2_standard.zip",
+      "bytes": 4118095,
+      "sha256": "22ec6dbf6422e4b4db405e8e9cc5c0fae75818b6a9bf41662f74eae51f083115",
+      "retained_source": "/home/jhy/stage22_submission_exp22_b2_standard/predictions",
+      "retained_manifest": "/home/jhy/stage22_submission_exp22_b2_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/exp28_submission_standard.zip",
+      "bytes": 4523118,
+      "sha256": "6cc457e930d74a2b4e72df364f47271b0afe86c9b12ff4f7e3c1f20a0152bfeb",
+      "retained_source": "/home/jhy/exp28_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/exp28_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    },
+    {
+      "path": "/home/jhy/scan_lambda010_submission_standard.zip",
+      "bytes": 4166406,
+      "sha256": "dc54f47714a475ddcc9c44d20266bdccb4aa343bbafb88443cbecdb542440f4f",
+      "retained_source": "/home/jhy/scan_lambda010_submission_standard/predictions",
+      "retained_manifest": "/home/jhy/scan_lambda010_submission_standard/manifests/prediction_sha256.csv",
+      "safe_to_delete": "no",
+      "why": "All 500 PNG members match retained originals and existing SHA manifest; closure gate blocked by incomplete owned-process FD visibility."
+    }
+  ],
+  "execution_commands": []
+}

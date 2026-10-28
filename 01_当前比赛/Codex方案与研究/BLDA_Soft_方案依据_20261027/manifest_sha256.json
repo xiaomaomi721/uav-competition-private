@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-27",
+  "status": "PROPOSAL_ONLY_NO_TRAINING",
+  "files": [
+    {
+      "path": "H75_BLDA-Soft_论文依据与执行方案_20261027.md",
+      "sha256": "f0f7aa853061ae5ea903cc2d61660dd6e5afb83fc03242e3f53a92c24a807284",
+      "bytes": 17635
+    },
+    {
+      "path": "00_Codex工作同步索引.md",
+      "sha256": "56d8e6e33b53d818852bd94d21ef51f7226b55195e2a5105fab11b49a4ac33b1",
+      "bytes": 3510
+    },
+    {
+      "path": "BLDA_Soft_方案依据_20261027\\proposed_config.json",
+      "sha256": "0c3629abc083b79713dde1da0a7217479f3c6cd94dc6033f72edc80082e49774",
+      "bytes": 3886
+    },
+    {
+      "path": "BLDA_Soft_方案依据_20261027\\evidence_manifest.json",
+      "sha256": "1935a0acc963ae93d3d71200624b6f61e855f2b8b740664f023e2645be6ee14f",
+      "bytes": 4224
+    },
+    {
+      "path": "BLDA_Soft_方案依据_20261027\\soft_ola_math_check.py",
+      "sha256": "1a8fe0478fb3ade458504f6cbce724f82b4a8c16281d230091fa6356b1a5beca",
+      "bytes": 2918
+    },
+    {
+      "path": "BLDA_Soft_方案依据_20261027\\soft_ola_math_result.json",
+      "sha256": "f284a8b547019667d7cecf218777a3d0d6feb65615e5ddd9e0a245186cdddc5c",
+      "bytes": 670
+    }
+  ]
+}

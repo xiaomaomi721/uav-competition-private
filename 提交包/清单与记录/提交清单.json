@@ -1,0 +1,950 @@
+{
+  "schema": "SUBMIT_INDEX_V1",
+  "updated": "2026-09-15T10:25:00+08:00",
+  "next_to_submit": 43,
+  "submit_order": "按序号 09,10,11,...,17 依次提交；回成绩时按同样序号报给我。",
+  "vector_position_to_class": "位置0..7 = Background,Building,Road,Water,Barren,Vegetation,Agricultural,Vehicle（来源：官方Label.txt 的 1..8，打包器 +1 即此映射）",
+  "champion_vector_by_class": {
+    "Background": -0.2,
+    "Building": 0.1,
+    "Road": 0.0709,
+    "Water": 0.7,
+    "Barren": 3.6,
+    "Vegetation": 0.4,
+    "Agricultural": 3.3215,
+    "Vehicle": -0.5
+  },
+  "packages": [
+    {
+      "index": 1,
+      "file": "01_best51800_TTA8_ZERO.zip",
+      "sha256": "d0a7b37747138bb0e0456c71dffd4e4808098ece33dfb2dffd1a1e21317707e2",
+      "checkpoint": "best51800(rare)",
+      "role": "零偏置",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vector_by_class": {
+        "Background": 0.0,
+        "Building": 0.0,
+        "Road": 0.0,
+        "Water": 0.0,
+        "Barren": 0.0,
+        "Vegetation": 0.0,
+        "Agricultural": 0.0,
+        "Vehicle": 0.0
+      },
+      "platform_mIoU": 0.6776,
+      "status": "已提交"
+    },
+    {
+      "index": 2,
+      "file": "02_best51800_LOCKED8D.zip",
+      "sha256": "6e1fbbd7826bd41510da4ac24fdf6dc04b8a99ce4ecb0887e666b8a27990b48d",
+      "checkpoint": "best51800(rare)",
+      "role": "LOCKED 8维",
+      "vector": [
+        -0.2,
+        -0.0384,
+        0.0709,
+        0.7,
+        3.6,
+        0.1932,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": -0.0384,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.1932,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.689567,
+      "status": "已提交"
+    },
+    {
+      "index": 3,
+      "file": "03_best51800_CHAMPION8D.zip",
+      "sha256": "e0273d18ec97ef31db67403ff8184981b42fa281c062e4f76950f059f1a9fe76",
+      "checkpoint": "best51800(rare)",
+      "role": "冠军向量",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.4,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.689463,
+      "status": "已提交"
+    },
+    {
+      "index": 4,
+      "file": "04_best51800_LOCKED_bg000.zip",
+      "sha256": "d369a127b9108897679e0043632d50fc93605beaa9be8defa0a971e3b123ebd3",
+      "checkpoint": "best51800(rare)",
+      "role": "Background 0.0",
+      "vector": [
+        0.0,
+        -0.0384,
+        0.0709,
+        0.7,
+        3.6,
+        0.1932,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": 0.0,
+        "Building": -0.0384,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.1932,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.689303,
+      "status": "已提交"
+    },
+    {
+      "index": 5,
+      "file": "05_best51800_LOCKED_bg-040.zip",
+      "sha256": "33f187d8f046ab592ecd6f88762d85c7c6f9a81f3f8723728d0cfbf64cbb5ba9",
+      "checkpoint": "best51800(rare)",
+      "role": "Background -0.4",
+      "vector": [
+        -0.4,
+        -0.0384,
+        0.0709,
+        0.7,
+        3.6,
+        0.1932,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.4,
+        "Building": -0.0384,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.1932,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.689455,
+      "status": "已提交"
+    },
+    {
+      "index": 6,
+      "file": "06_best51800_LOCKED_bg-060.zip",
+      "sha256": "f4d636c55d37af8315ca0809732498b0702ae72d605291b8e063e3705b65ae68",
+      "checkpoint": "best51800(rare)",
+      "role": "Background -0.6",
+      "vector": [
+        -0.6,
+        -0.0384,
+        0.0709,
+        0.7,
+        3.6,
+        0.1932,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.6,
+        "Building": -0.0384,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.1932,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.688952,
+      "status": "已提交"
+    },
+    {
+      "index": 7,
+      "file": "07_stage23_best56000_ZERO.zip",
+      "sha256": "d42f41d84bb614e0b5e5621fdd63760efbb68db3ee4294e00118cf4007987e6f",
+      "checkpoint": "stage23 best56000",
+      "role": "零偏置",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vector_by_class": {
+        "Background": 0.0,
+        "Building": 0.0,
+        "Road": 0.0,
+        "Water": 0.0,
+        "Barren": 0.0,
+        "Vegetation": 0.0,
+        "Agricultural": 0.0,
+        "Vehicle": 0.0
+      },
+      "platform_mIoU": 0.678023,
+      "status": "已提交"
+    },
+    {
+      "index": 8,
+      "file": "08_stage23_best56000_CHAMPION8D.zip",
+      "sha256": "02ccbef9ebb9b36faed26b61c8319dd0835f5e66fac1e38c953a87264b993c9e",
+      "checkpoint": "stage23 best56000",
+      "role": "冠军向量",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.4,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.692812,
+      "status": "已提交 ★当前最高"
+    },
+    {
+      "index": 9,
+      "file": "09_stage23_champion_repro.zip",
+      "sha256": "683f259539e861534e2dcaa689a9eabc807fc55020bc45c28e9835c1839b2508",
+      "checkpoint": "stage23 best56000",
+      "role": "冠军向量(复现对照)",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.4,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.692812,
+      "status": "已提交",
+      "delta_vs_center_pp": 0.0
+    },
+    {
+      "index": 10,
+      "file": "10_stage23_ax4_Barren_p050.zip",
+      "sha256": "f822a7385bde31debda57aafa2c0281f482cca6789a5f33400b28cc3211ae030",
+      "checkpoint": "stage23 best56000",
+      "role": "Barren +0.5",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        4.1,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 4.1,
+        "Vegetation": 0.4,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.692525,
+      "status": "已提交",
+      "delta_vs_center_pp": -0.0287
+    },
+    {
+      "index": 11,
+      "file": "11_stage23_ax4_Barren_m050.zip",
+      "sha256": "c6385e41469a3a5b92f8fcac5d713e649fd27bec51ca98a4986ca129276f1448",
+      "checkpoint": "stage23 best56000",
+      "role": "Barren -0.5",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.1,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.1,
+        "Vegetation": 0.4,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.692405,
+      "status": "已提交",
+      "delta_vs_center_pp": -0.0407
+    },
+    {
+      "index": 12,
+      "file": "12_stage23_ax6_Agricultural_p040.zip",
+      "sha256": "ad10be1c338cbd396bcf1a06d96e7a07f70629800378cf91c514b96a6e963e08",
+      "checkpoint": "stage23 best56000",
+      "role": "Agricultural +0.4",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.7215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.4,
+        "Agricultural": 3.7215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.692189,
+      "status": "已提交",
+      "delta_vs_center_pp": -0.0623
+    },
+    {
+      "index": 13,
+      "file": "13_stage23_ax6_Agricultural_m040.zip",
+      "sha256": "cfa438d6a2cc67d02471d2f1c8e4259d509d74512e0a40a10458051abeec2daf",
+      "checkpoint": "stage23 best56000",
+      "role": "Agricultural -0.4",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        2.9215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.4,
+        "Agricultural": 2.9215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.693096,
+      "status": "已提交",
+      "delta_vs_center_pp": 0.0284
+    },
+    {
+      "index": 14,
+      "file": "14_stage23_ax5_Vegetation_p040.zip",
+      "sha256": "74fe99338dbabbd9180e231b48807e68fa488234f593eacd51ac228d628f3634",
+      "checkpoint": "stage23 best56000",
+      "role": "Vegetation +0.4",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.8,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.8,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.692505,
+      "status": "已提交",
+      "delta_vs_center_pp": -0.0307
+    },
+    {
+      "index": 15,
+      "file": "15_stage23_ax5_Vegetation_m040.zip",
+      "sha256": "757b8a31fe5d530590bc7fba5aff9954ceb53ac74aad3a83c3253ebbdf44ce7c",
+      "checkpoint": "stage23 best56000",
+      "role": "Vegetation -0.4",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.0,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.7,
+        "Barren": 3.6,
+        "Vegetation": 0.0,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.692623,
+      "status": "已提交",
+      "delta_vs_center_pp": -0.0189
+    },
+    {
+      "index": 16,
+      "file": "16_stage23_ax3_Water_p030.zip",
+      "sha256": "6fba1287c04adb160b30a14b41ac839f95121685737445948c70e116599be621",
+      "checkpoint": "stage23 best56000",
+      "role": "Water +0.3",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        1.0,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 1.0,
+        "Barren": 3.6,
+        "Vegetation": 0.4,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.692743,
+      "status": "已提交",
+      "delta_vs_center_pp": -0.0069
+    },
+    {
+      "index": 17,
+      "file": "17_stage23_ax3_Water_m030.zip",
+      "sha256": "6b5f9315885111995e01f7cc0fdcc7414a8dffba058db7fbde0a3c1654d00b97",
+      "checkpoint": "stage23 best56000",
+      "role": "Water -0.3",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.4,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "vector_by_class": {
+        "Background": -0.2,
+        "Building": 0.1,
+        "Road": 0.0709,
+        "Water": 0.4,
+        "Barren": 3.6,
+        "Vegetation": 0.4,
+        "Agricultural": 3.3215,
+        "Vehicle": -0.5
+      },
+      "platform_mIoU": 0.692777,
+      "status": "已提交",
+      "delta_vs_center_pp": -0.0035
+    },
+    {
+      "index": 29,
+      "file": "29.zip",
+      "platform_mIoU": 0.682597,
+      "status": "重新上传后打分成功",
+      "source": "ensemble: B+s62 (TTA8 logit mean)",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 30,
+      "file": "30.zip",
+      "platform_mIoU": 0.683237,
+      "status": "重新上传后打分成功",
+      "source": "ensemble: B+s62+s58",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 31,
+      "file": "31.zip",
+      "platform_mIoU": 0.681981,
+      "status": "重新上传后打分成功",
+      "source": "ensemble: B+s62+s58+s64",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 32,
+      "file": "32.zip",
+      "platform_mIoU": 0.693702,
+      "status": "重新上传后打分成功",
+      "source": "ensemble: B+s62",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ]
+    },
+    {
+      "index": 33,
+      "file": "PENDING_PL2_pl2best_zero.zip",
+      "source": "PL2 round-2 self-train best_miou.pt",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 34,
+      "file": "PENDING_PL2_pl2best_champion.zip",
+      "source": "PL2 round-2 self-train best_miou.pt",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ]
+    },
+    {
+      "index": 35,
+      "file": "PENDING_PL2_pl2last_zero.zip",
+      "source": "PL2 round-2 self-train last.pt",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 36,
+      "file": "36_SOUP_soupB_zero.zip",
+      "platform_mIoU": 0.683042,
+      "status": "已提交：打分成功",
+      "source": "weight average: s62+s55b+s58+s64",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 37,
+      "file": "37_MS_s62_scale075_zero.zip",
+      "platform_mIoU": 0.674339,
+      "status": "已提交：打分成功",
+      "source": "multi-scale TTA 0.75 only",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 38,
+      "file": "38_MS_s62_scale125_zero.zip",
+      "platform_mIoU": 0.669724,
+      "status": "已提交：打分成功",
+      "source": "multi-scale TTA 1.25 only",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 39,
+      "file": "39.zip",
+      "platform_mIoU": 0.677654,
+      "status": "重新上传后打分成功",
+      "source": "multi-scale TTA 3 scales",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 40,
+      "file": "40.zip",
+      "platform_mIoU": 0.669503,
+      "status": "重新上传后打分成功",
+      "source": "multi-scale TTA 3 scales on record holder",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 41,
+      "file": "41.zip",
+      "platform_mIoU": 0.685771,
+      "status": "重新上传后打分成功",
+      "source": "prior-align direction test",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        2.4,
+        1.3215,
+        -0.5
+      ]
+    },
+    {
+      "index": 42,
+      "file": "42_PA_s23B_Agri-2.zip",
+      "platform_mIoU": 0.692226,
+      "status": "已提交：打分成功",
+      "source": "prior-align direction test",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        1.3215,
+        -0.5
+      ]
+    },
+    {
+      "index": 43,
+      "file": "43.zip",
+      "source": "matched control for 30: ensemble B+s62+s58 + champion bias",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "platform_mIoU": 0.695637,
+      "status": "已提交：打分成功"
+    },
+    {
+      "index": 44,
+      "file": "44.zip",
+      "source": "matched control for 36: soupB + champion bias",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "platform_mIoU": 0.69133,
+      "status": "已提交：打分成功"
+    },
+    {
+      "index": 45,
+      "file": "45.zip",
+      "source": "stage65 P1 pseudo-label round2 (84000 steps, local mIoU 0.81297 = highest b3) + TTA8, ZERO bias",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "note": "Built 2026-09-09, never submitted. In the authoritative ledger it sits in the 'no confirmed online score' bucket.",
+      "platform_mIoU": 0.680077,
+      "status": "已提交：打分成功"
+    },
+    {
+      "index": 46,
+      "file": "46.zip",
+      "source": "stage65 P1 pseudo-label round2 + TTA8 + champion bias",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "platform_mIoU": 0.683137,
+      "status": "已提交：打分成功"
+    },
+    {
+      "index": 47,
+      "file": "47.zip",
+      "source": "Full6996 (all 6996 labelled images, no test images, no pseudo-labels) checkpoint 65000 + TTA8, ZERO bias",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "note": "Packed 2026-09-12, official checker PASS, SHA verified. Never submitted.",
+      "platform_mIoU": 0.675388,
+      "status": "已提交：打分成功"
+    },
+    {
+      "index": 48,
+      "file": "48.zip",
+      "source": "Full6996 checkpoint 65000 + TTA8 + champion bias",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "platform_mIoU": 0.684535,
+      "status": "已提交：打分成功"
+    },
+    {
+      "index": 49,
+      "file": "49.zip",
+      "source": "Full6996 checkpoint 69997 (last) + TTA8, ZERO bias",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "platform_mIoU": 0.670438,
+      "status": "已提交：打分成功"
+    },
+    {
+      "index": 50,
+      "file": "50.zip",
+      "source": "Full6996 checkpoint 69997 (last) + TTA8 + champion bias",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "platform_mIoU": 0.685834,
+      "status": "已提交：打分成功"
+    },
+    {
+      "index": 51,
+      "file": "PENDING_ENS_ens5_B+s62+pl2.zip",
+      "source": "ensemble: B+s62+PL2",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 52,
+      "file": "PENDING_ENS_ens5_B+s62+pl2_champ.zip",
+      "source": "ensemble: B+s62+PL2",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ]
+    },
+    {
+      "index": 53,
+      "file": "PENDING_ENS_ens2_s62+pl2.zip",
+      "source": "ensemble: s62+PL2",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "tier2_conclusion": {
+    "control_09": 0.692812,
+    "control_matches_08": "exact to 6 decimals; platform deterministic",
+    "probes_positive": 1,
+    "probes_total": 8,
+    "mean_delta_pp": -0.0204,
+    "max_delta_pp": 0.0284,
+    "min_delta_pp": -0.0623,
+    "spread_pp": 0.0907,
+    "gap_to_70_pp": 0.7188,
+    "stop_rule": "triggered",
+    "verdict": "BIAS SPACE EXHAUSTED AT THIS CHECKPOINT"
+  },
+  "note_29_45": "29-32, 36-42 already downloaded into this folder. 33-35, 43-45 are PENDING the PL2 retrain (ETA ~08:40). No control packages needed: ref_B/ref_B_champ verified byte-identical to 07/08/09."
+}

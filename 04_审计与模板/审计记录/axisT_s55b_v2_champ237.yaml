@@ -1,0 +1,22 @@
+_base_: ../stage56/wave1_exp56_b3_cwfa_5597_pseudo500.yaml
+
+experiment_id: axisT_v1_champ237_s55b_recipe_seed42
+stage: 72
+description: >-
+  Axis T v1 (Pseudo500-v2). stage55b's successful pipeline replicated with
+  EXACTLY ONE variable changed: the pseudo-label teacher.
+  historical teacher = stage23_runs/stage23_w1_exp23_b3_1024_cwfa_ce_formal_seed42/best_miou.pt
+  this run's teacher = donor_gate2_20260917/S_semeda_M.pt (package 237, test1 0.702574)
+  Everything else is byte-identical to stage55b: published_pretrained ADE-B3 init,
+  CE loss, AdamW lr 6e-5 / wd 0.01, polynomial power 1.0 over 56000 steps,
+  batch 2 x grad_accum 2, amp, seed 42, crop 1024, rare_crop p0.5 ids[7,4,6]
+  max_offset 0.25, CWFA p0.3 eps4.0 start_step 28001, same transforms.
+  Pseudo labels: gen_pseudo_labels.py --mode region --threshold 0.9 (the ORIGINAL
+  unmodified file), TTA8 mean logits -> softmax -> region rule (component kept iff
+  >=80% of its pixels have conf >= threshold), official space 0=ignore.
+  Pseudo images enter a SINGLE uniform image pool (6097 = 5597 real + 500 pseudo,
+  8.21%) with no cadence, exactly as historically.
+  NOT present in v1: second teacher, weak veto, soft KD, class threshold,
+  Barren-specific rule, 6996 GT refit, pseudo cadence, new seed.
+
+train_split: /home/jhy/datasets/pseudo_train_axisT_v1/train_ids_5597pseudo.txt

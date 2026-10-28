@@ -1,0 +1,7 @@
+evidence_item,current_status,needed_source,resolution
+冠军链: BASE+CWFA+简单flipTTA独立提交,成绩表未见单独flipTTA+CWFA的行,需查服务器提交档案,UNKNOWN
+冠军链各级checkpoint sha256,成绩表无sha256,需服务器config/checkpoint,UNKNOWN
+"8维校准bias应用位置(logits前/后,TTA前后)",成绩表只记bias值,需查rot_tta.py源码,UNKNOWN
+8维校准总提交/评估次数,成绩表逐行有但未合计,可数rows,可数
+Exp01-14 config精确参数,成绩表仅B3基线起,deploy_stage05仓库,服务器提取中
+heldout指标,成绩表无heldout列,UNKNOWN,UNKNOWN

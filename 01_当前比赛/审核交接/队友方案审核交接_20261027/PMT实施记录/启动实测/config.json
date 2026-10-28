@@ -1,0 +1,32 @@
+{
+  "mode": "train",
+  "steps": 8000,
+  "resume": null,
+  "seed": 20261026,
+  "side": 1024,
+  "batch": 1,
+  "accum": 4,
+  "train_n": 5597,
+  "val_n": 1399,
+  "train_split_sha256": "3452f68b0079efef56eca7e70923af06449734d04a1bb86839fbc11f08f0389e",
+  "val_split_sha256": "2fc7f230a4ce389767dfc9cba7be6b48b219a0606ac136c31cbd861f3ccd1e74",
+  "trainable": 53704713,
+  "load_report": {
+    "loaded_tensors": 161,
+    "ignored_keys": [
+      "network.decoder.attn_mask_probs",
+      "network.decoder.class_head.weight",
+      "network.decoder.class_head.bias"
+    ]
+  },
+  "loss": {
+    "class": 2,
+    "mask_bce": 5,
+    "dice": 5,
+    "no_object": 0.1,
+    "points": 12544,
+    "ignore": 0
+  },
+  "encoder_frozen": true,
+  "torch": "2.13.0+cu130"
+}
