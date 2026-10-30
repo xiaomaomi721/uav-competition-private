@@ -1,0 +1,7 @@
+_base_: _base.yaml
+experiment_id: step03_resolution_1024
+step: 3
+crop_size: 1024
+batch_size: 1
+gradient_accumulation_steps: 4
+gradient_checkpointing: true

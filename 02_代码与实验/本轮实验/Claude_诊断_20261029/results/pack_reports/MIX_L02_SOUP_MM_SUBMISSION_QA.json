@@ -1,0 +1,37 @@
+{
+  "manifest": "/home/jhy/aic2026_ctrl3594_teacher_20261027/manifests/semifinal_3594.csv",
+  "count": 3594,
+  "expected_count": 3594,
+  "count_ok": true,
+  "names_exact_set": true,
+  "modes": [
+    "L"
+  ],
+  "sizes": [
+    [
+      1024,
+      1024
+    ]
+  ],
+  "dtypes": [
+    "uint8"
+  ],
+  "label_min_max_observed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "bad_images": [],
+  "source": {
+    "zip": "/home/jhy/aic2026_claude_diag_20261029/pack/MIX_L02_SOUP_MM/MIX_L02_SOUP_MM_semifinal.zip",
+    "bad_members": [],
+    "duplicates": [],
+    "crc_bad": null
+  },
+  "FORMAT_QA_PASS": true
+}

@@ -1,0 +1,12 @@
+line,status,evidence_path,evidence_mtime,note
+H75 cache,UNKNOWN,,-,"本次未找到独立命名为 H75 cache 的产物目录；H75.pt 本身存在（见 ANCHORS）"
+EM-BBSE,PARTIAL,/home/jhy/aic2026_ziponly_20261028/02_em_bbse,2026-10-28,"em_bbse.py 与 logs/em_bbse_{simulate,target}.log 存在；其结论未独立复核"
+M2F E02 ZIP,NOT_FOUND,,-,"未定位 E02 B1/C0 权重与 ZIP"
+SAM3 Source审计,UNKNOWN,,-,"本次未在授权目录内定位 SAM3 审计产物"
+DINO-SAT,UNKNOWN,,-,"未定位"
+第二GPU M2F长训,RUNNING,/home/jhy/aic2026_secondgpu_m2f_20261028/run_m2f_clean_secondgpu/long_m2f_clean_train/state.json,2026-10-28T20:12:06+0800,"effective_step=4796/60000; ETA 2026-10-30 18:36; 2000步复核 EMA mIoU 0.7380% raw 22.8262%"
+H75蒸馏(reliable_kd),DONE,/home/jhy/aic2026_h76_20261026/code/reliable_kd_20261028/train/C1/SUMMARY.json,2026-10-28,"C0/C1 各 3594 步完成；C1 ZIP 已生成未提交"
+H75自监督(TargetSSL),DONE,/home/jhy/aic2026_h76_20261026/code/H75_TargetSSL_Pilot_20261028/train_C2/SUMMARY.json,2026-10-28,"C0/C1/C2 各 300 步完成；frozen_diff=0"
+DINOv3-B V1,REPORTED_ONLY,/home/jhy/aic2026_h76_20261026/experiments/T3_ST_DINOV3_SELECTKD_V1,2026-10-28,"SOURCE_GATE_SPLIT.json 存在；V1 的 813 像素/3 图原始 CSV 未定位"
+DINOv3-B V2,VERIFIED_NOW_PARTIAL,/home/jhy/aic2026_h76_20261026/experiments/T3_ST_DINOV3_V2_OFFLINE_AUDIT,2026-10-28,"V2_FROZEN_RULE/V2_INDEPENDENT_AUDIT/TARGET_A1_COVERAGE/TARGET_SUPERVISION_DELTA/REPORT_CORRECTION 均存在；未复算"
+H75_STPP_LITE_V2_CLASSAWARE,RUNNING,/home/jhy/aic2026_h76_20261026/experiments/H75_STPP_LITE_V2_CLASSAWARE_20261028T112548Z,2026-10-28,"GPU0 上运行中（约20分钟）；不在本任务范围，仅记录"

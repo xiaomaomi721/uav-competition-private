@@ -1,0 +1,19 @@
+{
+  "experiment_id": "formal_b0_ce_512_seed42",
+  "stage": "Stage 03",
+  "model": "SegFormer-B0",
+  "crop_size": 512,
+  "loss": "Cross Entropy",
+  "seed": 42,
+  "train_samples": 5597,
+  "val_samples": 1399,
+  "max_steps": 56000,
+  "validation_interval": 1400,
+  "validation_count": 40,
+  "best_step": 56000,
+  "local_miou": 0.7123106568503285,
+  "pixel_accuracy": 0.8527743645537557,
+  "no_oom": true,
+  "no_nan_inf": true,
+  "baseline_status": "completed"
+}

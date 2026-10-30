@@ -1,0 +1,76 @@
+# Python caches and virtual environments
+__pycache__/
+**/__pycache__/
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.tmp
+*.cache
+
+# Local model/download caches
+.cache/
+.huggingface/
+huggingface_cache/
+model_cache/
+models--*/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Official/local data: keep only the policy document
+data/*
+!data/README.md
+
+# Training and runtime outputs
+outputs/
+runs/
+predictions/
+submissions/
+checkpoints/
+weights/
+wandb/
+logs/
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Dataset and artifact archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Derived audit visualizations stay local
+reports/visual_samples/
+**/visualizations/predictions/
+**/prediction_*.png
+
+# Machine-local paths and run records: keep only the policy document
+local_records/*
+!local_records/README.md
+
+# Desktop project snapshot: do not accidentally publish binary data or local app settings
+无人机/**/.claude/
+无人机/**/*.png
+无人机/**/*.jpg
+无人机/**/*.jpeg
+无人机/**/*.tif
+无人机/**/*.tiff
+无人机/**/*.pdf
+无人机/**/*.docx
+无人机/**/*.pptx

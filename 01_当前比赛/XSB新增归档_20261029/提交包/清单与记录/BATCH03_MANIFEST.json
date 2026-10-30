@@ -1,0 +1,49 @@
+{
+  "batch": "SUBMIT_BATCH_03",
+  "purpose": "verify the historical champion body and locate the 69.281290 reference",
+  "checkpoint": {
+    "tag": "stage23_best56000",
+    "sha256": "d3740b4ef73fbb3ac57ddeedc3547ce4ce1ba31442dc7c70e1fe96b1fab3e228",
+    "config_sha256": "68cf3a98b7bb17dc564fbbb31dced103543e86bd9e01b967c161c37f1120995c"
+  },
+  "official_checker": "PASS for both archives",
+  "references": {
+    "Rare best51800 zero bias 67.7600 (BATCH_01, receipt bound)": "body-strength comparison anchor",
+    "historical champion record 69.281290 (no platform receipt)": "target of verification"
+  },
+  "submissions": [
+    {
+      "file": "07_stage23_best56000_ZERO.zip",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "note": "Stage23 best56000, no bias",
+      "zip_sha256": "d42f41d84bb614e0b5e5621fdd63760efbb68db3ee4294e00118cf4007987e6f",
+      "bytes": 4945857
+    },
+    {
+      "file": "08_stage23_best56000_CHAMPION8D.zip",
+      "vector": [
+        -0.2,
+        0.1,
+        0.0709,
+        0.7,
+        3.6,
+        0.4,
+        3.3215,
+        -0.5
+      ],
+      "note": "Stage23 best56000, historical champion vector",
+      "zip_sha256": "02ccbef9ebb9b36faed26b61c8319dd0835f5e66fac1e38c953a87264b993c9e",
+      "bytes": 4923383
+    }
+  ],
+  "scope": "DIAGNOSTIC_ONLY_NOT_ELIGIBILITY"
+}

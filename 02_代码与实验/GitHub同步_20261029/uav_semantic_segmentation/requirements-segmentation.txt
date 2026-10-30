@@ -1,0 +1,7 @@
+# PyTorch is required but installed separately to match the local CUDA build.
+# Verified: torch==2.11.0+cu128. Do not overwrite a working CUDA installation
+# through a generic pip command; see docs/ENVIRONMENT.md.
+transformers==5.13.0
+numpy==2.4.4
+Pillow==12.2.0
+PyYAML==6.0.3

@@ -1,0 +1,6 @@
+_base_: _base.yaml
+experiment_id: step01_baseline_512_ce
+step: 1
+max_train_samples: 1024
+max_val_samples: 256
+max_steps: 200

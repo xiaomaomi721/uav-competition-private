@@ -1,0 +1,14 @@
+{
+ "name": "H75_AGRI_2P82",
+ "description": "Bstar with Agricultural 2.1215 -> 2.8215 only (the Agri component of H75_PRESENCE_V1), other seven classes unchanged",
+ "bias": [
+  -0.2,
+  0.1,
+  0.0709,
+  0.4,
+  3.6,
+  0.4,
+  2.8215,
+  -0.5
+ ]
+}

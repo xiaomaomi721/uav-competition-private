@@ -1,0 +1,36 @@
+{
+  "protocol": "single_checkpoint+D4_TTA8+FP32_native_mean+bias_from_config_once+bilinear1024+argmax+labels_plus1",
+  "bias_name": "MIX_L02_SOUP_MM",
+  "bias_vector": [
+    -0.20000000298023224,
+    0.06480000168085098,
+    -0.061889998614788055,
+    0.5684499740600586,
+    3.6935200691223145,
+    0.1320199966430664,
+    2.4161698818206787,
+    -0.5988399982452393
+  ],
+  "bias_config": "/home/jhy/aic2026_claude_diag_20261029/bias/MIX_L02_SOUP_MM.json",
+  "bias_config_sha256": "b40ae423cf985a9abf82e48cbcc5c8ca14334b811191847a21e340d889ec2ae3",
+  "manifest": "/home/jhy/aic2026_ctrl3594_teacher_20261027/manifests/semifinal_3594.csv",
+  "manifest_sha256": "76463ff99a495afe82085bb59530032f13f9efbff2cc1936f09178285e6cdd19",
+  "subset_counts": {
+    "test2": 1300,
+    "test3_new": 1794,
+    "test1": 500
+  },
+  "checkpoint": "/home/jhy/aic2026_claude_diag_20261029/train/MIX_L02_SOUP.pt",
+  "checkpoint_sha256": "28095d4b1b812e8fbc60402d4aac8fa559144715c85178152414d81ffb99accd",
+  "zip": "/home/jhy/aic2026_claude_diag_20261029/pack/MIX_L02_SOUP_MM/MIX_L02_SOUP_MM_semifinal.zip",
+  "zip_sha256": "9ef682015d11498cb02d20a6b7ba7cafbb0ba57b050e828b68463e3bbe1d5261",
+  "count": 3594,
+  "single_model": true,
+  "checkpoint_count": 1,
+  "ensemble": false,
+  "teacher_used_for_candidate_inference": false,
+  "donor_used_for_candidate_inference": false,
+  "ground_truth_used": false,
+  "platform_submission_performed": false,
+  "runtime_sec": 1618.8
+}

@@ -1,0 +1,47 @@
+{
+  "18": {
+    "file": "18_core_s55b_pseudo_zero.zip",
+    "tag": "s55b",
+    "sha256": "cb16519e40eaf069d0cef92091168d59ab8b743fcb8988ac395e1153acc62dac"
+  },
+  "19": {
+    "file": "19_core_s55b_pseudo_championbias.zip",
+    "tag": "s55b",
+    "sha256": "083fa49eb43aab5b5764e664be72f68e9ba97a9455bb35a2a0b1a2cd87bb96e3"
+  },
+  "20": {
+    "file": "20_core_s66_semeda_zero.zip",
+    "tag": "s66",
+    "sha256": "d5532d005e326f79bf80fcfb4bc4463ab058a8497893b7949c520f2237edc3b3"
+  },
+  "21": {
+    "file": "21_core_s66_semeda_championbias.zip",
+    "tag": "s66",
+    "sha256": "e2801347e2e8c283da23b599bc31a65807ec7565a3fdd4be4f6da28a448df264"
+  },
+  "22": {
+    "file": "22_core_s61_maxentpseudo_zero.zip",
+    "tag": "s61",
+    "sha256": "2745ac4c154511ba2cf399c1d0c17e2cd41fa6984fa86cf6e0bba9b8dd7da691"
+  },
+  "23": {
+    "file": "23_core_s58_regionC_zero.zip",
+    "tag": "s58",
+    "sha256": "442a27efb6e999000002b90acf6069978068a2bc5f39487d3f56a0414765a9c1"
+  },
+  "24": {
+    "file": "24_core_s58_regionC_championbias.zip",
+    "tag": "s58",
+    "sha256": "2c571d69730bbeaabeb600c2196a3a57b021ed287a81f3d4d568efb5159e03d7"
+  },
+  "25": {
+    "file": "25_core_s64_wd0005_zero.zip",
+    "tag": "s64",
+    "sha256": "cd9d49a271eeb72e92026c1dc2c48bfe45df6b55e2723b7b78af5998e53cca90"
+  },
+  "26": {
+    "file": "26_core_s64_wd0005_championbias.zip",
+    "tag": "s64",
+    "sha256": "22133d06702d735e50ce0571c0e80eb3ac26ebdf612a198bc0e87b670b9e7c9d"
+  }
+}

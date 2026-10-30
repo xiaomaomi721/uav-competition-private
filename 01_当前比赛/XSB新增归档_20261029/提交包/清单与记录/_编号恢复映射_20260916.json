@@ -1,0 +1,128 @@
+{
+  "s52000_R_TTA8.zip": {
+    "number": 10,
+    "old_numbered_name": "10_stage59_s52000_TTA8only.zip",
+    "candidates": [
+      "10_stage59_s52000_TTA8only.zip"
+    ]
+  },
+  "s52000_R_TTA8_FIXED8D.zip": {
+    "number": 5,
+    "old_numbered_name": "05_stage59_s52000_TTA8FIXED8D.zip",
+    "candidates": [
+      "05_stage59_s52000_TTA8FIXED8D.zip"
+    ]
+  },
+  "s56000_R_TTA8.zip": {
+    "number": 7,
+    "old_numbered_name": "07_stage59_s56000_TTA8only.zip",
+    "candidates": [
+      "07_stage59_s56000_TTA8only.zip"
+    ]
+  },
+  "s52000_C_TTA8_FIXED8D.zip": {
+    "number": 1,
+    "old_numbered_name": "01_stage66_s52000_TTA8FIXED8D.zip",
+    "candidates": [
+      "01_stage66_s52000_TTA8FIXED8D.zip"
+    ]
+  },
+  "s56000_R_TTA8_FIXED8D.zip": {
+    "number": 2,
+    "old_numbered_name": "02_stage59_s56000_TTA8FIXED8D.zip",
+    "candidates": [
+      "02_stage59_s56000_TTA8FIXED8D.zip"
+    ]
+  },
+  "localbest_C_TTA8_FIXED8D.zip": {
+    "number": 3,
+    "old_numbered_name": "03_stage66_s51800best_TTA8FIXED8D.zip",
+    "candidates": [
+      "03_stage66_s51800best_TTA8FIXED8D.zip"
+    ]
+  },
+  "s56000_C_TTA8_FIXED8D.zip": {
+    "number": 4,
+    "old_numbered_name": "04_stage66_s56000_TTA8FIXED8D.zip",
+    "candidates": [
+      "04_stage66_s56000_TTA8FIXED8D.zip"
+    ]
+  },
+  "s52000_C_TTA8.zip": {
+    "number": 6,
+    "old_numbered_name": "06_stage66_s52000_TTA8only.zip",
+    "candidates": [
+      "06_stage66_s52000_TTA8only.zip"
+    ]
+  },
+  "localbest_C_TTA8.zip": {
+    "number": 8,
+    "old_numbered_name": "08_stage66_s51800best_TTA8only.zip",
+    "candidates": [
+      "08_stage66_s51800best_TTA8only.zip"
+    ]
+  },
+  "s56000_C_TTA8.zip": {
+    "number": 9,
+    "old_numbered_name": "09_stage66_s56000_TTA8only.zip",
+    "candidates": [
+      "09_stage66_s56000_TTA8only.zip"
+    ]
+  },
+  "ax4_barren_p050.zip": {
+    "number": 10,
+    "old_numbered_name": "10_stage23_ax4_Barren_p050.zip",
+    "candidates": [
+      "10_stage23_ax4_Barren_p050.zip"
+    ]
+  },
+  "ax4_barren_m050.zip": {
+    "number": 11,
+    "old_numbered_name": "11_stage23_ax4_Barren_m050.zip",
+    "candidates": [
+      "11_stage23_ax4_Barren_m050.zip"
+    ]
+  },
+  "ax6_agricultural_p040.zip": {
+    "number": 12,
+    "old_numbered_name": "12_stage23_ax6_Agricultural_p040.zip",
+    "candidates": [
+      "12_stage23_ax6_Agricultural_p040.zip"
+    ]
+  },
+  "ax6_agricultural_m040.zip": {
+    "number": 13,
+    "old_numbered_name": "13_stage23_ax6_Agricultural_m040.zip",
+    "candidates": [
+      "13_stage23_ax6_Agricultural_m040.zip"
+    ]
+  },
+  "ax5_vegetation_p040.zip": {
+    "number": 14,
+    "old_numbered_name": "14_stage23_ax5_Vegetation_p040.zip",
+    "candidates": [
+      "14_stage23_ax5_Vegetation_p040.zip"
+    ]
+  },
+  "ax5_vegetation_m040.zip": {
+    "number": 15,
+    "old_numbered_name": "15_stage23_ax5_Vegetation_m040.zip",
+    "candidates": [
+      "15_stage23_ax5_Vegetation_m040.zip"
+    ]
+  },
+  "ax3_water_p030.zip": {
+    "number": 16,
+    "old_numbered_name": "16_stage23_ax3_Water_p030.zip",
+    "candidates": [
+      "16_stage23_ax3_Water_p030.zip"
+    ]
+  },
+  "ax3_water_m030.zip": {
+    "number": 17,
+    "old_numbered_name": "17_stage23_ax3_Water_m030.zip",
+    "candidates": [
+      "17_stage23_ax3_Water_m030.zip"
+    ]
+  }
+}

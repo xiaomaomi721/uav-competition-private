@@ -1,0 +1,21 @@
+工作路线,模型或实验名,实际结果,当前状态,主要证据,下一步限制
+H75冠军,H75+Bstar+D4,线上70.998665,ONLINE_SCORED_CHAMPION,用户线上回报+冠军资产身份,保留唯一冠军，不覆盖
+无偏置基线,H75+Zero,Source80.441771;Target67.979564,ONLINE_SCORED_NO_GAIN,同checkpoint推理对照,保留反转证据
+可靠性蒸馏,Claude_C0/C1,C0 Source78.1955;C1 Source78.2339;C1 Target70.907678,ONLINE_SCORED_NO_GAIN,可靠KD日志+评分回报,不重复当前配方
+短程自监督,Codex_TargetSSL_C0/C1/C2,300步;C1-C0+0.0066pp;C2-C0+0.0205pp,EXECUTED_NO_GO,配对Source实验,"无线上,不泛化否定整个SSL"
+局部高分辨率,Selective_Local_Global_Refinement,DEV200 70.7142→69.6684;EVAL400 78.5908→76.4251,EXECUTED_NO_GO,预留Source评估,否定该硬回填不是HRDA
+场景校正,Scene_Adaptive_Bias,Target/Source诊断;无可信纠偏,DIAGNOSED_NO_GO,来源报告,无候选包/无线上
+参数融合,H75_x_T3_Deep25,Source1399 77.5936;线上未知,OFFLINE_ONLY,候选QA+源码,无证明线上提分
+自训练,T3_FULL_ST,Source77.6267;Target70.990138,ONLINE_SCORED_NEAR_TIE,队友交接+用户成绩,略低于H75
+ST++,H75_STPP_Lite_V2,S1 74.2301;S2C 74.5782;S2T 74.5785;仅4背景像素更新,EXECUTED_OFFLINE_NO_GO,队友详细记录,未线上;规则几乎无干预
+DINOv3-B三教师,V1_V2_A1,Source净纠错16660;Target37001像素/312图/0.015709%,STOP_TARGET_LOW_COVERAGE,队友独立审计,V2正式KD未训
+Mask2Former已有,M2F_E02_B1,Source79.565390 SIZE768;Target67.623700,ONLINE_SCORED_NO_GAIN,旧模型+用户最新线上,不能混作新长训
+Mask2Former新训练,M2F_SwinL_new_60k,有效5109步;最后恢复ckpt4000步,STOPPED_INCOMPLETE,GPU2执行回报,"不自动恢复,无正式最终在线"
+外观适配,FDA_LoRA,Stage0/1预检;统计置信区间跨零,PREFLIGHT_ONLY_CLOSED_INCONCLUSIVE,预检报告,无正式训练
+目标先验估计,Saerens_EM_BBSE,Source分层pool先验不等真实像素频率,DIAGNOSED_NO_TRUSTWORTHY_GAIN,源码与JSON,不直接重跑
+SoMA,SoMA_new,"仅设计,无正式训练",NOT_RUN,历史计划,无自动授权
+SAM3,SAM3_semantic_corrector,取消,CANCELLED,10/28决策,不得自动启动
+复赛双模型融合,70_3_plus_70_13,用户指定两个模型未确定,UNRESOLVED,10/29第二轮诊断,不得用其它模型顶替
+错误融合组合,CONTROL_70.272_plus_TREAT_70.867,Source400:80.4839→80.3007→80.0824→79.8544→79.6026,OFFLINE_ONLY_WRONG_PAIR,FUSION_PROBE.json,不是用户指定组合
+H75深度诊断,H75_DEEP_DIAG_first,有原始Source混淆矩阵和脚本;报告先验解释纠错,AUDITED_CORRECTED,10/29 ZIP与独立审核,保存两版本
+H75后续研究,H75_NEXT_RESEARCH_second,Target Zero/Bstar真实预测分布;报告数字和融合对象纠错,AUDITED_CORRECTED,10/29 ZIP与独立审核,保存两版本

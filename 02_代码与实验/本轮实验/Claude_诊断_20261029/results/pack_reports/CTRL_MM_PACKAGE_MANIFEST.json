@@ -1,0 +1,36 @@
+{
+  "protocol": "single_checkpoint+D4_TTA8+FP32_native_mean+bias_from_config_once+bilinear1024+argmax+labels_plus1",
+  "bias_name": "CTRL_MM",
+  "bias_vector": [
+    -0.20000000298023224,
+    0.26256999373435974,
+    0.8254600167274475,
+    2.1749699115753174,
+    5.053730010986328,
+    0.978600025177002,
+    3.2409000396728516,
+    -0.19288000464439392
+  ],
+  "bias_config": "/home/jhy/aic2026_claude_diag_20261029/bias/CTRL_MM.json",
+  "bias_config_sha256": "c400e2f4bbb96270a212de3ae3eb2c87f507cb29d35b1d2f7412289658bcd3e7",
+  "manifest": "/home/jhy/aic2026_ctrl3594_teacher_20261027/manifests/semifinal_3594.csv",
+  "manifest_sha256": "76463ff99a495afe82085bb59530032f13f9efbff2cc1936f09178285e6cdd19",
+  "subset_counts": {
+    "test2": 1300,
+    "test3_new": 1794,
+    "test1": 500
+  },
+  "checkpoint": "/home/jhy/aic2026_h76_20261026/experiments/ctrl/checkpoints/stage1_complete_step3594_backup.pt",
+  "checkpoint_sha256": "0e7680af74551905ed116ae52cc51c576ca679e1e755ae68d7c231f26c4efcb3",
+  "zip": "/home/jhy/aic2026_claude_diag_20261029/pack/CTRL_MM/CTRL_MM_semifinal.zip",
+  "zip_sha256": "1e9fd7809e1bdf1879ed5f45ecc4aabee20f15fbba99624c29724b67ca828f06",
+  "count": 3594,
+  "single_model": true,
+  "checkpoint_count": 1,
+  "ensemble": false,
+  "teacher_used_for_candidate_inference": false,
+  "donor_used_for_candidate_inference": false,
+  "ground_truth_used": false,
+  "platform_submission_performed": false,
+  "runtime_sec": 1327.5
+}

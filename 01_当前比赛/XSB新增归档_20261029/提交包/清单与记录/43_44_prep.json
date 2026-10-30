@@ -1,0 +1,38 @@
+[
+  {
+    "file": "43.zip",
+    "old_file": "ens3_B_s62_s58_champ.zip",
+    "sha256": "88404538a2eeca78ea566124e4a7d23db5a3ea7c428253397cec718549457bf2",
+    "entries": 500,
+    "names_match_accepted": true,
+    "class_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "note": "ensemble B+s62+s58 (matches 30) + champion bias"
+  },
+  {
+    "file": "44.zip",
+    "old_file": "soupB_mean_alpha1.zip",
+    "sha256": "9f46ed874b381ac6efc175e76d41678e358236efd7ce2f4ee9a8aedc72936724",
+    "entries": 500,
+    "names_match_accepted": true,
+    "class_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "note": "soupB weight-average (matches 36) + champion bias"
+  }
+]

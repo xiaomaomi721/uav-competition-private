@@ -1,0 +1,4 @@
+seed: 42
+val_fraction: 0.20
+strategy: stratified_presence_combination_largest_remainder
+fixed_quick_val_count: 256

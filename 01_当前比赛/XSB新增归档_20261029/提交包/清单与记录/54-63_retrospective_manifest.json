@@ -1,0 +1,126 @@
+{
+  "schema": "RETROSPECTIVE_SUBMISSION_MANIFEST_V1",
+  "record_type": "RETROSPECTIVE_RECONSTRUCTION",
+  "warning": "这不是原始平台回执。这十个包在评分时没有写 contemporaneous SHA-bound PLATFORM_RECEIPT，分数仅存于线上成绩记录表.md。本文件是在 2026-09-15 事后把『现有包 SHA256』与『历史成绩』重建的映射，用于 provenance 核对。请勿当作当时就存在的原始回执引用。",
+  "built_at": "2026-09-15T13:55:37.893982+00:00",
+  "score_source": "文档归档/04_实验决策与成绩/线上成绩记录表.md",
+  "score_source_section": "## 2026-09-15 回填：54–63（s62 模型专属单轴探针 + Paramwise01）",
+  "sha_source": "提交包/清单与记录/提交清单_54_63.json",
+  "binding_basis": "用户按 54→63 顺序粘贴回执；包 SHA256 来自提交前记录的清单",
+  "confidence": "medium-high: 顺序由用户给出，SHA 在提交前记录，但两者未在评分当时交叉绑定",
+  "baseline": {
+    "s62_champion": 0.68661
+  },
+  "rows": [
+    {
+      "index": 54,
+      "file": "54.zip",
+      "source": "s62_ax_agric_m04",
+      "content": "s62 + 冠军向量，农田 −0.4",
+      "why": "s62 专属：农田轴是否欠推（Stage23 上该轴最好）",
+      "sha256": "51b6d7ea08b316e83b4575a01b119606339c0b3450ddea002ab3424f0eb59416",
+      "bytes": 4452450,
+      "platform_mIoU": 0.68742,
+      "vs_s62_champion_pp": 0.081
+    },
+    {
+      "index": 55,
+      "file": "55.zip",
+      "source": "s62_ax_agric_p04",
+      "content": "s62 + 冠军向量，农田 +0.4",
+      "why": "同轴反向对照",
+      "sha256": "2bf0bd4cd05c4fa0d34c0ead7537c36f3894597afb2aa8c41eecb40fee7ecc89",
+      "bytes": 4439782,
+      "platform_mIoU": 0.685654,
+      "vs_s62_champion_pp": -0.0956
+    },
+    {
+      "index": 56,
+      "file": "56.zip",
+      "source": "s62_ax_barren_p04",
+      "content": "s62 + 冠军向量，荒地 +0.4",
+      "why": "荒地轴（冠军推得最狠 +3.6）",
+      "sha256": "5831bf41d890ce26dbe389db47be3759bc7311ac283087f25e27aa368a106fdc",
+      "bytes": 4457113,
+      "platform_mIoU": 0.68694,
+      "vs_s62_champion_pp": 0.033
+    },
+    {
+      "index": 57,
+      "file": "57.zip",
+      "source": "s62_ax_barren_m04",
+      "content": "s62 + 冠军向量，荒地 −0.4",
+      "why": "同轴反向",
+      "sha256": "515848748b70805e179c13e971e4097651bbfb32c4f3a66e34ca94b2e0da446c",
+      "bytes": 4437452,
+      "platform_mIoU": 0.686217,
+      "vs_s62_champion_pp": -0.0393
+    },
+    {
+      "index": 58,
+      "file": "58.zip",
+      "source": "s62_ax_veg_p04",
+      "content": "s62 + 冠军向量，植被 +0.4",
+      "why": "植被轴",
+      "sha256": "f4eda7c40812beaf3a18d2a1e8c657536cb4599a031c1ef2d906445c5aa247d7",
+      "bytes": 4451829,
+      "platform_mIoU": 0.686001,
+      "vs_s62_champion_pp": -0.0609
+    },
+    {
+      "index": 59,
+      "file": "59.zip",
+      "source": "s62_ax_veg_m04",
+      "content": "s62 + 冠军向量，植被 −0.4",
+      "why": "同轴反向",
+      "sha256": "616b1971bf1266cc848155283e9d8d50d545b715b176bda808e46b21fba7d5a8",
+      "bytes": 4446995,
+      "platform_mIoU": 0.686893,
+      "vs_s62_champion_pp": 0.0283
+    },
+    {
+      "index": 60,
+      "file": "60.zip",
+      "source": "s62_ax_water_p04",
+      "content": "s62 + 冠军向量，水体 +0.4",
+      "why": "水体轴",
+      "sha256": "d813302204a7458895b92e127088343f1d637206c312649c7d12352da7beef06",
+      "bytes": 4445730,
+      "platform_mIoU": 0.686346,
+      "vs_s62_champion_pp": -0.0264
+    },
+    {
+      "index": 61,
+      "file": "61.zip",
+      "source": "s62_ax_water_m04",
+      "content": "s62 + 冠军向量，水体 −0.4",
+      "why": "同轴反向",
+      "sha256": "5a3e9f8381c28875a660235bed49877d2c156f4b7eecc71817526782c9ea6231",
+      "bytes": 4446650,
+      "platform_mIoU": 0.686748,
+      "vs_s62_champion_pp": 0.0138
+    },
+    {
+      "index": 62,
+      "file": "62.zip",
+      "source": "pw01best_mean_zero",
+      "content": "Paramwise01 零偏置",
+      "why": "新机制是否有线上 core improvement（基准 s62=0.680973）",
+      "sha256": "747caaa2bc55d4b972e9b264e8ae2ca1ddea6913390aca86ce183c20525aaa0d",
+      "bytes": 5040089,
+      "platform_mIoU": 0.674232,
+      "vs_s62_champion_pp": -1.2378
+    },
+    {
+      "index": 63,
+      "file": "63.zip",
+      "source": "pw01best_mean_alpha1",
+      "content": "Paramwise01 + 冠军向量",
+      "why": "是否有 Stage23 式的强 calibration response（基准 s62=0.686610）",
+      "sha256": "5f22b0b4e56918d1da81ba1478a175a3a9178c17f3f3d981ebbb0fe983bec9a7",
+      "bytes": 5000795,
+      "platform_mIoU": 0.68963,
+      "vs_s62_champion_pp": 0.302
+    }
+  ]
+}

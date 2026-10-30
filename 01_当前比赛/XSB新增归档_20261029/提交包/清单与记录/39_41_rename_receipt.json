@@ -1,0 +1,20 @@
+[
+  {
+    "old_file": "39_MS_s62_scale075+100+125_zero.zip",
+    "file": "39.zip",
+    "sha256": "c023e20ba61222facd8fcb86db4beb56b354a9dbafd2e13063a76da728aa7950",
+    "operation": "rename_only"
+  },
+  {
+    "old_file": "40_MS_s23B_scale075+100+125_zero.zip",
+    "file": "40.zip",
+    "sha256": "d734452023faaddd70ee93fb45c0d8f247611f60681065c17ec7d4f8774488a2",
+    "operation": "rename_only"
+  },
+  {
+    "old_file": "41_PA_s23B_Veg+2_Agri-2.zip",
+    "file": "41.zip",
+    "sha256": "ac43e519b039b3c9f87d23a56a7c26a3e8c3ab0e27c53e5dca7e7f21ba18e2fb",
+    "operation": "rename_only"
+  }
+]

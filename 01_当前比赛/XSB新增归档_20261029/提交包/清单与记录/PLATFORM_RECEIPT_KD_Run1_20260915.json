@@ -1,0 +1,182 @@
+{
+  "schema": "PLATFORM_RECEIPT_KD_RUN1_20260915",
+  "recorded_at": "2026-09-15T12:02:48.963264+00:00",
+  "source": "用户报告的 10 个平台分数",
+  "binding": {
+    "method": "positional, submission order 64-73",
+    "confidence": "high",
+    "evidence": "前 8 个分数呈 低-高-低-高 交替 (0.6815/0.6919/0.6778/0.6900/0.6806/0.6922/0.6782/0.6902)，与 64-73 的 {zero, champion} 交替结构一致；最后两个 0.6882/0.6881 是 s62 校准幅度探针，量级与 s62 冠军 0.686610 自洽",
+    "caveat": "用户未逐个点名包名。若粘贴顺序与提交顺序不同，本回执需重录"
+  },
+  "anchors": {
+    "s62_zero": 0.680973,
+    "s62_champion": 0.68661,
+    "stage23B_zero": 0.678023,
+    "stage23B_champion": 0.692812,
+    "record_compliant_sub13": 0.693096,
+    "record_alltime_sub43_noncompliant": 0.695637,
+    "teacher_ensemble_zero": 0.683237,
+    "target": 0.7
+  },
+  "rows": [
+    {
+      "index": 64,
+      "file": "s3200_zero.zip",
+      "checkpoint": "KD Run1 s62-init step3200",
+      "role": "零偏置",
+      "sha256": "965051105c43c7a43f1cf0dcbd4729509431beab4a4dbc355dd745e018a49dcc",
+      "platform_mIoU": 0.681538,
+      "Z": 0.681538,
+      "F": null
+    },
+    {
+      "index": 65,
+      "file": "s3200_champion.zip",
+      "checkpoint": "KD Run1 s62-init step3200",
+      "role": "CHAMPION向量",
+      "sha256": "4ab9463f1c5fe4e409a3eb4250592d95d903ac77ab5b3263942157e43feaa740",
+      "platform_mIoU": 0.691925,
+      "Z": null,
+      "F": 0.691925
+    },
+    {
+      "index": 66,
+      "file": "s4800_zero.zip",
+      "checkpoint": "KD Run1 s62-init step4800",
+      "role": "零偏置",
+      "sha256": "32dc8201cdc831f5c50322c8b2e5841be993201863cddc4d1f9163049085ee18",
+      "platform_mIoU": 0.677788,
+      "Z": 0.677788,
+      "F": null
+    },
+    {
+      "index": 67,
+      "file": "s4800_champion.zip",
+      "checkpoint": "KD Run1 s62-init step4800",
+      "role": "CHAMPION向量",
+      "sha256": "5b0d373224ccfa90c980c413938cbf8743b10aaffa9ce7ff0191c6567253d377",
+      "platform_mIoU": 0.690002,
+      "Z": null,
+      "F": 0.690002
+    },
+    {
+      "index": 68,
+      "file": "s6400_zero.zip",
+      "checkpoint": "KD Run1 s62-init step6400",
+      "role": "零偏置",
+      "sha256": "9bdb0fbd47818561ef6c788d07f56b9d00d125c38c51a8deeeb4dcd5f3cfeb9f",
+      "platform_mIoU": 0.680602,
+      "Z": 0.680602,
+      "F": null
+    },
+    {
+      "index": 69,
+      "file": "s6400_champion.zip",
+      "checkpoint": "KD Run1 s62-init step6400",
+      "role": "CHAMPION向量",
+      "sha256": "139d340f54b379dd260be96493bb7dcb66abd0da10a6bf8685daca8d4d114c32",
+      "platform_mIoU": 0.692202,
+      "Z": null,
+      "F": 0.692202
+    },
+    {
+      "index": 70,
+      "file": "s8000_zero.zip",
+      "checkpoint": "KD Run1 s62-init step8000",
+      "role": "零偏置",
+      "sha256": "2bbe65f3db689654f23d7b25eae47928f9f8c45b788c8619f3773ef1df0bae6d",
+      "platform_mIoU": 0.678168,
+      "Z": 0.678168,
+      "F": null
+    },
+    {
+      "index": 71,
+      "file": "s8000_champion.zip",
+      "checkpoint": "KD Run1 s62-init step8000",
+      "role": "CHAMPION向量",
+      "sha256": "64acc9435c4e1b6a518884a95c474b636071653f9f2865ab3e468b85385f8c70",
+      "platform_mIoU": 0.690212,
+      "Z": null,
+      "F": 0.690212
+    },
+    {
+      "index": 72,
+      "file": "s62_combo4.zip",
+      "checkpoint": "s62 best_miou.pt",
+      "role": "校准幅度探测",
+      "sha256": "c49c3fefdaf9b379716070a37b030ba4db8b6abb56c621c216b95f7a2206bda0",
+      "platform_mIoU": 0.688171,
+      "Z": null,
+      "F": null
+    },
+    {
+      "index": 73,
+      "file": "s62_agri_m08.zip",
+      "checkpoint": "s62 best_miou.pt",
+      "role": "校准幅度探测",
+      "sha256": "a418501d1f2a3e47cf899cc0c11c90c4d23bfb8eb420cccf122ddd2ddab410d1",
+      "platform_mIoU": 0.688084,
+      "Z": null,
+      "F": null
+    }
+  ],
+  "decision_table": [
+    {
+      "checkpoint": "KD Run1 s62-init step6400",
+      "Z": 0.680602,
+      "F": 0.692202,
+      "delta_Z_pp": -0.0371,
+      "C_pp": 1.16,
+      "D_pp": 0.7798
+    },
+    {
+      "checkpoint": "KD Run1 s62-init step3200",
+      "Z": 0.681538,
+      "F": 0.691925,
+      "delta_Z_pp": 0.0565,
+      "C_pp": 1.0387,
+      "D_pp": 0.8075
+    },
+    {
+      "checkpoint": "KD Run1 s62-init step8000",
+      "Z": 0.678168,
+      "F": 0.690212,
+      "delta_Z_pp": -0.2805,
+      "C_pp": 1.2044,
+      "D_pp": 0.9788
+    },
+    {
+      "checkpoint": "KD Run1 s62-init step4800",
+      "Z": 0.677788,
+      "F": 0.690002,
+      "delta_Z_pp": -0.3185,
+      "C_pp": 1.2214,
+      "D_pp": 0.9998
+    }
+  ],
+  "calibration_probes": [
+    {
+      "index": 72,
+      "file": "s62_combo4.zip",
+      "role": "校准幅度探测",
+      "deltas": {
+        "Agricultural": -0.4,
+        "Vegetation": -0.4,
+        "Water": -0.4,
+        "Barren": 0.4
+      },
+      "platform_mIoU": 0.688171,
+      "vs_s62_champion_pp": 0.1561
+    },
+    {
+      "index": 73,
+      "file": "s62_agri_m08.zip",
+      "role": "校准幅度探测",
+      "deltas": {
+        "Agricultural": -0.8
+      },
+      "platform_mIoU": 0.688084,
+      "vs_s62_champion_pp": 0.1474
+    }
+  ]
+}

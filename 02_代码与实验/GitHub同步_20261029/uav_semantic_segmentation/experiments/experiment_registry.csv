@@ -1,0 +1,2 @@
+experiment_id,stage,model,crop_size,loss,seed,train_samples,val_samples,steps,local_miou,online_miou,checkpoint_sha256,checkpoint_hash_verified,status,code_commit,notes
+formal_b0_ce_512_seed42,03-04,SegFormer-B0,512,CrossEntropy,42,5597,1399,56000,0.7123106568503285,0.572820,5846D7625FC92CCFDBB065BFC9F8910348F4B81C0010AE253AD598443DCBB4A1,false,completed,not_recorded,Stage 03正式基线；Stage 04首次线上提交；核心训练结果通过独立复算；权重与推理链路证据状态见Stage 03验收文档。

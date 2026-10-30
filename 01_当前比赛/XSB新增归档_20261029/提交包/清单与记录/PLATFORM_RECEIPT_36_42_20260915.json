@@ -1,0 +1,67 @@
+{
+  "receipts": [
+    {
+      "index": 36,
+      "file": "36_SOUP_soupB_zero.zip",
+      "sha256": "1509a0c57802405fe0f1c863f9aa07c5d290634f8151a1fd3e28013e072e2a77",
+      "platform_mIoU": 0.683042,
+      "status": "scored",
+      "source": "user scores in order 36-42",
+      "note": ""
+    },
+    {
+      "index": 37,
+      "file": "37_MS_s62_scale075_zero.zip",
+      "sha256": "6ae5ec97f26c92d944806715f506607465be33eb8a35a33881ea341c2c516889",
+      "platform_mIoU": 0.674339,
+      "status": "scored",
+      "source": "user scores in order 36-42",
+      "note": ""
+    },
+    {
+      "index": 38,
+      "file": "38_MS_s62_scale125_zero.zip",
+      "sha256": "a6905d54a4f5574d75fb627aa68fbd5eb6f12640d594b6e2c2ce2411b65f158b",
+      "platform_mIoU": 0.669724,
+      "status": "scored",
+      "source": "user scores in order 36-42",
+      "note": ""
+    },
+    {
+      "index": 39,
+      "file": "39.zip",
+      "sha256": "c023e20ba61222facd8fcb86db4beb56b354a9dbafd2e13063a76da728aa7950",
+      "platform_mIoU": null,
+      "status": "scoring_failed",
+      "source": "user scores in order 36-42",
+      "note": "Failure reason unspecified for this entry; do not interpret as zero mIoU."
+    },
+    {
+      "index": 40,
+      "file": "40.zip",
+      "sha256": "d734452023faaddd70ee93fb45c0d8f247611f60681065c17ec7d4f8774488a2",
+      "platform_mIoU": null,
+      "status": "scoring_failed",
+      "source": "user scores in order 36-42",
+      "note": "Failure reason unspecified for this entry; do not interpret as zero mIoU."
+    },
+    {
+      "index": 41,
+      "file": "41.zip",
+      "sha256": "ac43e519b039b3c9f87d23a56a7c26a3e8c3ab0e27c53e5dca7e7f21ba18e2fb",
+      "platform_mIoU": null,
+      "status": "scoring_failed",
+      "source": "user scores in order 36-42",
+      "note": "Failure reason unspecified for this entry; do not interpret as zero mIoU."
+    },
+    {
+      "index": 42,
+      "file": "42_PA_s23B_Agri-2.zip",
+      "sha256": "78e1f5095fb4c3161c83d04bea6eee30cba6b925f8453a94a00dfca4879be249",
+      "platform_mIoU": 0.692226,
+      "status": "scored",
+      "source": "user scores in order 36-42",
+      "note": ""
+    }
+  ]
+}

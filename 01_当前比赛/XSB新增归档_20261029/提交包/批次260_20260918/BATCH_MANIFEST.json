@@ -1,0 +1,105 @@
+{
+ "batch": "260-271",
+ "created_from": "server rare_diag_20260915",
+ "convention": "package number == filename prefix",
+ "items": [
+  {
+   "no": 260,
+   "filename": "260_AxisS_cleanSEM_stage2_k0.5_on_theta209.zip",
+   "source": "/home/jhy/rare_diag_20260915/phase0_eval_20260918/A_cleanSEM_M_k050_th209_Bstar.zip",
+   "bytes": 4830417,
+   "flip_bstar_pct": 3.79,
+   "submit_recommendation": "SUBMIT"
+  },
+  {
+   "no": 261,
+   "filename": "261_AxisS_cleanSEM_stage2_k1.0_on_theta209.zip",
+   "source": "/home/jhy/rare_diag_20260915/phase0_eval_20260918/A_cleanSEM_M_k100_th209_Bstar.zip",
+   "bytes": 4830260,
+   "flip_bstar_pct": null,
+   "submit_recommendation": "SUBMIT"
+  },
+  {
+   "no": 262,
+   "filename": "262_AxisS_nodecay_delta_stage3.zip",
+   "source": "/home/jhy/rare_diag_20260915/phase0_eval_20260918/B_nodK_D_k100_th237_Bstar.zip",
+   "bytes": 4830388,
+   "flip_bstar_pct": null,
+   "submit_recommendation": "SUBMIT"
+  },
+  {
+   "no": 263,
+   "filename": "263_AxisS_nodecay_delta_stage2.zip",
+   "source": "/home/jhy/rare_diag_20260915/phase0_eval_20260918/B_nodK_M_k100_th237_Bstar.zip",
+   "bytes": 4813690,
+   "flip_bstar_pct": null,
+   "submit_recommendation": "SUBMIT"
+  },
+  {
+   "no": 264,
+   "filename": "264_AxisS_nodecay_delta_stage0+1.zip",
+   "source": "/home/jhy/rare_diag_20260915/phase0_eval_20260918/B_nodK_E_k100_th237_Bstar.zip",
+   "bytes": 4838440,
+   "flip_bstar_pct": null,
+   "submit_recommendation": "SUBMIT"
+  },
+  {
+   "no": 265,
+   "filename": "265_AxisS_nodecay_delta_head.zip",
+   "source": "/home/jhy/rare_diag_20260915/phase0_eval_20260918/B_nodK_H_k100_th237_Bstar.zip",
+   "bytes": 4825503,
+   "flip_bstar_pct": null,
+   "submit_recommendation": "SUBMIT"
+  },
+  {
+   "no": 266,
+   "filename": "266_AxisS_rareExp_delta_stage0+1.zip",
+   "source": "/home/jhy/rare_diag_20260915/phase0_eval_20260918/C_rareExp_E_k100_th237_Bstar.zip",
+   "bytes": 4802589,
+   "flip_bstar_pct": null,
+   "submit_recommendation": "SUBMIT"
+  },
+  {
+   "no": 267,
+   "filename": "267_AxisS_rareExp_delta_stage2.zip",
+   "source": "/home/jhy/rare_diag_20260915/phase0_eval_20260918/C_rareExp_M_k100_th237_Bstar.zip",
+   "bytes": 4817982,
+   "flip_bstar_pct": null,
+   "submit_recommendation": "SUBMIT"
+  },
+  {
+   "no": 268,
+   "filename": "268_AxisS_rareExp_delta_stage3.zip",
+   "source": "/home/jhy/rare_diag_20260915/phase0_eval_20260918/C_rareExp_D_k100_th237_Bstar.zip",
+   "bytes": 4839145,
+   "flip_bstar_pct": 3.73,
+   "submit_recommendation": "SUBMIT"
+  },
+  {
+   "no": 269,
+   "filename": "269_RareExposure_v2_standalone_Bstar.zip",
+   "source": "/home/jhy/rare_diag_20260915/phase0_eval_20260918/RE_v2_standalone_Bstar.zip",
+   "bytes": 4986754,
+   "flip_bstar_pct": 3.71,
+   "submit_recommendation": "SUBMIT"
+  },
+  {
+   "no": 270,
+   "filename": "270_RareExposure_v2_standalone_ZERO_rawcore.zip",
+   "source": "/home/jhy/rare_diag_20260915/phase0_eval_20260918/RE_v2_standalone_ZERO.zip",
+   "bytes": 5017585,
+   "flip_bstar_pct": null,
+   "submit_recommendation": "SUBMIT"
+  },
+  {
+   "no": 271,
+   "filename": "271_axisS_train_step1000_k1.0_on_theta237.zip",
+   "source": "/home/jhy/rare_diag_20260915/axisS_cands_step1000/eval/S_s1000_k1_th237_Bstar.zip",
+   "bytes": 8186142,
+   "flip_bstar_pct": 23.27,
+   "submit_recommendation": "HOLD"
+  }
+ ],
+ "note": "编号 271 的 S_s1000_k1_th237 flip=23.27% (正常 3.7-4.7%)；构造时把 1000 步训练方向放大了 5.31 倍以匹配 R_old，放大的是初始瞬态噪声，候选大概率无效。建议 HOLD，用 8k/16k checkpoint 重建（放大倍数 2.0 / 1.43）。",
+ "status": "NOT_REPORTED (all)"
+}

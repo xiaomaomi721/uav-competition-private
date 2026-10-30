@@ -1,0 +1,37 @@
+ignore_index: 255
+num_classes: 8
+official_to_train:
+  0: 255
+  1: 0
+  2: 1
+  3: 2
+  4: 3
+  5: 4
+  6: 5
+  7: 6
+  8: 7
+classes:
+  - train_id: 0
+    official_id: 1
+    name: Background
+  - train_id: 1
+    official_id: 2
+    name: Building
+  - train_id: 2
+    official_id: 3
+    name: Road
+  - train_id: 3
+    official_id: 4
+    name: Water
+  - train_id: 4
+    official_id: 5
+    name: Barren
+  - train_id: 5
+    official_id: 6
+    name: Vegetation
+  - train_id: 6
+    official_id: 7
+    name: Agricultural
+  - train_id: 7
+    official_id: 8
+    name: Vehicle

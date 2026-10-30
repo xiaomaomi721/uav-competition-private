@@ -1,0 +1,21 @@
+{
+ "tag": "H75_BARREN_GATE4096",
+ "tau_px_1024": 4096,
+ "connectivity": 8,
+ "gated_class": "Barren",
+ "base_zip": "/home/jhy/aic2026_ctrl3594_teacher_20261027/reference/H75_BSTAR_20261026/H75_BSTAR_semifinal.zip",
+ "base_zip_sha256": "c012bae1237160a0c0d5fbccd168f58facf62c03bf60ee2cc82877cb21454d30",
+ "zero_cache": "/home/jhy/aic2026_ziponly_20261028/01_h75_cache/target3594_fp32/scores/",
+ "manifest_sha256": "76463ff99a495afe82085bb59530032f13f9efbff2cc1936f09178285e6cdd19",
+ "script_sha256": "b180d294d5fb1fb1d9c1c3709a8c68147b3c774033641375617a63af8fa0f7a3",
+ "images": 3594,
+ "barren_flip_px": 46286820,
+ "reverted_px": 2634557,
+ "reverted_pct_of_all": 0.06991,
+ "images_changed": 768,
+ "zip": "/home/jhy/aic2026_claude_diag_20261029/pack/H75_BARREN_GATE4096/H75_BARREN_GATE4096_semifinal.zip",
+ "zip_sha256": "0999de472fcaea3d94bc4b55f56ea530b9287e1e1feb5c66a756efc1d5f578fd",
+ "single_model": true,
+ "ground_truth_used": false,
+ "platform_submission_performed": false
+}

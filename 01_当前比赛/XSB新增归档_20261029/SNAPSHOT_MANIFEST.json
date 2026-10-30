@@ -1,0 +1,34 @@
+{
+  "snapshot_date": "2026-09-30",
+  "source_folder_name": "无人机",
+  "included_file_count": 647,
+  "included_bytes": 13080996,
+  "included_suffixes": [
+    ".csv",
+    ".json",
+    ".md",
+    ".py",
+    ".sh",
+    ".txt",
+    ".yaml",
+    ".yml"
+  ],
+  "excluded_directory_names": [
+    ".claude",
+    ".git",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".venv",
+    "__pycache__",
+    "venv"
+  ],
+  "excluded_file_counts_by_suffix": {
+    ".docx": 9,
+    ".pdf": 4,
+    ".png": 40,
+    ".pptx": 2,
+    ".pt": 3,
+    ".zip": 289
+  },
+  "note": "Official images, labels, submission archives, model weights, visualizations and local app settings are not part of this Git snapshot."
+}

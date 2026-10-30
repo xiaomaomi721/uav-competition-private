@@ -1,0 +1,1385 @@
+{
+  "date": "2026-10-29T17:14:09.475723+08:00",
+  "repository": "https://github.com/2856643972xsb/uav_semantic_segmentation",
+  "commit": "dd4a0d90d48ddb15e76dbf6769aac0519dcf4be2",
+  "tree": "9b22c7db55313ccd24671a27e5477f48307a4313",
+  "destination": "C:\\Users\\Lenovo\\OneDrive\\Documents\\桌面\\无人机",
+  "counts": {
+    "add_missing": 171,
+    "already_present_elsewhere": 519,
+    "different_preserve": 89
+  },
+  "bytes_added": 1863250,
+  "sha256_verified": 171,
+  "existing_files_preservation_checked": 600,
+  "copied": [
+    {
+      "source_path": ".gitignore",
+      "git_blob_sha": "e387058b5331893e71f8a0c82572572eaa06aeaf",
+      "bytes": 1144,
+      "sha256": "f0589f7fb989ae721ef88d091fd69712c19dcfbfb95ef64572df642252786fe5",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/.gitignore",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "README.md",
+      "git_blob_sha": "af9b239ffba5a551ab7cbda216f1fc1113774afa",
+      "bytes": 12139,
+      "sha256": "ff4b2acd1eb4805a41189dec12c218966536abbdcad422bf64e085d3e3588ae7",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/README.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/README.md",
+      "git_blob_sha": "60a18a0f80b8f21f06f1b9c26577f260d472ac01",
+      "bytes": 233,
+      "sha256": "fd623975f014aadd609ed7c475517bd3428581e17e81fa5332a02a2947a8ba69",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/README.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/classes.yaml",
+      "git_blob_sha": "15639e60abafb5ebc7e6f6b438a9577d99a4e6b1",
+      "bytes": 556,
+      "sha256": "ac253fa06b528a9dda52fe0880fb84571b851cf8e6291cc1c556245d9d16eb88",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/classes.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/full/README.md",
+      "git_blob_sha": "c4fc5639a31249a0dfa3d901bc55bc35ce277081",
+      "bytes": 877,
+      "sha256": "af3fe916f9f4c047c0eadfda25af24f67a9a511d44fb7ca6b0a1af92a51b492a",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/full/README.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/full/stage03_b0_ce_512_seed42.yaml",
+      "git_blob_sha": "feb048c60d2bd1d49d212ab1a0623aa90d1cccbf",
+      "bytes": 1537,
+      "sha256": "934ae5c2fe314a3fbbf9b038f34d10532609fdc08c195da4d25786c47e3b0993",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/full/stage03_b0_ce_512_seed42.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/_base.yaml",
+      "git_blob_sha": "d8c548f5b7cf4b67d531054d44e72dadbbf46ad5",
+      "bytes": 1446,
+      "sha256": "4866af607ba6e4b7c588c3fca538d1b559c212e6d3ad94b4a4be306a34e5ede9",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/_base.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/step01_baseline_512_ce.yaml",
+      "git_blob_sha": "9ef46aa2d5621cf65976380d162c09d0e9be2451",
+      "bytes": 125,
+      "sha256": "344a5543be15e322333c54d2d8a64ed440a6a945de41405e02b13a3aafc9d642",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/step01_baseline_512_ce.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/step03_resolution_1024.yaml",
+      "git_blob_sha": "c6b22b19708ae43522140d3ae1381ac6202e2cf2",
+      "bytes": 155,
+      "sha256": "2e7dce864b3e86667f9e309e392692f6d6260889d7424b0120e812db93394f8d",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/step03_resolution_1024.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/step03_resolution_512.yaml",
+      "git_blob_sha": "2f81d988034e75a468d979a073dbae1073798b66",
+      "bytes": 64,
+      "sha256": "f1d528c714ca432e97ec42ee2e83d7d074e6933350aa115ec1395764a702ccc9",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/step03_resolution_512.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/step03_resolution_768.yaml",
+      "git_blob_sha": "3c33315af54b8f97cc446ea94bc4113368671bb5",
+      "bytes": 124,
+      "sha256": "bd0b4c5609b8a1b0d22ce56c89aa2c3629f41528791490820c266872d7aba515",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/step03_resolution_768.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/step04_ce_dice.yaml",
+      "git_blob_sha": "03c665a8085ee390ca29c5b6dfc79b0bb0b2f097",
+      "bytes": 115,
+      "sha256": "bc3773a0b5371ae34c4fad66cd2ffbbc19334bfb1c0f77a88b058b0d80866b7e",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/step04_ce_dice.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/step04_focal.yaml",
+      "git_blob_sha": "765a10daef455d6e553f605e5e9d1c074753d407",
+      "bytes": 115,
+      "sha256": "a4219326a0387bbc913c87f90715ecf764a7f81c0648ce27edf6cd03076b59c0",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/step04_focal.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/step04_weighted_ce.yaml",
+      "git_blob_sha": "b8c36392a7ebc3e8758a480f43dbb072fd199f5b",
+      "bytes": 173,
+      "sha256": "d9ece6227b404af08b01497004e23bf3446d877022be5f2af6de8ae9aed8aaad",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/step04_weighted_ce.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/step05_rare_crop.yaml",
+      "git_blob_sha": "555dc15538f9784d7e508abc0af835c99880aa1f",
+      "bytes": 166,
+      "sha256": "95c236ec4f90504370613ae5cccc00e94143ff5d2c5360f5d46b39412317a1af",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/step05_rare_crop.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/step06_domain_aug.yaml",
+      "git_blob_sha": "1a6fbe1c53b8d951c271ad95b0d62f81fb22e499",
+      "bytes": 104,
+      "sha256": "7d9ea464c5e9b3c8594039e67d8c2961056feb44300f01513732d0031c98def8",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/step06_domain_aug.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/step07_segformer_b1.yaml",
+      "git_blob_sha": "33958ea0a58b1c6048acdfa1cf59394c0bfec9a0",
+      "bytes": 189,
+      "sha256": "73d7b7cec6117b732651b87667269cef615fb0d614117ab8a46d6a1d094e9a95",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/step07_segformer_b1.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/quick/step07_segformer_b2.yaml",
+      "git_blob_sha": "2a7a5536da8144df64b61a86d1229ec8fd74b470",
+      "bytes": 218,
+      "sha256": "33ee80d51bbf39ef53429bcdf034dbf8ad94fc038ee591a1f5b9e405889aa66e",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/quick/step07_segformer_b2.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "configs/split_config.yaml",
+      "git_blob_sha": "bda08dba55e4905c4aea8577f0929a5fe5ff35d3",
+      "bytes": 115,
+      "sha256": "e0867295bd0cd6594172e60c750f1aebada96de1a8d4f339f1de49a1fb9e0088",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/configs/split_config.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "data/README.md",
+      "git_blob_sha": "7841d46d30999312d006e1bc8313581ecc528a7e",
+      "bytes": 1516,
+      "sha256": "dab595fdfdb937cd3634d439a766a34158eb99b2f87a6c2f6241bf3b92b9befe",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/data/README.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/DATASET.md",
+      "git_blob_sha": "3f41b7fed889c5899b98bc5c0382f782be0a4206",
+      "bytes": 6414,
+      "sha256": "7703eb97afc5cc1352bcf38ae59b959475e8e9febbdcd98d0a80496e3e0dd932",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/DATASET.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/ENVIRONMENT.md",
+      "git_blob_sha": "670bd2f325925b3334f85d5de67fbc852782c040",
+      "bytes": 1462,
+      "sha256": "6e8e3733beebf09d80c30792c35637e147eb6e3d3b08dec72b6d5d0deb7fd194",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/ENVIRONMENT.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/FIRST_SUBMISSION.md",
+      "git_blob_sha": "095c7d675197c61399a93ba80b70925cf30ef956",
+      "bytes": 2302,
+      "sha256": "c0b0fc5d0cd54265ede0b5ce294ceee598bac786779878b4ea0d9521084a456b",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/FIRST_SUBMISSION.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/STAGE_01_DATA_AUDIT.md",
+      "git_blob_sha": "21c9fa02a685bbfca81091ed06a60a8a2cf8744a",
+      "bytes": 3770,
+      "sha256": "dcb50ab5825160325382e0a4a550b8f718c91f61b8edb45ba95f94067fa58c73",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/STAGE_01_DATA_AUDIT.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/STAGE_02_7STEP_QUICK.md",
+      "git_blob_sha": "ad819e145cffed7dbbf1a666f161ab053e5f7063",
+      "bytes": 4821,
+      "sha256": "0d764e21dfd2e28ebcebefd445049d3665cde6b9107e80cd3029de467f36ea69",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/STAGE_02_7STEP_QUICK.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/STAGE_03_ACCEPTANCE.md",
+      "git_blob_sha": "a0d53fb84a63cf80edcfbcf4a80e3337eb34750d",
+      "bytes": 4639,
+      "sha256": "96b5577999272fc3bb643d0c5d01141bae0408ea62dbec1304e548b349ecd6cc",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/STAGE_03_ACCEPTANCE.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/STAGE_03_BASELINE_PREPARATION.md",
+      "git_blob_sha": "cdd2ec97b18cd1dd5933b85fa3bb19f44c3366b1",
+      "bytes": 3360,
+      "sha256": "2235845d269dfcb8a20aef883d622dd6c8e898f8cc111a95045357b5976bb929",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/STAGE_03_BASELINE_PREPARATION.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/STAGE_03_FORMAL_BASELINE.md",
+      "git_blob_sha": "169fae0585b2866e9c2453676c2fec7ea66608f4",
+      "bytes": 5680,
+      "sha256": "a89990bd9a644c5519519750e33149d7cb09f67a6495d6f6060c4176b65fec9a",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/STAGE_03_FORMAL_BASELINE.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/STAGE_04_FIRST_SUBMISSION.md",
+      "git_blob_sha": "29afac59d70263ec4e4bea24aaf96e0c8b4c85d0",
+      "bytes": 2935,
+      "sha256": "20d13df1b5ab69206e43468d2605fd82c08cbe307b4cc8a09be4c718c7ced577",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/STAGE_04_FIRST_SUBMISSION.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/TEAM_WORKFLOW.md",
+      "git_blob_sha": "c3b64f0a0426259efcc51f305b2981f7bb6597fc",
+      "bytes": 2378,
+      "sha256": "18551f744910b994e1d761785e8f7afea659a05c2670827a71c0e8a3faef79d0",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/TEAM_WORKFLOW.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/semifinal/BIAS_CALIBRATION_20261029.md",
+      "git_blob_sha": "cf78c34c7d5389b7c48ccb223e20d52b4ff29054",
+      "bytes": 8039,
+      "sha256": "6993859d711cc13cb0092cf203a26da236df4857f91b75a0b3c9c43ab68a6d83",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/semifinal/BIAS_CALIBRATION_20261029.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/semifinal/EXPERIMENT_CATALOG_20261029.md",
+      "git_blob_sha": "00fade6f5180e5a8ca020ecb7300c5ba3a2f1891",
+      "bytes": 11194,
+      "sha256": "c17a98c4c6df8c2678b14a1b576f84bc7103c8c28665fb3a826f9f67919edfef",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/semifinal/EXPERIMENT_CATALOG_20261029.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/semifinal/ONLINE_RESULTS_20261029.md",
+      "git_blob_sha": "937f8fb545afe5221e4d6ef84ac331c9f8a49466",
+      "bytes": 5989,
+      "sha256": "6aef3e0905b1e4dd1508af67b94ca19730f8f26c9343f5bbdad8b9f607e78e0e",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/semifinal/ONLINE_RESULTS_20261029.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/semifinal/README.md",
+      "git_blob_sha": "c5cb08699197d28f27f4a4817cfed87d136cd4fa",
+      "bytes": 4090,
+      "sha256": "8e0e79b436680b6e541ed32daa1cac1847f4af4b71d764675190f94258a80418",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/semifinal/README.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/semifinal/RULES_AND_DELIVERY_20261029.md",
+      "git_blob_sha": "7f783bd3f9dcc23df91eb6087372aa8059580797",
+      "bytes": 5305,
+      "sha256": "ccd7721e6529db0074d6b5b7f6a05de34c459a1ff2e7d1a4e9d28a4df887577f",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/semifinal/RULES_AND_DELIVERY_20261029.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/semifinal/TIMELINE_20261029.md",
+      "git_blob_sha": "7de3a8281578bda04a5267d2af71c2373ac460d1",
+      "bytes": 4543,
+      "sha256": "3b4078f0dc8af37dc31e5858a97eb717cec60c3ca916ff9ab52329e25447ae2b",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/semifinal/TIMELINE_20261029.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "docs/semifinal/semifinal_experiment_registry_20261029.csv",
+      "git_blob_sha": "b581a71dcd67bc77deabcad4fd5fd2f54289f496",
+      "bytes": 5409,
+      "sha256": "a0f7d45d9ec27f35371d578bb6c5f75bc9b546739244facf6b778de327294839",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/docs/semifinal/semifinal_experiment_registry_20261029.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "experiments/README.md",
+      "git_blob_sha": "b5da34b148c97ba80f462a296d592b7d13610c5a",
+      "bytes": 779,
+      "sha256": "f28488cbecae6c8aeda4e4f0de589f7024186657678c91aadc98a8a16e84cee8",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/experiments/README.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "experiments/experiment_registry.csv",
+      "git_blob_sha": "de180081a4d971246077f378d2559e01d4e04869",
+      "bytes": 521,
+      "sha256": "b6b258fe2bb5b8e39432fa2065719a3f5b7feb5caf3e92b80f77d28cd913df7b",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/experiments/experiment_registry.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "local_records/README.md",
+      "git_blob_sha": "12012e3f6bdb86ccaf3beb0468faf9d591090466",
+      "bytes": 249,
+      "sha256": "6ae4ab6d67bd5b823cc288608474c0be0e5e85a1aa812772854123622ead0444",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/local_records/README.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/abnormal_files.csv",
+      "git_blob_sha": "9040e3735af9b267deb568c61ce8b0efc7910420",
+      "bytes": 1300,
+      "sha256": "334305ded4f7c5ba8b1b87d0ccec1f9ac6b0b5e1816a75acd79cce670e31dc3d",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/abnormal_files.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/class_statistics.csv",
+      "git_blob_sha": "5a850bafdc210d7deb4cba7fcd71115ca2bf38fe",
+      "bytes": 1662,
+      "sha256": "a8d3e04e67c08953145f8deecb031c8fe2b60dc8c3cba3e6903464e4579cac13",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/class_statistics.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/dataset_report.json",
+      "git_blob_sha": "a86144da2d2572ee0c421c3f866a54caff6ba673",
+      "bytes": 24336,
+      "sha256": "dc41b9772e7ecf4705f3fd6dd7b2075b58212147e16ae24ab7efe87b5443ef4c",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/dataset_report.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/dataset_report.md",
+      "git_blob_sha": "aae339f24129dca5d38e7560010556e3b3c27285",
+      "bytes": 8208,
+      "sha256": "d98e04ce2cf9488048cf3042a148046cadec8d5ada9d33ba042147a3acc910a2",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/dataset_report.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/experiments/README.md",
+      "git_blob_sha": "9a4852e7b7bf29a50f31282e736fb47319c8b4d2",
+      "bytes": 679,
+      "sha256": "354ec2a676613a60ba5c5a034efef1da855c834fb81c901b957b11948f374e00",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/experiments/README.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/experiments/experiment_summary.csv",
+      "git_blob_sha": "52a7aeccb9d45d824f40dd33df1de8cea1d24e56",
+      "bytes": 6188,
+      "sha256": "d4402761c94cac617881e9628b65cd49b1745738b28cfdda319d25f31353dda2",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/experiments/experiment_summary.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/experiments/experiment_summary.json",
+      "git_blob_sha": "5634985323485c0a791e7d51257fda1577310d4f",
+      "bytes": 21727,
+      "sha256": "51c3ba08b0a4f93b323de568534a9cfc6d4794b41a365f1898131a4725629e16",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/experiments/experiment_summary.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/experiments/quick_7step_report.md",
+      "git_blob_sha": "4d7943ca1e5d9140a135ffe45dbc300d6755f3b1",
+      "bytes": 7720,
+      "sha256": "e6639f94eb151373eeec5d9fd1e7da9fa10801925a71e0aff0e5d3a68c684c3c",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/experiments/quick_7step_report.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage03/acceptance_summary.json",
+      "git_blob_sha": "0fe51872586fbf4442ed92a20fb6d25f19a3e070",
+      "bytes": 2738,
+      "sha256": "93e96eb114d6a35aa6dab75434b1f489bcb63f78f2aa6f035aeb810f755af307",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage03/acceptance_summary.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage03/acceptance_summary.md",
+      "git_blob_sha": "fdce9a32bd8cd753e85dfb8a13b9a547190ece03",
+      "bytes": 2062,
+      "sha256": "eea50943f31064e064458b0f39baa61eb228200ae662de048d64f6e57aa7264d",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage03/acceptance_summary.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage03/config_snapshot.yaml",
+      "git_blob_sha": "265d1667c060c302fa139e622e60c82071b57803",
+      "bytes": 1714,
+      "sha256": "88fad50b8059f179fdca0b4ec8bcf1df578c5ff954785e840b94936d304e1868",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage03/config_snapshot.yaml",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage03/confusion_matrix.csv",
+      "git_blob_sha": "e10a5677cb11486d6e946c88e2fe73fc8948e107",
+      "bytes": 469,
+      "sha256": "c018d60bc512c67f9c8b6e6d97aa9543ad1dcf829716460ee3c18a11619db44a",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage03/confusion_matrix.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage03/figures/learning_rate_curve.png",
+      "git_blob_sha": "d650ebe7d1a33df7ae48ac430a6c3e41b93185bb",
+      "bytes": 68270,
+      "sha256": "649b421d7ffffdc42afa676c42ae75653e1502f00044b04598fea10d0582fdf6",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage03/figures/learning_rate_curve.png",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage03/figures/train_loss_curve.png",
+      "git_blob_sha": "cf826ad4026bc2092c3e82081ca0d8435ae64088",
+      "bytes": 107888,
+      "sha256": "575e5c7a58dd0e90aac9d9bdc659760c3253ef02b3e6feb0bb22f54a4c3aed32",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage03/figures/train_loss_curve.png",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage03/figures/validation_miou_curve.png",
+      "git_blob_sha": "7ee27575933183785819a882bd5e2aea6dc9918d",
+      "bytes": 64832,
+      "sha256": "ee0490ef173c6ddd92de4cf65ed81399d835c34fe41aa6fe482a6c92a429debe",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage03/figures/validation_miou_curve.png",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage03/metrics.json",
+      "git_blob_sha": "e95514bf9f2f8c1babe529d86e737eaf6fec06d8",
+      "bytes": 399,
+      "sha256": "2000cf110201bb5e9575051ea9cf0b6571309e4f67a1ba91f0af9af2d9621d73",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage03/metrics.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage03/per_class_iou.csv",
+      "git_blob_sha": "f1541423640eee09fc924197a9a94190864448c5",
+      "bytes": 315,
+      "sha256": "f91846472d231ead2c2f737093d5fd979aeebc60fa36552fd569858da5127c43",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage03/per_class_iou.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage03/training_summary.json",
+      "git_blob_sha": "70abec6c146658ed8b1759b95f828892cf1bad89",
+      "bytes": 459,
+      "sha256": "9b102d713ddafdb691be4f3f25e6c7d7ae821d57c98abe1b745ffd0d364b135b",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage03/training_summary.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage04/online_result.md",
+      "git_blob_sha": "d2b145cbabfdf5c76036fc7dd240ffee5d6ab0d6",
+      "bytes": 667,
+      "sha256": "40b09d584c76669d783e1f300d6f3232b6c57ac2a61a42a22d24083c2dac5ae3",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage04/online_result.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "reports/stage04/submission_summary.json",
+      "git_blob_sha": "4dd70b4683ac897c201ad9051e45339f84e4397d",
+      "bytes": 1059,
+      "sha256": "7b3523b1479966688f975450ad0e46f4542b226a5660da1356a6ad025dd6778d",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/reports/stage04/submission_summary.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "requirements-audit.txt",
+      "git_blob_sha": "220ee24b7653b9954104f8d964cab1effac8c7c6",
+      "bytes": 25,
+      "sha256": "b33aa44f85c8328d9c34d37fe5ed9e1073c11fd2a11ac302d887167b2e0a3ba7",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/requirements-audit.txt",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "requirements-segmentation.txt",
+      "git_blob_sha": "a1be1737fc4ca63e098de5126ac3c4a42de07adc",
+      "bytes": 277,
+      "sha256": "2945a8893cb550356763198857951eab556dc499769b82e691612eb724412886",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/requirements-segmentation.txt",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/check_env.py",
+      "git_blob_sha": "338229f7e10a29ccd26b0bb915ebf1d10f2c2adf",
+      "bytes": 1224,
+      "sha256": "f845060b097e79f67668a2d7cdbc402baf0903610639c410f9b29aeea0e532dd",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/check_env.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/check_split.py",
+      "git_blob_sha": "1703caf9f0385e0bbc5dcde5e82aec0b85197eb0",
+      "bytes": 3747,
+      "sha256": "3715a8d922b92242ddc3284c89524cb541d4703a6d32b3fdb1d38d7ec9182136",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/check_split.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/check_stage03_config.py",
+      "git_blob_sha": "f2f8b38bf322faf3025030546f874751d596c28b",
+      "bytes": 7175,
+      "sha256": "976df1059b87587bb2730a780481e65f2fbb1c78e185a94c3fce7ae74eb728ec",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/check_stage03_config.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/check_submission.py",
+      "git_blob_sha": "f3153e7988302ee21930d3a060f7a5cc916a2d51",
+      "bytes": 16307,
+      "sha256": "a16a803fab5df2b57d79472d1c27715a42949ed053e570b8e66f03d8f3477a11",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/check_submission.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/create_splits.py",
+      "git_blob_sha": "88effa5897274ab9d51a4c8165c70b765e9652e2",
+      "bytes": 9058,
+      "sha256": "67d8b9442097089a9201d8bdf6b9eaf67a01945cc972a2935e05265d46571409",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/create_splits.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/evaluate.py",
+      "git_blob_sha": "d296c8b85b89ece0d264e5bcea0dcba5a212f09e",
+      "bytes": 2316,
+      "sha256": "ad769a1952706d82d5fe6634f947de37d59cd3bbafdd16ced2f351682d890a46",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/evaluate.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/inspect_dataset.py",
+      "git_blob_sha": "0dae882bafd749e30c90dfe0f896edd903113cfa",
+      "bytes": 52778,
+      "sha256": "58660dcec08375834882fb344855f5b0ac8423caa4d75f1e31e041d30584a8d8",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/inspect_dataset.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/package_submission.py",
+      "git_blob_sha": "d52777dc7a97ff8d532834e79c8cbf0643ea2688",
+      "bytes": 9791,
+      "sha256": "a2ef1bded05eb595e9065f8c2ef8e4f0582a6a60fd0cce72bf5aa35ba1200ff4",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/package_submission.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/predict_submission.py",
+      "git_blob_sha": "d23efc1558d36f112d7d798feb96af9b38ae3b3c",
+      "bytes": 24775,
+      "sha256": "82d09896c5c06e2bb1ce8b08346c4f99a2cd296b964aeb02ca3ea642221f4050",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/predict_submission.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/run_7step_quick.py",
+      "git_blob_sha": "f84d154bec2f2c4a5b5dd7cd92fe8b1700b14658",
+      "bytes": 5115,
+      "sha256": "3e6955262ede0b6e76660221ebe8d769e115666cf2e3a2bab1a620dbfdd8ef50",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/run_7step_quick.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/summarize_experiments.py",
+      "git_blob_sha": "856b4c86537983b69b7c85841224c67cf4243910",
+      "bytes": 17399,
+      "sha256": "f49bedb7e043cc1d991f8f67f709395e3f5a416ecb5e95b43e072568eb301e70",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/summarize_experiments.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/test_label_mapping.py",
+      "git_blob_sha": "3883f481ab38571d1607ea9759b30eafc9029c83",
+      "bytes": 1696,
+      "sha256": "9152331c858c729f10dc22c5e9dda92b62226a0517ed774f8a53b0fc365f7afb",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/test_label_mapping.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/test_metrics.py",
+      "git_blob_sha": "3d3d600f4d3dd7eb52e5703da89201f0f705321b",
+      "bytes": 1871,
+      "sha256": "2dfef8fea7e7b7249b579bca4724bf0bcfb739c85e78f27842df6805a3a4951a",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/test_metrics.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/test_transforms.py",
+      "git_blob_sha": "27460de8be1145b0511fa8e63f50b99ccfe43e5f",
+      "bytes": 2649,
+      "sha256": "2158f68d830daa19fbdf88dc3f3545f52137d296decacf40110fa61a59813911",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/test_transforms.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/train.py",
+      "git_blob_sha": "85c2167c14c71e6f22bd91728c7e655a8c0f34c2",
+      "bytes": 2549,
+      "sha256": "9dfe7a7d79ad42a2ed9761dd3d6f8cec416f5b03154f8c29f9cffb0af8721cd4",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/train.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "scripts/visualize_predictions.py",
+      "git_blob_sha": "4a930e4f5c1105c4b8bbe3dc4102d6c34f30e5e6",
+      "bytes": 294,
+      "sha256": "d64e3774cc456fc91ad7b48207028388101ce8c90bc0fb93128a2a2156bb0f17",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/scripts/visualize_predictions.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "splits/fixed_quick_val.txt",
+      "git_blob_sha": "fc39e0e45969d8cba5326e8363c3ec77d7fa217d",
+      "bytes": 1280,
+      "sha256": "1d7895b514ff38e4fa6ae40bf64049e4e222b5894f4b8b950e97a274da0c38bb",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/splits/fixed_quick_val.txt",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "splits/split_report.md",
+      "git_blob_sha": "e7934ef1571f00ae9c732f19c7f62cc50c9bd25d",
+      "bytes": 582,
+      "sha256": "d59f496719bfa97e3f9452c6a9f2f0cb50e01b13189451e0642d392beba602b2",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/splits/split_report.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "splits/split_statistics.json",
+      "git_blob_sha": "7489782b3334e6601be8e939a66ef3ef69f73cd9",
+      "bytes": 3885,
+      "sha256": "aa224d7ae0fd6b1f033c67ca53c647b6cf3e6102d85f6afec80d344b47525ad0",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/splits/split_statistics.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "splits/train.txt",
+      "git_blob_sha": "44040a920f674fac192ff2b9847f713fb15f1ef9",
+      "bytes": 27985,
+      "sha256": "ea765c43652d5f02590ec6d6c189fc4b2a28f0dd8a6616b86783781fc2979df6",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/splits/train.txt",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "splits/val.txt",
+      "git_blob_sha": "96d4d2483b8e8c4ce10ac5e909f476710b4847ba",
+      "bytes": 6995,
+      "sha256": "b94835cc2ba3d6f121c7532633532c5548cef5b6ac4b8f162c7618686684be67",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/splits/val.txt",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "src/__init__.py",
+      "git_blob_sha": "07f3be04a0a783a3a572876fc6a3c67de6d6f220",
+      "bytes": 274,
+      "sha256": "2cdd8d552008c9b6f11e2c7bc4354a1b228d7f8971ea9a0275a214d723111b4d",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/src/__init__.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "src/dataset.py",
+      "git_blob_sha": "b6b93e44ff6b75d08e865dee14e45fa3ce3502f6",
+      "bytes": 5977,
+      "sha256": "365e91799a129b5d8e41de50fe0540bb4580740d3d53a4ea720a8a28d16e15f4",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/src/dataset.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "src/inference.py",
+      "git_blob_sha": "0af3cc9cc5745755cf0f1cc2dcaf5d25bb2ded20",
+      "bytes": 4694,
+      "sha256": "b9ba88e894355f95185bb9cdc59d3b937ac18b22c96903b5a40c2fee7ecc15e8",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/src/inference.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "src/label_mapping.py",
+      "git_blob_sha": "f7728c66bc40b02093b4378da478820382acafe4",
+      "bytes": 1837,
+      "sha256": "e1e64e9cd262191b3904a751ee947d7e0d67fcaa72469b415989bf84e7bc903a",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/src/label_mapping.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "src/losses.py",
+      "git_blob_sha": "27a3667637e7b1afce9545861f986ed11e198a39",
+      "bytes": 5195,
+      "sha256": "c910d3dbc9588c3a6e18cd692ab1743b87050465d514da5d7b981c804d48e0a2",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/src/losses.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "src/metrics.py",
+      "git_blob_sha": "919ee97573a7747a707eff56bf48ef60d940cfb4",
+      "bytes": 4385,
+      "sha256": "693224d6214b205a01148598228992227542b84d2a85efd6a8f6e275abb4803e",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/src/metrics.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "src/models.py",
+      "git_blob_sha": "ca3ecbee323a977dfcde62d83043dcf4056682c0",
+      "bytes": 1518,
+      "sha256": "d0ba4c90fa3fc05a63815458cc7335401c89b920d236685f16840ebf9ea38694",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/src/models.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "src/rare_crop.py",
+      "git_blob_sha": "a4cd10f56d1e415c4b31b24d672001ee8875d391",
+      "bytes": 3822,
+      "sha256": "b10185f3f5e74aab32ef96b2cec2767b353da93833b09290fd08510452c07492",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/src/rare_crop.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "src/trainer.py",
+      "git_blob_sha": "9a245078cd65030211a127dd65f71134ded1d463",
+      "bytes": 14921,
+      "sha256": "6617bc7909f1bb31b2e936c228e9fea936fab3492c47cf8b59df56c5d7b7c8bf",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/src/trainer.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "src/transforms.py",
+      "git_blob_sha": "97603c65dbbff674195d04ae611804e8106def18",
+      "bytes": 7933,
+      "sha256": "259906235021f6c10fcbafce4d4f98ae2a38bfaef0f63161719c5afec639829c",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/src/transforms.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "src/utils.py",
+      "git_blob_sha": "8eaa294e27b7de15142f28c99af1b54e4866909c",
+      "bytes": 7330,
+      "sha256": "aaeca090745cffc670d7fccc0d5fc9febf6cccbdd8e9213ca9246046e0eb6062",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/src/utils.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "tests/README.md",
+      "git_blob_sha": "f6f1797a2ad80d8eff48e92e2cae4ce7dce4de36",
+      "bytes": 301,
+      "sha256": "596782fcdd2ea3867d7db27813bd31e340ef136ef479fdba76493926cf955ba6",
+      "destination_relative": "02_代码与实验/GitHub同步_20261029/uav_semantic_segmentation/tests/README.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/GITHUB_SNAPSHOT.md",
+      "git_blob_sha": "8417d1d7fc8bcdc3881bcf82769789f18f74cb17",
+      "bytes": 1022,
+      "sha256": "fd8e40411ed4cafc8c906b1221e6e8be61af43ea28c488861017ba61be75b0eb",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/GITHUB_SNAPSHOT.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/SNAPSHOT_MANIFEST.json",
+      "git_blob_sha": "a21d4208a57996d636f7270fe1b83086f1967c5b",
+      "bytes": 687,
+      "sha256": "ac27761a512c6dfc4c37ea67d16aa0c49091e614aea23c17c551056e4fcc83b9",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/SNAPSHOT_MANIFEST.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/_收纳记录.json",
+      "git_blob_sha": "bb29d0bf481804671f63a0c4a3ca838e37427bac",
+      "bytes": 31150,
+      "sha256": "af74433c8804b5fd9bd9fa48196e6d189f379dc74fb060913a1c812e757c8978",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/_收纳记录.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/待提交/批次_20260927_MIC_FIXED/LOCAL_PACKAGE_AUDIT.json",
+      "git_blob_sha": "203ae92c03d699032ca4d80264b23e711b71c849",
+      "bytes": 316553,
+      "sha256": "aa330837a4332583acad77123072ad34247a327737570965ed9ef6c150d138a9",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/待提交/批次_20260927_MIC_FIXED/LOCAL_PACKAGE_AUDIT.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/批次260_20260918/BATCH_MANIFEST.json",
+      "git_blob_sha": "6d73da76cfdaef3d3a0c43535ecb0b0c5f3f3692",
+      "bytes": 3597,
+      "sha256": "480f418b3e9253b4a1fd18090a5952b56ada6c59c1c5fabf3f5fa1f504bcc184",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/批次260_20260918/BATCH_MANIFEST.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/29_32_rename_receipt.json",
+      "git_blob_sha": "6a5b34297cda53e36930ae3f7c04777eefb737a7",
+      "bytes": 1102,
+      "sha256": "da4ae1ac95390bbcb8a1e74da09e6938f04383e3831262305595fa69579df65b",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/29_32_rename_receipt.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/39_41_rename_receipt.json",
+      "git_blob_sha": "6fa3ae7ccac87c052eacc009f081a53102fac724",
+      "bytes": 592,
+      "sha256": "b46d3062508d4a43b387bb8678fa80beb89743a28abeaf68135c7f96555f4f47",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/39_41_rename_receipt.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/43_44_prep.json",
+      "git_blob_sha": "3349fc349145ab4bd095bc54b1e4eeb7ffee6748",
+      "bytes": 747,
+      "sha256": "5f5fa028f721283d65fde03e9ea79c6eec826425ce75bc97a8ae3b0c812e1f73",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/43_44_prep.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/45_46_prep.json",
+      "git_blob_sha": "165f78d9dd1c61ad2edc5f3ad5713f48d3cbc576",
+      "bytes": 473,
+      "sha256": "fa5024dcad3cd8f52657ebcbeff0bf85dcf302992e79a3b5ac6ee891b355dd96",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/45_46_prep.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/47_50_prep.json",
+      "git_blob_sha": "5b59411bb76a228dacd7437af41b284131ac45f0",
+      "bytes": 798,
+      "sha256": "77f5e50b64b241151528ebd4ebb1b751f9d9f32dfe0a94a64c61bb7bec5d1947",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/47_50_prep.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/54-63_retrospective_manifest.json",
+      "git_blob_sha": "a8cfbae142e55594821df9fb0df2c25aae659213",
+      "bytes": 4732,
+      "sha256": "198a1d8db98c6f948c2c53f32680c2aad025d5fca5dccdc5e30ef1f49b818f93",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/54-63_retrospective_manifest.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/BATCH01_PLATFORM_RECEIPT.json",
+      "git_blob_sha": "4fc48b27c8484a148068597263043ab370470ecd",
+      "bytes": 2864,
+      "sha256": "86d42ef56b8b514c70355ab90bfa010f95483621dbc4755352192d55bb853e23",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/BATCH01_PLATFORM_RECEIPT.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/BATCH02_MANIFEST.json",
+      "git_blob_sha": "ee8b2f6f10618a7ea83f0a3c672cc1c993d3b3ef",
+      "bytes": 2157,
+      "sha256": "5befeaac31a2b106748362d80b1ec2ea09c038d9c91728d136e51b2a2a7f24f9",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/BATCH02_MANIFEST.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/BATCH02_PLATFORM_RECEIPT.json",
+      "git_blob_sha": "04c0033c8694306efb8300de2e775a5a6ef498a8",
+      "bytes": 1466,
+      "sha256": "fd285fee4835dbaa99f7b9fc2a659d47a8ccd1305de4f2efff2d2ca290a4e1d0",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/BATCH02_PLATFORM_RECEIPT.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/BATCH03_MANIFEST.json",
+      "git_blob_sha": "89a2d8075b41950907f4154ba1f47cecafbf3b94",
+      "bytes": 1399,
+      "sha256": "93280421908455e73ab810a73ba3b90b37edb09983e792444e86be48276ec18f",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/BATCH03_MANIFEST.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/BATCH03_PLATFORM_RECEIPT.json",
+      "git_blob_sha": "9314222da9c70b822da04e715f9fdf836c7453a9",
+      "bytes": 2114,
+      "sha256": "fef6652a4d94a2d082c39c6f5b59b172aef4578055d182f16a8ec961520ae0bc",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/BATCH03_PLATFORM_RECEIPT.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/PLATFORM_RECEIPT_18_28_BACKFILL_20260915.json",
+      "git_blob_sha": "835ac14224d4626fe540201f365707f9dc5df84b",
+      "bytes": 1534,
+      "sha256": "80adc3a901873a4a5ff40e39f0f96a2b210607446850b8ee781242f99e202185",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/PLATFORM_RECEIPT_18_28_BACKFILL_20260915.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/PLATFORM_RECEIPT_29_32_39_41_REUPLOAD_20260915.json",
+      "git_blob_sha": "30310937cf32a03f4ca767bf9201030f334d01c2",
+      "bytes": 1534,
+      "sha256": "554601355d0a3c5838f0e18388ab82fbb29af256a05aa9c225b8004f5d1fb57e",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/PLATFORM_RECEIPT_29_32_39_41_REUPLOAD_20260915.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/PLATFORM_RECEIPT_36_42_20260915.json",
+      "git_blob_sha": "fa8a5e64d8642d041e867d3623d0b98574dac8eb",
+      "bytes": 2160,
+      "sha256": "0304d0bb8bd79e24f73529c07fc22b114a419c2432a2fde01888f5cd61759d5b",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/PLATFORM_RECEIPT_36_42_20260915.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/PLATFORM_RECEIPT_KD_Run1_20260915.json",
+      "git_blob_sha": "95efc5091d731199ac8398d289ab3ee66d5196ee",
+      "bytes": 5178,
+      "sha256": "39069906e0d1e4288b8e9e048e29893a83a6ddb4dfafbfae460e3355ddfe8243",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/PLATFORM_RECEIPT_KD_Run1_20260915.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/_删除记录_20260916.json",
+      "git_blob_sha": "1e7bf5baf25e3ba1a959e24c8348b8cb9479d3f0",
+      "bytes": 4388,
+      "sha256": "fd4cb4743f4c5516718a6a8474b915047e4aa47489cd0aa500b798db1bd6c030",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/_删除记录_20260916.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/_包分数总表_20260916.json",
+      "git_blob_sha": "11b4405da0de552c4ccd2a8ceb9f2b1162d55750",
+      "bytes": 33543,
+      "sha256": "af8ef21de23e789c0afa159ec37265c81753ad8612443b114f935bc42ba68082",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/_包分数总表_20260916.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/_包登记表_20260916.csv",
+      "git_blob_sha": "916b96d6138e744deafd78facecc70f2af4a3f2b",
+      "bytes": 18397,
+      "sha256": "16dc501e1a508ea085c2948da75d482ea3a9525d074f1e15732b3749016e250f",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/_包登记表_20260916.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/_包登记表_20260916.json",
+      "git_blob_sha": "f74371695277817f8999b60ec79a536775b25994",
+      "bytes": 37470,
+      "sha256": "9c3e9109d0c101a2572aa9d7775a076e7005c7dc429e823872164706ba9ac056",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/_包登记表_20260916.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/_去重记录_20260916.json",
+      "git_blob_sha": "40cf4f90ff8e718415b0fc0320a339dc6462f1e8",
+      "bytes": 15578,
+      "sha256": "61b164f1d8f6d53c4ee06191da200e84f377a85b3471ca8664ecea8a9af8817f",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/_去重记录_20260916.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/_编号恢复映射_20260916.json",
+      "git_blob_sha": "274deec38c6288ea08a2371de4de0018b7f38627",
+      "bytes": 3251,
+      "sha256": "0d946d5def29f011c6f8c2c430290f8dd5237b1712c927f29230b1c5f46a0f8b",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/_编号恢复映射_20260916.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/_编号登记.json",
+      "git_blob_sha": "9568cef68aabc65b3427d4afd7675ea7a79923c8",
+      "bytes": 1459,
+      "sha256": "1c1d11eb932f08ea0dc95f543e83d3b72b3476603825dcd314cebb4a0b2db0ad",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/_编号登记.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/_预测级重复_20260916.json",
+      "git_blob_sha": "8026ce7e2f8513b5be3abfa7237f0fcc1b1c731b",
+      "bytes": 1924,
+      "sha256": "d9c33dd4a442c45d00f86d286133603d083f5529e600aeaf1a3284d200aeab2e",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/_预测级重复_20260916.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/mask_changes/per_image.csv",
+      "git_blob_sha": "616083cfe889d2d73c9d452888e69ab3f0f1e13c",
+      "bytes": 72357,
+      "sha256": "6a9f2cc85021a8f5455303bb510a6f8504547de3663a010c745a32eb9e9868b6",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/mask_changes/per_image.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/mask_changes/summary.json",
+      "git_blob_sha": "71a9f6d079f7dadda3800416d30698712a87d7d7",
+      "bytes": 1340,
+      "sha256": "6b89617e05604cc1b36391cba047e254acb991b00c87b8177f036ca01d0fec81",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/mask_changes/summary.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/mask_changes/transitions_a05_to_armb.csv",
+      "git_blob_sha": "d132894eda31bb15eb99e7e312a07c54c79c2676",
+      "bytes": 2116,
+      "sha256": "f816dfaa86a038239cc434c4fbc6e811aaafd706649bb68028bfd9f2b27bd19b",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/mask_changes/transitions_a05_to_armb.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/mask_changes/transitions_a05_to_round2.csv",
+      "git_blob_sha": "1bddc64ae1cdc830dc8d05b98529d32107393847",
+      "bytes": 2120,
+      "sha256": "70fb57efd47f183092041e9ccbc8ea40416b2f3e8e674de1967d3ed02e7a2617",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/mask_changes/transitions_a05_to_round2.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/mask_changes/transitions_armb_to_round2.csv",
+      "git_blob_sha": "ebdc3975aa755f9ed2c3efd4f5756f980f16468a",
+      "bytes": 2111,
+      "sha256": "5dbc00cd703e2b5b5d90761773fe120ecf193c9b0e9ece17f956c3a9bf40eb30",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/mask_changes/transitions_armb_to_round2.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/包登记表.md",
+      "git_blob_sha": "caac13e7fa80272ccd3d8db82656cfdaaad2d7cb",
+      "bytes": 7814,
+      "sha256": "1737c35e18935b83fc6c01bfdb4584ec3e5ccb606193f6890e051c9c91821cc7",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/包登记表.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/历史ZERO证据/SUBMIT_ORDER.csv",
+      "git_blob_sha": "21edd668bbd74436886f74378bf2a860d79f65fe",
+      "bytes": 1640,
+      "sha256": "5e88997e9deeea5c781617bc7bc3f16700833dc454bb2beaf41cbfd33c2c655f",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/历史ZERO证据/SUBMIT_ORDER.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/提交指引.md",
+      "git_blob_sha": "f534b8e3e78db6ac2d9a65d75ef9efcae9db096d",
+      "bytes": 1854,
+      "sha256": "63b23f294662cda43aed16f2f8836d823ef50e41981c3605335596a157881721",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/提交指引.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/提交清单.json",
+      "git_blob_sha": "b472634b365033ba43185cc7f1651fa47c1cf458",
+      "bytes": 21158,
+      "sha256": "45877c4faea49f985c45c5701c11b5235f2d7e565059fb9ff7cb75b8c1511254",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/提交清单.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/提交清单_54_63.json",
+      "git_blob_sha": "73e3061bb4b2e74e18931688e113ffbfd1a04177",
+      "bytes": 3164,
+      "sha256": "9a42d823ae2f71d7980a8115717ed6bf0e74129ee8330c3be832ea433781105b",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/提交清单_54_63.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/提交清单_KD_Run1.json",
+      "git_blob_sha": "11592ae3e10ae2aeb6c21e56fa525b9efd1b6233",
+      "bytes": 9088,
+      "sha256": "fee0c60b24b1fefbd07914a78073916c385b072bde04422a1c827cbda7e402fb",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/提交清单_KD_Run1.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/早间报告_20260915.md",
+      "git_blob_sha": "ca065d5448bab5cefa66246e7c9a80a32b179fcb",
+      "bytes": 24933,
+      "sha256": "a57c9b60d61a1488d8a2ac43c65fa3dbab3edea0e100a49c27fabb8d25340bb4",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/早间报告_20260915.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/提交包/清单与记录/核心屏幕_清单.json",
+      "git_blob_sha": "1edffb143cad88d587ec797baeacdca5e4bbf0ef",
+      "bytes": 6382,
+      "sha256": "558846c7989324feccc26399c792d7f83f0ecc2a493adb4519d6af1e0aabd52d",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/提交包/清单与记录/核心屏幕_清单.json",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/# AIC2026 UAV半决赛｜第二GPU独立实验最终执行指令.md",
+      "git_blob_sha": "c1a76e53c410fe3587da97d9e01274fd35f3d76c",
+      "bytes": 12149,
+      "sha256": "1fac3880a1fc3607344f0cf2440c02d06867f8a871f86d746c37f9918cdbf0c2",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/# AIC2026 UAV半决赛｜第二GPU独立实验最终执行指令.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/AIC2026_UAV_20261028_全天工作完整复盘_方案实验成绩与决策交接.md",
+      "git_blob_sha": "f9181bd5cc58ba376a72ceb042cd25dde466ab44",
+      "bytes": 70939,
+      "sha256": "b3a4a3802f21c4c17fac4b79a0554ad802348cc0d3acffa082dbda16787b1adf",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/AIC2026_UAV_20261028_全天工作完整复盘_方案实验成绩与决策交接.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/AIC2026_UAV_九份材料独立审计报告_20261028.md",
+      "git_blob_sha": "fd0f4b5be4f4607fb64211428d64776faf0416bb",
+      "bytes": 16848,
+      "sha256": "37f0f8133790b76fbcc3821f485cd4c9b7c58b4e67e1856c1f8057efe05b1b7d",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/AIC2026_UAV_九份材料独立审计报告_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/AIC2026_UAV_半决赛_ClaudeCode_融合执行方案_v1.1_20261028.md",
+      "git_blob_sha": "e909717d9598be1c4e16dd5ad4d0f6f1151d70a6",
+      "bytes": 63596,
+      "sha256": "788c06185450894035adbd6e8d60c753676607ef5ded43079e1331fe674e645b",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/AIC2026_UAV_半决赛_ClaudeCode_融合执行方案_v1.1_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/AIC2026_UAV_半决赛_队友新方案审阅反馈_20261028.md",
+      "git_blob_sha": "fd58b462a635ec44605e3eaf3a63010d253018d1",
+      "bytes": 20301,
+      "sha256": "64ee42c0e1b3febb9b1259f6d4824ae54d3e04fda3599c000eeea5c3f82256df",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/AIC2026_UAV_半决赛_队友新方案审阅反馈_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/AIC2026_UAV_第二GPU独立实验执行方案_v2.0_20261028.md",
+      "git_blob_sha": "c9761643f227a5856da64d7cbc177d510015ffa4",
+      "bytes": 37546,
+      "sha256": "63aa86da24ed990665e0d03eec62a9233ea6d81e216ecf430dd83c3e2e0fc7f0",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/AIC2026_UAV_第二GPU独立实验执行方案_v2.0_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/Claude_无人机反馈_H75xT3深层融合_20261028.md",
+      "git_blob_sha": "2a4e660110d0baf68731903d0cbf93ea61a4b5e6",
+      "bytes": 7993,
+      "sha256": "3df7e34664ebc599cc134b79fedcfde8312797af14324f61274d40af941b4431",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/Claude_无人机反馈_H75xT3深层融合_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/Claude_无人机反馈_H75可靠教师蒸馏_20261028.md",
+      "git_blob_sha": "29b30164112cfd7d79591e6b59373338f45b5d1e",
+      "bytes": 6224,
+      "sha256": "705c70c332aa24a21035dbcbacf06c3a5030a682c6fccb2c45640d96062fe199",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/Claude_无人机反馈_H75可靠教师蒸馏_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/Claude_无人机反馈_H75场景自适应校正_20261028.md",
+      "git_blob_sha": "6f6d3d5f7c924f8069a40a3daa48f640424cd5bb",
+      "bytes": 9078,
+      "sha256": "927e4cc734f2c61eb9d7729df565f892a2eaf042c433866aadc33d8e39b8bd83",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/Claude_无人机反馈_H75场景自适应校正_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/Claude_无人机反馈_H75局部高分辨率修正_20261028.md",
+      "git_blob_sha": "ad81ce25ed1810adc61e8f6e378e0caa177ab3b6",
+      "bytes": 7547,
+      "sha256": "e2d348cab5d3b15dfa84e2214d9b697148d2f56ba73eccb3c0f62e1e6882770b",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/Claude_无人机反馈_H75局部高分辨率修正_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/Claude_无人机反馈_H75自监督必要性_20261028.md",
+      "git_blob_sha": "1d3d3e3e4d229d87371ba94937dd306d7b21a4b2",
+      "bytes": 15041,
+      "sha256": "ba2f90c71690ec2a4ed893d7c72814aabd8cb69140e16094dac2e3d7789e0da0",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/Claude_无人机反馈_H75自监督必要性_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/Claude_无人机提分实验反馈_20261028.md",
+      "git_blob_sha": "832dbf18d8718e1a8e8632f329ba280881c01cfb",
+      "bytes": 12965,
+      "sha256": "c05c8657f63f7b0d188dc8023d73cb2c198d93bb75e1962ef1260eab0e4480c0",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/Claude_无人机提分实验反馈_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/Claude执行任务书_H75可靠教师蒸馏与提分_20261028.md",
+      "git_blob_sha": "7f41c7bd67ed9396f244fe5780c8716ce7926f0e",
+      "bytes": 28090,
+      "sha256": "0313d42af9f6924f7d5fc5ef2a8f4040454b2239fcc67fbe81b2b1732edc92b3",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/Claude执行任务书_H75可靠教师蒸馏与提分_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/Codex_H75自监督必要性验证_反馈_20261028.md",
+      "git_blob_sha": "f8d99664f7da79e47384574fa859a850939c89bf",
+      "bytes": 14275,
+      "sha256": "4eaa162c5e4e8cb53da0ec82d8bf087343c9979cdcd546c784725c40be18af11",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/Codex_H75自监督必要性验证_反馈_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/Codex_无人机服务器证据采集与独立复核任务书_20261028.md",
+      "git_blob_sha": "ca6440b37ab2bef86947c59d30f344ac08a5a753",
+      "bytes": 15752,
+      "sha256": "e80a79f5b8a872ac6db188e2dde5a2abf7dd05dab608a4413657bf94bc973d19",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/Codex_无人机服务器证据采集与独立复核任务书_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/H75_DEEP_DIAG_独立审核与纠错_20261029.md",
+      "git_blob_sha": "448a560152145982df5d1ca38d499e16c89b966e",
+      "bytes": 8218,
+      "sha256": "353adb7b2982370e0cface95e12faa1ce19d8d326310dce9369fcd9aa2764a26",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/H75_DEEP_DIAG_独立审核与纠错_20261029.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/H75_NEXT_RESEARCH_独立审核_20261029.md",
+      "git_blob_sha": "b5b8f10af86722214e7bf57fc1b35849de421cc8",
+      "bytes": 8286,
+      "sha256": "75130b052bc66dfc2ecf47c6ab5aa3fe85a5254f1155db4873e26133726b5097",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/H75_NEXT_RESEARCH_独立审核_20261029.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/H75_STPP_Lite_V2_完整方案与实验结果复盘_20261028.md",
+      "git_blob_sha": "8ea4d93d8781f2ad5127b409f5cc48d98dc202e3",
+      "bytes": 25281,
+      "sha256": "438781af523f50a36235c0f5363d5dcc06f0f701205e2944a6743ca2722d3297",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/H75_STPP_Lite_V2_完整方案与实验结果复盘_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/MISSING_AND_BLOCKED.md",
+      "git_blob_sha": "b101ac7677132c31e24a8ce652a3c5722d9e4a70",
+      "bytes": 3173,
+      "sha256": "bf28401a1bcd037490b34d6d4f5b266a7ea4d4ea39d53d5252b93ad64a6b50ab",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/MISSING_AND_BLOCKED.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/UAV_源码论文机制诊断_20261029.md",
+      "git_blob_sha": "150fd9a6df501d6f42837e1518914fc3126a3013",
+      "bytes": 11728,
+      "sha256": "2538729e49ce9cb0dc0059027d6c9445f5063edc1499ef093c0611feed956b5c",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/UAV_源码论文机制诊断_20261029.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/verify_h75_next_package.py",
+      "git_blob_sha": "e6551db837608e38d0c10dd6a02a4d3a815cab1d",
+      "bytes": 2041,
+      "sha256": "4e28c4d45666b45018afe37484bbc399e8f829ead98444e2261d5d2d23d5de4b",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/verify_h75_next_package.py",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/02_原始文档备份/无人机_服务器原始证据独立源码审计_20261028.md",
+      "git_blob_sha": "75c504cc804e140e2cf6cef750856c08c777475f",
+      "bytes": 13881,
+      "sha256": "6a1188108501d4e03b00c73ab71b8cceafefb7e1cddfd98aaf1a80e0814d475d",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/02_原始文档备份/无人机_服务器原始证据独立源码审计_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/04_补充资料/Claude_无人机提分实验反馈_20261028(1).md",
+      "git_blob_sha": "832dbf18d8718e1a8e8632f329ba280881c01cfb",
+      "bytes": 12965,
+      "sha256": "c05c8657f63f7b0d188dc8023d73cb2c198d93bb75e1962ef1260eab0e4480c0",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/04_补充资料/Claude_无人机提分实验反馈_20261028(1).md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/04_补充资料/Claude_无人机提分实验反馈_最新(2).md",
+      "git_blob_sha": "832dbf18d8718e1a8e8632f329ba280881c01cfb",
+      "bytes": 12965,
+      "sha256": "c05c8657f63f7b0d188dc8023d73cb2c198d93bb75e1962ef1260eab0e4480c0",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/04_补充资料/Claude_无人机提分实验反馈_最新(2).md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/04_补充资料/Codex_H75_T3深层融合_立即执行任务书_20261028.md",
+      "git_blob_sha": "21c5c1333520ff2f8ab9b52bdc72dfd064fef321",
+      "bytes": 7988,
+      "sha256": "022c988d4019b5464ffd18b3bf878b642f5984f9c7f5925848d84e40e6d498b9",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/04_补充资料/Codex_H75_T3深层融合_立即执行任务书_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/04_补充资料/Codex_H75自监督必要性验证_反馈_20261028(1).md",
+      "git_blob_sha": "1d3d3e3e4d229d87371ba94937dd306d7b21a4b2",
+      "bytes": 15041,
+      "sha256": "ba2f90c71690ec2a4ed893d7c72814aabd8cb69140e16094dac2e3d7789e0da0",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/04_补充资料/Codex_H75自监督必要性验证_反馈_20261028(1).md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/04_补充资料/Codex_H75自监督必要性验证_执行任务书_20261028.md",
+      "git_blob_sha": "9254d4712d74a6389c961b423619514856eab29b",
+      "bytes": 15271,
+      "sha256": "66186a903922780b4ef84847fee371d40aea847199dfc992c6946049cb42e383",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/04_补充资料/Codex_H75自监督必要性验证_执行任务书_20261028.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/README.md",
+      "git_blob_sha": "4bf5c8dee6275bbbf1712222cfd7f0aca9926316",
+      "bytes": 166,
+      "sha256": "c40bc5cb54121ad788da44a854cd95fdea6f1f2111595a642a5badeb4f6b4cf5",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/README.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/README_入口.md",
+      "git_blob_sha": "106e3c65b64521eab6f2a390b872527ec074332d",
+      "bytes": 1286,
+      "sha256": "da633cf9009e0447ecee929156d1ae291256f2ac38a57292328ae6bff72fed94",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/README_入口.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/同步状态与未上传附件.md",
+      "git_blob_sha": "b9e5cf795410837e7c3119b1a2172516b73fedd7",
+      "bytes": 2970,
+      "sha256": "a35a815036531cd67f61192fc925b5e79552c78bb7d1318101391140d167fae1",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/同步状态与未上传附件.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/实验状态台账.csv",
+      "git_blob_sha": "2796ec954692ecec907b635dc175e88f64e67be7",
+      "bytes": 2810,
+      "sha256": "d61bce6cd4a11c210ac17276b3a581abe97ee04e4015358577a7cef676e64206",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/实验状态台账.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/源文件与哈希清单.csv",
+      "git_blob_sha": "32e3c27b6e36471f308829429d7f0977304f76ab",
+      "bytes": 6075,
+      "sha256": "c51cc0a5c5d21484ee03c63f8aba8de9ea744630f11dfff57720c16a03327c45",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/源文件与哈希清单.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/线上成绩台账.csv",
+      "git_blob_sha": "4b99f8d4b316beee2b7794710c8236b16ef70f1c",
+      "bytes": 1231,
+      "sha256": "c9deae4a55e8fbd600fd83721525461c5bac9ed17d82c3768393ee352bb9db97",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/线上成绩台账.csv",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/给ClaudeCode_本地归档执行指令.md",
+      "git_blob_sha": "282b9fe62ad16933d4c7c95d56bd04ae5df7c87f",
+      "bytes": 4062,
+      "sha256": "6751e38bf76d5f60035d288d162a472d3c1689682998d7fb817853bde68454a8",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/给ClaudeCode_本地归档执行指令.md",
+      "action": "add_missing"
+    },
+    {
+      "source_path": "无人机/近期同步归档/20261029/近期工作与队友成果_总档案_20261029.md",
+      "git_blob_sha": "86e39cee5849cbf327e1dc0f7b7ebda10107802e",
+      "bytes": 29880,
+      "sha256": "1476289d058d965f47c42863cd01c146ff32355329041a239d1ab1e18cef3962",
+      "destination_relative": "01_当前比赛/XSB新增归档_20261029/近期同步归档/20261029/近期工作与队友成果_总档案_20261029.md",
+      "action": "add_missing"
+    }
+  ]
+}

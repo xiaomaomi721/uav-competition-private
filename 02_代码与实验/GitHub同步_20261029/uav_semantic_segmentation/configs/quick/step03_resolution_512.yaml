@@ -1,0 +1,3 @@
+_base_: _base.yaml
+experiment_id: step03_resolution_512
+step: 3

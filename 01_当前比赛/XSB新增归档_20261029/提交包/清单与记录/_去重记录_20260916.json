@@ -1,0 +1,406 @@
+{
+  "when": "2026-09-16T18:53:01",
+  "policy": "KEEP-where-it-lives; only remove byte-identical redundancy",
+  "deleted": [],
+  "groups": [
+    {
+      "sha256": "169380a4bf717a6bd84ce0351d7d9a5cab1dd96049104c2c252840e78314187e",
+      "kept": "提交包\\本次待提交_预softmax_20260916\\74_M2F56_PS025_G0_TTA8.zip",
+      "deleted": [
+        "提交包\\M2F56_presoftmax探针_20260916\\01_M2F56_PS025_G0_TTA8.zip"
+      ],
+      "bytes_each": 4627103
+    },
+    {
+      "sha256": "716f20aed76dee003f8d413f2496f76ec3ef01089cd06f54daac9b3acf6f4dec",
+      "kept": "提交包\\本次待提交_预softmax_20260916\\75_M2F56_PS050_G0_TTA8.zip",
+      "deleted": [
+        "提交包\\M2F56_presoftmax探针_20260916\\02_M2F56_PS050_G0_TTA8.zip"
+      ],
+      "bytes_each": 4627078
+    },
+    {
+      "sha256": "acccc42b87705fd307e3786a0b910c77a4a59dd49743e5e5950be1c4b56fda12",
+      "kept": "提交包\\本次待提交_预softmax_20260916\\76_M2F56_PS100_G0_TTA8.zip",
+      "deleted": [
+        "提交包\\M2F56_presoftmax探针_20260916\\03_M2F56_PS100_G0_TTA8.zip"
+      ],
+      "bytes_each": 4626772
+    },
+    {
+      "sha256": "d8a823ed708f2b09db53748ba0a99b62f3158d899007f39ad97a247a4d3f2134",
+      "kept": "提交包\\本次待提交_预softmax_20260916\\77_M2F56_PS150_G0_TTA8.zip",
+      "deleted": [
+        "提交包\\M2F56_presoftmax探针_20260916\\04_M2F56_PS150_G0_TTA8.zip"
+      ],
+      "bytes_each": 4626158
+    },
+    {
+      "sha256": "0820da87bdd767978b07ffd5f5dbcf1a9015f0681c8730c50693911649b6d41d",
+      "kept": "提交包\\本次待提交_预softmax_20260916\\78_M2F56_PS100_GN1_TTA8.zip",
+      "deleted": [
+        "提交包\\M2F56_presoftmax探针_20260916\\05_M2F56_PS100_GN1_TTA8.zip"
+      ],
+      "bytes_each": 4626113
+    },
+    {
+      "sha256": "ac798478de561c98c41863d6cf0c2d714b40ca4b5c396846ef7e77a81ccd4926",
+      "kept": "提交包\\本次待提交_预softmax_20260916\\79_M2F56_PS100_GP1_TTA8.zip",
+      "deleted": [
+        "提交包\\M2F56_presoftmax探针_20260916\\06_M2F56_PS100_GP1_TTA8.zip"
+      ],
+      "bytes_each": 4627137
+    },
+    {
+      "sha256": "4bc18990e66c0ad908c3a56b22d68ffa14073ce34e0ef5fdcab9da8db9fa3750",
+      "kept": "提交包\\历史ZERO补包_20260916\\03_ZERO_stage59_44000_TTA8.zip",
+      "deleted": [
+        "提交包\\历史checkpoint_ZERO补包_20260916\\stage59_44000__ZERO_stage59_44000_TTA8.zip"
+      ],
+      "bytes_each": 4857074
+    },
+    {
+      "sha256": "caf055b750e680d92836e9432ad531c4c7c694fc80dd041a5113a968595b39c8",
+      "kept": "提交包\\历史提交包\\s52000_R_TTA8.zip",
+      "deleted": [
+        "提交包\\历史提交包\\10_stage59_s52000_TTA8only.zip",
+        "提交包\\历史ZERO补包_20260916\\05_s52000_R_TTA8.zip",
+        "提交包\\历史checkpoint_ZERO补包_20260916\\stage59_52000_EXISTING_ZERO.zip"
+      ],
+      "bytes_each": 4441661
+    },
+    {
+      "sha256": "87277cbaf62bb176368dc1fa5233b1e41bf1ff3a9148efdefa5b307fca785278",
+      "kept": "提交包\\历史提交包\\s52000_R_TTA8_FIXED8D.zip",
+      "deleted": [
+        "提交包\\历史提交包\\05_stage59_s52000_TTA8FIXED8D.zip",
+        "提交包\\历史ZERO补包_20260916\\09_s52000_R_TTA8_FIXED8D.zip",
+        "提交包\\历史checkpoint_ZERO补包_20260916\\stage59_52000_FIXED8D.zip"
+      ],
+      "bytes_each": 4401793
+    },
+    {
+      "sha256": "2c8596192ecffbbb54aaa2c684fdfa6ff4e33ef6f8dec7c56aaf4833486a1a95",
+      "kept": "提交包\\历史提交包\\s56000_R_TTA8.zip",
+      "deleted": [
+        "提交包\\历史提交包\\07_stage59_s56000_TTA8only.zip",
+        "提交包\\历史ZERO补包_20260916\\06_s56000_R_TTA8.zip",
+        "提交包\\历史checkpoint_ZERO补包_20260916\\stage59_56000_from_last_EXISTING_ZERO.zip"
+      ],
+      "bytes_each": 4399144
+    },
+    {
+      "sha256": "0aeea7917733fdc83d7fa0af48fd1235b8a1209c64f6e99fe1ad3ffb62117411",
+      "kept": "提交包\\历史提交包\\localbest_R_TTA8.zip",
+      "deleted": [
+        "提交包\\历史ZERO补包_20260916\\07_localbest_R_TTA8.zip",
+        "提交包\\历史checkpoint_ZERO补包_20260916\\stage59_localbest_R_EXISTING_ZERO.zip"
+      ],
+      "bytes_each": 4399144
+    },
+    {
+      "sha256": "9a3f3e3dc64e52d9676bcb2bcc35980678813727dcc1421f4f8dfc835af39558",
+      "kept": "提交包\\历史ZERO补包_20260916\\01_ZERO_stage63_56000_TTA8.zip",
+      "deleted": [
+        "提交包\\历史checkpoint_ZERO补包_20260916\\stage63_56000__ZERO_stage63_56000_TTA8.zip"
+      ],
+      "bytes_each": 4968134
+    },
+    {
+      "sha256": "1f513173e86033065ca422c7afcb33f13a8262114078dfe703511357b6006965",
+      "kept": "提交包\\历史ZERO补包_20260916\\02_ZERO_stage66_52000_TTA8.zip",
+      "deleted": [
+        "提交包\\历史checkpoint_ZERO补包_20260916\\stage66_52000__ZERO_stage66_52000_TTA8.zip"
+      ],
+      "bytes_each": 4965622
+    },
+    {
+      "sha256": "b04caf529fd9b8117d96070abb7ec1cbe1db44aa8da2412afbd19a67e3aa432c",
+      "kept": "提交包\\历史ZERO补包_20260916\\04_ZERO_stage66_56000_TTA8.zip",
+      "deleted": [
+        "提交包\\历史checkpoint_ZERO补包_20260916\\stage66_56000__ZERO_stage66_56000_TTA8.zip"
+      ],
+      "bytes_each": 4919773
+    },
+    {
+      "sha256": "787577f04d25532dd4014e6551061cd613ef1bc600e08fdd892cbba90438461d",
+      "kept": "提交包\\历史ZERO补包_20260916\\08_ZERO_stage66_best51800_TTA8.zip",
+      "deleted": [
+        "提交包\\历史checkpoint_ZERO补包_20260916\\stage66_best51800__ZERO_stage66_best51800_TTA8.zip"
+      ],
+      "bytes_each": 4905894
+    },
+    {
+      "sha256": "d0a7b37747138bb0e0456c71dffd4e4808098ece33dfb2dffd1a1e21317707e2",
+      "kept": "提交包\\历史提交包\\01_best51800_TTA8_ZERO.zip",
+      "deleted": [
+        "提交包\\清单与记录\\批次目录_原始\\submit_batch_01\\01_best51800_TTA8_ZERO.zip"
+      ],
+      "bytes_each": 5017585
+    },
+    {
+      "sha256": "369242e3789b51a6ab18158da76744fa2e5aa34707676cce334e4eec9fc6a286",
+      "kept": "提交包\\历史提交包\\s52000_C_TTA8_FIXED8D.zip",
+      "deleted": [
+        "提交包\\历史提交包\\01_stage66_s52000_TTA8FIXED8D.zip"
+      ],
+      "bytes_each": 4416569
+    },
+    {
+      "sha256": "6e1fbbd7826bd41510da4ac24fdf6dc04b8a99ce4ecb0887e666b8a27990b48d",
+      "kept": "提交包\\历史提交包\\02_best51800_LOCKED8D.zip",
+      "deleted": [
+        "提交包\\清单与记录\\批次目录_原始\\submit_batch_01\\02_best51800_LOCKED8D.zip"
+      ],
+      "bytes_each": 4965820
+    },
+    {
+      "sha256": "d53fc19add24feca1c753d52c315dd877728bd92b21b3a457c93d2ed1f01624c",
+      "kept": "提交包\\历史提交包\\s56000_R_TTA8_FIXED8D.zip",
+      "deleted": [
+        "提交包\\历史提交包\\02_stage59_s56000_TTA8FIXED8D.zip"
+      ],
+      "bytes_each": 4346472
+    },
+    {
+      "sha256": "e0273d18ec97ef31db67403ff8184981b42fa281c062e4f76950f059f1a9fe76",
+      "kept": "提交包\\历史提交包\\03_best51800_CHAMPION8D.zip",
+      "deleted": [
+        "提交包\\清单与记录\\批次目录_原始\\submit_batch_01\\03_best51800_CHAMPION8D.zip"
+      ],
+      "bytes_each": 4967124
+    },
+    {
+      "sha256": "f5cbc4f5e735817de4aac093db8a7261c11687aa1fb2abe9be30be0cf18d7c37",
+      "kept": "提交包\\历史提交包\\localbest_C_TTA8_FIXED8D.zip",
+      "deleted": [
+        "提交包\\历史提交包\\03_stage66_s51800best_TTA8FIXED8D.zip"
+      ],
+      "bytes_each": 4361737
+    },
+    {
+      "sha256": "d369a127b9108897679e0043632d50fc93605beaa9be8defa0a971e3b123ebd3",
+      "kept": "提交包\\历史提交包\\04_best51800_LOCKED_bg000.zip",
+      "deleted": [
+        "提交包\\清单与记录\\批次目录_原始\\submit_batch_02\\04_best51800_LOCKED_bg000.zip"
+      ],
+      "bytes_each": 4964089
+    },
+    {
+      "sha256": "6f783728fa7d02a49044df49318f0db237fde12620a41216b6cf246f7829e52f",
+      "kept": "提交包\\历史提交包\\s56000_C_TTA8_FIXED8D.zip",
+      "deleted": [
+        "提交包\\历史提交包\\04_stage66_s56000_TTA8FIXED8D.zip"
+      ],
+      "bytes_each": 4362213
+    },
+    {
+      "sha256": "33f187d8f046ab592ecd6f88762d85c7c6f9a81f3f8723728d0cfbf64cbb5ba9",
+      "kept": "提交包\\历史提交包\\05_best51800_LOCKED_bg-040.zip",
+      "deleted": [
+        "提交包\\清单与记录\\批次目录_原始\\submit_batch_02\\05_best51800_LOCKED_bg-040.zip"
+      ],
+      "bytes_each": 4967930
+    },
+    {
+      "sha256": "f4d636c55d37af8315ca0809732498b0702ae72d605291b8e063e3705b65ae68",
+      "kept": "提交包\\历史提交包\\06_best51800_LOCKED_bg-060.zip",
+      "deleted": [
+        "提交包\\清单与记录\\批次目录_原始\\submit_batch_02\\06_best51800_LOCKED_bg-060.zip"
+      ],
+      "bytes_each": 4969203
+    },
+    {
+      "sha256": "b70012e8adc9951ee7b13239f81130b53e96fbd37ea5cf4f9c70adaa2e4683b1",
+      "kept": "提交包\\历史提交包\\s52000_C_TTA8.zip",
+      "deleted": [
+        "提交包\\历史提交包\\06_stage66_s52000_TTA8only.zip"
+      ],
+      "bytes_each": 4445261
+    },
+    {
+      "sha256": "d42f41d84bb614e0b5e5621fdd63760efbb68db3ee4294e00118cf4007987e6f",
+      "kept": "提交包\\历史提交包\\07_stage23_best56000_ZERO.zip",
+      "deleted": [
+        "提交包\\清单与记录\\批次目录_原始\\submit_batch_03\\07_stage23_best56000_ZERO.zip"
+      ],
+      "bytes_each": 4945857
+    },
+    {
+      "sha256": "02ccbef9ebb9b36faed26b61c8319dd0835f5e66fac1e38c953a87264b993c9e",
+      "kept": "提交包\\历史提交包\\08_stage23_best56000_CHAMPION8D.zip",
+      "deleted": [
+        "提交包\\清单与记录\\批次目录_原始\\submit_batch_03\\08_stage23_best56000_CHAMPION8D.zip"
+      ],
+      "bytes_each": 4923383
+    },
+    {
+      "sha256": "a35f6b26a80143b0f68577baa403f52032a587d4a9461da6a41cb7f78c11d113",
+      "kept": "提交包\\历史提交包\\localbest_C_TTA8.zip",
+      "deleted": [
+        "提交包\\历史提交包\\08_stage66_s51800best_TTA8only.zip"
+      ],
+      "bytes_each": 4379914
+    },
+    {
+      "sha256": "310d18734c2ad7c8b50494343f54f4802ed86592fa94165794cf72ef5388a806",
+      "kept": "提交包\\历史提交包\\s56000_C_TTA8.zip",
+      "deleted": [
+        "提交包\\历史提交包\\09_stage66_s56000_TTA8only.zip"
+      ],
+      "bytes_each": 4395032
+    },
+    {
+      "sha256": "f822a7385bde31debda57aafa2c0281f482cca6789a5f33400b28cc3211ae030",
+      "kept": "提交包\\历史提交包\\ax4_barren_p050.zip",
+      "deleted": [
+        "提交包\\历史提交包\\10_stage23_ax4_Barren_p050.zip"
+      ],
+      "bytes_each": 4941509
+    },
+    {
+      "sha256": "c6385e41469a3a5b92f8fcac5d713e649fd27bec51ca98a4986ca129276f1448",
+      "kept": "提交包\\历史提交包\\ax4_barren_m050.zip",
+      "deleted": [
+        "提交包\\历史提交包\\11_stage23_ax4_Barren_m050.zip"
+      ],
+      "bytes_each": 4908760
+    },
+    {
+      "sha256": "ad10be1c338cbd396bcf1a06d96e7a07f70629800378cf91c514b96a6e963e08",
+      "kept": "提交包\\历史提交包\\ax6_agricultural_p040.zip",
+      "deleted": [
+        "提交包\\历史提交包\\12_stage23_ax6_Agricultural_p040.zip"
+      ],
+      "bytes_each": 4912046
+    },
+    {
+      "sha256": "cfa438d6a2cc67d02471d2f1c8e4259d509d74512e0a40a10458051abeec2daf",
+      "kept": "提交包\\历史提交包\\ax6_agricultural_m040.zip",
+      "deleted": [
+        "提交包\\历史提交包\\13_stage23_ax6_Agricultural_m040.zip"
+      ],
+      "bytes_each": 4935806
+    },
+    {
+      "sha256": "74fe99338dbabbd9180e231b48807e68fa488234f593eacd51ac228d628f3634",
+      "kept": "提交包\\历史提交包\\ax5_vegetation_p040.zip",
+      "deleted": [
+        "提交包\\历史提交包\\14_stage23_ax5_Vegetation_p040.zip"
+      ],
+      "bytes_each": 4924688
+    },
+    {
+      "sha256": "757b8a31fe5d530590bc7fba5aff9954ceb53ac74aad3a83c3253ebbdf44ce7c",
+      "kept": "提交包\\历史提交包\\ax5_vegetation_m040.zip",
+      "deleted": [
+        "提交包\\历史提交包\\15_stage23_ax5_Vegetation_m040.zip"
+      ],
+      "bytes_each": 4926958
+    },
+    {
+      "sha256": "6fba1287c04adb160b30a14b41ac839f95121685737445948c70e116599be621",
+      "kept": "提交包\\历史提交包\\ax3_water_p030.zip",
+      "deleted": [
+        "提交包\\历史提交包\\16_stage23_ax3_Water_p030.zip"
+      ],
+      "bytes_each": 4924670
+    },
+    {
+      "sha256": "6b5f9315885111995e01f7cc0fdcc7414a8dffba058db7fbde0a3c1654d00b97",
+      "kept": "提交包\\历史提交包\\ax3_water_m030.zip",
+      "deleted": [
+        "提交包\\历史提交包\\17_stage23_ax3_Water_m030.zip"
+      ],
+      "bytes_each": 4922043
+    },
+    {
+      "sha256": "51b6d7ea08b316e83b4575a01b119606339c0b3450ddea002ab3424f0eb59416",
+      "kept": "提交包\\历史提交包\\54.zip",
+      "deleted": [
+        "提交包\\历史提交包\\s62_ax_agric_m04.zip"
+      ],
+      "bytes_each": 4452450
+    },
+    {
+      "sha256": "2bf0bd4cd05c4fa0d34c0ead7537c36f3894597afb2aa8c41eecb40fee7ecc89",
+      "kept": "提交包\\历史提交包\\55.zip",
+      "deleted": [
+        "提交包\\历史提交包\\s62_ax_agric_p04.zip"
+      ],
+      "bytes_each": 4439782
+    },
+    {
+      "sha256": "5831bf41d890ce26dbe389db47be3759bc7311ac283087f25e27aa368a106fdc",
+      "kept": "提交包\\历史提交包\\56.zip",
+      "deleted": [
+        "提交包\\历史提交包\\s62_ax_barren_p04.zip"
+      ],
+      "bytes_each": 4457113
+    },
+    {
+      "sha256": "515848748b70805e179c13e971e4097651bbfb32c4f3a66e34ca94b2e0da446c",
+      "kept": "提交包\\历史提交包\\57.zip",
+      "deleted": [
+        "提交包\\历史提交包\\s62_ax_barren_m04.zip"
+      ],
+      "bytes_each": 4437452
+    },
+    {
+      "sha256": "f4eda7c40812beaf3a18d2a1e8c657536cb4599a031c1ef2d906445c5aa247d7",
+      "kept": "提交包\\历史提交包\\58.zip",
+      "deleted": [
+        "提交包\\历史提交包\\s62_ax_veg_p04.zip"
+      ],
+      "bytes_each": 4451829
+    },
+    {
+      "sha256": "616b1971bf1266cc848155283e9d8d50d545b715b176bda808e46b21fba7d5a8",
+      "kept": "提交包\\历史提交包\\59.zip",
+      "deleted": [
+        "提交包\\历史提交包\\s62_ax_veg_m04.zip"
+      ],
+      "bytes_each": 4446995
+    },
+    {
+      "sha256": "d813302204a7458895b92e127088343f1d637206c312649c7d12352da7beef06",
+      "kept": "提交包\\历史提交包\\60.zip",
+      "deleted": [
+        "提交包\\历史提交包\\s62_ax_water_p04.zip"
+      ],
+      "bytes_each": 4445730
+    },
+    {
+      "sha256": "5a3e9f8381c28875a660235bed49877d2c156f4b7eecc71817526782c9ea6231",
+      "kept": "提交包\\历史提交包\\61.zip",
+      "deleted": [
+        "提交包\\历史提交包\\s62_ax_water_m04.zip"
+      ],
+      "bytes_each": 4446650
+    },
+    {
+      "sha256": "747caaa2bc55d4b972e9b264e8ae2ca1ddea6913390aca86ce183c20525aaa0d",
+      "kept": "提交包\\历史提交包\\62.zip",
+      "deleted": [
+        "提交包\\历史提交包\\pw01best_mean_zero.zip"
+      ],
+      "bytes_each": 5040089
+    },
+    {
+      "sha256": "5f22b0b4e56918d1da81ba1478a175a3a9178c17f3f3d981ebbb0fe983bec9a7",
+      "kept": "提交包\\历史提交包\\63.zip",
+      "deleted": [
+        "提交包\\历史提交包\\pw01best_mean_alpha1.zip"
+      ],
+      "bytes_each": 5000795
+    },
+    {
+      "sha256": "683f259539e861534e2dcaa689a9eabc807fc55020bc45c28e9835c1839b2508",
+      "kept": "提交包\\对照与诊断_不提交\\champion_repro.zip",
+      "deleted": [
+        "提交包\\对照与诊断_不提交\\09_stage23_champion_repro.zip"
+      ],
+      "bytes_each": 4923383
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+_base_: _base.yaml
+experiment_id: step06_domain_aug
+step: 6
+transforms:
+  domain_aug:
+    enabled: true

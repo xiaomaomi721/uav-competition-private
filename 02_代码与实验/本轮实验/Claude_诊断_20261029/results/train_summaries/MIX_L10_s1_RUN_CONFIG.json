@@ -1,0 +1,10 @@
+{
+  "name": "MIX_L10_s1",
+  "seed": 20261028,
+  "steps": 3594,
+  "lam_t": 1.0,
+  "beta": 0.01,
+  "h75_sha256": "b5eea2795d8a6d90c803a15b2ca66cf0abcf62322ef1aacd0d4d0ec82098a28a",
+  "base_recipe": "reliable_kd C1 (rkd_train.py)",
+  "change": "target input = ClassMix(FDA(src->tgt), tgt); CE(z+b,y_src) on pasted, C1 KL elsewhere"
+}

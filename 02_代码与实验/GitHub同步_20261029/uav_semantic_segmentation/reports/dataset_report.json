@@ -1,0 +1,921 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-07-10T06:22:53.647505+00:00",
+  "dataset_root": "<DATASET_ROOT>",
+  "output_dir": ".\\reports",
+  "parameters": {
+    "sample_count_requested": 20,
+    "sample_count_effective_minimum_20": 20,
+    "seed": 42,
+    "compute_hash": false,
+    "workers": 4
+  },
+  "safety": {
+    "dataset_opened_read_only": true,
+    "writes_below_dataset_root": false,
+    "labels_converted_interpolated_or_normalized": false,
+    "training_started": false,
+    "data_split_created": false
+  },
+  "layout_detection": {
+    "train_image_candidates": [
+      "<DATASET_ROOT>\\train\\images"
+    ],
+    "train_label_candidates": [
+      "<DATASET_ROOT>\\train\\masks"
+    ],
+    "test_image_candidates": [
+      "<DATASET_ROOT>\\images"
+    ],
+    "example_directories": [
+      "<DATASET_ROOT>\\Examples",
+      "<DATASET_ROOT>\\Examples\\images",
+      "<DATASET_ROOT>\\Examples\\masks"
+    ],
+    "official_files": [
+      "<DATASET_ROOT>\\Examples\\Label.txt",
+      "<DATASET_ROOT>\\Label.txt"
+    ],
+    "submission_candidates": [],
+    "selected_train_images": "<DATASET_ROOT>\\train\\images",
+    "selected_train_labels": "<DATASET_ROOT>\\train\\masks",
+    "selected_test_images": "<DATASET_ROOT>\\images"
+  },
+  "directory_tree": [
+    {
+      "path": ".",
+      "direct_file_count": 1,
+      "direct_size_bytes": 196
+    },
+    {
+      "path": "Examples",
+      "direct_file_count": 1,
+      "direct_size_bytes": 196
+    },
+    {
+      "path": "Examples\\images",
+      "direct_file_count": 11,
+      "direct_size_bytes": 20255277
+    },
+    {
+      "path": "Examples\\masks",
+      "direct_file_count": 11,
+      "direct_size_bytes": 105804
+    },
+    {
+      "path": "images",
+      "direct_file_count": 500,
+      "direct_size_bytes": 877231519
+    },
+    {
+      "path": "train",
+      "direct_file_count": 0,
+      "direct_size_bytes": 0
+    },
+    {
+      "path": "train\\images",
+      "direct_file_count": 6996,
+      "direct_size_bytes": 12499186632
+    },
+    {
+      "path": "train\\masks",
+      "direct_file_count": 6996,
+      "direct_size_bytes": 72293444
+    }
+  ],
+  "official_documentation": {
+    "files": [
+      {
+        "path": "<DATASET_ROOT>\\Examples\\Label.txt",
+        "relative_path": "Examples\\Label.txt",
+        "size_bytes": 196,
+        "read_error": null,
+        "parsed_class_mapping": {
+          "0": "Ignore",
+          "1": "Background",
+          "2": "Building",
+          "3": "Road",
+          "4": "Water",
+          "5": "Barren",
+          "6": "Vegetation",
+          "7": "Agricultural",
+          "8": "Vehicle"
+        },
+        "content": "LABEL_NAMES = {\r\n    0: \"Ignore\",\r\n    1: \"Background\",\r\n    2: \"Building\",\r\n    3: \"Road\",\r\n    4: \"Water\",\r\n    5: \"Barren\",\r\n    6: \"Vegetation\",\r\n    7: \"Agricultural\",\r\n    8: \"Vehicle\",\r\n}"
+      },
+      {
+        "path": "<DATASET_ROOT>\\Label.txt",
+        "relative_path": "Label.txt",
+        "size_bytes": 196,
+        "read_error": null,
+        "parsed_class_mapping": {
+          "0": "Ignore",
+          "1": "Background",
+          "2": "Building",
+          "3": "Road",
+          "4": "Water",
+          "5": "Barren",
+          "6": "Vegetation",
+          "7": "Agricultural",
+          "8": "Vehicle"
+        },
+        "content": "LABEL_NAMES = {\r\n    0: \"Ignore\",\r\n    1: \"Background\",\r\n    2: \"Building\",\r\n    3: \"Road\",\r\n    4: \"Water\",\r\n    5: \"Barren\",\r\n    6: \"Vegetation\",\r\n    7: \"Agricultural\",\r\n    8: \"Vehicle\",\r\n}"
+      }
+    ],
+    "class_mapping_confirmed": true,
+    "class_mapping": {
+      "0": "Ignore",
+      "1": "Background",
+      "2": "Building",
+      "3": "Road",
+      "4": "Water",
+      "5": "Barren",
+      "6": "Vegetation",
+      "7": "Agricultural",
+      "8": "Vehicle"
+    },
+    "mapping_conflict": false,
+    "ignore_index_confirmed": true,
+    "ignore_index": 0,
+    "background_class_confirmed": true,
+    "background_class_id": 1,
+    "official_palette_confirmed": false,
+    "official_palette": null,
+    "filename_rule_confirmed": false,
+    "split_rule_confirmed": false,
+    "submission_format_confirmed_from_files": false
+  },
+  "counts": {
+    "train_images": 6996,
+    "train_labels": 6996,
+    "test_images": 500,
+    "missing_labels": 0,
+    "orphan_labels": 0,
+    "train_image_stem_conflicts": 0,
+    "train_label_stem_conflicts": 0,
+    "all_files_below_dataset_root": 14516
+  },
+  "extension_counts": {
+    ".png": 14514,
+    ".txt": 2
+  },
+  "split_extension_counts": {
+    "train_images": {
+      ".png": 6996
+    },
+    "train_labels": {
+      ".png": 6996
+    },
+    "test_images": {
+      ".png": 500
+    }
+  },
+  "pairing": {
+    "missing_label_images": [],
+    "orphan_labels": [],
+    "train_image_stem_conflicts": {},
+    "train_label_stem_conflicts": {}
+  },
+  "image_inspection": {
+    "train": {
+      "size_distribution": {
+        "1024x1024": 6996
+      },
+      "mode_distribution": {
+        "RGB": 6996
+      },
+      "channel_distribution": {
+        "3": 6996
+      },
+      "dtype_distribution": {
+        "uint8": 6996
+      },
+      "format_distribution": {
+        "PNG": 6996
+      },
+      "min_value": 0.0,
+      "max_value": 255.0
+    },
+    "test": {
+      "size_distribution": {
+        "1024x1024": 500
+      },
+      "mode_distribution": {
+        "RGB": 500
+      },
+      "channel_distribution": {
+        "3": 500
+      },
+      "dtype_distribution": {
+        "uint8": 500
+      },
+      "format_distribution": {
+        "PNG": 500
+      },
+      "min_value": 0.0,
+      "max_value": 255.0
+    }
+  },
+  "label_inspection": {
+    "size_distribution": {
+      "1024x1024": 6996
+    },
+    "mode_distribution": {
+      "L": 6996
+    },
+    "channel_distribution": {
+      "1": 6996
+    },
+    "dtype_distribution": {
+      "uint8": 6996
+    },
+    "format_distribution": {
+      "PNG": 6996
+    },
+    "all_unique_values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "values_outside_0_8": [],
+    "labels_containing_255": 0,
+    "palette_label_count": 0,
+    "non_single_channel_count": 0,
+    "single_class_label_count": 16,
+    "image_label_size_mismatch_count": 0
+  },
+  "class_statistics": [
+    {
+      "class_id": 0,
+      "class_name": "Ignore",
+      "is_ignore": true,
+      "total_pixels": 99632059,
+      "pixel_ratio_all_pixels": 0.013581551709401396,
+      "pixel_ratio_valid_pixels": null,
+      "images_with_class": 415,
+      "image_frequency": 0.05931961120640366,
+      "mean_image_pixel_ratio": 0.013581551709401396,
+      "median_image_pixel_ratio": 0.0,
+      "max_image_pixel_ratio": 0.5340518951416016,
+      "present_images_below_0_1_percent": 31,
+      "present_images_below_1_percent": 33,
+      "present_images_below_5_percent": 58,
+      "images_without_class": 6581
+    },
+    {
+      "class_id": 1,
+      "class_name": "Background",
+      "is_ignore": false,
+      "total_pixels": 2026922868,
+      "pixel_ratio_all_pixels": 0.2763042139148221,
+      "pixel_ratio_valid_pixels": 0.2801085222946104,
+      "images_with_class": 6777,
+      "image_frequency": 0.9686963979416809,
+      "mean_image_pixel_ratio": 0.2763042139148221,
+      "median_image_pixel_ratio": 0.22057533264160156,
+      "max_image_pixel_ratio": 1.0,
+      "present_images_below_0_1_percent": 52,
+      "present_images_below_1_percent": 216,
+      "present_images_below_5_percent": 852,
+      "images_without_class": 219
+    },
+    {
+      "class_id": 2,
+      "class_name": "Building",
+      "is_ignore": false,
+      "total_pixels": 1322537272,
+      "pixel_ratio_all_pixels": 0.18028442378450354,
+      "pixel_ratio_valid_pixels": 0.18276667888452933,
+      "images_with_class": 4592,
+      "image_frequency": 0.6563750714694111,
+      "mean_image_pixel_ratio": 0.18028442378450354,
+      "median_image_pixel_ratio": 0.04412984848022461,
+      "max_image_pixel_ratio": 0.9754486083984375,
+      "present_images_below_0_1_percent": 135,
+      "present_images_below_1_percent": 552,
+      "present_images_below_5_percent": 1159,
+      "images_without_class": 2404
+    },
+    {
+      "class_id": 3,
+      "class_name": "Road",
+      "is_ignore": false,
+      "total_pixels": 645526498,
+      "pixel_ratio_all_pixels": 0.08799628955149665,
+      "pixel_ratio_valid_pixels": 0.0892078708625013,
+      "images_with_class": 4367,
+      "image_frequency": 0.6242138364779874,
+      "mean_image_pixel_ratio": 0.08799628955149665,
+      "median_image_pixel_ratio": 0.02187347412109375,
+      "max_image_pixel_ratio": 0.9549837112426758,
+      "present_images_below_0_1_percent": 72,
+      "present_images_below_1_percent": 409,
+      "present_images_below_5_percent": 1483,
+      "images_without_class": 2629
+    },
+    {
+      "class_id": 4,
+      "class_name": "Water",
+      "is_ignore": false,
+      "total_pixels": 455228715,
+      "pixel_ratio_all_pixels": 0.06205545076988574,
+      "pixel_ratio_valid_pixels": 0.06290986434552592,
+      "images_with_class": 2537,
+      "image_frequency": 0.3626357918810749,
+      "mean_image_pixel_ratio": 0.06205545076988574,
+      "median_image_pixel_ratio": 0.0,
+      "max_image_pixel_ratio": 1.0,
+      "present_images_below_0_1_percent": 45,
+      "present_images_below_1_percent": 270,
+      "present_images_below_5_percent": 891,
+      "images_without_class": 4459
+    },
+    {
+      "class_id": 5,
+      "class_name": "Barren",
+      "is_ignore": false,
+      "total_pixels": 132748857,
+      "pixel_ratio_all_pixels": 0.018095937028757295,
+      "pixel_ratio_valid_pixels": 0.018345091842226206,
+      "images_with_class": 1098,
+      "image_frequency": 0.1569468267581475,
+      "mean_image_pixel_ratio": 0.018095937028757295,
+      "median_image_pixel_ratio": 0.0,
+      "max_image_pixel_ratio": 0.9963560104370117,
+      "present_images_below_0_1_percent": 35,
+      "present_images_below_1_percent": 221,
+      "present_images_below_5_percent": 563,
+      "images_without_class": 5898
+    },
+    {
+      "class_id": 6,
+      "class_name": "Vegetation",
+      "is_ignore": false,
+      "total_pixels": 2082563464,
+      "pixel_ratio_all_pixels": 0.28388897768765464,
+      "pixel_ratio_valid_pixels": 0.2877977172665581,
+      "images_with_class": 6094,
+      "image_frequency": 0.8710691823899371,
+      "mean_image_pixel_ratio": 0.28388897768765464,
+      "median_image_pixel_ratio": 0.1965794563293457,
+      "max_image_pixel_ratio": 1.0,
+      "present_images_below_0_1_percent": 58,
+      "present_images_below_1_percent": 363,
+      "present_images_below_5_percent": 1093,
+      "images_without_class": 902
+    },
+    {
+      "class_id": 7,
+      "class_name": "Agricultural",
+      "is_ignore": false,
+      "total_pixels": 514001335,
+      "pixel_ratio_all_pixels": 0.07006716291995782,
+      "pixel_ratio_valid_pixels": 0.07103188615478535,
+      "images_with_class": 1192,
+      "image_frequency": 0.1703830760434534,
+      "mean_image_pixel_ratio": 0.07006716291995782,
+      "median_image_pixel_ratio": 0.0,
+      "max_image_pixel_ratio": 0.9938726425170898,
+      "present_images_below_0_1_percent": 17,
+      "present_images_below_1_percent": 69,
+      "present_images_below_5_percent": 181,
+      "images_without_class": 5804
+    },
+    {
+      "class_id": 8,
+      "class_name": "Vehicle",
+      "is_ignore": false,
+      "total_pixels": 56676628,
+      "pixel_ratio_all_pixels": 0.007725992633520773,
+      "pixel_ratio_valid_pixels": 0.007832368349263373,
+      "images_with_class": 1846,
+      "image_frequency": 0.2638650657518582,
+      "mean_image_pixel_ratio": 0.007725992633520773,
+      "median_image_pixel_ratio": 0.0,
+      "max_image_pixel_ratio": 0.4718465805053711,
+      "present_images_below_0_1_percent": 84,
+      "present_images_below_1_percent": 710,
+      "present_images_below_5_percent": 1498,
+      "images_without_class": 5150
+    }
+  ],
+  "class_distribution": {
+    "total_label_images_analyzed": 6996,
+    "total_all_pixels": 7335837696,
+    "total_valid_pixels": 7236205637,
+    "valid_pixel_definition": "all pixels except confirmed ignore_index=0",
+    "pixel_level_imbalance_ratio_max_to_min_non_ignore": 36.74466067388483,
+    "class_count_per_image_distribution_excluding_ignore": {
+      "1": 28,
+      "2": 602,
+      "3": 1848,
+      "4": 1928,
+      "5": 1775,
+      "6": 565,
+      "7": 250
+    },
+    "class_count_per_image_distribution_including_ignore": {
+      "1": 16,
+      "2": 599,
+      "3": 1814,
+      "4": 1878,
+      "5": 1772,
+      "6": 586,
+      "7": 274,
+      "8": 57
+    },
+    "top_class_combinations_excluding_ignore": [
+      {
+        "class_ids": [
+          1,
+          2,
+          3,
+          6,
+          8
+        ],
+        "image_count": 907,
+        "image_frequency": 0.12964551172098343
+      },
+      {
+        "class_ids": [
+          1,
+          2,
+          6
+        ],
+        "image_count": 702,
+        "image_frequency": 0.10034305317324185
+      },
+      {
+        "class_ids": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "image_count": 563,
+        "image_frequency": 0.08047455688965123
+      },
+      {
+        "class_ids": [
+          1,
+          4,
+          6
+        ],
+        "image_count": 421,
+        "image_frequency": 0.06017724413950829
+      },
+      {
+        "class_ids": [
+          1,
+          3,
+          6,
+          8
+        ],
+        "image_count": 336,
+        "image_frequency": 0.048027444253859346
+      },
+      {
+        "class_ids": [
+          1,
+          3,
+          6
+        ],
+        "image_count": 299,
+        "image_frequency": 0.04273870783304746
+      },
+      {
+        "class_ids": [
+          1,
+          6
+        ],
+        "image_count": 296,
+        "image_frequency": 0.04230989136649514
+      },
+      {
+        "class_ids": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "image_count": 294,
+        "image_frequency": 0.04202401372212693
+      },
+      {
+        "class_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "image_count": 250,
+        "image_frequency": 0.0357347055460263
+      },
+      {
+        "class_ids": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        "image_count": 245,
+        "image_frequency": 0.035020011435105775
+      },
+      {
+        "class_ids": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "image_count": 238,
+        "image_frequency": 0.03401943967981704
+      },
+      {
+        "class_ids": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "image_count": 226,
+        "image_frequency": 0.03230417381360778
+      },
+      {
+        "class_ids": [
+          1,
+          2,
+          3
+        ],
+        "image_count": 159,
+        "image_frequency": 0.022727272727272728
+      },
+      {
+        "class_ids": [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        "image_count": 144,
+        "image_frequency": 0.02058319039451115
+      },
+      {
+        "class_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "image_count": 127,
+        "image_frequency": 0.01815323041738136
+      },
+      {
+        "class_ids": [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "image_count": 126,
+        "image_frequency": 0.018010291595197257
+      },
+      {
+        "class_ids": [
+          3,
+          6
+        ],
+        "image_count": 118,
+        "image_frequency": 0.016866781017724413
+      },
+      {
+        "class_ids": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "image_count": 109,
+        "image_frequency": 0.015580331618067466
+      },
+      {
+        "class_ids": [
+          1,
+          2
+        ],
+        "image_count": 102,
+        "image_frequency": 0.014579759862778732
+      },
+      {
+        "class_ids": [
+          1,
+          6,
+          8
+        ],
+        "image_count": 86,
+        "image_frequency": 0.012292738707833047
+      }
+    ],
+    "dominant_single_class_image_counts": {
+      "50_percent": 4880,
+      "80_percent": 973,
+      "95_percent": 84
+    },
+    "background_high_ratio_image_counts": {
+      "50_percent": 1275,
+      "80_percent": 176,
+      "95_percent": 15
+    },
+    "extremely_small_target_candidate_images_below_0_1_percent": {
+      "1": 52,
+      "2": 135,
+      "3": 72,
+      "4": 45,
+      "5": 35,
+      "6": 58,
+      "7": 17,
+      "8": 84
+    }
+  },
+  "duplicate_inspection": {
+    "method_note": "Same file size is a weak signal. Exact dHash equality is a perceptual-hash candidate and is not proof of byte identity.",
+    "train_same_size_group_count": 22,
+    "train_same_size_groups": [
+      {
+        "size_bytes": 1222218,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\3614.png",
+          "<DATASET_ROOT>\\train\\images\\6524.png"
+        ]
+      },
+      {
+        "size_bytes": 1356136,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\1464.png",
+          "<DATASET_ROOT>\\train\\images\\3115.png"
+        ]
+      },
+      {
+        "size_bytes": 1694980,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\2520.png",
+          "<DATASET_ROOT>\\train\\images\\3094.png"
+        ]
+      },
+      {
+        "size_bytes": 1723238,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\0369.png",
+          "<DATASET_ROOT>\\train\\images\\4108.png"
+        ]
+      },
+      {
+        "size_bytes": 1750431,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\3333.png",
+          "<DATASET_ROOT>\\train\\images\\4279.png"
+        ]
+      },
+      {
+        "size_bytes": 1808828,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\3593.png",
+          "<DATASET_ROOT>\\train\\images\\4506.png"
+        ]
+      },
+      {
+        "size_bytes": 1813345,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\4029.png",
+          "<DATASET_ROOT>\\train\\images\\4366.png"
+        ]
+      },
+      {
+        "size_bytes": 1846523,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\1791.png",
+          "<DATASET_ROOT>\\train\\images\\6507.png"
+        ]
+      },
+      {
+        "size_bytes": 1846590,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\2229.png",
+          "<DATASET_ROOT>\\train\\images\\6445.png"
+        ]
+      },
+      {
+        "size_bytes": 1905370,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\3411.png",
+          "<DATASET_ROOT>\\train\\images\\5326.png"
+        ]
+      },
+      {
+        "size_bytes": 1913498,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\2030.png",
+          "<DATASET_ROOT>\\train\\images\\4863.png"
+        ]
+      },
+      {
+        "size_bytes": 1922626,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\0347.png",
+          "<DATASET_ROOT>\\train\\images\\6247.png"
+        ]
+      },
+      {
+        "size_bytes": 1927117,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\1616.png",
+          "<DATASET_ROOT>\\train\\images\\4281.png"
+        ]
+      },
+      {
+        "size_bytes": 1930135,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\4915.png",
+          "<DATASET_ROOT>\\train\\images\\5674.png"
+        ]
+      },
+      {
+        "size_bytes": 1978158,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\0877.png",
+          "<DATASET_ROOT>\\train\\images\\5601.png"
+        ]
+      },
+      {
+        "size_bytes": 1996164,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\0287.png",
+          "<DATASET_ROOT>\\train\\images\\6950.png"
+        ]
+      },
+      {
+        "size_bytes": 2012180,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\5381.png",
+          "<DATASET_ROOT>\\train\\images\\6895.png"
+        ]
+      },
+      {
+        "size_bytes": 2082662,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\1628.png",
+          "<DATASET_ROOT>\\train\\images\\3384.png"
+        ]
+      },
+      {
+        "size_bytes": 2126908,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\1664.png",
+          "<DATASET_ROOT>\\train\\images\\4498.png"
+        ]
+      },
+      {
+        "size_bytes": 2128590,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\1368.png",
+          "<DATASET_ROOT>\\train\\images\\5155.png"
+        ]
+      },
+      {
+        "size_bytes": 2143706,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\0112.png",
+          "<DATASET_ROOT>\\train\\images\\3231.png"
+        ]
+      },
+      {
+        "size_bytes": 2184755,
+        "count": 2,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\0747.png",
+          "<DATASET_ROOT>\\train\\images\\4923.png"
+        ]
+      }
+    ],
+    "train_identical_dhash_group_count": 1,
+    "train_identical_dhash_groups": [
+      {
+        "dhash": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "count": 3,
+        "files": [
+          "<DATASET_ROOT>\\train\\images\\1575.png",
+          "<DATASET_ROOT>\\train\\images\\3913.png",
+          "<DATASET_ROOT>\\train\\images\\4143.png"
+        ]
+      }
+    ],
+    "train_test_identical_dhash_group_count": 0,
+    "train_test_identical_dhash_groups": [],
+    "sha256_computed": false,
+    "train_identical_sha256_groups": [],
+    "train_test_identical_sha256_groups": []
+  },
+  "domain_signals": {
+    "train_filename_prefix_distribution": {
+      "[numeric-only]": 6996
+    },
+    "test_filename_prefix_distribution": {
+      "test": 500
+    },
+    "train_mean_intensity_quantiles": {
+      "min": 30.00670878092448,
+      "q1": 78.86229395866394,
+      "median": 97.28023338317871,
+      "q3": 122.51161074638367,
+      "max": 204.7245070139567
+    },
+    "test_mean_intensity_quantiles": {
+      "min": 37.73413499196371,
+      "q1": 74.94933088620503,
+      "median": 89.60526053110758,
+      "q3": 121.06983391443887,
+      "max": 179.13144079844156
+    },
+    "train_std_intensity_quantiles": {
+      "min": 5.378130863619553,
+      "q1": 32.48296886175254,
+      "median": 40.28270039573833,
+      "q3": 48.90714645418776,
+      "max": 80.78302774565296
+    },
+    "test_std_intensity_quantiles": {
+      "min": 7.279049922005971,
+      "q1": 31.149368648908016,
+      "median": 39.2662314878247,
+      "q3": 48.98540278353105,
+      "max": 78.25617720286806
+    },
+    "interpretation_limit": "Preliminary signals only; no definitive domain conclusion is made."
+  },
+  "integrity": {
+    "unreadable_or_empty_count": 0,
+    "unexpected_image_size_count": 0,
+    "unexpected_image_channel_count": 0,
+    "abnormal_row_count": 16
+  },
+  "visual_samples": [
+    ".\\reports\\visual_samples\\sample_01_5238.png",
+    ".\\reports\\visual_samples\\sample_02_0912.png",
+    ".\\reports\\visual_samples\\sample_03_0204.png",
+    ".\\reports\\visual_samples\\sample_04_6074.png",
+    ".\\reports\\visual_samples\\sample_05_2253.png",
+    ".\\reports\\visual_samples\\sample_06_2006.png",
+    ".\\reports\\visual_samples\\sample_07_1828.png",
+    ".\\reports\\visual_samples\\sample_08_1143.png",
+    ".\\reports\\visual_samples\\sample_09_6033.png",
+    ".\\reports\\visual_samples\\sample_10_0839.png",
+    ".\\reports\\visual_samples\\sample_11_5543.png",
+    ".\\reports\\visual_samples\\sample_12_6067.png",
+    ".\\reports\\visual_samples\\sample_13_4467.png",
+    ".\\reports\\visual_samples\\sample_14_0712.png",
+    ".\\reports\\visual_samples\\sample_15_4837.png",
+    ".\\reports\\visual_samples\\sample_16_3456.png",
+    ".\\reports\\visual_samples\\sample_17_0260.png",
+    ".\\reports\\visual_samples\\sample_18_0244.png",
+    ".\\reports\\visual_samples\\sample_19_0767.png",
+    ".\\reports\\visual_samples\\sample_20_1791.png"
+  ],
+  "elapsed_seconds": 642.4576487541199
+}

@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-29T17:07:06.099970+08:00",
+  "repository": "https://github.com/xiaomaomi721/uav-competition-private",
+  "commit": "eac684521375d03bb1dc3e90b603b7eedd23e7c8",
+  "tree": "4e19f2032cbd125682f14a6c40f6fe827e2beb59",
+  "branch": "codex/project-archive-20261028",
+  "destination": "C:\\Users\\Lenovo\\OneDrive\\Documents\\桌面\\无人机",
+  "copied": [
+    {
+      "path": "03_历史文档/文档归档/01_赛题与规则/赛题.docx",
+      "destination_relative": "03_历史文档/文档归档/01_赛题与规则/赛题.docx",
+      "bytes": 1800704,
+      "git_blob_sha": "120ec5c59761b309dc0cfac7ae387fc8ec893ae5",
+      "sha256": "a2d06de10da01d44d33cee19773e5b971df2f4a0475b52dde0e91a88101acd3e",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/02_数据实证分析/官方数据分布图.png",
+      "destination_relative": "03_历史文档/文档归档/02_数据实证分析/官方数据分布图.png",
+      "bytes": 1769871,
+      "git_blob_sha": "5f4d520d77386ad845cadaa6d96d0413681e5879",
+      "sha256": "10f6439c7c23585af76fb01a8fd315be38c01e83b93d4b12794103d8bd05c3d4",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0000_img_mask.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0000_img_mask.png",
+      "bytes": 1826508,
+      "git_blob_sha": "587fc78f804c756f754ab8081af3d635d6ad508a",
+      "sha256": "09368f7ac07fb34107058d99fb38fbdf55476bd928f666113b32873625fb1adb",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0001_img_mask.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0001_img_mask.png",
+      "bytes": 1311018,
+      "git_blob_sha": "d7dbabe76ebca468262feb2b6448c8cd4d8ad8d1",
+      "sha256": "9f07cad32caf681c119271a608744575fe52fc6be8090eff170a18a57c620936",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0002_img_mask.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0002_img_mask.png",
+      "bytes": 1461755,
+      "git_blob_sha": "2f3c93746de9268c99c54f1c2a06332c06528191",
+      "sha256": "950d101732b1dd26362bdc0568bc43f94cd05ed73f05a695267d62e9129cfc6e",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0003_img_mask.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0003_img_mask.png",
+      "bytes": 1864616,
+      "git_blob_sha": "96914c4643051e87d97112b4b6456ee353cb8fca",
+      "sha256": "5f60bc8e9a58fb9e38dbfc39ebf6d4064141043bfd952c5f86550656694f772b",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0005_img_mask.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0005_img_mask.png",
+      "bytes": 1827690,
+      "git_blob_sha": "9e4ee663b77c944c120a9d9bed4f93a568cc967d",
+      "sha256": "de71cf8c927ddf3624878b8abb4a2ffb0bffefc817c1aa9e9ffb5bd8f43d36c3",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0008_img_mask.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0008_img_mask.png",
+      "bytes": 2053747,
+      "git_blob_sha": "e476d5d9d6b69da45b2cb8af70bbd2d041b318ec",
+      "sha256": "f3922c33d9349a4b89ecbc8e677bd6d3bd1973d3a8c663bad105dac5bef9f6ca",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田zoom_0003.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田zoom_0003.png",
+      "bytes": 3093639,
+      "git_blob_sha": "4c78e827a297ba4e575b70e5cad90d1ce94ba011",
+      "sha256": "3a8f9a7c9abb3129434c95216b1ab5e40dc2e7a3df1c195072b32db909765d4f",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田zoom_0006.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田zoom_0006.png",
+      "bytes": 3043010,
+      "git_blob_sha": "d1f5e8ee1478d7b71061a6de770b05fa3006ec46",
+      "sha256": "fb48cb2ccb67d441f32ed346dd52e73599fd06318cb6c3b2e12bb112059f0eda",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田zoom_0007.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田zoom_0007.png",
+      "bytes": 3148844,
+      "git_blob_sha": "73c97b15b796224f3c37ab5c41c2cd948ddcd781",
+      "sha256": "30eedd66bba66e7d9ff8cd46580f90d86c77836af8d30a3f45a9bc1235a1d65f",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田辨析_0003.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田辨析_0003.png",
+      "bytes": 2753231,
+      "git_blob_sha": "360dca94727bf4c1477c17d630f9714cce118b73",
+      "sha256": "fef70b9a1ac4ee0581e56f4e69280d2ac290d5aa522efbba057f6776d896d617",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田辨析_0006.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田辨析_0006.png",
+      "bytes": 2715421,
+      "git_blob_sha": "a430724129758a127e85c96e763eb7318a64622d",
+      "sha256": "269616f39cc4816ceeed2b8f1ee3ac44c2660b8d28d3f32f2f7262b875eb27db",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田辨析_0007.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田辨析_0007.png",
+      "bytes": 2814989,
+      "git_blob_sha": "42c28cd7dc6a1aa477c2256493d3f464d06afffa",
+      "sha256": "472ff0e1a7cc71b0d47ad9fd2d4089e8f938cf8c88d29cf94ad64af6bb4a08db",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/总览_11张.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/总览_11张.png",
+      "bytes": 19566815,
+      "git_blob_sha": "780ab2ca3ec656c79eb130f01e555a521524ca3a",
+      "sha256": "13c912c6393a9ea2e4b1e20e1136e89d30a5254b09a408d8e9749d6cdb8c8b12",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0000.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0000.png",
+      "bytes": 2717488,
+      "git_blob_sha": "c54e91ab16850209cd5e5e8d1b7c74327b0c40b8",
+      "sha256": "ff8fa79932f6696e71ad487630c4abdc2d5b01b37a7226246cc3e730ed68bd00",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0001.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0001.png",
+      "bytes": 1824767,
+      "git_blob_sha": "5c6bc31d716c913e27037e6e314bf66be1f8e2a5",
+      "sha256": "f3e1d05b7f22b3db93fd90bf4e15f2aaf72dae42aaa251d2349aa58321bcfab8",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0003.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0003.png",
+      "bytes": 2746303,
+      "git_blob_sha": "7dbc697f1a392d7cd2c8ffce8fe2509da2c8301e",
+      "sha256": "1061302c819436dadefd9f9428725aacc736fb597f0c336ce93d1ead220d633e",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0004.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0004.png",
+      "bytes": 1831134,
+      "git_blob_sha": "f8f54e67fc41eae333b40faefbe3fd8a3f8c2af3",
+      "sha256": "670632385abf9091af86cc4203b100eed37a33f399db921cda0850e1f132117b",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/汇报配图/train_vs_test_style.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/汇报配图/train_vs_test_style.png",
+      "bytes": 2112297,
+      "git_blob_sha": "c718489de6b6afbecf9d66c7ee9b1f32c3b0d0b9",
+      "sha256": "f4a9ff2c013e38eb756b7c0452f2400a16c1d8f47bda81efad67804c307db76b",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/汇报配图/图2_大农田_1124.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/汇报配图/图2_大农田_1124.png",
+      "bytes": 1960107,
+      "git_blob_sha": "f8e120b847a64d2545d5a6779e67af389daba727",
+      "sha256": "697f829df39499dd7f0bb590f56dbb62480264c29886f1c9159c7b8c0328bd5e",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/汇报配图/图3_复杂多类_3835.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/汇报配图/图3_复杂多类_3835.png",
+      "bytes": 1219201,
+      "git_blob_sha": "5ebdf7c1f52b8eafa2f25e4e82d26add8b0e11a4",
+      "sha256": "8caeba02b618b4a9fdb05c0f441059a33cdbd65bd0d1688a08735b8bc6a4028b",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0000.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0000.png",
+      "bytes": 5467552,
+      "git_blob_sha": "7d3280c36224e14b5ae49462a196acc641329c73",
+      "sha256": "a96023d4f0473a657c1d6879f4a1762b55387f673cb0d5380bdf05d21c66e9b7",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0001.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0001.png",
+      "bytes": 4065674,
+      "git_blob_sha": "30b2694d2b3afdf0a5aa50c90e680723913b0100",
+      "sha256": "ccb2abd9325beedfea7b524d53cc5cdc4d007c88a4998fcbe80b356939aad7ac",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0003.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0003.png",
+      "bytes": 5631891,
+      "git_blob_sha": "f14052b808f512beb2fb5794fcd3e0f32367be50",
+      "sha256": "851eeb2e372829a7f9bb1faca2251f75dcc12a0a73cbda70ff462793ec05bbc0",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0005.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0005.png",
+      "bytes": 5510572,
+      "git_blob_sha": "7b7792e8f3613cdef5c19bed27551ba8843edaa5",
+      "sha256": "40b6edbed30fc13bda41ecf640e37b83d11b9cd785d72d50089724c34dd97d55",
+      "action": "added"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0010.png",
+      "destination_relative": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0010.png",
+      "bytes": 4798930,
+      "git_blob_sha": "e8668503ab619db6e82a157f80eb41dda9edea35",
+      "sha256": "c200983abfcfc0ccb9e0d011ff81ce56ccdb1739ecc35f1a68f7846a18b8f91c",
+      "action": "added"
+    },
+    {
+      "path": "99_GitHub同步/文件清单_20261028.json",
+      "destination_relative": "90_整理记录/GitHub补齐_20261029/仓库附带记录/99_GitHub同步/文件清单_20261028.json",
+      "bytes": 310656,
+      "git_blob_sha": "2d2aceb839f9ab3d3445c54dbaf1c56f6950e022",
+      "sha256": "dc18f5349738900e22fa51725cd8bbfc4fdb2bdb62bd4d4aef37271a929d3cd3",
+      "action": "added"
+    },
+    {
+      "path": "99_GitHub同步/本地大文件清单.md",
+      "destination_relative": "90_整理记录/GitHub补齐_20261029/仓库附带记录/99_GitHub同步/本地大文件清单.md",
+      "bytes": 39587,
+      "git_blob_sha": "41c4640d48a394cb69ff6e05463a53a911faa4ec",
+      "sha256": "83457925973f4db27b1f2d35dcab138fbd0fd53e7237607ce885783fab312d09",
+      "action": "added"
+    },
+    {
+      "path": "README.md",
+      "destination_relative": "90_整理记录/GitHub补齐_20261029/仓库附带记录/README.md",
+      "bytes": 1705,
+      "git_blob_sha": "d69f062b812bbf3f273df7471f1be154b761062c",
+      "sha256": "93d5014fc38360c1d7a271161b423fe1a53f1e6ae0e62f6f55740eab89ea010e",
+      "action": "added"
+    }
+  ],
+  "addition_sha256_checks_passed": 30,
+  "existing_files_unchanged_before_index_append": 835,
+  "different_files_preserved": [
+    "00_Codex工作同步索引.md",
+    "01_当前比赛/半决赛_全部方案总表_20261027.md",
+    "01_当前比赛/线上成绩台账_20261027.md",
+    "01_当前比赛/队友方案与诊断/半决赛_提分方案_20261027.md",
+    "README_从这里开始.md"
+  ],
+  "intentionally_skipped": [
+    ".gitignore"
+  ],
+  "repository_control_notes_relocated_to": "90_整理记录/GitHub补齐_20261029/仓库附带记录"
+}

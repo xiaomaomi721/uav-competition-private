@@ -1,0 +1,9 @@
+experiment_id,weight_absolute_path,sha256,bytes,architecture,evidence_status,note
+donor_iter_30000,/home/jhy/aic2026_h76_20261026/experiments/T3_FULL_ST_20261027_import/teachers/Mask2Former_iter_30000.pth,dea40595287980777eae5751e76f5e86811071da9edc12b989b3c2ed0556c68c,2610605869,Mask2Former+Swin-L,VERIFIED_NOW,"历史 donor；此前记录仅 50 位十六进制，本次补齐完整 64 位"
+donor_iter_30000_symlink,/home/jhy/rare_diag_20260915/SHBR_DONOR30000_20261003/assets/donor/donor_iter_30000.pth,dea40595287980777eae5751e76f5e86811071da9edc12b989b3c2ed0556c68c,77,Mask2Former+Swin-L,VERIFIED_NOW,"符号链接 -> /ssd/huao/huao/aic2026_uav_donor_distill_20261002/assets/donor_iter_30000.pth；解引用后与原文件同 SHA"
+E02_B1,UNKNOWN,UNKNOWN,UNKNOWN,Mask2Former+Swin-L,NOT_FOUND,"历史报告 79.565390；本次未在 /home/jhy 授权范围定位权重"
+E02_C0,UNKNOWN,UNKNOWN,UNKNOWN,Mask2Former+Swin-L,NOT_FOUND,"历史报告 79.5325；本次未定位"
+Exp00R,UNKNOWN,UNKNOWN,UNKNOWN,Mask2Former+Swin-L,NOT_FOUND,"历史报告 79.381034；仅见 config 与 smoke work_dirs，未见 30k 权重本体"
+Exp03,UNKNOWN,UNKNOWN,UNKNOWN,Mask2Former+Swin-L,NOT_FOUND,"历史 79.3975；未定位"
+Exp04_TREAT,UNKNOWN,UNKNOWN,UNKNOWN,Mask2Former+Swin-L,NOT_FOUND,"历史 79.6019 且历史记录自标 CONFLICT；未定位"
+M2F_CLEAN_60000_20261028,/home/jhy/aic2026_secondgpu_m2f_20261028/run_m2f_clean_secondgpu/long_m2f_clean_train,UNKNOWN(训练中),UNKNOWN,Mask2Former+Swin-L,RUNNING,"effective_step=4796/60000；config_sha256=287974cfa8e071b7c202aac5b9037f2956ebd0096586c4943ae4328f6a7dcba8；started 2026-10-28T17:33:16+0800"

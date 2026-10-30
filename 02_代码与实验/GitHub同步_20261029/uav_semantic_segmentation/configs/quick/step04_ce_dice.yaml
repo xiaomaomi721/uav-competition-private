@@ -1,0 +1,7 @@
+_base_: _base.yaml
+experiment_id: step04_ce_dice
+step: 4
+loss:
+  name: ce_dice
+  ce_weight: 0.5
+  dice_weight: 0.5

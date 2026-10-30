@@ -1,0 +1,14 @@
+{
+ "name": "MIX_L02_SOUP_MM",
+ "description": "MIX_L02 2-seed soup; bias fitted so Target3594 area matches H75+Bstar champion",
+ "bias": [
+  -0.2,
+  0.0648,
+  -0.06189,
+  0.56845,
+  3.69352,
+  0.13202,
+  2.41617,
+  -0.59884
+ ]
+}

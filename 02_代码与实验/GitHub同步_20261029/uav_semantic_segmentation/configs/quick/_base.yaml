@@ -1,0 +1,65 @@
+experiment_id: quick_base_not_for_direct_execution
+step: 0
+quick_pilot: true
+model_name: nvidia/segformer-b0-finetuned-ade-512-512
+model_variant: SegFormer-B0
+num_classes: 8
+ignore_index: 255
+crop_size: 512
+loss:
+  name: cross_entropy
+optimizer:
+  name: AdamW
+  learning_rate: 0.00006
+  weight_decay: 0.01
+scheduler:
+  name: polynomial
+  power: 1.0
+batch_size: 2
+gradient_accumulation_steps: 2
+validation_batch_size: 1
+amp: true
+gradient_checkpointing: false
+seed: 42
+num_workers: 0
+max_train_samples: 768
+max_val_samples: 192
+max_steps: 100
+validation_interval: 50
+log_interval: 1
+device: cuda
+train_split: splits/train.txt
+validation_split: splits/fixed_quick_val.txt
+prediction_visualization_count: 8
+augmentation_preview_count: 20
+rare_crop:
+  enabled: false
+  probability: 0.30
+  priority_train_ids: [7, 4, 6]
+  max_offset_fraction: 0.25
+transforms:
+  horizontal_flip_probability: 0.50
+  vertical_flip_probability: 0.50
+  rotate90_probability: 0.50
+  color_jitter:
+    probability: 0.50
+    brightness: 0.10
+    contrast: 0.10
+    saturation: 0.10
+    hue: 0.02
+  domain_aug:
+    enabled: false
+    probability: 0.50
+    brightness: 0.20
+    contrast: 0.20
+    saturation: 0.20
+    hue: 0.03
+    gamma_range: [0.90, 1.10]
+    blur_probability: 0.10
+    max_blur_radius: 1.0
+    noise_probability: 0.10
+    max_noise_sigma: 6.0
+    scale_range: [0.90, 1.10]
+    compression_probability: 0.05
+    jpeg_quality_min: 85
+    jpeg_quality_max: 98

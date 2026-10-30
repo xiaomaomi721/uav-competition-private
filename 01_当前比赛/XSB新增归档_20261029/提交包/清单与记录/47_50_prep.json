@@ -1,0 +1,26 @@
+[
+  {
+    "file": "47.zip",
+    "source_zip": "65000_TTA8.zip",
+    "sha256": "de78b5d8665649182575b434b6e21076d0a8648a73e7235b06672f52b2278df9",
+    "sha_verified_against_report": true
+  },
+  {
+    "file": "48.zip",
+    "source_zip": "65000_TTA8_FIXED8D_EXP41_STYLE.zip",
+    "sha256": "0bcfe2a11b3bf5f519e6f3fd5490b3e86a0c283db3208d4b0552000a0f8358c4",
+    "sha_verified_against_report": true
+  },
+  {
+    "file": "49.zip",
+    "source_zip": "69997_TTA8.zip",
+    "sha256": "435f98cb0ea38ad5832b7dd9bc189c866db5a69c9a70a1bc2d623057e730e91c",
+    "sha_verified_against_report": true
+  },
+  {
+    "file": "50.zip",
+    "source_zip": "69997_TTA8_FIXED8D_EXP41_STYLE.zip",
+    "sha256": "5167656552e6ac3e395f244fca19da9897527be3bc45363927da75f56f6f4a1a",
+    "sha_verified_against_report": true
+  }
+]

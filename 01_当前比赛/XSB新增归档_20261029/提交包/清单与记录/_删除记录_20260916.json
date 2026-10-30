@@ -1,0 +1,131 @@
+{
+  "deleted": [
+    {
+      "file": "待提交\\005_ZERO_stage66_best51800_TTA8.zip",
+      "same_as": "已提交\\038_core_s66_semeda_zero.zip",
+      "sha256": "787577f04d25532dd4014e6551061cd613ef1bc600e08fdd892cbba90438461d",
+      "bytes": 4905894
+    },
+    {
+      "file": "对照_不提交\\123_champion_repro.zip",
+      "same_as": "已提交\\035_stage23_best56000_CHAMPION8D.zip",
+      "sha256": "683f259539e861534e2dcaa689a9eabc807fc55020bc45c28e9835c1839b2508",
+      "bytes": 4923383
+    },
+    {
+      "file": "对照_不提交\\125_s62_ref_zero.zip",
+      "same_as": "已提交\\045_core_s62_resumepseudo_zero.zip",
+      "sha256": "aa39666e96135b3caa2ac7768d63f6b205b3fdb39b0c4db294295abaae3d57bc",
+      "bytes": 4489868
+    },
+    {
+      "file": "对照_不提交\\124_s62_ref_champion.zip",
+      "same_as": "已提交\\046_core_s62_resumepseudo_championbias.zip",
+      "sha256": "f683736fa9e7378c64073d7931cbbcab748224771d4915b1db7f54da2785b882",
+      "bytes": 4446010
+    },
+    {
+      "file": "已提交\\103_stage66_best_TTA8.zip",
+      "same_as": "已提交\\086_localbest_C_TTA8.zip",
+      "sha256": "9f7de64e19894cc10cf6d7eb14c25930a9ad5a4e59061c75d7943919b39f6b2c",
+      "bytes": 4355750
+    },
+    {
+      "file": "已提交\\104_stage66_best_TTA8_FIXED8D.zip",
+      "same_as": "已提交\\087_localbest_C_TTA8_FIXED8D.zip",
+      "sha256": "494f0ec0fd269fd17e49a1e82f29851e05d8441d089a3cc17de8af8a022ca85b",
+      "bytes": 4337468
+    },
+    {
+      "file": "已提交\\096_s56000_R_TTA8.zip",
+      "same_as": "已提交\\088_localbest_R_TTA8.zip",
+      "sha256": "2c8596192ecffbbb54aaa2c684fdfa6ff4e33ef6f8dec7c56aaf4833486a1a95",
+      "bytes": 4399144
+    },
+    {
+      "file": "已提交\\099_stage59_best_TTA8.zip",
+      "same_as": "已提交\\088_localbest_R_TTA8.zip",
+      "sha256": "1294e5aebb69c393320824ef46f5eefcb0d7b868ccb2c73a033cab10194013df",
+      "bytes": 4374963
+    },
+    {
+      "file": "已提交\\101_stage59_last_TTA8.zip",
+      "same_as": "已提交\\088_localbest_R_TTA8.zip",
+      "sha256": "10f1efa0b34306e5a1b1e6d13ec6696f6fdea28fc7260377614cdeb8243b660d",
+      "bytes": 4374963
+    },
+    {
+      "file": "已提交\\097_s56000_R_TTA8_FIXED8D.zip",
+      "same_as": "已提交\\089_localbest_R_TTA8_FIXED8D.zip",
+      "sha256": "d53fc19add24feca1c753d52c315dd877728bd92b21b3a457c93d2ed1f01624c",
+      "bytes": 4346472
+    },
+    {
+      "file": "已提交\\100_stage59_best_TTA8_FIXED8D.zip",
+      "same_as": "已提交\\089_localbest_R_TTA8_FIXED8D.zip",
+      "sha256": "17a6ee9a6246ae9baf7aff2c3866d5afcbd9e58a7622e1fbbc93828d1159dd98",
+      "bytes": 4322207
+    },
+    {
+      "file": "已提交\\102_stage59_last_TTA8_FIXED8D.zip",
+      "same_as": "已提交\\089_localbest_R_TTA8_FIXED8D.zip",
+      "sha256": "3c38756e18eaed5bd5f9aa7501f7086060dfbe68197989a7f93dbc979485d365",
+      "bytes": 4322207
+    },
+    {
+      "file": "已提交\\105_stage66_last_TTA8.zip",
+      "same_as": "已提交\\094_s56000_C_TTA8.zip",
+      "sha256": "4e15c4b29aa46c5429bccf6ef5465a65537ae247b72cf7717df36b770c7c2463",
+      "bytes": 4370841
+    },
+    {
+      "file": "已提交\\106_stage66_last_TTA8_FIXED8D.zip",
+      "same_as": "已提交\\095_s56000_C_TTA8_FIXED8D.zip",
+      "sha256": "e8f96d35255c35f43968cb9b2c456d3774f5aa66a6edbb16f73c67c2c187f613",
+      "bytes": 4337948
+    }
+  ],
+  "kept": [
+    {
+      "survivor": "已提交\\038_core_s66_semeda_zero.zip",
+      "n_members": 2
+    },
+    {
+      "survivor": "已提交\\035_stage23_best56000_CHAMPION8D.zip",
+      "n_members": 2
+    },
+    {
+      "survivor": "已提交\\045_core_s62_resumepseudo_zero.zip",
+      "n_members": 2
+    },
+    {
+      "survivor": "已提交\\046_core_s62_resumepseudo_championbias.zip",
+      "n_members": 2
+    },
+    {
+      "survivor": "已提交\\086_localbest_C_TTA8.zip",
+      "n_members": 2
+    },
+    {
+      "survivor": "已提交\\087_localbest_C_TTA8_FIXED8D.zip",
+      "n_members": 2
+    },
+    {
+      "survivor": "已提交\\088_localbest_R_TTA8.zip",
+      "n_members": 4
+    },
+    {
+      "survivor": "已提交\\089_localbest_R_TTA8_FIXED8D.zip",
+      "n_members": 4
+    },
+    {
+      "survivor": "已提交\\094_s56000_C_TTA8.zip",
+      "n_members": 2
+    },
+    {
+      "survivor": "已提交\\095_s56000_C_TTA8_FIXED8D.zip",
+      "n_members": 2
+    }
+  ],
+  "freed_bytes": 62307118
+}

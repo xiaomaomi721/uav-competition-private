@@ -1,0 +1,42 @@
+{
+  "batch": "SUBMIT_BATCH_02",
+  "axis": "Background (class 0)",
+  "center": "LOCKED8D background -0.2",
+  "receipts": [
+    {
+      "file": "04_best51800_LOCKED_bg000.zip",
+      "platform_mIoU": 0.689303,
+      "background": "0.0",
+      "zip_sha256": "d369a127b9108897679e0043632d50fc93605beaa9be8defa0a971e3b123ebd3"
+    },
+    {
+      "file": "05_best51800_LOCKED_bg-040.zip",
+      "platform_mIoU": 0.689455,
+      "background": "-0.4",
+      "zip_sha256": "33f187d8f046ab592ecd6f88762d85c7c6f9a81f3f8723728d0cfbf64cbb5ba9"
+    },
+    {
+      "file": "06_best51800_LOCKED_bg-060.zip",
+      "platform_mIoU": 0.688952,
+      "background": "-0.6",
+      "zip_sha256": "f4d636c55d37af8315ca0809732498b0702ae72d605291b8e063e3705b65ae68"
+    }
+  ],
+  "anchor": {
+    "LOCKED8D_bg-0.2": 0.689567,
+    "source": "BATCH_01 receipt bound"
+  },
+  "curve_peak": "background -0.2 (existing LOCKED value)",
+  "background_axis_spread_pp": 0.0615,
+  "attribution_relative_to_all_zero_vector": {
+    "total_gain_pp": 1.1967,
+    "background_component_pp": 0.0264,
+    "remaining_seven_axes_pp": 1.1703
+  },
+  "interpretation": [
+    "Background axis is flat and already optimal at the LOCKED value; no gain available there.",
+    "Background suppression explains only a small part of the bias gain; the other seven axes dominate.",
+    "Score differences span 0.06pp, so no overfitting of the background axis is indicated."
+  ],
+  "scope": "DIAGNOSTIC_ONLY_NOT_ELIGIBILITY"
+}

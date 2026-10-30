@@ -1,0 +1,14 @@
+{
+  "best_miou": 0.7123106568503285,
+  "final_miou": 0.7123106568503285,
+  "best_step": 56000,
+  "final_step": 56000,
+  "pixel_accuracy": 0.8527743645537557,
+  "validation_count": 40,
+  "peak_vram_mb": 685.2236328125,
+  "average_step_time": 0.6871561887768143,
+  "final_loss": 0.413554385304451,
+  "minimum_loss": 0.026120157446712255,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "amp": true
+}

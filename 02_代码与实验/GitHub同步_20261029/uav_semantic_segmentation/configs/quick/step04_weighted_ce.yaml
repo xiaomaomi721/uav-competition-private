@@ -1,0 +1,7 @@
+_base_: _base.yaml
+experiment_id: step04_weighted_ce
+step: 4
+loss:
+  name: weighted_cross_entropy
+  split_statistics: splits/split_statistics.json
+  weight_clip: [0.5, 5.0]

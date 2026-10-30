@@ -1,0 +1,8 @@
+_base_: _base.yaml
+experiment_id: step05_rare_crop
+step: 5
+rare_crop:
+  enabled: true
+  probability: 0.30
+  priority_train_ids: [7, 4, 6]
+  max_offset_fraction: 0.25

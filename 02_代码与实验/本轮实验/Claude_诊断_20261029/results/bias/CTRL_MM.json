@@ -1,0 +1,14 @@
+{
+ "name": "CTRL_MM",
+ "description": "CTRL@3594 bias fitted so Target3594 per-class area (native256) matches H75+Bstar champion; mm_fit.py",
+ "bias": [
+  -0.2,
+  0.26257,
+  0.82546,
+  2.17497,
+  5.05373,
+  0.9786,
+  3.2409,
+  -0.19288
+ ]
+}

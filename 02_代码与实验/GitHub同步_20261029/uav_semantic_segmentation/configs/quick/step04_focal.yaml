@@ -1,0 +1,7 @@
+_base_: _base.yaml
+experiment_id: step04_focal
+step: 4
+loss:
+  name: focal
+  gamma: 2.0
+  use_class_weights: false

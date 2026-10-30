@@ -1,0 +1,9 @@
+class_id,class_name,iou,absent
+0,Background,0.6252879810111697,False
+1,Building,0.8039648167000311,False
+2,Road,0.7060204340972281,False
+3,Water,0.830947785732975,False
+4,Barren,0.4835624404398186,False
+5,Vegetation,0.8604343453099063,False
+6,Agricultural,0.719195071804351,False
+7,Vehicle,0.6690723797071482,False

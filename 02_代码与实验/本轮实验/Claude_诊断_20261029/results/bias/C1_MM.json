@@ -1,0 +1,14 @@
+{
+ "name": "C1_MM",
+ "description": "C1 (reliable KD) bias fitted so Target3594 per-class area (native256) matches H75+Bstar champion; mm_fit.py",
+ "bias": [
+  -0.2,
+  0.08959,
+  0.16067,
+  0.57919,
+  3.58411,
+  0.34619,
+  2.4668,
+  -0.25913
+ ]
+}

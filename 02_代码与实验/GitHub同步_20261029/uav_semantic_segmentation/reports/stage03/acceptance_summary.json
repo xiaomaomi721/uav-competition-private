@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "formal_b0_ce_512_seed42",
+  "stage": "Stage 03",
+  "core_training_status": "PASS",
+  "evidence_gate_status": "CONDITIONAL_PASS",
+  "acceptance_zip": {
+    "sha256": "AC8BA3D4985B54753FB6F607666730C26982E39A476009194C00A3C056B41618",
+    "sha256_verified": true,
+    "directory_file_count": 20,
+    "directory_count": 2,
+    "total_bytes": 19792248,
+    "zip_content_matches_directory": true
+  },
+  "config_check": {
+    "passed": true,
+    "passed_items": 26,
+    "total_items": 26,
+    "runtime_paths_sanitized": true
+  },
+  "confusion_matrix_recalculation": {
+    "passed": true,
+    "shape": [8, 8],
+    "row_semantics": "ground_truth",
+    "column_semantics": "prediction",
+    "valid_pixel_count": 1445194394,
+    "miou": 0.7123106568503285,
+    "pixel_accuracy": 0.8527743645537557,
+    "maximum_per_class_iou_difference": 0.0
+  },
+  "training_log": {
+    "first_step": 1,
+    "final_step": 56000,
+    "continuous": true,
+    "validation_count": 40,
+    "no_oom": true,
+    "no_nan_inf": true,
+    "final_learning_rate": 0.0
+  },
+  "visualization_check": {
+    "validation_triptych_count": 8,
+    "all_readable": true,
+    "training_curve_count": 3,
+    "training_curves_safe_to_archive": true,
+    "triptychs_copied_to_repository": false
+  },
+  "official_id_8_correction": {
+    "original_issue": "The original acceptance script checked test predictions against training IDs 0-7 and recorded official ID 8 as invalid.",
+    "correct_official_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+    "official_id_8_class": "Vehicle",
+    "official_id_8_is_valid": true,
+    "prediction_count": 500,
+    "files_containing_official_id_8": 100,
+    "files_with_invalid_official_ids_after_correction": 0,
+    "impact": "Only the test-prediction format statistic was affected; Stage 03 local metrics were not affected."
+  },
+  "weight_evidence": {
+    "expected_best_sha256": "5846D7625FC92CCFDBB065BFC9F8910348F4B81C0010AE253AD598443DCBB4A1",
+    "expected_best_size_bytes_from_summary": 14952607,
+    "declared_last_sha256": "1DB63E34CF899DAF1F60F654DAA98B119932A3DE72E9196D80ABE6716E6E2C7A",
+    "weight_search_candidate_count": 29,
+    "matching_best_candidate_count": 0,
+    "matching_last_candidate_count": 0,
+    "weight_hash_verified": false,
+    "formal_weight_status": "awaiting_teammate_provision_or_backup"
+  },
+  "evidence_gap": "The existing 500 predictions do not independently prove that they were generated from the expected checkpoint SHA256.",
+  "large_artifacts_not_copied": [
+    "model checkpoints",
+    "full 56000-row training log",
+    "official data",
+    "validation triptychs",
+    "500 prediction PNG files",
+    "ZIP archives"
+  ],
+  "absolute_paths_in_tracked_summary": false
+}

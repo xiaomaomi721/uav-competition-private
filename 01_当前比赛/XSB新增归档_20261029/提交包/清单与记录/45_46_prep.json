@@ -1,0 +1,16 @@
+[
+  {
+    "file": "45.zip",
+    "old_file": "stage65_standard.zip",
+    "sha256": "480c5e0288f00ba245be1ee79d44137365aec0f96ef253692851a50098b028dc",
+    "note": "stage65 P1 pseudo-label round2, TTA8, ZERO bias",
+    "entries": 500
+  },
+  {
+    "file": "46.zip",
+    "old_file": "stage65_calib.zip",
+    "sha256": "d87a233dfb9f3134b5c91b4a55cf8de6e845637be1aa4ba2b5a99835ca2f48b7",
+    "note": "stage65 P1 pseudo-label round2, TTA8, champion bias",
+    "entries": 500
+  }
+]

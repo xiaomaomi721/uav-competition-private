@@ -1,0 +1,46 @@
+{
+  "bef49a68ec22bf55617452a4ff692eb71d1015644280aa8fdc459029f7d5bbc5": [
+    "待提交\\005_ZERO_stage66_best51800_TTA8.zip",
+    "已提交\\038_core_s66_semeda_zero.zip"
+  ],
+  "a6fd80596d2bbcb8c06eb6eb2ce47800a7d4333446f11d8c702129a2f57ed910": [
+    "已提交\\035_stage23_best56000_CHAMPION8D.zip",
+    "对照_不提交\\123_champion_repro.zip"
+  ],
+  "8b3e69ceb073e34461af9b2f80e3a629204041c8626e0bc3aba9daa2a4c65850": [
+    "已提交\\045_core_s62_resumepseudo_zero.zip",
+    "对照_不提交\\125_s62_ref_zero.zip"
+  ],
+  "27763eacec4d5df4493f72be5fee646b83c01f2844752ea54d1882a85f84299e": [
+    "已提交\\046_core_s62_resumepseudo_championbias.zip",
+    "对照_不提交\\124_s62_ref_champion.zip"
+  ],
+  "b7f8f9463ec648b3181beee779787112df5b7ed5ea8c62e1e779322c5ca50cae": [
+    "已提交\\086_localbest_C_TTA8.zip",
+    "已提交\\103_stage66_best_TTA8.zip"
+  ],
+  "0e68354a515b432835574c688a96ee21c09750817ee3d427731ade7802b1dbc2": [
+    "已提交\\087_localbest_C_TTA8_FIXED8D.zip",
+    "已提交\\104_stage66_best_TTA8_FIXED8D.zip"
+  ],
+  "f84c73dae2466cd150aee5203ef3d802c0704ace0b8db4e2c2622791d80ed4b1": [
+    "已提交\\088_localbest_R_TTA8.zip",
+    "已提交\\096_s56000_R_TTA8.zip",
+    "已提交\\099_stage59_best_TTA8.zip",
+    "已提交\\101_stage59_last_TTA8.zip"
+  ],
+  "616eb51b8863d50a4b0ee89cca26db565ccbe441aad8a276e3363f69187e3334": [
+    "已提交\\089_localbest_R_TTA8_FIXED8D.zip",
+    "已提交\\097_s56000_R_TTA8_FIXED8D.zip",
+    "已提交\\100_stage59_best_TTA8_FIXED8D.zip",
+    "已提交\\102_stage59_last_TTA8_FIXED8D.zip"
+  ],
+  "71409a1de4b419096a5d1cfe12d6428b41b01a89e8c0a3d75bd19c74e6e72bc1": [
+    "已提交\\094_s56000_C_TTA8.zip",
+    "已提交\\105_stage66_last_TTA8.zip"
+  ],
+  "765f5856d503d7f86a6820e76df54eabac71de0e281226e7bb326178aeafea27": [
+    "已提交\\095_s56000_C_TTA8_FIXED8D.zip",
+    "已提交\\106_stage66_last_TTA8_FIXED8D.zip"
+  ]
+}

@@ -1,0 +1,7 @@
+_base_: _base.yaml
+experiment_id: step07_segformer_b1
+step: 7
+model_name: nvidia/segformer-b1-finetuned-ade-512-512
+model_variant: SegFormer-B1
+batch_size: 1
+gradient_accumulation_steps: 4

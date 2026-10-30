@@ -1,0 +1,5207 @@
+{
+  "repository": "https://github.com/xiaomaomi721/uav-competition-private",
+  "branch": "codex/project-archive-20261028",
+  "commit": "eac684521375d03bb1dc3e90b603b7eedd23e7c8",
+  "tree": "4e19f2032cbd125682f14a6c40f6fe827e2beb59",
+  "remote_tree_verified_via": "GitHub connector recursive tree, truncated=false",
+  "source": "C:\\Users\\Lenovo\\OneDrive\\Documents\\ChatGPT\\无人机\\_github_private\\repo",
+  "destination": "C:\\Users\\Lenovo\\OneDrive\\Documents\\桌面\\无人机",
+  "files": [
+    {
+      "path": ".gitignore",
+      "git_blob_sha": "c93f40ecc7f9d1cc00a86a79125bc67684301f37",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "00_Codex工作同步索引.md",
+      "git_blob_sha": "0e5730e0e58e6e520b93b7d3ada25e700e440529",
+      "mode": "100644",
+      "state": "different_preserve"
+    },
+    {
+      "path": "01_当前比赛/Codex方案与研究/3594张无标签测试图_利用方法与实施边界_20261027.md",
+      "git_blob_sha": "2c89141fa7b920f029424f2024e045f8842d6a4d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/Codex方案与研究/BLDA_Soft_方案依据_20261027/evidence_manifest.json",
+      "git_blob_sha": "fff995572754cbbba9e330d1e57f8cd82dc47b1c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/Codex方案与研究/BLDA_Soft_方案依据_20261027/manifest_sha256.json",
+      "git_blob_sha": "6066e58bf037f04896c33e99b467e5c86b80188c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/Codex方案与研究/BLDA_Soft_方案依据_20261027/proposed_config.json",
+      "git_blob_sha": "cf3d22723b8a04fd1d3bd68a9befc82fe34aa9de",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/Codex方案与研究/BLDA_Soft_方案依据_20261027/soft_ola_math_check.py",
+      "git_blob_sha": "84b3e6bce85969ab54def998559039a3ced22269",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/Codex方案与研究/BLDA_Soft_方案依据_20261027/soft_ola_math_result.json",
+      "git_blob_sha": "faf174aefb58890a99cc4c206c37e87f49a25d0d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/Codex方案与研究/DINOv3-L_PMT_实现方案与实验结果_给队友_20261027.md",
+      "git_blob_sha": "22eacfd42487040eac4f3f11081c8f5efc8db96e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/Codex方案与研究/H75_BLDA-Soft_论文依据与执行方案_20261027.md",
+      "git_blob_sha": "4fd135824049153f2d081caafc80fabea676ef4a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/Codex方案与研究/标注有限与测试域泛化_近期论文与项目判断_20261027.md",
+      "git_blob_sha": "e3cd0c450736590961fde8ca73af18ca683b347e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/上一阶段冠军与提分贡献核对_20261027.md",
+      "git_blob_sha": "1f5d88787ead47f8c695a2a4f8df4dad85c6028c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/半决赛_全部方案总表_20261027.md",
+      "git_blob_sha": "534106bd41257da4046e52a09e536ffdf82375f3",
+      "mode": "100644",
+      "state": "different_preserve"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/00_给另一位AI_从这里开始.md",
+      "git_blob_sha": "f849e65753cd6d3e93bf43a5175e3fc093b1d8c0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/01_审核报告与最新成绩.md",
+      "git_blob_sha": "c9b24dd9e221a5f769c8c726fd7167f9207096b8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PDF文本/【发布版】算法挑战赛道复赛获奖名单及半决赛赛程安排通知.md",
+      "git_blob_sha": "fc7e409836e76a30ef84755ed080be28e3feb8d7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PDF文本/附件2：AIC算法挑战赛道半决赛作品提交要求-1.md",
+      "git_blob_sha": "4a56da28aa27169d1918039043609873fdb0a2ef",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/DINOV3_LICENSE.md",
+      "git_blob_sha": "243726f9d965e5a4013c750e48685d705d3f4746",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/PMT_LICENSE",
+      "git_blob_sha": "f300178afbb90adf22622ca2b228046ab153b8bf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/README.md",
+      "git_blob_sha": "5655c9cafa05e00992816b6de23780d0b03a52b3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/code_sha256.json",
+      "git_blob_sha": "418509841738540ea6632a7d5ead807759717ca7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/source_integrity.json",
+      "git_blob_sha": "12d9e108337e1734c7ce74bea8e140aa714a12a6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/status.json",
+      "git_blob_sha": "93785cb7572663cacd617e85fb7af02d007508ee",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/train.jsonl",
+      "git_blob_sha": "b953fd1ee14638ec5267f4a2c1fb507a2fcdec93",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/val_02000_recovered_20261027.json",
+      "git_blob_sha": "87f7008f9225458c7b80262bf18bfe53a9b627fa",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/val_02000_saved_mask_20261027.json",
+      "git_blob_sha": "e082bcac0a52a26100137bf37c4adf2b8ce02659",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/audit_source.py",
+      "git_blob_sha": "7e41a4a151c5bcca6c4e405b1145439743a89834",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/backbone.py",
+      "git_blob_sha": "702ba7fc373a509b5ed7df011616ed9974ff75cb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/evaluate_existing.py",
+      "git_blob_sha": "9a027c04a4dd59ff4619d05c77d02dd1d58cd4b5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/evaluate_saved_mask.py",
+      "git_blob_sha": "b9cbd1c10a94fef94d3bbe44e06d18d938bbfe64",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/inspect_data_decoder.py",
+      "git_blob_sha": "37b0a100bed5655f250522e93c4e218c7fc22ccf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/inspect_models.py",
+      "git_blob_sha": "2d7c359a5baf6a0aec55d9a37576610aa37eb165",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/launch.py",
+      "git_blob_sha": "15e3772cbf3527d1ad2a50cac69c2b20e9fb37f1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/loss.py",
+      "git_blob_sha": "e67549357a1b3b2b6dc7a4dcfaeffdc7751b5268",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/model.py",
+      "git_blob_sha": "58dc6ccc7de8c04a62808ac7a87305a9efb98eaf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/models/__init__.py",
+      "git_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/models/layers.py",
+      "git_blob_sha": "2cac608661ca32751d765c90c6475a64f0660aab",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/models/pmd.py",
+      "git_blob_sha": "7f486b33b9a46520a8c1ef0e7e79308ff2e244b4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/models/utils.py",
+      "git_blob_sha": "293e500f584c11bdc15678031520ae87aeac8d1c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/no_detected_train_overlap.txt",
+      "git_blob_sha": "9e010d5237f5afdab6b4c9fb0ce0f68d237680e5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/代码/train.py",
+      "git_blob_sha": "ca85c4f06dc3908ceb3044bdc6930ea17db95d4f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/前期分析/分析_20261026_论文依据.md",
+      "git_blob_sha": "a67fb21d494403644705c7746005f14ca61df4d4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/前期分析/半决赛72分_当前下一步方案_2026-10-26.md",
+      "git_blob_sha": "e257c19a119d9558620ebdba9e672252dae7e464",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/前期分析/半决赛实测诊断与下一步建议_2026-10-26.md",
+      "git_blob_sha": "1d298d54505f79855420253d4203ba49e9a2fb99",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/前期分析/半决赛独立新模型方案与研究依据_2026-10-26.md",
+      "git_blob_sha": "145f07158c4dbcaeae684b75606a54b594666757",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/前期分析/队友M2F工作核查_2026-10-26.md",
+      "git_blob_sha": "4ff48fabb0d2280626f4d65612509df2269c34c6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/半决赛独立新模型方案与研究依据_2026-10-26.md",
+      "git_blob_sha": "145f07158c4dbcaeae684b75606a54b594666757",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/启动实测/config.json",
+      "git_blob_sha": "fe4e1f8e36963cd063fecaf7e9a93abcfbb88092",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/启动实测/conversion_verified.json",
+      "git_blob_sha": "f753e1ffcc5e7e56f7b061761e507492e032dc02",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/启动实测/smoke_passed.json",
+      "git_blob_sha": "50a39a79e1495e98d140d11382457f0a88984633",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/启动实测/train_startup.jsonl",
+      "git_blob_sha": "bb5ef9fab75094ce1a000c5652b84f0595a0a6cf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/PMT实施记录/当前状态与评估.md",
+      "git_blob_sha": "24aa7aa64a1e7cab374027a97b1c02ac6a0679dc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/交接包文件校验.json",
+      "git_blob_sha": "8833822fc6ccd85a86067a467cef6be2222aa4c8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/20261024_半决赛四条实验线_事实核查与队友交接.md",
+      "git_blob_sha": "964b582375fc6637530f7d366bd69b4d624bb14f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/AIC2026_H75_短板诊断与半决赛交接_20261025.md",
+      "git_blob_sha": "b64708297831905d96d417ec0066a27be9ed2cf5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/H75_GLOBAL_LOCAL_V1_半决赛改进方案_队友交接_20261024.md",
+      "git_blob_sha": "a52f04d3c4d05b6f52b93edc732d9fe06ab0ef50",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/H76_V2.1_今晚双ZIP提交方案_修订版.md",
+      "git_blob_sha": "c2e969305fdb0c978ef14b59896e70cb379ecd59",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/H76_V2_Execution_Plan.md",
+      "git_blob_sha": "55177023baece848eadce121a076e9dfb303d4e3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/H76_今晚双ZIP交付清单_给队友.md",
+      "git_blob_sha": "e0bcd25eaebe2a8aeca1e188bb29b1c3d7f86a38",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/H76_全量test3创新训练方案_基座裁决与执行设计_20261026.md",
+      "git_blob_sha": "5be1a810daa477f352a9164be2c9c2de8e5fdfb1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/teacher4090_H76_迁移资产与路径交接_20261026.md",
+      "git_blob_sha": "7b4829b7e31cc9d263f37bbc595d6b9779ef6450",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/writing-block.md",
+      "git_blob_sha": "648cc49e9a506bfe5985f15ca8c1c2fa38ca1e73",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/writing-block1.md",
+      "git_blob_sha": "e1eb630b9c9df70672029b438454ee7f09444dbe",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/【发布版】算法挑战赛道复赛获奖名单及半决赛赛程安排通知.pdf",
+      "git_blob_sha": "0bda8694f568b67166cc4c9911a7bd5e7c3d5527",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/服务器目录与资产安全交接.md",
+      "git_blob_sha": "c0cda63b696f5bf84d6b392cbd3aec7ea251f162",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/原始资料快照/附件2：AIC算法挑战赛道半决赛作品提交要求-1.pdf",
+      "git_blob_sha": "b719a931f926ebb8ba3175d2c7f45a16d0aad2dd",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/后续工作同步约定.md",
+      "git_blob_sha": "6a5bdd3502ef99d986e876e2417cab6b03e99694",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/最新成绩.json",
+      "git_blob_sha": "e3068904d6a365a43979bd6f4f5fe6ed3a2e4e5e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/来源文件清单_SHA256.json",
+      "git_blob_sha": "67ae12b5ffc122942225e128b58fbcb4286449a3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/核验截图/【发布版】算法挑战赛道复赛获奖名单及半决赛赛程安排通知_p1.png",
+      "git_blob_sha": "b0e49e179668afa285f7ce7e605df48fe2b94d61",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/核验截图/【发布版】算法挑战赛道复赛获奖名单及半决赛赛程安排通知_p2.png",
+      "git_blob_sha": "837b33565ee8a2c549e631c2fbbf525168154933",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/核验截图/【发布版】算法挑战赛道复赛获奖名单及半决赛赛程安排通知_p3.png",
+      "git_blob_sha": "374b47290b0ca8fcdb1a30e5435ecdb66cfc678e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/核验截图/附件2：AIC算法挑战赛道半决赛作品提交要求-1_p1.png",
+      "git_blob_sha": "865a3e55e1d6b9aefe33eda73d7fdab9f4b54ccb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/核验截图/附件2：AIC算法挑战赛道半决赛作品提交要求-1_p2.png",
+      "git_blob_sha": "d3f364510f8915f5fbcefeafe956201fffb2a8cd",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/核验记录/PMT服务器只读快照_20261027.txt",
+      "git_blob_sha": "ed24f0f0f5635a2fde15b1261477df8e0f4406ef",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/核验记录/eval_existing_20261027.log",
+      "git_blob_sha": "6632428408cf501df4182a0faa1174c52f1bc2fc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/审核交接/队友方案审核交接_20261027/核验记录/eval_saved_mask_20261027.log",
+      "git_blob_sha": "0c14438a087f2d8f37b12a1959a4075013a61e62",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/线上成绩台账_20261027.md",
+      "git_blob_sha": "ac306814268841b16f6460a266fb35ce06db51bd",
+      "mode": "100644",
+      "state": "different_preserve"
+    },
+    {
+      "path": "01_当前比赛/队友方案与诊断/Claude助手_工作同步_20261027.md",
+      "git_blob_sha": "53f4f1e78a9b7544462979860e1dac0a4e79c51c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/队友方案与诊断/半决赛_ATDA迁移进展_20261027.md",
+      "git_blob_sha": "0347de9ba10ed5f4497b053bbe78eebeefb827f4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/队友方案与诊断/半决赛_H76队友方案审核报告_20261026.md",
+      "git_blob_sha": "310cc7a01e134259fa4b04681a2b5a73f9b68c57",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/队友方案与诊断/半决赛_T3九组实验审核_20261027.md",
+      "git_blob_sha": "695a2f794d4b91e15b2c47afd03e0078301509a8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/队友方案与诊断/半决赛_下一步方案_20261026.md",
+      "git_blob_sha": "cb39c01c155181441fd73aeab69320d9581908c0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/队友方案与诊断/半决赛_全面诊断_20261027.md",
+      "git_blob_sha": "7ff85de5faea4cf883880c3105bf2faeb2d38ea1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/队友方案与诊断/半决赛_我的方案_20261027.md",
+      "git_blob_sha": "4aa6b2d504b31a1e41f54105a8794cabaea711bb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/队友方案与诊断/半决赛_提分方案_20261027.md",
+      "git_blob_sha": "36c508cca430ae657e1f4828d05a39c94a3f2962",
+      "mode": "100644",
+      "state": "different_preserve"
+    },
+    {
+      "path": "01_当前比赛/队友方案与诊断/半决赛_正确训练范式方案_20261027.md",
+      "git_blob_sha": "5bc9c117e907f114fc7ceab4f16c4b4e814067dc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "01_当前比赛/队友方案与诊断/半决赛_问题顺序答案_20261027.md",
+      "git_blob_sha": "e6bc11cfe8c116ee439d6c7b259310946cbc2221",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/__init__.py",
+      "git_blob_sha": "902421769ff218f40f06f78def35a843a51ebfc8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/audit_joint_grid.py",
+      "git_blob_sha": "26c14926c39858a3a1e5255d58b9eec2e96045cc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/bench_gpu_vs_cpu.py",
+      "git_blob_sha": "3c89c29c03d7ea25df82a06918fccfc7421dde73",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/c2_acceptance.py",
+      "git_blob_sha": "fdfa55aeb72cc292e4ca21f7e7e3db3e89b0d9ea",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/c2_acceptance_clean.py",
+      "git_blob_sha": "ca52cbdb3caf55ae05870ca1a509e29fe6636ebc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/c2_search.py",
+      "git_blob_sha": "3232a5607aeda0489f3065a8487a33fe6dc84dee",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/calib_search_56k_v1.py",
+      "git_blob_sha": "bc961a6c76dad3c98a4da84499c103fb065d3325",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/calib_tta8_cache_56k_v1.py",
+      "git_blob_sha": "0ca488366f44613d11c2814690687dba423b7eda",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/calib_tta8_search_56k_v1.py",
+      "git_blob_sha": "bbc2e2e5a47f27bc28e3cc63081018b62adc26e0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/calib_tta8_search_56k_v2.py",
+      "git_blob_sha": "3d15528ad1bafe0db8fd18ac416cb0f0ef27714f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/calib_tta8_search_56k_v3.py",
+      "git_blob_sha": "e9b5ae625384bbd02b660d842afa5d83557268d5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/check_acceptance_invariants.py",
+      "git_blob_sha": "7c80d565704101340bc6c277561cb7eec6648144",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/cleanup_last_pt.py",
+      "git_blob_sha": "49646e7d99b5365e7825be46bff861515612551f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/diagnose_components.py",
+      "git_blob_sha": "e6bf1073011a40e440e0cb13b1c0c75cd0d51e96",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/diagnose_nan.py",
+      "git_blob_sha": "41f379f0ec6f9469e89a801b5a2a00cef73e44cf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/gate12_v2.py",
+      "git_blob_sha": "75a87901246bb456dfbc51b73a0109b00e376244",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/gate3_scaler_recovery.py",
+      "git_blob_sha": "507bd0707ba972ecf45b3929b4942843b2eefe2a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/head.py",
+      "git_blob_sha": "20664e0cfdfb3fa187fea2d0db2edd562f6b54c5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/identity_check_score_tensor.py",
+      "git_blob_sha": "7ae7dc704b785ebfef8d1749a232b1b5e2b7a7a4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/joint_search.py",
+      "git_blob_sha": "650de72b575bf67aadab2553d3bc4b1f49a9fe9c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/loss.py",
+      "git_blob_sha": "63ddc23c258136fd312a5bb4354b5527098182df",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/loss_v2.py",
+      "git_blob_sha": "dbf46fcaf300ad1551e5c4c5653a6be8fe2f3745",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/measure_E_table.py",
+      "git_blob_sha": "1b11d8a0b5b559dd87e463d24231d847453ef161",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/measure_bias_spaces.py",
+      "git_blob_sha": "e83f4caec714fd117eecf4bed3a51ca88c08ebd4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/measure_final_margin.py",
+      "git_blob_sha": "f2c2c2ee64c9c8c6182b8d9ab4e92652503619d3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/measure_flip_old_models.py",
+      "git_blob_sha": "312eb62ddda8f8edeea34d4508ba463d3a5da21f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/pack_calib_probe_v1.py",
+      "git_blob_sha": "e5ef163179558542cb635c5882d69d4091bb13fe",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/pack_fg_sweep_v2.py",
+      "git_blob_sha": "60b01c973e523ae428ce540652ba517e81eb6c3d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/pack_multiscale_v1.py",
+      "git_blob_sha": "7b9eb27994e285f5a15a4b6abc5976937aaf863d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/pack_presoftmax_probe_v1.py",
+      "git_blob_sha": "ae615de4e34f550515d15cc442417bf41afedbca",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/pack_run1b_zero_v1.py",
+      "git_blob_sha": "4a0881f1cc295988d468fdd40979d07146a02679",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/pack_stage59_44000_salvage.py",
+      "git_blob_sha": "9475c9d14a9cdb48fc7a879587900b9d67e35baf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/pack_zero_backfill.py",
+      "git_blob_sha": "e764b7d089fd423023b56431e386a6ffc32fb3b0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/pack_zero_stage66_56000.py",
+      "git_blob_sha": "cc01e44413cdd9a67dbf0d4611b31a12250d1a14",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/pack_zero_stage66_best51800.py",
+      "git_blob_sha": "b63f13ba80eb7028ec3934d9d1f5b039e2050597",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/permute_probe.py",
+      "git_blob_sha": "79e7c178d9e485e5b1254427815a1e44eabb1f00",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/remote_stage/_kd_soft_rebuild.sh",
+      "git_blob_sha": "976fdfb01cf664a8cc533ee2d0123fc8e429a379",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/remote_stage/_kd_train.py",
+      "git_blob_sha": "4e9133deede077e4082ebc5c80fed297151d394e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/semantic.py",
+      "git_blob_sha": "bcfe40068c970499e175e3d993cb01342cfdad0d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/smoke.py",
+      "git_blob_sha": "0790b3a081d11f91900542d0b3c2964670b6616e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/smoke_top2_model.py",
+      "git_blob_sha": "a0133c3f2a71c72d455a0eadfc9422201b576d1a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/soupB_preflight.py",
+      "git_blob_sha": "5b706e68c3973e3482d5af9d0025e09d4c0bb344",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/test_cpu_invariants.py",
+      "git_blob_sha": "ec0abc8d219bd72d19629f15cfd2c4371d54b038",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/test_criterion_v2_cpu.py",
+      "git_blob_sha": "4f8babe24ecf7d89e714d4e50e3d146651d9ca8b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/test_encoder_integration.py",
+      "git_blob_sha": "7f5b769f56f8bba4493fcc0b77d6fe1ba691d584",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/test_parity_official.py",
+      "git_blob_sha": "3605d3de6b9fb0ccdf047e82ece8c6e7f6c6f93b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/train_entry.py",
+      "git_blob_sha": "59888b7e129119365653d0083f5f5dbd255c0b60",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/verify_fastpath_pixelwise.py",
+      "git_blob_sha": "dffb96c674108c3faa9a94176aef8336a773528a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/verify_joint_pixelwise.py",
+      "git_blob_sha": "254d41bd75e65bccf7e83135559e25f8f697dcf9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/verify_kd_cache_rebuild.py",
+      "git_blob_sha": "2d30e1b9395576a96b94dd3a201aeed34f0f7d89",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/verify_loader_replay.py",
+      "git_blob_sha": "ed6c44aae237710a90a880d10fcde529c5b77593",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/experiments/b3_m2f_head/verify_resume_math.py",
+      "git_blob_sha": "d7d3f964cb7fa3c11ad52d5c148035717c179096",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_d1_interp.py",
+      "git_blob_sha": "01a02d4d8628f80664ada8eb740755149180133b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_d1_interp_pack.py",
+      "git_blob_sha": "7388d710a74dcc2031184fcfada9b9a36de24fb9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_direction_audit.py",
+      "git_blob_sha": "5f72b6c93c3c18c0fa80c1fcd5ecfa57eab7ae49",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_ensemble.py",
+      "git_blob_sha": "5deffa911a4710413b1ad3bf50457b2730c8adab",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_feature_shift.py",
+      "git_blob_sha": "d32e408f7847cd2165192f115e4b830263e73dbe",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_flip_audit.py",
+      "git_blob_sha": "b2b6ad3a4fc15be2625c70b0ed2721572f3569f6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_module_change.py",
+      "git_blob_sha": "e356f50aa47e1c6c02ec7043a9fa78853a850869",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_mstta.py",
+      "git_blob_sha": "2ca11af533c987bef5f1d65ab45a4dcf22290db1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_pack_mstta.py",
+      "git_blob_sha": "7962515bc2bbce716c850d08aa0195d575e57985",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_pseudo_audit.py",
+      "git_blob_sha": "5d6daf7b751b27bf5eda254e3c220c16564b4e34",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_r2_dart_train.py",
+      "git_blob_sha": "3ea30660d3deee313e163db98498b8e98b3d6d25",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_r2_tekd_infer_audit_pack.py",
+      "git_blob_sha": "841c3570b48ac940a3a8b856f70c6f22c8aa03e8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_r2_tekd_infer_v1.py",
+      "git_blob_sha": "841c3570b48ac940a3a8b856f70c6f22c8aa03e8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_r2_tekd_train.py",
+      "git_blob_sha": "907d026e66359b568e29c8442c8cf3fc368bc70c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_r2_tekd_train_v1.py",
+      "git_blob_sha": "907d026e66359b568e29c8442c8cf3fc368bc70c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_stagewise.py",
+      "git_blob_sha": "52571da2d8b09b10c53e55bf8558d7ea3e65dd07",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_uw1_eval.py",
+      "git_blob_sha": "7598b8f2dd73b107cc71bf71e24760bce806eb57",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/_uw1_train.py",
+      "git_blob_sha": "8bfafad7f4d5e770e64cd40c9d8b6f72e20f88ef",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/audit_identity.py",
+      "git_blob_sha": "3f3a2ba6e0d069a06a141833c747fd0af400c321",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/build_weight_projection.py",
+      "git_blob_sha": "223ef415ba211d06bcdf85976ad8e35cb2127574",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/etkd_v2_audit.py",
+      "git_blob_sha": "5afae4017e15821a54203ab1e933c37363288c7a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/etkd_v2_train.py",
+      "git_blob_sha": "725988848e3fb771130b8174034d74caa0278a5e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/eval_protocol_v3.py",
+      "git_blob_sha": "e92a626ae0303a7a589ef41f55be717128be4dc0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/package_a05_weight.py",
+      "git_blob_sha": "1c3827b12443cf2b2ef99fecc43bd0d656161588",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/run_tekd_gpu3.sh",
+      "git_blob_sha": "8415f1c31fd28831cbace59c48e68deebed5f695",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260925/test_eval_protocol_v3.py",
+      "git_blob_sha": "4413226267393e45abc1c26794bd197b86422374",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260926/PARENT_CHECKPOINT_AUDIT.json",
+      "git_blob_sha": "bc8909d1082f913afc14d30d873c5e00761671b5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260926/save_eligibility.py",
+      "git_blob_sha": "aa660f3476e6e2fe9467fa4190de1d8a756627dc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260926/show_b4_val.py",
+      "git_blob_sha": "f9bd35cc4811249a8230be092312deb3575aecc6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260926/taste_eligibility.py",
+      "git_blob_sha": "6e69dd355feac8367a972ba8c38a0a7c6ab840e5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260926/taste_eligibility_v2.py",
+      "git_blob_sha": "276cd0d1c2d738eb4f45bd52c0e70b6368e22550",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/blind_recall_pair/a05_blind_recall_pair.py",
+      "git_blob_sha": "27626290e98182c9aaf42c8fae649255b950fbbf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/blind_recall_pair/gen_a05_teacher_cache.py",
+      "git_blob_sha": "0fa2dc831c8614a8a99cb6c4b897efa8c6134b8a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/blind_recall_pair/package_blind_recall_pair.py",
+      "git_blob_sha": "6d42b5f9436f871b70dc5ac96d9fa442cf588b29",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/blind_recall_pair/成对实验执行记录_20260927.md",
+      "git_blob_sha": "d24020aa35553ecc0c2d32eaebd1b8110ddcc1e5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/blind_recall_pair/盲类召回成对实验冻结手册_20260927.md",
+      "git_blob_sha": "b8eeaee237bea3f03f9ef59698cef9a4bb5f76df",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/desktop_originals/_a05_pair.py",
+      "git_blob_sha": "1a4e8e041301afd12d03f31a0131c66bd3b31d10",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/desktop_originals/_b4_infer.py",
+      "git_blob_sha": "b930a940234c49c5a1377f91d253c052800a4614",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/desktop_originals/_check_circular.py",
+      "git_blob_sha": "399de7b654dce5cf29441bceac2aab974afbc61d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/desktop_originals/_enum_pseudo.py",
+      "git_blob_sha": "fa502c90df715c8720e9679a681ebbb0c1f571ca",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/desktop_originals/_final_fix.py",
+      "git_blob_sha": "062f62a361bfcb73ae2f3c103927fb123616e785",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/desktop_originals/_fix_circular.py",
+      "git_blob_sha": "6ced9086054a7906b97d0dc44a898005891e3f5e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/desktop_originals/_gen_index.py",
+      "git_blob_sha": "3b19360dab9b37b304a02bcb4e7a2257aecd50c1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/desktop_originals/_gen_manifests.py",
+      "git_blob_sha": "ca63bdeaec03a378b46c064808c8ccffe677b18c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/desktop_originals/_mic_infer.py",
+      "git_blob_sha": "56b4c10d089cf8bd55cfd1df3d6a61eba716a037",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/desktop_originals/_mic_train.py",
+      "git_blob_sha": "307390120c61ac6fafd61a4ac92da2fb39f145dc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/desktop_originals/_verify_ret.py",
+      "git_blob_sha": "41f45927e63c293f631d1d9a351f56c8bd13c038",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/mic_repair/README.md",
+      "git_blob_sha": "22280bb5e822c1f168b0fcd69c2ba4ee7fd0912f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/mic_repair/audit_submission_zip.py",
+      "git_blob_sha": "7f9ab50455fc0f146fe8694d39a82788baa147a6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/mic_repair/finalize_remote_audit.py",
+      "git_blob_sha": "6bbec47c1cd5b41da7f5bebdca9dbb8d03e9ccd6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/mic_repair/mic_infer_fixed.py",
+      "git_blob_sha": "8112ab67fc7bf9025a54596a85348d58f47783d1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/mic_repair/test_mic_infer_fixed.py",
+      "git_blob_sha": "c2de1c287220b06e8f0baa6f99f5088985607c38",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260927/migration_smoke/smoke_a05_new_server.py",
+      "git_blob_sha": "d0c09249d3a46cc3ff695632086b24b93baf5a4b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260928/reverse_ratio/a05_reverse_ratio.py",
+      "git_blob_sha": "a401bd6377f30cd7c275bdbc773b42188a4ff6a3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260928/reverse_ratio/package_reverse_ratio.py",
+      "git_blob_sha": "917cf07edc31eb55eff39135c76a1f4a3d0315c4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260928/reverse_ratio/招1执行记录_20260928.md",
+      "git_blob_sha": "28df529df125498f84db647df62aad6771c77599",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260928/round2_iterative/a05_treat_round2.py",
+      "git_blob_sha": "266d845c0751e0f5934ff4344e33d5d4b977a4c6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260928/round2_iterative/gen_treat_teacher_cache.py",
+      "git_blob_sha": "842fa18c24b76d4517826c67ba690bbb4b616db7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260928/round2_iterative/package_treat_round2.py",
+      "git_blob_sha": "11490889647d82d74965525ade632f1a112da03e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260928/round2_iterative/招2执行记录_20260929.md",
+      "git_blob_sha": "bd35a10e25b6cc1c1af716d43e3fb27d29885d96",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260929/diag_barren_ratio.py",
+      "git_blob_sha": "16cd5473efe0352bc21218294d6670e271c5fad5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260929/diag_fda_threeway.py",
+      "git_blob_sha": "9f7c8e8dff285f54e106ce13d4625d2a3dc79230",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260929/per_class_diag.py",
+      "git_blob_sha": "206d46c60b3af84a7ae78edf19179e7f46173d55",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260930/b5_blindrecall.py",
+      "git_blob_sha": "c30315c78b42c5a2a58dae99522f2d3e70b72053",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260930/b5_package.py",
+      "git_blob_sha": "4cc6778f86c907314f985dab16fa79ad1de6399e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260930/b5_source_probe.py",
+      "git_blob_sha": "52196db292d21b16d0d308be2c62b612fad83bac",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260930/gen_hard_pseudo.py",
+      "git_blob_sha": "39f6645aa7c21f5d1f0e971ab50675e738fd450b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20260930/train_hard_pseudo.py",
+      "git_blob_sha": "8479e70e361bf772742e363bdb9dcb25e151fe37",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261001/target_complement_anchor/README.md",
+      "git_blob_sha": "4105319477f9af3c808b972f7c2c43c1a35e7cb3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261001/target_complement_anchor/SHA256SUMS.json",
+      "git_blob_sha": "768d67744a7666a0bc55426001362c2dbbb36e06",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261001/target_complement_anchor/calibrate_tca_mu.py",
+      "git_blob_sha": "9772efd68585ad2a461801073c4fb18be0ecf4db",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261001/target_complement_anchor/compare_submission_packages.py",
+      "git_blob_sha": "d114e091a289096a6653180d8b3b287eea7afb4c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261001/target_complement_anchor/package_tca.py",
+      "git_blob_sha": "c081536aa4d0148b6e208570e2e3951e1aa68e38",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261001/target_complement_anchor/tca_common.py",
+      "git_blob_sha": "212a293d571e55de5268b7dd23ead07437abc892",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261001/target_complement_anchor/test_tca_contracts.py",
+      "git_blob_sha": "b446bf5851f08c638e7703df69e7cc516a1a77a5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261001/target_complement_anchor/train_tca.py",
+      "git_blob_sha": "79fe37ca890a8e3b0b4d3b5d188a479e716b5ad1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261001/target_complement_anchor/执行手册_交队友.md",
+      "git_blob_sha": "2c3716df0d6ecdfdc11eb97468f121e7b51a35b6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/README.md",
+      "git_blob_sha": "eae6e609950e2e63eb0d317956bccf07be522c7a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/SHA256SUMS.json",
+      "git_blob_sha": "1b90471f316d4c1274303a3fbbdcf7488d534500",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/SOURCE_AUDIT_SPLIT.json",
+      "git_blob_sha": "747f4ce63bc2d1484e6eed494ca90fb8870a6503",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/build_prediction_cache.py",
+      "git_blob_sha": "e3e467359f65d9631940d288c64f9b85f276267f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/build_target_cache.py",
+      "git_blob_sha": "6d56d8e48777038ce53b069dcb6d520e81933874",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/calibrate_fixed_beta.py",
+      "git_blob_sha": "7a7e137248e7f6dbb9f54f87a4063c922815b2e1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/discover_and_validate_gate.py",
+      "git_blob_sha": "1b6677dd5bb05082161a313f9f2b324de424a022",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/donor_adapter.py",
+      "git_blob_sha": "a8a1d5c88ded6eccf438a59f2d3dfe27e678d5de",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/evaluate_source_health.py",
+      "git_blob_sha": "7d27bf2790cef7b4bea013fc651577dac1699149",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/finalize_decision.py",
+      "git_blob_sha": "3691f24294ad9b1825f0e715665835223431befb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/freeze_assets.py",
+      "git_blob_sha": "4a62576f6744ee13d80a4ab8155ba7e7ae4de013",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/frozen_config.json",
+      "git_blob_sha": "9e8c233401c1d219e01e6378257037dc36b2ef1f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/package_and_audit.py",
+      "git_blob_sha": "691081aab76a74508da6acba9016dc19a02fb848",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/run_all.sh",
+      "git_blob_sha": "27aef2c09fcc209b8e0a6b3e3e94b11233085c57",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/shbr_common.py",
+      "git_blob_sha": "a116e085554a9abac66d581bae27506f99b837f3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/test_shbr_contracts.py",
+      "git_blob_sha": "7fa5d354fe5c6e677a314bd437203c0d9c7cee9c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/train_shbr.py",
+      "git_blob_sha": "aec98d150fc2e7c132309b27a7f9b3c87d4f1010",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/scripts_20261003/selective_heterogeneous_blind_recall/执行手册_交队友.md",
+      "git_blob_sha": "8a36a5529fb0887036611dbd0792830e07e8d869",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/一次性整理脚本/_consolidate_packages.py",
+      "git_blob_sha": "755dc277cc0574b62569dcb8293b32f2ff06726c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/一次性整理脚本/_group_scripts.py",
+      "git_blob_sha": "7891ab6fa6cfeea9e919a00ad1199e7d680fd82d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/一次性整理脚本/_quarantine_move.py",
+      "git_blob_sha": "182b98abcbd0c4604c7258fde884b55457dca2c1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/一次性整理脚本/_rescue_from_archive.py",
+      "git_blob_sha": "2ffc430a0b09af97061e357fc476f51046f9f93a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/一次性整理脚本/_tidy_root2.py",
+      "git_blob_sha": "9a5eb2140efa0cd567c17a30be916e610408d3f5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/一次性整理脚本/_tidy_root3.py",
+      "git_blob_sha": "c0d6774686150f2d2078e9974a65f9a75b9030bf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/审计与检查/_build_retro_manifest_54_63.py",
+      "git_blob_sha": "5d29ea0b02aebe7313e7fa3473949b08a8e74f08",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/审计与检查/_check_cache_matches_ensemble.py",
+      "git_blob_sha": "2ddb4c19767bed8be23a25f05efe459df8f30c5f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/审计与检查/_check_distribution.py",
+      "git_blob_sha": "9788d888d0365f9ea3761b01780208baaa94f3f3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/审计与检查/_check_geom_alignment.py",
+      "git_blob_sha": "ad5f476d47f80e7ad61195bcd81c5f999f5627de",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/审计与检查/_check_kd_math.py",
+      "git_blob_sha": "03d392e36badefa206c6490000b407edb458c5e1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/审计与检查/_check_quant_gap.py",
+      "git_blob_sha": "adc5a0b239188a04a081d79d86ebf75c72804fa4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/审计与检查/_error_morphology.py",
+      "git_blob_sha": "bf0c6f64afd08ef08b0f0ca7164ac4709d23cbc0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/审计与检查/_error_morphology_v2.py",
+      "git_blob_sha": "6f187ac9f4384f7b21e7c391c1ce19d1d0ebdd2f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/审计与检查/_morphology_report.py",
+      "git_blob_sha": "f73cf6bc35697b92a3de8d9ab6cee0e806697078",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/审计与检查/_record_receipt_kd_run1.py",
+      "git_blob_sha": "1d521c9d4d2b6e1557e1364e2f37468ae49f8a7f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/审计与检查/_val_predict.py",
+      "git_blob_sha": "21a31b7584601b15150d8c80d6dcd13def2c4ee0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/校准与TTA/canonical_paramwise_optimizer.py",
+      "git_blob_sha": "f1c393557ecd79956a502e6b1c8ca3a5120b936b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/校准与TTA/constrained_calibration.py",
+      "git_blob_sha": "55f8dc0ac4e778d416d83307e2ff184e5a8548dc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/校准与TTA/constrained_calibration_priority_v2.py",
+      "git_blob_sha": "b07d0ee6ce426e99b2e8eba70dc83d845fb9b0c9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/校准与TTA/constrained_calibration_v2.py",
+      "git_blob_sha": "c9be1733176219a21255bd77cb7415b04fc63637",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/校准与TTA/tta_anatomy.py",
+      "git_blob_sha": "34bc817075080bfe43f98b7666f091e5f608065a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/校准与TTA/tta_anatomy_v2.py",
+      "git_blob_sha": "7462354b3590de4eef7d295aa75bddf881e43633",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/校准与TTA/tta_partial_gates.py",
+      "git_blob_sha": "c67e69308d8c108b1ee6f906867259673c254182",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/校准与TTA/tta_priority_gates.py",
+      "git_blob_sha": "ea697b920228f4b5b7e3f2d1f14c58bba48a4b6f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/校准与TTA/tta_v2_gates.py",
+      "git_blob_sha": "c303cc3def5a838b469e1ba0245650a92d9efd9a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/训练与KD/_combo_queue.sh",
+      "git_blob_sha": "ce9d1bcdf6d4501c947a22793615d5215190fcee",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/训练与KD/_hard_stop.sh",
+      "git_blob_sha": "531ade64b108c6ec879be1e4a5c574ab069dc591",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/训练与KD/_kd_diagnose.py",
+      "git_blob_sha": "2fcb5d4eabeb78a73671a852eff24ce55fbc7c8c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/训练与KD/_kd_launch.sh",
+      "git_blob_sha": "e509658dc838ca03dd074a6fd293ee72345f77a8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/训练与KD/_kd_pack_eight.py",
+      "git_blob_sha": "0181993ba755ec86113a4f5ca5a7bfe090bf0b4d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/训练与KD/_kd_precompute_teachers.py",
+      "git_blob_sha": "1b507c934cedb649aef10680d140eaf2ea5f82db",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/训练与KD/_kd_restart.sh",
+      "git_blob_sha": "b603adb1f79a544af6dd71d83369ff071d3f0251",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/训练与KD/_kd_train.py",
+      "git_blob_sha": "aeed4c2120448c21d6c47712fc180087937f2a4b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/训练与KD/_make_teachers.py",
+      "git_blob_sha": "235fd1a503c117ecd1b730aef391974e564e5edf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/训练与KD/_s62_axis_probe.py",
+      "git_blob_sha": "a9426edc2f492b31b1cc6626b66353ff82dc4b39",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/历史脚本/脚本/训练与KD/_s62_combo_probe.py",
+      "git_blob_sha": "92d77f5cba67bfd95d9be0df444e87f3a6e7bcae",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/00_执行状态_20261028.md",
+      "git_blob_sha": "443c09f2f706f704e77da9f1e7b9049bffe725af",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/asset_probe.json",
+      "git_blob_sha": "c241c6c77957aefded56e9492d744dc1d4542187",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/assets.json",
+      "git_blob_sha": "ec4e94d9b7d69b638b355ebe321a4781c372caca",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/cache_teacher.py",
+      "git_blob_sha": "0c5915bb8e5f58bbb27f4fab7dd10da2ceaeae93",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/common.py",
+      "git_blob_sha": "d26ab59644e89f63bd0fd4e291dcc02f8a20788b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/ola.py",
+      "git_blob_sha": "f072191fb0a40864a0a90095065a0d7ae828f820",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/prepare_remote.py",
+      "git_blob_sha": "93a9fa469b1067c3286be5682df17a8e24575615",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/probe_assets.py",
+      "git_blob_sha": "ec07d576f1348896d34b0fb7cae12a49b1d238c3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/probe_manifest.py",
+      "git_blob_sha": "55b259d8185743a41f3f770a0930d8e14703c7c7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/test_ola.py",
+      "git_blob_sha": "c90456cb143adc4edda17e8608d36384aefe03c7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/BLDA_Soft_执行_20261027/train.py",
+      "git_blob_sha": "415f8baf2ab3803896ef4b1174954e29ab4cdd3f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/scripts_20261027/atda_test3_train.py",
+      "git_blob_sha": "710806b9ae03d94b611e082e258b7e135680af06",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/scripts_20261027/gen_test3_native256_cache.py",
+      "git_blob_sha": "b38f16910f169f4ef3ab9285123cf1b7fcecec8c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/scripts_20261027/h75_blind_recall_test3.py",
+      "git_blob_sha": "2b7f2181c62b917c1d4fa03e173f055782ca0831",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/scripts_20261027/package_ctrl3594.py",
+      "git_blob_sha": "83374b180c0321d9cb0c3bd29796faaa162cf045",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "02_代码与实验/本轮实验/scripts_20261027/weight_soup.py",
+      "git_blob_sha": "e9705cb04e24bbf7c262cf06b465be399943b05d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/ERROR_ANALYSIS_SUMMARY.md",
+      "git_blob_sha": "d3d6cdd4b81422ff1b39b39d5f8fdbc9f8ffb717",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/META.json",
+      "git_blob_sha": "d2ce5fd70ce7269ce37ca4e4fc94a2fdae6cee8e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/SOURCE_AUDIT_SPLIT.json",
+      "git_blob_sha": "747f4ce63bc2d1484e6eed494ca90fb8870a6503",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/UW1_RUN_SUMMARY.json",
+      "git_blob_sha": "dace5c758b918c2cbb9ed95a4be9c6cb000bd83f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/d1_analysis.json",
+      "git_blob_sha": "e9e0b087c6ec85045a759cbac90cf25a1e1c3d94",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/direction_report.json",
+      "git_blob_sha": "8b996e4fca34c539b160dc50a9d8f79968d8c753",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/error_analysis.json",
+      "git_blob_sha": "39632b9b3b3a1b52c962581ed92b8b066c32e9c5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/eval_results.json",
+      "git_blob_sha": "4375c2cd5bb6a2499ad8b31000fe92fcbe4591e3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/feature_shift.json",
+      "git_blob_sha": "2572bd56aea1623d938b7fcc8163c56a16f6436f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/flip_matrix.json",
+      "git_blob_sha": "86a670a8813ee4e9908cb89eb60e5ad6bfe7aa86",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/holdout_eval.json",
+      "git_blob_sha": "78fcacdbd6b423a7b99f24a352942d2ccd86eb02",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/interp_results.json",
+      "git_blob_sha": "b355c4630d32dfb865ca0e4a3fdb59bfe392fe01",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/pseudo_label_audit.json",
+      "git_blob_sha": "a5170075dcb1168e438ec9a9604c784c4fee2f10",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/stagewise_results.json",
+      "git_blob_sha": "64a8d2ec80f8bbc9fa039ecaaab5d8120d018b57",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/analysis_reports_20260925/variants_eval.json",
+      "git_blob_sha": "bd563d1b14a7bb8724ea2508558c9d57cb351dff",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/历史交接/PROJECT_HANDOVER_20260925.md",
+      "git_blob_sha": "8ab2cbd07e8d5cf93d6ab36dc40542c8dbe33631",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/历史交接/PROJECT_HANDOVER_20260926.md",
+      "git_blob_sha": "c77007969547c31b8f74410fc60237e7cfb1c653",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/历史交接/PROJECT_HANDOVER_20260927.md",
+      "git_blob_sha": "34210432939957b0e33c6ea6c4d52facfff45e42",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/01_赛题与规则/_规则全文提取.txt",
+      "git_blob_sha": "723031e8156718eb6c42213b8a7ee9d907b6e550",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/01_赛题与规则/_规则要点_可读.txt",
+      "git_blob_sha": "999f7b6b83f8bd37b39124debf7753fa5e97c378",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/01_赛题与规则/关于举办算法挑战赛道复赛的通知.pdf",
+      "git_blob_sha": "4c01484d292005ad017baf850f507883a7b3dd81",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/01_赛题与规则/官方答疑_方案边界_20260915.md",
+      "git_blob_sha": "07be7ded7a851030a4e2ccd1445c857b236e0121",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/01_赛题与规则/官方答疑_方案边界_补充_20260918.md",
+      "git_blob_sha": "5132027fab15a888a2c9a6fdac3319e680dd4410",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/01_赛题与规则/赛题.docx",
+      "git_blob_sha": "120ec5c59761b309dc0cfac7ae387fc8ec893ae5",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/01_赛题与规则/赛题规则与工作原则_锚点.md",
+      "git_blob_sha": "6ffa2bbd5868d7100598c21b4ebfb0adb2dbc851",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/01_赛题与规则/赛题说明.docx",
+      "git_blob_sha": "94cefbf58aa24e8af3adca17c6f90c6109ace9de",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/01_赛题与规则/附件1：第八届AIC算法大赛算法挑战赛道复赛赛事日程表.pdf",
+      "git_blob_sha": "3c8d32b63565b72f000c00dcc083efdbb52fb525",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/01_赛题与规则/附件2：第八届AIC算法大赛算法挑战赛道复赛作品提交要求.pdf",
+      "git_blob_sha": "6c84913db1b883eaf43254f7f1f59931b1cfe9a8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/02_数据实证分析/冠军诊断_Stage3-4人工验收纠错_20260908.md",
+      "git_blob_sha": "0f644072f3059e9d8eda3e02aa83a89c589fd9ec",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/02_数据实证分析/官方数据分布图.png",
+      "git_blob_sha": "5f4d520d77386ad845cadaa6d96d0413681e5879",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/02_数据实证分析/形状边缘错误定位_诊断报告.md",
+      "git_blob_sha": "327467277f163e935e6f798fbad7ea2fda8d602a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/02_数据实证分析/数据特点实证_图像层.md",
+      "git_blob_sha": "2e01927a37c684495e14ee2c4898bca78866152a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/02_数据实证分析/最优方案薄弱点与丢分结构_20260908.md",
+      "git_blob_sha": "b2577ec17399c37a8c7dcc1e4bc781e82997c848",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/02_数据实证分析/赛题难点与图像质量复盘.md",
+      "git_blob_sha": "8d725319a251e2b4e73346bac5dafe3ec0e07b4e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/DINOv2特征蒸馏方案.md",
+      "git_blob_sha": "9e48c4d4cd1bfabcf9120d5d29b8a7ca96af5ec4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/MCCA注意力融合与边界升级_研究结论.md",
+      "git_blob_sha": "9742c9fe611b6101f7af2f1c2f5f311683808aef",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/MaxEnt_区域对比_新方案设计.md",
+      "git_blob_sha": "57812dfb195820f20b2b809d76cf4d23d2061a4d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/MixUp与CutMix研究结论.md",
+      "git_blob_sha": "d356e7f1cd8b37b73b446ba8354234c981a4b307",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/SAM3蒸馏调研.md",
+      "git_blob_sha": "9831c0fb404cfd8a584f6c3b881f3b0727ddb433",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/SEMEDA语义边缘损失_研究结论.md",
+      "git_blob_sha": "46550a960f7c0fdc5bad651e1d68e187004fd2ad",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/SegFormer解码头源码事实.md",
+      "git_blob_sha": "afe8421fcb9448dd6bb7dcd52c9cd339301e6835",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/伪标签训练方案.md",
+      "git_blob_sha": "3936a4f78a76a5508bafefb9be7b121f8a7b108d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/冲击72_复合小策略与异构教师研究_20260930.md",
+      "git_blob_sha": "cee7411d7beda84d17d1d7b5fbfd40f3eea67436",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/噪声鲁棒_样本筛选与自校正标签_研究结论.md",
+      "git_blob_sha": "740cd086a1a0eea5d524d0b937509f001eabd003",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/外部仓库_uav_semantic_segmentation_工作流记录_20261009.md",
+      "git_blob_sha": "9400970cb7eddac75a8bcb095e9a07a8407d2cd3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/多尺度上下文与边界监督调研报告.md",
+      "git_blob_sha": "1d9068366f17a62e1f3f897d71bd3dc0916bc421",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/少数类增广研究结论.md",
+      "git_blob_sha": "bd7a308f8e47a974f7e61fa8775c465d4ac6bc95",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/新论文调研_CSL与DA-Cal_20260927.md",
+      "git_blob_sha": "dd6f1d2d568d10c27793cd85065dc4d2c763052b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/03_方法调研报告/边界监督分支挂载_研究结论.md",
+      "git_blob_sha": "e35fc6574de46450c5d257d5f57ca9c728b0a57c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/A05_WEIGHT_执行报告_20260926.md",
+      "git_blob_sha": "4a622882d843e4f0c765c1af3dfc1c7e55f7e2a0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/AIC2026_B3_A05残余D1成对正式实验执行手册_20260927.md",
+      "git_blob_sha": "9ad14d7ab9a8112d70426846699a233d2adf624e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/AIC2026_B3_新方法研究与冻结执行手册_20260927.md",
+      "git_blob_sha": "c39be314aa80a51989e0e9fe4e9173f3900fa4da",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/AIC2026_B3新杠杆_TASTE执行手册_20260926.md",
+      "git_blob_sha": "63edf91b56a0e641c0257cc4f250c39cc5259ace",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/B4_Capacity_实验报告_20260927.md",
+      "git_blob_sha": "b5c5bd73c6c2840e6a961a01d3cdea382c8d0123",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/B4线上结果补充_20260927.md",
+      "git_blob_sha": "dc7309d3571029c41c0eb300979c6df729d8d386",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/MIC成对实验执行报告_20260927_原始版.md",
+      "git_blob_sha": "16a652581e43f7cd0aae8535d0e095547cde7164",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/MIC推理失效与修复报告_20260927.md",
+      "git_blob_sha": "acbc71d230c6a7bd9af5cdcfe638be995d0cf853",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/TAST-E_PhaseC诊断无效_纠偏与CPU重跑指令_20260926.md",
+      "git_blob_sha": "10f8dca66197aebe09c5ebae5875f3c579d9cbaf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/无人机_当前最优方案全面诊断与突破执行手册_20260926.md",
+      "git_blob_sha": "aadc93a6ad8988768c9871cfffb70d7a9f22ac2f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/无人机_当前最优方案诊断与突破执行手册_V2纠偏版_20260926.md",
+      "git_blob_sha": "8ea4c7ee3aa6c0629f0bc1c5cc1f4dd39b82533d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/给执行AI_B3补证后连续完成Formal成对实验_20260927.md",
+      "git_blob_sha": "5e5a0fb50497608d1835073ee2a0dc825f679cb7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/给执行AI_B4_PhaseA审计补正清单_20260927.md",
+      "git_blob_sha": "581824344f3cece292fa2ddd01b4b82062561437",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/给执行AI_B4_PhaseA最终一致性补正_20260927.md",
+      "git_blob_sha": "3492735532cb4ab357bd26228ec059b56640f069",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20260926_20260927_实验报告与执行手册/给执行AI_B4追溯审计与ZERO单包_20260927.md",
+      "git_blob_sha": "b93d0f687fa2558949cf0f1ad978960eb3f31545",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/20261002_RAS_BLACK_AUDIT_复核结论.md",
+      "git_blob_sha": "9b074f2f315803e6086f0dcf1a45977defb35cc9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/6796全数据路线疑点_20260905.md",
+      "git_blob_sha": "aa8952d921c6a0013f5683f18f8833a99a394a4c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/B3_M2F_实现前测试合同_20260915.md",
+      "git_blob_sha": "754c42ffa81739718c7b3ea34c5525f189539c66",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/B4出路分析.md",
+      "git_blob_sha": "9a7e5706ca59e48b8fdebbdf8e214096a037d317",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/B4参数机制与三大难点应对.md",
+      "git_blob_sha": "b87eefb3d391de6aba2b185ab22b9fb9eb39c025",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/D1_Barren_Ablation_Handover_20260926.md",
+      "git_blob_sha": "45f30068f545f7f61a825d8138a09672749b7675",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/Exp47迁移_实际情况与操作_20260915.md",
+      "git_blob_sha": "679484f486ce7c8be2278763069239200794fa24",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/exp16_upernet_online_validation_20260909/UPERNET_ONLINE_VALIDATION_REPORT.md",
+      "git_blob_sha": "4ad063227f38770d87fc365ce009cefd2a3953e5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/exp16_upernet_online_validation_20260909/baseline_online_evidence.json",
+      "git_blob_sha": "c25117a7cbe161a7ae8e64ac0485f10633677179",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/exp16_upernet_online_validation_20260909/exp16_identity.json",
+      "git_blob_sha": "6b158023947b128e57e491341be75d8bbb4485e7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/exp16_upernet_online_validation_20260909/exp16_submission_identity.json",
+      "git_blob_sha": "bf0a45e950c1d07892dca1b505016672808562e9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/exp16_upernet_online_validation_20260909/online_result.json",
+      "git_blob_sha": "066b44b2dc306222821be8db4bb70634126ba1d8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/RAW_EVIDENCE_GAP_CLOSURE_REPORT.md",
+      "git_blob_sha": "1e4799d036e46e3d21b606a650df6434d126f668",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/RAW_EVIDENCE_REPORT.md",
+      "git_blob_sha": "a69caa0eea8647b86c1a2bed45e8707e3efc7074",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/README.md",
+      "git_blob_sha": "b28611195bdb8a552c37b77dd26c8a9628bfcd8f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/calibration_raw_history.csv",
+      "git_blob_sha": "cae815d9ec1eb9312478eb43666015b9a1cc9222",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/champion_69_281290_decomposition.csv",
+      "git_blob_sha": "a662b8a483a20a30c40c4a1764675c570fa3654e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/champion_69_281290_final_calibration_truth.json",
+      "git_blob_sha": "0455a5ddc321216db3dec5d66f08bc9636055470",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/champion_69_281290_final_calibration_truth.md",
+      "git_blob_sha": "bed32a4ca5622c3590dcc09260f73d9164e749f3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/existing_inference_assets.csv",
+      "git_blob_sha": "658ad69b94c0070c59392991be6bdd3b8ac604a5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/exp47_calibration_truth.json",
+      "git_blob_sha": "114a0aeb88765e889f42fb0f8467eae10cc71c8a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/future_combination_candidate_matrix.csv",
+      "git_blob_sha": "2b07a66e77a2ea8af016e2c1c976f4fe73702695",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/historical_method_audit_report.md",
+      "git_blob_sha": "940b2186ae2cd6a8a3da9b678d1feb7e4cdac9af",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/interaction_failure_analysis.csv",
+      "git_blob_sha": "c9b4796abeaf841b9c77242b460888bb471779e5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/local_online_mismatch.csv",
+      "git_blob_sha": "347ff721a9548e9f3657e069137eec8c8c7acc60",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/master_experiment_ledger.csv",
+      "git_blob_sha": "051f261bc839b26bcc3720b7a3420d0358f5917f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/method_effect_ledger.csv",
+      "git_blob_sha": "68dc6f0403b0f08f972fd919edd1a95ada5e8f26",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/method_interaction_ledger.csv",
+      "git_blob_sha": "10fb9e8e1b02a0f9b874c29a72f59a5607ea7d09",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/method_mechanism_matrix.csv",
+      "git_blob_sha": "f974766aff8f9f5b5e325571ce9b806d84aa0d0e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/raw_evidence_gaps.csv",
+      "git_blob_sha": "4b3dbb8ba22f6a6b85d721e9e4662831496b9a0e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/raw_factorial_interactions.csv",
+      "git_blob_sha": "4e6a9b3d11e181259a53edc58e7650114b4d63e3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/raw_master_exp01_47_partial.md",
+      "git_blob_sha": "88754148d7015799fcd8542c8a6c909b4fdd0f87",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/raw_master_exp15_25_partial.md",
+      "git_blob_sha": "c883a4ae00f35c5dc50db4460a02d27951da6962",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/raw_master_experiment_ledger.csv",
+      "git_blob_sha": "b5aa6fac1bb4a1839228740d46fdf54cb92f6d71",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/raw_online_submission_ledger.csv",
+      "git_blob_sha": "7099fe3da383ef3fb35829491cd62983116f68a9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/reliable_positive_methods.csv",
+      "git_blob_sha": "05f4f34ebfc1fd2acb7d7506bbf153cfb74ed97c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/revisit_candidate_methods.csv",
+      "git_blob_sha": "560c87f8060615b6c27c9ca6f3bcd748ec267cfd",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/semeda_exp47_raw_evidence.json",
+      "git_blob_sha": "7c55759450a97505311784871edff6f56279da2a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/small_gain_methods.csv",
+      "git_blob_sha": "259082e56f5e7151108e243b7f12a3db0fb1bdfc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/historical_audit_20260909/upernet_exp16_raw_evidence.json",
+      "git_blob_sha": "efe9078c9863aea49a61e4a7f64dc597435e95a7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/SEMEDA_VS_CWFA_FORENSIC_REPORT.md",
+      "git_blob_sha": "1d6780d92f906b9e344eee7d2d6b1c0d6b40bd39",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/error_transition_ledger.csv",
+      "git_blob_sha": "74bdd4b1dcff79e4d422ebcd9cf7a9894a0902d8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/exp16_vs_b2_1024_baseline_config_diff.csv",
+      "git_blob_sha": "da99ae1723579fa7db4fd7b36735b9a5c7d71ded",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/exp23_exp47_prediction_disagreement.csv",
+      "git_blob_sha": "ff667e4e2d4f131f607cef2ce8c24e172259e4fe",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/exp23_vs_exp47_boundary_interior.csv",
+      "git_blob_sha": "461b8b1f46b552c5f15c186a88c3cdc0c53d6906",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/exp23_vs_exp47_class_metrics.csv",
+      "git_blob_sha": "ee2fecc1f7e533e69a3c707527e98107fd2553f6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/exp23_vs_exp47_confusion_pairs.csv",
+      "git_blob_sha": "b077d5cc9cb5d3a54e53ab7d39036931d1805259",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/exp23_vs_exp47_domain_metrics.csv",
+      "git_blob_sha": "b174c81090fc67b2f9c22d8abfb41d43bfbd2334",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/exp47_calibration_truth.json",
+      "git_blob_sha": "114a0aeb88765e889f42fb0f8467eae10cc71c8a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/exp47_inference_assets.csv",
+      "git_blob_sha": "028669be7f3e3a04a0c9ae10541e55603b63bd23",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/exp47_vs_champion_bias_diff.csv",
+      "git_blob_sha": "55e8fb5ed4aa2a0d727d7b80b43026af934ddd72",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/semeda_vs_cwfa_forensic_audit_20260909/gradient_alignment_clean.csv",
+      "git_blob_sha": "a89e8e5f30d24fc03009b9ba9091be20711a6f58",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/下一步方案深度分析.md",
+      "git_blob_sha": "d7d57796a603a4480c275c11316fc8c952c8f97b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/伪标签实现深度研究.md",
+      "git_blob_sha": "c990286acd08a49563ebc9537707bda0cf3b94a2",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/伪标签贴测试分布_方案就绪.md",
+      "git_blob_sha": "169971e1205dc429c5f193d7a1fee4eb04128183",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/决策记录_20260915_第二轮评审定案.md",
+      "git_blob_sha": "734b3cd495299ff322c580db067ecd62208d1937",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/决策资料库导航.md",
+      "git_blob_sha": "6c00d9f0549bfb7e1826306a2c52a188de0ad3f8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/后备道路_外部事实挖尽清单.md",
+      "git_blob_sha": "b1c117ad62560952c634b5dffc808ec14be14142",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/向GPT汇报_KD_Run1评审_v2_20260915.md",
+      "git_blob_sha": "5c24fed4281a6d508446ad291f609eed36292190",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/复赛Bias重算流程_基于测试集伪标签.md",
+      "git_blob_sha": "9c3571beb350ef0487ebed6f3a56d9579340dbd9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/复赛冲刺策略_20260908.md",
+      "git_blob_sha": "cc61850f1ebc72eba6ce69064c081679ad8edbe3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/失败方案深度归因与翻案清单.md",
+      "git_blob_sha": "65309063eb055c6fa0f32572f2d9649cecbaa8d0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/失败方法根因复盘.md",
+      "git_blob_sha": "e073a0dcbad2389c957278e2ada4f19ef3394cc4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/官方提示与数据增广执行清单.md",
+      "git_blob_sha": "cc7316091da5a7f8cb92deb66e96fa04a80e04e7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/官方提示方法对照表.md",
+      "git_blob_sha": "6e23e1764f6b645e9f78f6eb96fa0b01d976592f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/工作原则_先研究再定方法.md",
+      "git_blob_sha": "9470d0df5d0e92652ecabf4316c8df0431f38226",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/平台成绩台账_20260916.md",
+      "git_blob_sha": "ddb54928956ff445df3b41ab48f2e458329010e0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/战略转向_训练时自适应_伪标签蒸馏.md",
+      "git_blob_sha": "efd4328eb785bf43efaa1cd9f38e08c5d64aa00a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/提分构成锚点.md",
+      "git_blob_sha": "6f15c3d3cb842109e209253809202e6b845e3498",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/方法集成决策清单.md",
+      "git_blob_sha": "0315d1dd4835cc6637b04f2618ab9063c30dfa4f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/正式路线与预注册规则_20260915.md",
+      "git_blob_sha": "d07dab5142957bfd5a8b88c3aa77cea84602ecc6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/清理记录_20260915.md",
+      "git_blob_sha": "146f4de2746596564bf48e39379d1e41aaafaf0d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/空间先验后处理方案_突破69.28关键.md",
+      "git_blob_sha": "e1170aa554cf73b8bb58401ae7d84a1fa34c37ca",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/突破70_大方案_20260915.md",
+      "git_blob_sha": "fb0bd3d0bdd6b82d6fc2e339b36db232dc82f948",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/系统组合设计_线下线上指标_20260906.md",
+      "git_blob_sha": "3e36419dff14cf8036846ffebe8e07efd8d1d624",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/线上成绩记录表.md",
+      "git_blob_sha": "70e9dbdb8bbf77d57ab2332d0d73be8ca909ea24",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/续训方案_20260907.md",
+      "git_blob_sha": "8f8090099f0ffd9ff5f3dc29c79081c62bcbacb7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/赛题本质复盘_方案设计原则_20260907.md",
+      "git_blob_sha": "7aa89dac42fdee8f9612065b81d4fe684e0e70df",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/赛题难点分析与实验决策文档.md",
+      "git_blob_sha": "ce1f08a1c20f00595900c716b581f4bb3e007a0d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/04_实验决策与成绩/迁移规格_B3SEMEDA_TTA8_Stage23bias_20260915.md",
+      "git_blob_sha": "9a4b0dd7c7d7efcb6e6635c5d9e62513a34a5f83",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/05_豆包方案/全流程解决方案_数据分析到后处理_2026-08-31.md",
+      "git_blob_sha": "35fe45896fd57f80d17c40419a1ac1f50204db13",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/05_豆包方案/我认可的方案_具体执行版_2026-08-31.md",
+      "git_blob_sha": "9b9a12f52ccdf4dd1bfa25099d907795d6f27f6f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/导师答疑配图/fig1_loss.png",
+      "git_blob_sha": "a8da28e047d7a81ad6498b064ca66ed3295f41a0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/导师答疑配图/fig2_miou_lr.png",
+      "git_blob_sha": "8327348de79fc0e7333dce4ed0a61984fc6ac0ce",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/导师答疑配图/fig3_epoch_concept.png",
+      "git_blob_sha": "24acd9e3992c803fd98a7cd9125ac3d3c9eb6493",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/导师答疑配图/fig4_数据流讲解.png",
+      "git_blob_sha": "499c94fd7162ea29fc4e75e1c802d31e09818ae0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/导师答疑配图/insert_explanation.py",
+      "git_blob_sha": "855c4af122981ac97731c006ad4c5b5e5d8b394a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/导师答疑配图/make_fig4.py",
+      "git_blob_sha": "d16e05eaed67932b4de806c0c5125e2dd05ebe84",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/导师答疑配图/无人机语义分割_实验方案与参数详解_导师答疑.docx",
+      "git_blob_sha": "a977c993b7c850dcb4b8e9791c6456e3a7843129",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/救出清单.json",
+      "git_blob_sha": "17f1bb6dc3e198bbedce11897e1a8eb5e2d2dbe8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/汇报材料/全部方案操作复盘_给老师.docx",
+      "git_blob_sha": "013666d021b7c2919da3233c0ddd89967c51885b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/汇报材料/全部方案操作复盘_给老师_v3定稿.docx",
+      "git_blob_sha": "e85360e30a4c2079aae9f5f3060a79ba2cabf88a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/汇报材料/最优方案全链条处理流程.docx",
+      "git_blob_sha": "f4435688bb7a9c0a2a5e1a8fa095ab8249f0babf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/汇报材料/最优方案全链条处理流程.pptx",
+      "git_blob_sha": "c68fe83784425e8723b122b9426cb2ff67b96c30",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/汇报材料/最优方案全链条处理流程_备份_0923.pptx",
+      "git_blob_sha": "f2c3d1f593314782e885177a516822f60ef16f90",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/汇报材料/汇报材料_中期汇报_2026-09-02.docx",
+      "git_blob_sha": "2f05eec3f7c83c779c003b08ec785a3ea157ea6a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/汇报材料/老师提问应对准备_2026-09-03.docx",
+      "git_blob_sha": "ef59ffc8a38847f43fc560f7bc9471abbb4e6406",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/_从归档救出_20260915/汇报材料/表格截图用_横向.docx",
+      "git_blob_sha": "33be876e3b617ffdf7ae4e9088d600206c4ed070",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/epoch_loss曲线.png",
+      "git_blob_sha": "fe5e8ad56b7b0493e553295f7cf2f5fe822e9751",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0000_img_mask.png",
+      "git_blob_sha": "587fc78f804c756f754ab8081af3d635d6ad508a",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0001_img_mask.png",
+      "git_blob_sha": "d7dbabe76ebca468262feb2b6448c8cd4d8ad8d1",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0002_img_mask.png",
+      "git_blob_sha": "2f3c93746de9268c99c54f1c2a06332c06528191",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0003_img_mask.png",
+      "git_blob_sha": "96914c4643051e87d97112b4b6456ee353cb8fca",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0005_img_mask.png",
+      "git_blob_sha": "9e4ee663b77c944c120a9d9bed4f93a568cc967d",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/官方图片给你看/0008_img_mask.png",
+      "git_blob_sha": "e476d5d9d6b69da45b2cb8af70bbd2d041b318ec",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/zoom_0000.png",
+      "git_blob_sha": "8c4353d27ba68da1efdf781365fce2139ad23743",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/zoom_0001.png",
+      "git_blob_sha": "fb0dc82a17c1f7268cadd7fd65a5a45c963adbe7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/zoom_0003.png",
+      "git_blob_sha": "fa4388759297b3871671709281de3e77160792d4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/zoom_0004.png",
+      "git_blob_sha": "f7ce96535545a4c874722f2ef4e297a0d7427174",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田zoom_0003.png",
+      "git_blob_sha": "4c78e827a297ba4e575b70e5cad90d1ce94ba011",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田zoom_0006.png",
+      "git_blob_sha": "d1f5e8ee1478d7b71061a6de770b05fa3006ec46",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田zoom_0007.png",
+      "git_blob_sha": "73c97b15b796224f3c37ab5c41c2cd948ddcd781",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田辨析_0003.png",
+      "git_blob_sha": "360dca94727bf4c1477c17d630f9714cce118b73",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田辨析_0006.png",
+      "git_blob_sha": "a430724129758a127e85c96e763eb7318a64622d",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/农田辨析_0007.png",
+      "git_blob_sha": "42c28cd7dc6a1aa477c2256493d3f464d06afffa",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/总览_11张.png",
+      "git_blob_sha": "780ab2ca3ec656c79eb130f01e555a521524ca3a",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0000.png",
+      "git_blob_sha": "c54e91ab16850209cd5e5e8d1b7c74327b0c40b8",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0001.png",
+      "git_blob_sha": "5c6bc31d716c913e27037e6e314bf66be1f8e2a5",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0003.png",
+      "git_blob_sha": "7dbc697f1a392d7cd2c8ffce8fe2509da2c8301e",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/Examples/荒地辨析_0004.png",
+      "git_blob_sha": "f8f54e67fc41eae333b40faefbe3fd8a3f8c2af3",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/汇报配图/train_vs_test_style.png",
+      "git_blob_sha": "c718489de6b6afbecf9d66c7ee9b1f32c3b0d0b9",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/汇报配图/图1_车辆小目标_3234.png",
+      "git_blob_sha": "94d20e64d721cc9daee004102155546ba6b622b7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/汇报配图/图2_大农田_1124.png",
+      "git_blob_sha": "f8e120b847a64d2545d5a6779e67af389daba727",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/汇报配图/图3_复杂多类_3835.png",
+      "git_blob_sha": "5ebdf7c1f52b8eafa2f25e4e82d26add8b0e11a4",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0000.png",
+      "git_blob_sha": "7d3280c36224e14b5ae49462a196acc641329c73",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0001.png",
+      "git_blob_sha": "30b2694d2b3afdf0a5aa50c90e680723913b0100",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0003.png",
+      "git_blob_sha": "f14052b808f512beb2fb5794fcd3e0f32367be50",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0005.png",
+      "git_blob_sha": "7b7792e8f3613cdef5c19bed27551ba8843edaa5",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_example_0010.png",
+      "git_blob_sha": "e8668503ab619db6e82a157f80eb41dda9edea35",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_train_0339_frac88pct.png",
+      "git_blob_sha": "e477c81299282b0e91d918686639f49cf2dec3a4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_train_0369_frac73pct.png",
+      "git_blob_sha": "e8dbaa2a1e44e8cd1662c2461a25fe255fea84af",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_train_0374_frac76pct.png",
+      "git_blob_sha": "5c68a72c2faf42eb13f155cb82415196c5d75ed1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/尺度分析可视化/道路细窄目标/road_train_0616_frac89pct.png",
+      "git_blob_sha": "0768b81651fbd43727060bf57b60c15613db162e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/无人机低空航拍图像语义分割-2.pdf",
+      "git_blob_sha": "02994dce9f91216525a74ee5d9ab20daa2848d93",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "03_历史文档/文档归档/07_汇报与复盘/论文科研协作交接_类别监督支持不足与精度约束扩展_20261011.md",
+      "git_blob_sha": "7cb5cbb115d41a302b4707a23bacd24807b11b47",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/A05_D1HARD_PAIR/ENTRY_CONTRACT_TEMPLATE.json",
+      "git_blob_sha": "68769149b799afd5847ea2dc5aa11fc74149e110",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/A05_D1HARD_PAIR/EXECUTION_REPORT_TEMPLATE.md",
+      "git_blob_sha": "97836b0d046d708ba383685ee69245344a52bd27",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/A05_D1HARD_PAIR/PAIR_REPLAY_MANIFEST_TEMPLATE.json",
+      "git_blob_sha": "4cc4047297c400b3d8d3919444982e6d7725e4f2",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/A05_D1HARD_PAIR/PAIR_VERIFICATION_TEMPLATE.md",
+      "git_blob_sha": "9af84cbc390994f2f905ee74f0be3d7a9381aa2f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/A05_D1HARD_PAIR/README.md",
+      "git_blob_sha": "5daad19492623ca38e5881d07afdc809f290be07",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/A05_D1HARD_PAIR/SUBMISSION_CARD_TEMPLATE.json",
+      "git_blob_sha": "bbf6e0816903859316ee075aeeb714075f6b79dc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/ENTRY_CONTRACT_TEMPLATE.json",
+      "git_blob_sha": "979f4879d2a14e64438e08f645f62e33c173f86c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/EXCEPTION_RECORD_TEMPLATE.json",
+      "git_blob_sha": "81a1ccfe2fc8269fd938cab77ef160e718a1dd69",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/EXECUTION_REPORT_TEMPLATE.md",
+      "git_blob_sha": "68d7e27452b943bdc9fa760a335b2d4231fb3f7e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/FAILURE_TEMPLATE.json",
+      "git_blob_sha": "473ca73051c77833b6ba5b786abaee33d12af93f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/METHOD_CARD_TEMPLATE.md",
+      "git_blob_sha": "391608ae8fef5b8a13b40cde9a3cc07f1eb6ea8a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/PLATFORM_RECEIPT_TEMPLATE.json",
+      "git_blob_sha": "6c01480231085578f05a3860e6742024724e8912",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/README.md",
+      "git_blob_sha": "6957f3252d5832cadb2e7d1d9fee25c32ac544fd",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/实验治理模板_20260926/RETENTION_MANIFEST_TEMPLATE.json",
+      "git_blob_sha": "34846c9da73f0e70a274d3637f7e642e32977761",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/71方案_v2_弱点补偿_20260918.md",
+      "git_blob_sha": "c4e10e6978d791506f48ca111c2b8e12fd92b43d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/71方案提案_20260918.md",
+      "git_blob_sha": "9ca6537173b6d9556023ea8f075ffa05c4931a68",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/A05_WEIGHT_20260926/eval_proto_v2_1000.json",
+      "git_blob_sha": "dfd00393a2dabfe33ffb33b04e121e8f224dd54b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/A05_WEIGHT_20260926/eval_theta278_baseline.json",
+      "git_blob_sha": "872ee2a97315f938ac4a7b85d0ac31585608c0df",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/B4追溯审计_20260927/desktop_originals/B4_B3_COMPARABILITY.json",
+      "git_blob_sha": "2c9c05eb26b7915093c0720a44ae434dcf65f9a0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/B4追溯审计_20260927/desktop_originals/CHECKPOINT_AUDIT.json",
+      "git_blob_sha": "ed80f9acf5fa2bff34af1e20e898b253c6348cf6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/B4追溯审计_20260927/desktop_originals/RETROSPECTIVE_EXECUTION_REPORT.md",
+      "git_blob_sha": "58de4b879ce19de12930ac84d97ca1523e5d7470",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/B4追溯审计_20260927/desktop_originals/b4_audit_ARTIFACT_HASHES.json",
+      "git_blob_sha": "cb5d4bc08111f2cf1f5dd0375f8ab3bcf93d62aa",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/B4追溯审计_20260927/desktop_originals/b4_audit_B4_B3_COMPARABILITY.json",
+      "git_blob_sha": "e9f65cf4c7823b274be629b6356f62612c1a8d5b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/B4追溯审计_20260927/desktop_originals/b4_audit_CHECKPOINT_AUDIT.json",
+      "git_blob_sha": "c84f389479ff46a76635f707d124b99ed5b98442",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/B4追溯审计_20260927/desktop_originals/b4_audit_RETENTION_MANIFEST.json",
+      "git_blob_sha": "e898b4dfa711948c9c3b30b02ef4a6f72b7b79f1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/B4追溯审计_20260927/desktop_originals/b4_audit_RETROSPECTIVE_EXECUTION_REPORT.md",
+      "git_blob_sha": "6ff5a2f0c06aa1d79135ef63c024bb9639e593e2",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/Bridge路线冻结方案_20260916.md",
+      "git_blob_sha": "2fb9151b71290d13bf5829c18b7f49d490b659cf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/CPU形态审计_20260915/AUDIT_RECEIPT.json",
+      "git_blob_sha": "35d44d31b40b6aac01167ca84c4adf68bb6490ae",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/CPU形态审计_20260915/CPU形态审计报告.md",
+      "git_blob_sha": "6bb04d8b471ae27f93e9cc87f5eb26875076ad43",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/CPU形态审计_20260915/GT_B_ERROR_MORPHOLOGY.json",
+      "git_blob_sha": "492acee14d0ea0f45d91b4a4b5962ac17e95cf07",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/CPU形态审计_20260915/README.md",
+      "git_blob_sha": "59a495ea2f9dc4a0c31484c3c0e9a17e1133d75e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/CPU形态审计_20260915/TEST_ERROR_MORPHOLOGY.json",
+      "git_blob_sha": "e300712252dc371c80fac82059a51cca91af59de",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/CPU形态审计_20260915/决策解读.md",
+      "git_blob_sha": "a5ddeabe9d9d7e8b573872bf64647e4fc410cb83",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/Full6996历史负结果法医审计_20260916.md",
+      "git_blob_sha": "dfd8c25fd1201f3a0451bbcf0c2af2783c274cc2",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/KD_Run1_历史法医原始取证_20260916.md",
+      "git_blob_sha": "eca900ab1263368769d4d0d4e02c87d17018f4dc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/M2F56k_Calibration_实现错误与作废记录_20260916.md",
+      "git_blob_sha": "08dbc5dccdeee0053e8056537f9e04abe43dc223",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/M2F_Run1b_三档验证与形态学_20260916.md",
+      "git_blob_sha": "3910b062ad08978687ebaaefd2c0614e47c49531",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/PHASE0_RECORD_20260918.json",
+      "git_blob_sha": "b71fb19d90034267f7f59973494a87fbdef63552",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/PROJECT_STATE_RECOVERY_20260918.md",
+      "git_blob_sha": "a9b92807de581164295793cd48879829f451ec11",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/SEMEDA历史事实核查_20260918.md",
+      "git_blob_sha": "067bc1cf2d9a32b179742e975af01c2a8f135dac",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/Stage65_pseudo_round2_历史法医原始取证_20260916.md",
+      "git_blob_sha": "baa5a4e5593c00126086e6ec4ed2b6fc52dabb22",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_apply_axisN_patch.py",
+      "git_blob_sha": "89ac63c469aefa605df26c2135bcaea17d495f05",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_apply_gate_patch.py",
+      "git_blob_sha": "9b3cc6a325a48e49b7ef27609c6dea476d1f0a4d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_apply_m2f_tail_patch.py",
+      "git_blob_sha": "8f7840ed7cad7dca4ff43376869a7a6656ac1c29",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_apply_p1_surgical_patch.py",
+      "git_blob_sha": "8c7d86a68694320cea05b0eb2e90a96daecdc1be",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_atda_eval.sh",
+      "git_blob_sha": "287081f8814d2f23e38379394470e8b5e4f2ce05",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_atda_export.py",
+      "git_blob_sha": "35afaeb511e7039a9ea1bf90eec3c30f3420499c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_atda_finalize.py",
+      "git_blob_sha": "62718b4442f562c2e865ba5c2d0a0ddf461d83fc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_atda_launch.sh",
+      "git_blob_sha": "09ac04cdb3d8666c18bad9dc2ca5685865d8bfa6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_atda_packer_check.py",
+      "git_blob_sha": "3c98633d1334b4067ef0f780370035530697aa4a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_atda_ref261_cache.py",
+      "git_blob_sha": "8c439f0f1cf26398ed330d01ea0979abb7f4da67",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_atda_train.py",
+      "git_blob_sha": "7bc5e0f0ddf00ff75505ec4e779071187434d76b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_axisS_candidates.py",
+      "git_blob_sha": "35594e96c3b4d9e11fde26275d7aef6bd6f41f56",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_axisS_launch.sh",
+      "git_blob_sha": "1e1a9bfcd8af4f24a2f3965efa28528058316f4c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_axisS_pack.sh",
+      "git_blob_sha": "a912c54a8ae183ae06c8ce4fa945fea600622f10",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_axisT_assemble.py",
+      "git_blob_sha": "08f6b7bd6d2e69bd788c53aaa10f06366a12982f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_axisT_chain.sh",
+      "git_blob_sha": "ae98b3163dfdac3a460895638d30051b671e8f73",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_axisT_label_probe.py",
+      "git_blob_sha": "53787b1ab6d2d8a493081a9e6d8dfa4f5fcf3634",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_axisT_post.py",
+      "git_blob_sha": "f6f1b9a7fe8ad4ecb5ffc0d8055e21f3992c25ac",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_axisT_run.sh",
+      "git_blob_sha": "708b8b93ad7df3aab4365fb3d902ab3a891c4f99",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_b2_analyze.py",
+      "git_blob_sha": "1e147f8486afe5c8ff4acaa1aa1582437efc0d5c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_b2_analyze2.py",
+      "git_blob_sha": "f78bf248bf3b2f0348027363814779cb6eacaf79",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_b2_val_logits.py",
+      "git_blob_sha": "0c5de195153284a3b9b1ea05d603a6ff9c21ded3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_champ_test1_cache.py",
+      "git_blob_sha": "8b28c366369e4167f21271fa74dbec8d8bc67fcd",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_direction_geometry.py",
+      "git_blob_sha": "63ece55386e0df1467a852ee8267a766c822b157",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_eval_soup_family.py",
+      "git_blob_sha": "a04a843d7d7f6b109df1d0f6c081fa5c3820c9f9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_farmland_axis_curve.py",
+      "git_blob_sha": "01bad2f876b91415700ceb24dd3578a933ff46a0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_fill_bstar.sh",
+      "git_blob_sha": "b41d7f50b140b8d80ac14791a7cce76e472f9ac4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_fixmeta.py",
+      "git_blob_sha": "2f7806fcfa8774ef6f2eaf6fbf4e567329337bf3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_kd6400_farmland_ext.py",
+      "git_blob_sha": "3c8f50fc8b3ea0557ef9a92ecb543a81d0842581",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_launch_m2f_lrreopen.sh",
+      "git_blob_sha": "1cb96800145b684d8e4a40dc772266eb5b771b82",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_launch_soupB_gate_run1.sh",
+      "git_blob_sha": "dffa8d587263c93b2e56256b19a9cfe1ce6c4f3b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_ledger_215_259_20260918.json",
+      "git_blob_sha": "f604aa91ef3237547f62872c879645f5d11d705e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_m2f_calib_traj_cache.py",
+      "git_blob_sha": "b3c72f24f70bd64a06d5a8e3b3a0c8c50aafdb2c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_m2f_flip_geometry.py",
+      "git_blob_sha": "aed98d0684dcf9a3a2cb5b89b5bde6f356979619",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_m2f_lrreopen_eval.py",
+      "git_blob_sha": "6caaad9bf4af3bbee84f032645b9d6aa008eeaac",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_composite.py",
+      "git_blob_sha": "c4feb9236446675af701986a3e9a17a9d378d291",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_donor_gate.py",
+      "git_blob_sha": "bf240daf30fdc158c4c96b69d0b8b2e8e0908f50",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_donor_gate2.py",
+      "git_blob_sha": "97dd93e1428422b32fbcf1f7eb3ef9f09921754a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_hybrid_merges.py",
+      "git_blob_sha": "34de4980ff9ffb42791d7e5ede4c8038f610f45b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_joint.py",
+      "git_blob_sha": "849b5fab49379ff90b311c76caf0b7dc3a4b9207",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_layerwise.py",
+      "git_blob_sha": "17cc5b6550aec19f742d79ee209b6e01ad42ddcd",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_layerwise2.py",
+      "git_blob_sha": "f6fe0d7199a68e2ba3bb684aafb91dcf42d3c6dd",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_layerwise3.py",
+      "git_blob_sha": "7d104295b658c16ec0435b21ab5d5f9e3e8af0e7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_layerwise4.py",
+      "git_blob_sha": "84298f99aea0447896f16b99e6ca32d92d99507c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_round2.py",
+      "git_blob_sha": "8568b95e85b195f8cb944c160d43763bc4ed9e6a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_s62_layerwise.py",
+      "git_blob_sha": "31c41dc108a1992c8082ed3c3957e00546ea279e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_soup_family.py",
+      "git_blob_sha": "6ea0dfefe28691f1795cbb360b0c225a6bdbe0fb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_make_weighted_soups.py",
+      "git_blob_sha": "1312356a05f06452557bbc1780f591e67513c2e9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_mk_phase0.py",
+      "git_blob_sha": "fa4e4ab6f703e552d4c30d3330351ac018645191",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_pack_103.py",
+      "git_blob_sha": "058b7977bb5b7ed31691a687eabd9a483c5b2cd1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_pack_affine.py",
+      "git_blob_sha": "5f5beb6e64365e1ca0b89c85035fbc4794e66bfb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_pack_m2f_calib_traj.py",
+      "git_blob_sha": "a0b2508770e0f06d7b68e73dcc78e0187a82bf8f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_pack_m2f_traj_v2.py",
+      "git_blob_sha": "3879f3163d2d6c7adfa4d0ff382678e3787c0c9d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_pack_three_step3200.py",
+      "git_blob_sha": "245d4039cfa62781e5bf63450820bd05f899b66b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_perclass_envelope.py",
+      "git_blob_sha": "a0efcb563ed197143b6f7544ec725daa1a9beebc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_run_layerwise.sh",
+      "git_blob_sha": "79ad1e580357a38c40926f46f528566c7b39f71d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_run_layerwise2.sh",
+      "git_blob_sha": "0f9e071548ba57bfa5090bb8cfd006effb3bc543",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_run_lrreopen_eval.sh",
+      "git_blob_sha": "2d26fe21a2319733e823a44b7ed1ae5a6f2e9525",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_run_phase0.sh",
+      "git_blob_sha": "044353f81bff7abc1d34075afc92e1a05bd3209f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_run_round2.sh",
+      "git_blob_sha": "890ebdb1ac029597922b6b1442a1682bfa237745",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_run_weighted_eval.sh",
+      "git_blob_sha": "a542b4e92a5fa07bd025dc2cde84d2a0321a9256",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_score_cache_103.py",
+      "git_blob_sha": "5452c669105112a23b26bf4b5c1b085329bc0c40",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_score_cache_step3200.py",
+      "git_blob_sha": "7c7b745ff18159f40a59000bad4ecc389f658905",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_smoke_soup_gate.sh",
+      "git_blob_sha": "3c38edc932d3aaa5136fa6e06f84f8423620c3d0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_soupC_barrens.py",
+      "git_blob_sha": "85e4536889419d1cef7b1dc316d0241f03bbb761",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/_soupC_bg_water.py",
+      "git_blob_sha": "906b752960a2d3ba425055c9225bfab51679145b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/atda_s2s3.yaml",
+      "git_blob_sha": "a200bde95b57e704bf60822a142092776df0df51",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/axisT_lite_from_theta237.yaml",
+      "git_blob_sha": "3effd2d49a2cd432ad857c59ec0b5797b5736772",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/axisT_s55b_v2_champ237.yaml",
+      "git_blob_sha": "e0d15b195c4caec1de19ebe1f29e8eaf139adcb0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/calib_geometry_20260916/E_TABLE.json",
+      "git_blob_sha": "19881e0aad57ad44624c325e9c4f8cf31a877e79",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/calib_geometry_20260916/PAIR_FLIP_RESULT.json",
+      "git_blob_sha": "a9ec61573a7aa58d9c46f86271300bf5586fdc0c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/ATDA_16k_horizon.yaml",
+      "git_blob_sha": "e4e5350ad09e1addaed78f8f76602ae8deca8c65",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/DAY1_SUBMISSION_PLAN.md",
+      "git_blob_sha": "e5337b4e80a898d870e3452f69ee5740f66b8116",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/GPU_RETURN_QUEUE.md",
+      "git_blob_sha": "0e9f2215da12ee9da566dbe62cf50dbf5acfd287",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/RESUME_READINESS.json",
+      "git_blob_sha": "a453c52f593b259fc8ad10a109834659c0d0d87a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/ROUND2_SCORE_LEDGER.json",
+      "git_blob_sha": "747e5d63bfaa8e638d2b595a19976af41c6d0536",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/ROUND2_SHIFT_REPORT.md",
+      "git_blob_sha": "e7c3312060c0900ddc754a51fc35a7a8da20c41c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/SOURCE_ONLY_PROBE.json",
+      "git_blob_sha": "4d92adb27c3320e0bf44fb9665a14d1a8c3901f9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_a_audit.py",
+      "git_blob_sha": "83fbd13a18e5a70eca3183ca2b7348adf763ff04",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_b_geometry.py",
+      "git_blob_sha": "ccbd051bc84450663ce5208b6b2bcb637ee4d0d9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_cde_candidates.py",
+      "git_blob_sha": "8873d5dd829ecb6cd63850adaae5efb3d9818505",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_cpu_common.py",
+      "git_blob_sha": "8d2d9cdb0037174c7c5010a0268bd0775214deec",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_f_layerwise.py",
+      "git_blob_sha": "db02fafc9471a069a48d87be75af51427e2d73ac",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_h_pseudo500.py",
+      "git_blob_sha": "e24d5d59162d3b906d994aae88eba95d6bf02408",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_i_curriculum.py",
+      "git_blob_sha": "0a45932c5cb2972dad2b29f179d93eabee6b16d7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_j_domain.py",
+      "git_blob_sha": "61045fd17fd16b021bafbec4420eb80d390a8672",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_k_log.py",
+      "git_blob_sha": "94c6e2c6b0e69f1116c79b1784a8babe791d0be7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_l_release.py",
+      "git_blob_sha": "5b8dda625a92f1058040254e4582b8b3171dffa7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_m_ledger.py",
+      "git_blob_sha": "a7f4a36cd0cc734505bf758792b34339873862c4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_contracts.py",
+      "git_blob_sha": "b31b99b93775b2895d5059fc4de9c3718ca032d4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_dart_eval.py",
+      "git_blob_sha": "7cc06ace7be9c356dbd4f60f64ef347dfe7af570",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_dart_train.py",
+      "git_blob_sha": "3ea30660d3deee313e163db98498b8e98b3d6d25",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_deep_analysis.py",
+      "git_blob_sha": "29d0c120f570a966cc6af338b6da0c0ff1db8af0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_deep_features.py",
+      "git_blob_sha": "1483a7638d6e9c4aa9a7723c176371f9bb60edab",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_donor_audit.py",
+      "git_blob_sha": "180920ec3cd52b54a9edcdaad70471c6bbd65ae0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_fourier_fda.py",
+      "git_blob_sha": "97c8266be5bf96e14ecd2d3e8ffda0d13d5ccd68",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_geometry_analyze.py",
+      "git_blob_sha": "c71c9579fd45d6a3c331e752e81d7c48f32a3624",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_geometry_probe.py",
+      "git_blob_sha": "664de5092f51c9595fb06d46759ed5d3da71cbea",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_holdout_cache.py",
+      "git_blob_sha": "a65c7c6cda957f809f8ac98769eee14251c7be3b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_image_bootstrap.py",
+      "git_blob_sha": "d006f53f0056b4ea4bde3a47d2285a810a862309",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_image_space.py",
+      "git_blob_sha": "efec80e1255b518f8d69a9307924ea55165567ab",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_integrity.py",
+      "git_blob_sha": "76d42a567c962f58b3365f6134845966d45a3e04",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_loader_parity.py",
+      "git_blob_sha": "6ff3f3e9a10ad9f556c43dda528e4a30a5b59bdf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_model_compare.py",
+      "git_blob_sha": "1ee3e449a2853468c3dbb1940e834760db37cc8d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_multiprobe_inventory.py",
+      "git_blob_sha": "2cb6b3ef49b1df7dcee633365448ca11737f230b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_multiprobe_report.py",
+      "git_blob_sha": "d3379fa7f5931e761c08b866489ffc189186efb0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_pack_day1.py",
+      "git_blob_sha": "0030865f9712ff5f3f9b2316c4e3bb62e675cdaa",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_raw_cache_generic.py",
+      "git_blob_sha": "79f5179ca997751cc2a8291a411792421444ac41",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_reliability_audit.py",
+      "git_blob_sha": "2bcb23be886eb4acb0a1680ce1db112ea3ad9ff4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_test2_cache.py",
+      "git_blob_sha": "a88b64c5223180499c74a118cfff2a54e5167cca",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_r2_test2_cache_old_08408150.py",
+      "git_blob_sha": "2805c913b6f2bde57a7f294f7f56362ee327e708",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/_run_candidates.sh",
+      "git_blob_sha": "cbe8c6df5dd2217907619f9a49930698e911e4d3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/cpu_tasks/resume_8k_to_10k.sh",
+      "git_blob_sha": "f9f95ab653ff443228cec0fd2b6921ac2ecd78ea",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/p1_semeda_s2_init209.yaml",
+      "git_blob_sha": "3d469fa35607d380ba2e4afcedb079820f213d8e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/p1_semeda_s2_init237.yaml",
+      "git_blob_sha": "5a7eab694673403d2f350a330efcac19a3bc54d7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/soupB_KD_Run1_3200_Gate_STOP_20260916.md",
+      "git_blob_sha": "06418e77371cbc9e57f6dc4167495e3c64ae8b73",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/soupKD冻结方案_20260916.md",
+      "git_blob_sha": "e2433b99e5d648b1c78c55e2f59f1652f04163a2",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/今日工作总结与71方案_20260917.md",
+      "git_blob_sha": "79fb44aa60db4d0b19048c43bcdfe8d7760696cb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/作废声明_M2F56k_tau表_20260916.md",
+      "git_blob_sha": "6a1eb1b3b28a39bcce775fc247ce84d04310bb98",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/历史未提交权重库存_20260916.md",
+      "git_blob_sha": "ccfc263df6544f19123bcd8522523ce29493af47",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/历史权重被服务器回收_20260916.md",
+      "git_blob_sha": "abee824aba136403b13ebff3899344730114309b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/夜间执行记录_20260917.md",
+      "git_blob_sha": "19a103ad139f557083c1c6c9000657992de1589d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/提交包重构_20260916.md",
+      "git_blob_sha": "28ae864a89c7f999dc3b752e19975bcbe89c2451",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/文档清理_20260916.json",
+      "git_blob_sha": "1195948617661aa9b16bd1442dcfc636fa383fd2",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/新head工程准备_20260915/README.md",
+      "git_blob_sha": "4cc93e83244d82cda8264f40fcd702986ab80c0d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/新head工程准备_20260915/v0_CPU验收记录.md",
+      "git_blob_sha": "a18a9a6071c2b8840126e3a38f3c9175fea79466",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/新head工程准备_20260915/v0_官方parity记录.md",
+      "git_blob_sha": "b45d6604b2c9bfa89377c234c0035a4112e6fdcb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/新head工程准备_20260915/接口核查结论.md",
+      "git_blob_sha": "2572d0d5e1d53b2704ac23f8150111c649f8c1d0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/本地工作区整理_20260916.md",
+      "git_blob_sha": "08d6088f3565d36b55fb49c0fef6cc9f7a1b7981",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/校准几何_身份核对与E表_20260916.md",
+      "git_blob_sha": "53c161a9db796dc8059322918ba3d7010a736fa4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/桌面归拢_20260927/MOVE_PLAN.json",
+      "git_blob_sha": "08e391a44639c2bd9f4b982e2eabba41f07fc17a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/桌面归拢_20260927/MOVE_RECEIPT.json",
+      "git_blob_sha": "55338a185b2b57cb3c12f2a17175d5773e3a8f5f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/桌面归拢_20260927/POST_MOVE_HASHES.json",
+      "git_blob_sha": "80eead2a8f5c5ab97eaa2078b70353f5ff2a7def",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/桌面归拢_20260927/PRE_MOVE_HASHES.json",
+      "git_blob_sha": "1ff3cbfdbd0ab6e90c1a91f3de7a53c1a9549682",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/桌面归拢_20260927/UNTOUCHED_ITEMS.json",
+      "git_blob_sha": "918ed27468da9b74a72ae153efdc27886d4ce3d0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/桌面归拢_20260927/_consolidate_uav_once.py",
+      "git_blob_sha": "81f74453e0cdde970023743856a7932f4dc6eeeb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/独立反驳与方案v3_20260918.md",
+      "git_blob_sha": "435766d30ca3a901e4358eec3dd62304b2f2dec7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/磁盘清理_20260916.txt",
+      "git_blob_sha": "997606fe56369c59c9fc8d90e716d15ebe6c53b0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/磁盘清理_20260916_第二轮.md",
+      "git_blob_sha": "230fe3f37b59219832bf792da1138bd840b31ed2",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/磁盘清理_20260927/B2_META.json",
+      "git_blob_sha": "8a1d07da7291ae26e837f8840d119d97d612bb69",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/磁盘清理_20260927/B2_REPORT.json",
+      "git_blob_sha": "04c67403941e74b9b8ab9c43dee35aefae7c2e1b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/磁盘清理_20260927/ERR_DECOMP.json",
+      "git_blob_sha": "1f821f75c22a207652ae3f178e8dab0b3b6a31e5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/磁盘盘点_20260916.md",
+      "git_blob_sha": "d6af72a0307dda7fff8bfc77ef791638d00b4c93",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/脚本留痕_20260916/PROBS_MANIFEST_ORIG.json",
+      "git_blob_sha": "266b4bed079e9c26a93ce9d99847799a9fff888f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/脚本留痕_20260916/TEACHER_META_ORIG.json",
+      "git_blob_sha": "1300c6e39c67abdf0301e0994291bf7e67f38728",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/脚本留痕_20260916/_kd_precompute_teachers_ORIG.py",
+      "git_blob_sha": "1b507c934cedb649aef10680d140eaf2ea5f82db",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/脚本留痕_20260916/kd_teachers.json",
+      "git_blob_sha": "2da5df314dcf2c33124157ef4d027d827e89e3d9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/迁移新服务器完成报告_20260928.md",
+      "git_blob_sha": "5cfdeb3ee60f6360404fe38ba3214a4401d12537",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/迁移新服务器执行记录_20260927.md",
+      "git_blob_sha": "c8d6a2bbf4916492a2091281af8ba3f8848042cc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "04_审计与模板/审计记录/阶段0_实现地图与多尺度证伪_20260916.md",
+      "git_blob_sha": "60fb7b3546877e2bdd102f0d93df2d117ca375a8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/execution_result.json",
+      "git_blob_sha": "3d3f8411c9ba9f049c018df4c8632c4488bf68d9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/inventory.py",
+      "git_blob_sha": "bd7f0c9be8994077307514f527b932e9361a0632",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/inventory_before.json",
+      "git_blob_sha": "2721f0ba488544362a4ec6bfad953d114c363dd7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/organization_plan.json",
+      "git_blob_sha": "9e4d25443b64e4073e35ff9c4d8ab39c84d14309",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/organize.ps1",
+      "git_blob_sha": "b3b3d2baa44668a38c94d11e5069c8bc72dbd7ea",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/prepare_plan.py",
+      "git_blob_sha": "da2034db991d5ebd07cbc47f8877afce2e871bc0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/rollback.ps1",
+      "git_blob_sha": "e23d7a49b9bbf0c68bfa2e3b7de87d050e9833ca",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/verification_result.json",
+      "git_blob_sha": "5cd34b3380b368d3c5c9b5004778642b00406bd8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/verify_organization.py",
+      "git_blob_sha": "87634d59b158cc6bcd521c40f612d4377ecac628",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/工作区索引_整理前.md",
+      "git_blob_sha": "f37affb8465b550e09ed6eebd9abe602fd11d5c7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/整理前入口文件/00_Codex工作同步索引.md",
+      "git_blob_sha": "f37affb8465b550e09ed6eebd9abe602fd11d5c7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/整理前入口文件/README_从这里开始.md",
+      "git_blob_sha": "a08cc69c0de6c1cb2e50242cfb2239498d6468ca",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/整理报告.md",
+      "git_blob_sha": "fd7a75ffc21598cbc205c456a13bdc16ee61cad8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/新旧路径映射.csv",
+      "git_blob_sha": "ab80cd3346b747849517388b03900af642f7b6ae",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/20261028/移动收据.jsonl",
+      "git_blob_sha": "26ff6dc27f540dac7e9c248f28883acd3e0be03e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/GitHub私有归档_20261028/build_snapshot.py",
+      "git_blob_sha": "0b8f77282d53caaa02875021b2190cd6703ba88f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/GitHub私有归档_20261028/prepare_snapshot.py",
+      "git_blob_sha": "487de95e7dadbcb7ec289a13396a978d2a0b4bfd",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/GitHub私有归档_20261028/private_repo_api.py",
+      "git_blob_sha": "becf5bce2dbff15264c8abc3ea808b4267f7d696",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/GitHub私有归档_20261028/sync_desktop.py",
+      "git_blob_sha": "6b4296aafacc4676f7298f1445de7e54d5d371e1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/GitHub私有归档_20261028/verify_files.py",
+      "git_blob_sha": "34edf280f230684aa8f3cc5ed575cbefcfbb6763",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/GitHub私有归档_20261028/仓库创建回执.json",
+      "git_blob_sha": "ff5dda08b72c45f2ad58352c84db0037f479e11a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/GitHub私有归档_20261028/私有仓库同步记录.md",
+      "git_blob_sha": "6868942a8a3d9985e61665c1790e2ff535ec1878",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/GitHub私有归档_20261028/首轮仓库核验.json",
+      "git_blob_sha": "d549ed2ee8024cd8f5bde6ebcf6eee529e064d4c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/GitHub私有归档_20261028/首轮文件核验.json",
+      "git_blob_sha": "c2118c96801a262dc8b237c5c0b2a0c8f02f16cb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/MOVED_MANIFEST.json",
+      "git_blob_sha": "df0baf291a362fddebc43749ea6a16c1c3051067",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/_tidy_root.py",
+      "git_blob_sha": "51800b22868eafa8486013e2f96dcc7f15e721cb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_AI_BRIEF.md",
+      "git_blob_sha": "642897588e6326d0909d8744f66e6b97d1c9055f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_COMBINED_FINAL_V3.json",
+      "git_blob_sha": "644667341b6dd05ea4fa6bdd78116815cde33e17",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_COMBINED_FINAL_V3.md",
+      "git_blob_sha": "3e23ac3e84f7c3551ca90a6ec03e974f6f44c394",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_CORE_AUDIT.json",
+      "git_blob_sha": "c59bcf78ce184cddfed4d99fb27f33169724493a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_CORE_AUDIT.md",
+      "git_blob_sha": "cfd8f41bec959860040717d0d32735d2590263ae",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_INFERENCE_AUDIT.csv",
+      "git_blob_sha": "99c40d80ef3883b375fcf9a89236efccf070a814",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_INFERENCE_AUDIT.json",
+      "git_blob_sha": "b5576f1ae5478db80ce094dd603d03f012a6758f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_INFERENCE_AUDIT.md",
+      "git_blob_sha": "195f9e0b427b5a4538e5baa99c8f3bc442bd2f1a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_LIVE_STATUS_20260914.json",
+      "git_blob_sha": "949b149eee9c1d3f818927e0f43d8dd64c5be478",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_RECENT_AUDIT.json",
+      "git_blob_sha": "b7107d8d9d3874dd96afb2a7f33fea687a17ee93",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_RECENT_AUDIT.md",
+      "git_blob_sha": "08890dd388fdce3cbc39397840ba70fc70bc0143",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_RECENT_GPT_REQUESTS.json",
+      "git_blob_sha": "479c92da021b06218e92d05497c8f20e7b94f061",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_ZIP_RECEIPT_20260914_190648.json",
+      "git_blob_sha": "9bf7b462c25519a43bab41bdad5c82e0bfddd9b1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_ZIP_RECEIPT_20260914_190929.json",
+      "git_blob_sha": "a5bf0018d0ec8385aab0b17dfbe2a657c14484b4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/ALL_SCHEMES_ZIP_RECEIPT_20260914_191040.json",
+      "git_blob_sha": "533719da0bb7246c2ad471b24d4c35ca9c81a907",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/CANONICAL_CALIBRATION_IDENTITIES_V1.json",
+      "git_blob_sha": "5285a28de9000fd654c8e4f7c0d83c678ca5c559",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/DISK_AUDIT.json",
+      "git_blob_sha": "cc7a911711d29de8277e036651f4ad5cbea472a1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/DISK_AUDIT.md",
+      "git_blob_sha": "0f17a4623196c8bbf044c0e2984a4150991545aa",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/DISK_CLEANUP_PLAN.json",
+      "git_blob_sha": "ecf718fc0e1a056e08421d6e8be0956dfd110f6b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/DISK_CLEANUP_PLAN.md",
+      "git_blob_sha": "89927f9fe589db34de0bcdda1e29946b7df6c6ba",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/DISK_CLEANUP_REPORT.json",
+      "git_blob_sha": "97c76bc7cd7c0788c4affa5593b67acd18b2c4ed",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/DISK_CLEANUP_REPORT.md",
+      "git_blob_sha": "6effe56e3d2d12c113174b05e351366bc07ec3e1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/EIGHT_D_SCAN_RESUME_SNAPSHOT.json",
+      "git_blob_sha": "74b67f1399bf2313b6dd21b637336b2df11fdbfe",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/EVIDENCE_SUPPLEMENT_ZIP_RECEIPT.json",
+      "git_blob_sha": "f4295bd6cb8d67c92ca59f232f381732f1cf59cf",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/FACT_HANDOFF_FINAL_RECEIPT.json",
+      "git_blob_sha": "47864a3d4584b7e366f65f466ca0fea328131513",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/GPU3：Targeted Region Contrast v2 正式实验.md",
+      "git_blob_sha": "d6c88bee0ec5d245d35dbc10a5048aafc4e300b5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HANDOFF_LIVE_OBSERVATION_01.json",
+      "git_blob_sha": "5f6ef57a5305cd24433979e43f0d1fb44ac543d2",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HANDOFF_LIVE_OBSERVATION_02.json",
+      "git_blob_sha": "06cec8310d14423f81f8ca0cd80b0286ebe547e7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_FACTORY_DESIGN_V2.md",
+      "git_blob_sha": "954dc133e734093fe4e6cdd4252d1b9b4b53163a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_EXECUTION_CONTRACT.md",
+      "git_blob_sha": "4e99e976445dc02c72d8296fbc88ce826283497f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_INVENTORY.json",
+      "git_blob_sha": "ad70d695b21f4715bebe423124e3ce4007803a2b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_INVENTORY.md",
+      "git_blob_sha": "a72e2af928b239f1ce64b9a3dd0f79e66a256b2c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_REPORT_MANIFEST.json",
+      "git_blob_sha": "1fd77db3357e5b781a6deb5e550e21b79571f4f9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_RESULTS.json",
+      "git_blob_sha": "b48b6ec38531ea9e8dff49221914ad17506dba1e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_CALIBRATION_RECOVERY_RESULTS.md",
+      "git_blob_sha": "a0d92ca8629bd6fc2c2de73830bc795ce392572f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_GOLDEN_69281290_IDENTITY_RECOVERY.md",
+      "git_blob_sha": "98a3388e43c7af2517cde2510438553793d25a14",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_POSITIVE_CALIBRATION_RECOVERY_V2_RESOURCE_AUDIT.json",
+      "git_blob_sha": "344c4fb3ef635a83823c901eb0ec0a7abdfb59d6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_RECOVERY_RULE_AUDIT.md",
+      "git_blob_sha": "b02181cda0f4f8a4a8056544183850ae705b947b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_RECOVERY_S1_AUDIT.json",
+      "git_blob_sha": "8be0c26d23feb3a9e3c324bbb303bca778aded19",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_RECOVERY_TRAINING_GUARD_01.json",
+      "git_blob_sha": "064756ee39cde4982723df23079d8df4567ec968",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_RECOVERY_TRAINING_GUARD_02.json",
+      "git_blob_sha": "27d727c3c4ad25a1114f36a9fc0dbd6657029d01",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_RECOVERY_TRAINING_GUARD_FINAL.json",
+      "git_blob_sha": "1559ce7664e1c73e56260c334891a5a950c4df82",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/HISTORICAL_STAGE66_REFERENCE_METRICS.md",
+      "git_blob_sha": "e0a601ac872d0fdcc8ea15899f9510839712e7a2",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/PARAMWISE01_PROTOCOL_UPDATE_ACK.md",
+      "git_blob_sha": "619084b839750b29c4dc3e4df793997c91df16f7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/PHASE_B_GPU_PATH_AUDIT.txt",
+      "git_blob_sha": "35788e09f61fab65d80ef145ac07787fe9e74696",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/POSTPROCESS_MANIFEST.json",
+      "git_blob_sha": "cb7979d8d30df2ac10933311ded6cb03f310ca3b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/POST_RAREEXPOSURE_ACK_SNAPSHOT.json",
+      "git_blob_sha": "b7fed3a5dfbda3358d0f9f5e6194f1a719bde713",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/POST_RAREEXPOSURE_FINAL_CORRECTIONS.md",
+      "git_blob_sha": "f289f89d617df5b3230d6bb91772d27234c0bb19",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/POST_RAREEXPOSURE_STREAMING_CALIBRATION_ACK.md",
+      "git_blob_sha": "ad2c7f411f510ea485f1c150210fba852f6278dc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/POST_RARE_FACTORY_ACCEPTANCE_CHECKLIST.md",
+      "git_blob_sha": "1381f65fd54d39c0e2ad3969c191607b92679be3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/POST_RARE_QUEUE_REVIEW_FINDINGS.md",
+      "git_blob_sha": "b29b7af824b36029029189513331b1ab187773f7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/POST_RARE_RECOVERY_DEPLOYMENT_BLOCKER.md",
+      "git_blob_sha": "4156be81c545ae1ecf65ed4fae8d3d65835865c1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/RARE_REDOWNLOAD_RECEIPT.json",
+      "git_blob_sha": "56224e0bb1f4a6a07b166af24b9fb837987064e3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/STORAGE_AWARE_CALIBRATION_PREFLIGHT.md",
+      "git_blob_sha": "04a78c028df5f11d5a720ed71d9d5c9534229404",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/STORAGE_AWARE_HANDOFF_OBSERVATION_01.json",
+      "git_blob_sha": "ad65dcaa84c3df190a9c876643aded1b34cb4237",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/STORAGE_AWARE_HANDOFF_REPORT.md",
+      "git_blob_sha": "8c4d6141b7f0fa55135045893ec0b14d98bb03e6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/STORAGE_AWARE_STORAGE_AUDIT.json",
+      "git_blob_sha": "7c27a4d2fa0d06afe1776c0d51ed88d1d51798c4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/STORAGE_AWARE_TRAINING_GUARD_INITIAL.json",
+      "git_blob_sha": "173a0401fe7b9199901152213bfa73a5ce5eb417",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/_归档整理_20260915/历史过程报告/s2_readonly_inventory_20260914.json",
+      "git_blob_sha": "9d8456107daaa6fe2eb73afb150e37b9d99b8b39",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/归档_整理记录/CANDIDATES.json",
+      "git_blob_sha": "a2c96f80201a9a5dce24241e3a539d2757b4ba71",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/归档_整理记录/README_文件索引_旧版.md",
+      "git_blob_sha": "15c14382200d5e73fb7dd00159704dd1ef4c04e3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/归档_整理记录/桌面归拢_20260927/原始副本/Documents桌面/A05_WEIGHT_alpha05_test2.zip.重复副本说明.md",
+      "git_blob_sha": "0a57e3d28292bd3df9679d7f4f6b8f054c695e5a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/归档_整理记录/桌面归拢_20260927/原始副本/Documents桌面/A05_WEIGHT_执行报告_20260926.md",
+      "git_blob_sha": "4a622882d843e4f0c765c1af3dfc1c7e55f7e2a0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "90_整理记录/以往整理记录/归档_整理记录/桌面归拢_20260927/原始副本/Documents桌面/B4_Capacity_实验报告_20260927.md",
+      "git_blob_sha": "b5c5bd73c6c2840e6a961a01d3cdea382c8d0123",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "99_GitHub同步/文件清单_20261028.json",
+      "git_blob_sha": "2d2aceb839f9ab3d3445c54dbaf1c56f6950e022",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "99_GitHub同步/本地大文件清单.md",
+      "git_blob_sha": "41c4640d48a394cb69ff6e05463a53a911faa4ec",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "d69f062b812bbf3f273df7471f1be154b761062c",
+      "mode": "100644",
+      "state": "missing"
+    },
+    {
+      "path": "README_从这里开始.md",
+      "git_blob_sha": "32d0cf75922ce0b434cc150fa7882aee4e64a2ac",
+      "mode": "100644",
+      "state": "different_preserve"
+    },
+    {
+      "path": "提交包/ATDA71_批次272_20260918/finalize/FINALIZE_REPORT_8000_a1p0.json",
+      "git_blob_sha": "c2d2ef001c47cd45008f012666609c67ca8feda7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/ATDA71_批次272_20260918/finalize/FINALIZE_REPORT_8k_a0p75.json",
+      "git_blob_sha": "b7081787343031315695839950b2019e36a821cd",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/ATDA71_批次272_20260918/finalize/FINALIZE_REPORT_8k_a1p25.json",
+      "git_blob_sha": "3b9240e50ca9138de6c592200142e985cc35ce0f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/ATDA71_批次272_20260918/提交清单_ATDA71.md",
+      "git_blob_sha": "732a3f3721f8e3c397777efacd33cb1eb513e19c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/ATDA71_批次272_20260918/最终单模型溯源_ATDA71.md",
+      "git_blob_sha": "40ccd57892eb050eec9539fddd0ef516b692e2dc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/GTRUST_71_20260923/D1_2K_ONLINE_PROBE_READY.md",
+      "git_blob_sha": "4a8d94e4ccd093ebcff0d0d97b071f7973b8afba",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/GTRUST_71_20260923/D1_AUDIT_REPORT.json",
+      "git_blob_sha": "0f4736714326f094ed9817892666104df09aad0f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/GTRUST_71_20260923/H300_REPORT.json",
+      "git_blob_sha": "f0ea787f513ef6c91bf8b2bc96e76deae5864212",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/GTRUST_71_20260923/OVERNIGHT_GEOMETRY_REPORT.md",
+      "git_blob_sha": "bcbd53f97501ff441b56f0a5459c19afb8df1ad2",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/GTRUST_71_20260923/PACK_SUMMARY.json",
+      "git_blob_sha": "28467027f60dec2e19642a62c6d61acfb41d2ce5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/GTRUST_71_20260923/R1099_LOCKED_REPORT.json",
+      "git_blob_sha": "ee649392d5d05977e98a42c3575e44c2d9b837e8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/GTRUST_71_20260923/SHARD_00_META.json",
+      "git_blob_sha": "2f6acc1753312ebd5a925da19f6e99e064066be4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/GTRUST_71_20260923/SHARD_01_META.json",
+      "git_blob_sha": "6df5357dd5a4b297a4d4e4579feecbd1b5a44796",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/README_先看这个.md",
+      "git_blob_sha": "e745f1e60b4371e7849b748d44291a0e092f7a7f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/_收纳记录.json",
+      "git_blob_sha": "f266668202e6450941f8d23a1282860163046d39",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/对照与诊断_不提交/MIC_INVALID_20260927/INVALID_ARTIFACT.json",
+      "git_blob_sha": "01c1aba0728db07c4dbecf7e800024591b6bc504",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/_crc.txt",
+      "git_blob_sha": "26ddfe28adb059825e3113d7ae7809aafa717a34",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/_farmland_curve_meta.json",
+      "git_blob_sha": "c7b89e9fa26fa54f1b582895482dc1742f74286b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/_soupC_barrens_meta.json",
+      "git_blob_sha": "7e4e9d64829b3925b4bc3505237baa830455c856",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/_soupC_bg_water_meta.json",
+      "git_blob_sha": "cbee471405eef4b9a1680579c5ce0cba2b745edc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_MIC_FIXED/ARTIFACT_HASHES.json",
+      "git_blob_sha": "392babfd09205e0409f5c690fb6fc9886c5345ad",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_MIC_FIXED/BATCH_MANIFEST.json",
+      "git_blob_sha": "2033a8d49fa25980a79b5ecdd343ffc2a15fa385",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_MIC_FIXED/BEHAVIOR_VS_A05.json",
+      "git_blob_sha": "389c603081177789c39ff088063a90f8823a511f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_MIC_FIXED/EXECUTION_REPORT.md",
+      "git_blob_sha": "8a4ad8b007a35cb1a7835492aebdeb6769305d62",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_MIC_FIXED/EXTREME_FLIP_AUDIT.json",
+      "git_blob_sha": "428119c66c8f3d83648362d2b76d319cb65f79ea",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_MIC_FIXED/INPUT_OUTPUT_IDENTITY.json",
+      "git_blob_sha": "0ae7f1036776b80a989b68b6b85e24781ff9bc6d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_MIC_FIXED/LOCAL_PACKAGE_AUDIT.json",
+      "git_blob_sha": "3ef02c00cf64448a22f9e6bafed485521d8d56b7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_MIC_FIXED/PACKAGE_AUDIT.json",
+      "git_blob_sha": "14859bb50cc11665abfcd5209c573c3f670625e8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_MIC_FIXED/PACKAGE_MANIFEST.json",
+      "git_blob_sha": "91780aa08cf7448fddeb1ec5fedd6fdce83ac48a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_MIC_FIXED/RETENTION_MANIFEST.json",
+      "git_blob_sha": "4ba50a92b9c581799821bd6e528e4f9805442dfd",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_盲类召回成对/提交卡片_20260927.md",
+      "git_blob_sha": "a919d572ab2d672fc42e4d7a741957a3918a7eae",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260927_盲类召回成对/提交操作清单_0928.md",
+      "git_blob_sha": "9e2c96877e334899ebe915411f518cd96821d975",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260928_反转配比/提交清单_20260929.md",
+      "git_blob_sha": "af53e9c86817fb4feb9431054c35c1278d454631",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260929_合并实验/提交清单_合并实验.md",
+      "git_blob_sha": "be9f00269e29767780e0c53a14ac7eeaeec437be",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260929_招2/提交清单_招2.md",
+      "git_blob_sha": "0f304434b359cb6522c931fe33b96bfad8eca244",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/待提交/批次_20260930_硬伪标签/提交清单_硬伪标签.md",
+      "git_blob_sha": "73976817488d855198bb21b342384ffb90833111",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/批次260_20260918/ARCHIVE_NOTE.md",
+      "git_blob_sha": "0ad802a894a007c742f5d6c84279631d7b416487",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/批次260_20260918/BATCH_MANIFEST.json",
+      "git_blob_sha": "5db9b4964c4aa65858e44f5fbc9bb270b43cc2d4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/批次_20260926_A05_D1Barren/BATCH_MANIFEST.json",
+      "git_blob_sha": "615d8f0282a359dd3a7e12b09a3f52820d94abeb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/0_判死_方法说明.md",
+      "git_blob_sha": "0c49f0314d0c36c35a99660963c1b100f461cafd",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/29_32_rename_receipt.json",
+      "git_blob_sha": "e84bf97b6931bf0701d26059918e72451d899bdc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/39_41_rename_receipt.json",
+      "git_blob_sha": "1ee88b4ddda91078fe0927f87564d1cb91781ca3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/43_44_prep.json",
+      "git_blob_sha": "cbc0c664791d0348dc8c6dd817618f6d2c631d8b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/45_46_prep.json",
+      "git_blob_sha": "ee07400168f877536e4983222a1e06df5fd7eee5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/47_50_prep.json",
+      "git_blob_sha": "ed8a67373bd71e2e725d806a8b43f13020e7f2b1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/54-63_retrospective_manifest.json",
+      "git_blob_sha": "aaaff1d4e3f422aa2937b234f9e570caca784023",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/BATCH01_PLATFORM_RECEIPT.json",
+      "git_blob_sha": "27dd638e4221e39e66dbf3dc7f229dbf681a8d62",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/BATCH02_MANIFEST.json",
+      "git_blob_sha": "a6b329336efee5255bc9a3af2794e15143d3d41e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/BATCH02_PLATFORM_RECEIPT.json",
+      "git_blob_sha": "d44fd6377d2f588b3d8f4c9809c56b070dd8083c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/BATCH03_MANIFEST.json",
+      "git_blob_sha": "69087b926f928bf21ac372aed38ad86f55ae2ad0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/BATCH03_PLATFORM_RECEIPT.json",
+      "git_blob_sha": "145aaf0c10fc94fbd0d537d8917fd977878a2594",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/BATCH04_MANIFEST.json",
+      "git_blob_sha": "4f2826c890574f193156c63d1ca294a79b70ec2a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/CHECKER_SUMMARY.json",
+      "git_blob_sha": "5a0994d0bb062bcdb271e7d0b34835fb51c931de",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/FULL6996_PRIORITY_PACKAGES_REPORT.json",
+      "git_blob_sha": "a47fe0f7de6b4a8e2f31bd443f83c8b57abc449d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/FULL6996_PRIORITY_PACKAGES_REPORT.md",
+      "git_blob_sha": "b93476141c8cafbf4d1e201231f2ace6d873d62c",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/Full6996历史负结果法医审计_20260916.md",
+      "git_blob_sha": "dfd8c25fd1201f3a0451bbcf0c2af2783c274cc2",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/NEXT_EXPERIMENT_FINAL_REPORT.json",
+      "git_blob_sha": "6892f89042110f13f999deb2300ca217cc4f4207",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/NEXT_EXPERIMENT_FINAL_REPORT.md",
+      "git_blob_sha": "1020c0f61bdc1723b6fde020f2a1c8f74659667d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/PLATFORM_RECEIPT_18_28_BACKFILL_20260915.json",
+      "git_blob_sha": "4bf91f9fbe7aeccdcb70a45bd554cec3f72a268f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/PLATFORM_RECEIPT_29_32_39_41_REUPLOAD_20260915.json",
+      "git_blob_sha": "ef56f5fdebb8708521bcdc891e4d729098dd06bb",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/PLATFORM_RECEIPT_36_42_20260915.json",
+      "git_blob_sha": "ea2d06bc22ad50d248a054e6ff24686bb72bfbf3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/PLATFORM_RECEIPT_KD_Run1_20260915.json",
+      "git_blob_sha": "0933c045dbd7d63cc0aaed79a8b49cc60c2efd05",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/Stage65_pseudo_round2_历史法医原始取证_20260916.md",
+      "git_blob_sha": "baa5a4e5593c00126086e6ec4ed2b6fc52dabb22",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/USER_REPORTED_SCORES_20260926.json",
+      "git_blob_sha": "84213a789b1f98ca4cda7b326680c19ed0dc1ad5",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/USER_REPORTED_SCORES_20260927.json",
+      "git_blob_sha": "6fec22ce42c25474a17f14504d82dff508a77871",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/USER_REPORTED_SCORES_20260928.json",
+      "git_blob_sha": "b6cdac34cf55fa60f2b6ead30973b1ad1d4200f8",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/USER_REPORTED_SCORES_20261002.json",
+      "git_blob_sha": "6e93ad227d6d2d224306a9b4501c8210fd6a54b7",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/_删除记录_20260916.json",
+      "git_blob_sha": "1d12ca73c6855a8a148eeafcf24eac8b73a5fcd1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/_包分数总表_20260916.json",
+      "git_blob_sha": "f2dc5cbb26cdc6bf7795363cb2483d2027702069",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/_包登记表_20260916.csv",
+      "git_blob_sha": "699714a58c8ed3e0e81684e76f8aa15e874d3484",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/_包登记表_20260916.json",
+      "git_blob_sha": "95a5f27f9e7d727652e31b6a143d51d3876bd7a0",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/_去重记录_20260916.json",
+      "git_blob_sha": "d448f15a9cbfe02b0b59ce2c09d79b6e814f207b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/_编号冲突_20260916.json",
+      "git_blob_sha": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/_编号恢复映射_20260916.json",
+      "git_blob_sha": "2da7dbd9333d2525b2df8fe8c4821106620555e3",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/_编号登记.json",
+      "git_blob_sha": "e439133ee3559056825be70ce5c2a8720da0860b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/_预测级重复_20260916.json",
+      "git_blob_sha": "2c22ed3f9011381255c8e7536c2d821414e2f1dc",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/mask_changes/per_image.csv",
+      "git_blob_sha": "4d76d9554b1bccc85aa95d5c3b5c48e4b723c7e4",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/mask_changes/summary.json",
+      "git_blob_sha": "0b3cc0e29ac3cc1a27c85f8e0da8351b3688f70a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/mask_changes/transitions_a05_to_armb.csv",
+      "git_blob_sha": "e1e9a5d4082778f357712a9ec5e39d41f190906a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/mask_changes/transitions_a05_to_round2.csv",
+      "git_blob_sha": "348d250fb828fe52f85089e53b0f7b2ab5f6f826",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/mask_changes/transitions_armb_to_round2.csv",
+      "git_blob_sha": "dc1130c7674a1ad965efcac8b8d08a0b119e3006",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/包登记表.md",
+      "git_blob_sha": "a640ee820eab6ce47f61f7c8507f957651f90d9d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/历史ZERO证据/FINAL9_MANIFEST.json",
+      "git_blob_sha": "f832301ffbbe713168252ecf830b299c9d32d91e",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/历史ZERO证据/SUBMIT_ORDER.csv",
+      "git_blob_sha": "e5a3ddb66559b83102a4ae0faf1b4c6ee744cb8a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/提交指引.md",
+      "git_blob_sha": "82191773e1d62db6ffd2e854c7f57fea940e859d",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/提交指引__待提交_20260915.md",
+      "git_blob_sha": "e907e49a0785756c4c7b8889deb8c968cf8ee79b",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/提交清单.json",
+      "git_blob_sha": "3308f18ecbb7d9df0564b6d42c101feb5b142cae",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/提交清单_54_63.json",
+      "git_blob_sha": "ab34b281174daf96b50f5d891b5373a4e6a9a3d1",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/提交清单_74_79_20260916.md",
+      "git_blob_sha": "e03f079c2b7e2fd0ee026e6869b3a56a5aa7d7d6",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/提交清单_KD_Run1.json",
+      "git_blob_sha": "66f718658d1f26002c7c1eed7747e9d0d1c42e7f",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/早间报告_20260915.md",
+      "git_blob_sha": "85ec988d2796c59f593b9b7b2acd3ff4caf3f0d9",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/核心屏幕_清单.json",
+      "git_blob_sha": "e2e434e57a9a622df21793ed2b694dbc9035af05",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/给GPT的完整技术交接_20260915.md",
+      "git_blob_sha": "ad024a609947e8411d2c6997ac7f28df2582635a",
+      "mode": "100644",
+      "state": "identical"
+    },
+    {
+      "path": "提交包/清单与记录/给外部AI的完整交接_20260915.md",
+      "git_blob_sha": "b7230f69c2ecd3befa1b11d9e6c655c5f076b9b1",
+      "mode": "100644",
+      "state": "identical"
+    }
+  ]
+}
